@@ -4,26 +4,26 @@ Vzorčni repozitorij za projekt pri predmetu APPR v študijskem letu 2021/22.
 
 ## Analiza plač v Sloveniji
 
-V tem projektu bom analiziral povprečne bruto in neto mesečne plače v Sloveniji med letoma 2008 in 2019 (končal bom z letom 2019, saj so podatki za prihodnja leta pomankljivi). Plače bom proučeval z vidika spola, starosti, izobrazbe  ter gospodarske dejavnosti. Ogledal si bom še plače glede na sektor (javni ali zasebni), ter plače v zasebnem sektorju in njihovo gibanje primerjal z gibanjem prihodkov podjetij.
+V tem projektu bom analiziral povprečne bruto mesečne plače v Sloveniji med letoma 2008 in 2019 (končal bom z letom 2019, saj so podatki za prihodnja leta pomankljivi). Plače bom proučeval z vidika spola, starosti, izobrazbe  ter gospodarske dejavnosti. Ogledal si bom še plače glede na sektor (javni ali zasebni), ter plače v zasebnem sektorju in njihovo gibanje primerjal z gibanjem prihodkov podjetij.
 
 Kot geografsko komponento bom uporabil statistične regije Slovenije in njihove plače primerjal med seboj ter s slovenskim povprečjem. 
 
 ## Tabele
 
-  * 1. tabela: Povprečne mesečne plače glede na starost in spol po statističnih regijah.
-    + Stolpci: leto, statistična regija, spol, starost, povprečna mesečna bruto plača, povprečna mesečna neto plača
+  * 1. tabela: Povprečne mesečne bruto plače glede na starost in spol po statističnih regijah.
+    + Stolpci: leto, statistična regija, spol, starost, povprečna mesečna bruto plača
     + [Vir](https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/0711321S.px) 
    
-  * 2. tabela: Povprečne mesečne plače glede na izobrazbo in spol po gospodarskih dejavnostih.
-    + Stolpci: leto, gospodarska dejavnost, izobrazba, spol, povprečna mesečna bruto plača, povprečna mesečna neto plača
+  * 2. tabela: Povprečne mesečne bruto plače glede na izobrazbo in spol po gospodarskih dejavnostih.
+    + Stolpci: leto, gospodarska dejavnost, izobrazba, spol, povprečna mesečna bruto plača
     + [Vir](https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/0711310S.px)
     
   * 3. tabela: Prihodek podjetij po statističnih regijah.
     + Stolpci: leto, statistična regija, prihodek podjetij
     + [Vir](https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/1418806S.px)
     
-  * 4. tabela: Povprečne mesečne plače glede na izobrazbo in spol po sektorjih.
-    + Stolpci: leto, sektor, izobrazba, spol, povprečna mesečna bruto plača, povprečna mesečna neto plača
+  * 4. tabela: Povprečne mesečne bruto plače glede na izobrazbo in spol po sektorjih.
+    + Stolpci: leto, sektor, izobrazba, spol, povprečna mesečna bruto plača
     + [Vir](https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/0711340S.px)
 
 

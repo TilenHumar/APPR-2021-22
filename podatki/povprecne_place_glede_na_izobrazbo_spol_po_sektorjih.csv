@@ -1,37 +1,37 @@
-"SEKTOR","DOSEŽENA IZOBRAZBA","SPOL","2008 Bruto Povpreèje","2008 Neto Povpreèje","2009 Bruto Povpreèje","2009 Neto Povpreèje","2010 Bruto Povpreèje","2010 Neto Povpreèje","2011 Bruto Povpreèje","2011 Neto Povpreèje","2012 Bruto Povpreèje","2012 Neto Povpreèje","2013 Bruto Povpreèje","2013 Neto Povpreèje","2014 Bruto Povpreèje","2014 Neto Povpreèje","2015 Bruto Povpreèje","2015 Neto Povpreèje","2016 Bruto Povpreèje","2016 Neto Povpreèje","2017 Bruto Povpreèje","2017 Neto Povpreèje","2018 Bruto Povpreèje","2018 Neto Povpreèje","2019 Bruto Povpreèje","2019 Neto Povpreèje"
-"1 Javni in zasebni sektor - SKUPAJ","Izobrazba - Skupaj","Spol - SKUPAJ",1427,-,1477,-,1538,-,1582,-,1601,-,1598,-,1637,-,1652,-,1686,-,1722,-,1778,-,1851,-
-"1 Javni in zasebni sektor - SKUPAJ","Izobrazba - Skupaj","Moški",1474,-,1496,-,1564,-,1617,-,1639,-,1639,-,1678,-,1698,-,1733,-,1770,-,1837,-,1900,-
-"1 Javni in zasebni sektor - SKUPAJ","Izobrazba - Skupaj","Ženske",1368,-,1453,-,1506,-,1542,-,1555,-,1551,-,1589,-,1598,-,1631,-,1664,-,1708,-,1790,-
-"1 Javni in zasebni sektor - SKUPAJ","Osnovnošolska ali manj","Spol - SKUPAJ",891,-,895,-,952,-,993,-,1022,-,1037,-,1068,-,1087,-,1103,-,1135,-,1193,-,1238,-
-"1 Javni in zasebni sektor - SKUPAJ","Osnovnošolska ali manj","Moški",955,-,940,-,1003,-,1052,-,1088,-,1108,-,1143,-,1170,-,1189,-,1223,-,1284,-,1323,-
-"1 Javni in zasebni sektor - SKUPAJ","Osnovnošolska ali manj","Ženske",793,-,824,-,873,-,909,-,929,-,940,-,964,-,973,-,987,-,1015,-,1067,-,1114,-
-"1 Javni in zasebni sektor - SKUPAJ","Srednješolska","Spol - SKUPAJ",1203,-,1219,-,1265,-,1287,-,1301,-,1302,-,1334,-,1346,-,1365,-,1390,-,1447,-,1506,-
-"1 Javni in zasebni sektor - SKUPAJ","Srednješolska","Moški",1269,-,1264,-,1316,-,1345,-,1363,-,1364,-,1400,-,1418,-,1438,-,1466,-,1531,-,1588,-
-"1 Javni in zasebni sektor - SKUPAJ","Srednješolska","Ženske",1105,-,1152,-,1189,-,1202,-,1210,-,1209,-,1232,-,1233,-,1249,-,1266,-,1311,-,1365,-
-"1 Javni in zasebni sektor - SKUPAJ","Višješolska, visokošolska","Spol - SKUPAJ",2322,-,2362,-,2375,-,2375,-,2347,-,2292,-,2311,-,2313,-,2334,-,2356,-,2401,-,2487,-
-"1 Javni in zasebni sektor - SKUPAJ","Višješolska, visokošolska","Moški",2644,-,2657,-,2661,-,2657,-,2633,-,2568,-,2569,-,2579,-,2596,-,2615,-,2681,-,2771,-
-"1 Javni in zasebni sektor - SKUPAJ","Višješolska, visokošolska","Ženske",2079,-,2144,-,2164,-,2171,-,2144,-,2097,-,2125,-,2123,-,2147,-,2169,-,2199,-,2284,-
-"11 Javni sektor - SKUPAJ","Izobrazba - Skupaj","Spol - SKUPAJ",1708,-,1815,-,1824,-,1870,-,1843,-,1823,-,1863,-,1859,-,1909,-,1960,-,2016,-,2113,-
-"11 Javni sektor - SKUPAJ","Izobrazba - Skupaj","Moški",1829,-,1924,-,1931,-,2016,-,1975,-,1965,-,2003,-,2008,-,2071,-,2124,-,2199,-,2302,-
-"11 Javni sektor - SKUPAJ","Izobrazba - Skupaj","Ženske",1618,-,1736,-,1749,-,1776,-,1754,-,1732,-,1769,-,1761,-,1806,-,1855,-,1899,-,1994,-
-"11 Javni sektor - SKUPAJ","Osnovnošolska ali manj","Spol - SKUPAJ",955,-,990,-,1007,-,1012,-,1033,-,1039,-,1066,-,1060,-,1067,-,1118,-,1177,-,1229,-
-"11 Javni sektor - SKUPAJ","Osnovnošolska ali manj","Moški",1118,-,1124,-,1150,-,1196,-,1220,-,1230,-,1269,-,1277,-,1287,-,1343,-,1409,-,1448,-
-"11 Javni sektor - SKUPAJ","Osnovnošolska ali manj","Ženske",822,-,892,-,904,-,915,-,914,-,917,-,940,-,922,-,946,-,985,-,1041,-,1103,-
-"11 Javni sektor - SKUPAJ","Srednješolska","Spol - SKUPAJ",1353,-,1419,-,1415,-,1425,-,1425,-,1409,-,1450,-,1439,-,1459,-,1503,-,1566,-,1643,-
-"11 Javni sektor - SKUPAJ","Srednješolska","Moški",1462,-,1511,-,1508,-,1542,-,1546,-,1536,-,1586,-,1590,-,1620,-,1671,-,1747,-,1837,-
-"11 Javni sektor - SKUPAJ","Srednješolska","Ženske",1246,-,1331,-,1325,-,1323,-,1310,-,1294,-,1318,-,1294,-,1312,-,1343,-,1393,-,1454,-
-"11 Javni sektor - SKUPAJ","Višješolska, visokošolska","Spol - SKUPAJ",2268,-,2384,-,2369,-,2362,-,2311,-,2252,-,2283,-,2281,-,2318,-,2359,-,2401,-,2497,-
-"11 Javni sektor - SKUPAJ","Višješolska, visokošolska","Moški",2622,-,2744,-,2710,-,2695,-,2635,-,2582,-,2593,-,2613,-,2642,-,2691,-,2753,-,2862,-
-"11 Javni sektor - SKUPAJ","Višješolska, visokošolska","Ženske",2082,-,2200,-,2196,-,2196,-,2149,-,2095,-,2129,-,2123,-,2163,-,2202,-,2232,-,2326,-
-"12 Zasebni sektor - SKUPAJ","Izobrazba - Skupaj","Spol - SKUPAJ",1287,-,1304,-,1383,-,1430,-,1462,-,1472,-,1506,-,1536,-,1562,-,1592,-,1654,-,1719,-
-"12 Zasebni sektor - SKUPAJ","Izobrazba - Skupaj","Moški",1352,-,1350,-,1432,-,1482,-,1513,-,1523,-,1556,-,1588,-,1616,-,1650,-,1719,-,1776,-
-"12 Zasebni sektor - SKUPAJ","Izobrazba - Skupaj","Ženske",1181,-,1227,-,1302,-,1344,-,1380,-,1391,-,1424,-,1451,-,1473,-,1497,-,1548,-,1622,-
-"12 Zasebni sektor - SKUPAJ","Osnovnošolska ali manj","Spol - SKUPAJ",878,-,873,-,939,-,989,-,1020,-,1037,-,1068,-,1094,-,1112,-,1139,-,1197,-,1240,-
-"12 Zasebni sektor - SKUPAJ","Osnovnošolska ali manj","Moški",930,-,912,-,981,-,1035,-,1068,-,1089,-,1123,-,1153,-,1176,-,1207,-,1268,-,1308,-
-"12 Zasebni sektor - SKUPAJ","Osnovnošolska ali manj","Ženske",784,-,798,-,861,-,907,-,934,-,950,-,974,-,995,-,1004,-,1027,-,1077,-,1118,-
-"12 Zasebni sektor - SKUPAJ","Srednješolska","Spol - SKUPAJ",1146,-,1144,-,1205,-,1237,-,1253,-,1262,-,1290,-,1312,-,1332,-,1351,-,1408,-,1463,-
-"12 Zasebni sektor - SKUPAJ","Srednješolska","Moški",1212,-,1193,-,1258,-,1293,-,1309,-,1317,-,1347,-,1370,-,1392,-,1414,-,1478,-,1531,-
-"12 Zasebni sektor - SKUPAJ","Srednješolska","Ženske",1033,-,1057,-,1112,-,1138,-,1153,-,1162,-,1184,-,1199,-,1215,-,1225,-,1271,-,1323,-
-"12 Zasebni sektor - SKUPAJ","Višješolska, visokošolska","Spol - SKUPAJ",2393,-,2334,-,2383,-,2392,-,2396,-,2342,-,2347,-,2352,-,2354,-,2352,-,2401,-,2477,-
-"12 Zasebni sektor - SKUPAJ","Višješolska, visokošolska","Moški",2662,-,2586,-,2621,-,2626,-,2630,-,2557,-,2549,-,2555,-,2563,-,2563,-,2632,-,2713,-
-"12 Zasebni sektor - SKUPAJ","Višješolska, visokošolska","Ženske",2073,-,2040,-,2104,-,2124,-,2134,-,2101,-,2116,-,2121,-,2117,-,2114,-,2147,-,2222,-
+"SEKTOR","DOSEŽENA IZOBRAZBA","SPOL","2008 Bruto Povpreèje","2009 Bruto Povpreèje","2010 Bruto Povpreèje","2011 Bruto Povpreèje","2012 Bruto Povpreèje","2013 Bruto Povpreèje","2014 Bruto Povpreèje","2015 Bruto Povpreèje","2016 Bruto Povpreèje","2017 Bruto Povpreèje","2018 Bruto Povpreèje","2019 Bruto Povpreèje"
+"1 Javni in zasebni sektor - SKUPAJ","Izobrazba - Skupaj","Spol - SKUPAJ",1427,1477,1538,1582,1601,1598,1637,1652,1686,1722,1778,1851
+"1 Javni in zasebni sektor - SKUPAJ","Izobrazba - Skupaj","Moški",1474,1496,1564,1617,1639,1639,1678,1698,1733,1770,1837,1900
+"1 Javni in zasebni sektor - SKUPAJ","Izobrazba - Skupaj","Ženske",1368,1453,1506,1542,1555,1551,1589,1598,1631,1664,1708,1790
+"1 Javni in zasebni sektor - SKUPAJ","Osnovnošolska ali manj","Spol - SKUPAJ",891,895,952,993,1022,1037,1068,1087,1103,1135,1193,1238
+"1 Javni in zasebni sektor - SKUPAJ","Osnovnošolska ali manj","Moški",955,940,1003,1052,1088,1108,1143,1170,1189,1223,1284,1323
+"1 Javni in zasebni sektor - SKUPAJ","Osnovnošolska ali manj","Ženske",793,824,873,909,929,940,964,973,987,1015,1067,1114
+"1 Javni in zasebni sektor - SKUPAJ","Srednješolska","Spol - SKUPAJ",1203,1219,1265,1287,1301,1302,1334,1346,1365,1390,1447,1506
+"1 Javni in zasebni sektor - SKUPAJ","Srednješolska","Moški",1269,1264,1316,1345,1363,1364,1400,1418,1438,1466,1531,1588
+"1 Javni in zasebni sektor - SKUPAJ","Srednješolska","Ženske",1105,1152,1189,1202,1210,1209,1232,1233,1249,1266,1311,1365
+"1 Javni in zasebni sektor - SKUPAJ","Višješolska, visokošolska","Spol - SKUPAJ",2322,2362,2375,2375,2347,2292,2311,2313,2334,2356,2401,2487
+"1 Javni in zasebni sektor - SKUPAJ","Višješolska, visokošolska","Moški",2644,2657,2661,2657,2633,2568,2569,2579,2596,2615,2681,2771
+"1 Javni in zasebni sektor - SKUPAJ","Višješolska, visokošolska","Ženske",2079,2144,2164,2171,2144,2097,2125,2123,2147,2169,2199,2284
+"11 Javni sektor - SKUPAJ","Izobrazba - Skupaj","Spol - SKUPAJ",1708,1815,1824,1870,1843,1823,1863,1859,1909,1960,2016,2113
+"11 Javni sektor - SKUPAJ","Izobrazba - Skupaj","Moški",1829,1924,1931,2016,1975,1965,2003,2008,2071,2124,2199,2302
+"11 Javni sektor - SKUPAJ","Izobrazba - Skupaj","Ženske",1618,1736,1749,1776,1754,1732,1769,1761,1806,1855,1899,1994
+"11 Javni sektor - SKUPAJ","Osnovnošolska ali manj","Spol - SKUPAJ",955,990,1007,1012,1033,1039,1066,1060,1067,1118,1177,1229
+"11 Javni sektor - SKUPAJ","Osnovnošolska ali manj","Moški",1118,1124,1150,1196,1220,1230,1269,1277,1287,1343,1409,1448
+"11 Javni sektor - SKUPAJ","Osnovnošolska ali manj","Ženske",822,892,904,915,914,917,940,922,946,985,1041,1103
+"11 Javni sektor - SKUPAJ","Srednješolska","Spol - SKUPAJ",1353,1419,1415,1425,1425,1409,1450,1439,1459,1503,1566,1643
+"11 Javni sektor - SKUPAJ","Srednješolska","Moški",1462,1511,1508,1542,1546,1536,1586,1590,1620,1671,1747,1837
+"11 Javni sektor - SKUPAJ","Srednješolska","Ženske",1246,1331,1325,1323,1310,1294,1318,1294,1312,1343,1393,1454
+"11 Javni sektor - SKUPAJ","Višješolska, visokošolska","Spol - SKUPAJ",2268,2384,2369,2362,2311,2252,2283,2281,2318,2359,2401,2497
+"11 Javni sektor - SKUPAJ","Višješolska, visokošolska","Moški",2622,2744,2710,2695,2635,2582,2593,2613,2642,2691,2753,2862
+"11 Javni sektor - SKUPAJ","Višješolska, visokošolska","Ženske",2082,2200,2196,2196,2149,2095,2129,2123,2163,2202,2232,2326
+"12 Zasebni sektor - SKUPAJ","Izobrazba - Skupaj","Spol - SKUPAJ",1287,1304,1383,1430,1462,1472,1506,1536,1562,1592,1654,1719
+"12 Zasebni sektor - SKUPAJ","Izobrazba - Skupaj","Moški",1352,1350,1432,1482,1513,1523,1556,1588,1616,1650,1719,1776
+"12 Zasebni sektor - SKUPAJ","Izobrazba - Skupaj","Ženske",1181,1227,1302,1344,1380,1391,1424,1451,1473,1497,1548,1622
+"12 Zasebni sektor - SKUPAJ","Osnovnošolska ali manj","Spol - SKUPAJ",878,873,939,989,1020,1037,1068,1094,1112,1139,1197,1240
+"12 Zasebni sektor - SKUPAJ","Osnovnošolska ali manj","Moški",930,912,981,1035,1068,1089,1123,1153,1176,1207,1268,1308
+"12 Zasebni sektor - SKUPAJ","Osnovnošolska ali manj","Ženske",784,798,861,907,934,950,974,995,1004,1027,1077,1118
+"12 Zasebni sektor - SKUPAJ","Srednješolska","Spol - SKUPAJ",1146,1144,1205,1237,1253,1262,1290,1312,1332,1351,1408,1463
+"12 Zasebni sektor - SKUPAJ","Srednješolska","Moški",1212,1193,1258,1293,1309,1317,1347,1370,1392,1414,1478,1531
+"12 Zasebni sektor - SKUPAJ","Srednješolska","Ženske",1033,1057,1112,1138,1153,1162,1184,1199,1215,1225,1271,1323
+"12 Zasebni sektor - SKUPAJ","Višješolska, visokošolska","Spol - SKUPAJ",2393,2334,2383,2392,2396,2342,2347,2352,2354,2352,2401,2477
+"12 Zasebni sektor - SKUPAJ","Višješolska, visokošolska","Moški",2662,2586,2621,2626,2630,2557,2549,2555,2563,2563,2632,2713
+"12 Zasebni sektor - SKUPAJ","Višješolska, visokošolska","Ženske",2073,2040,2104,2124,2134,2101,2116,2121,2117,2114,2147,2222
