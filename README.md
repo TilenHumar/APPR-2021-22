@@ -12,42 +12,57 @@ Kot geografsko komponento bom uporabil statistične regije Slovenije in njihove 
 
   * 1. tabela: Povprečne mesečne bruto plače glede na starost in spol po statističnih regijah.
     + Stolpci: 
-      + leto (število)
-      + statisticna_regija (niz)
-      + spol (niz)
-      + starost (niz)
-      + povprecna_mesecna_bruto_placa (število)
+      + leto (integer)
+      + statisticna_regija (factor)
+      + spol (factor)
+      + starost (factor)
+      + povprecna_mesecna_bruto_placa (double)
       
     + [Vir](https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/0711321S.px) 
    
   * 2. tabela: Povprečne mesečne bruto plače glede na izobrazbo in spol po gospodarskih dejavnostih.
     + Stolpci:
-      + leto (število)
-      + gospodarska_dejavnost (niz)
-      + izobrazba (niz)
-      + spol (niz)
-      + povprecna_mesecna_bruto_placa (število)
+      + leto (integer)
+      + gospodarska_dejavnost (factor)
+      + izobrazba (factor)
+      + spol (factor)
+      + povprecna_mesecna_bruto_placa (double)
       
     + [Vir](https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/0711310S.px)
     
   * 3. tabela: Prihodek podjetij po statističnih regijah.
     + Stolpci:
-      + leto (število)
-      + statisticna_regija (niz)
-      + prihodek_podjetij (število)
+      + leto (integer)
+      + statisticna_regija (factor)
+      + prihodek_podjetij (double)
       
     + [Vir](https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/1418806S.px)
     
   * 4. tabela: Povprečne mesečne bruto plače glede na izobrazbo in spol po sektorjih.
     + Stolpci:
-      + leto (število)
-      + sektor (niz)
-      + izobrazba (niz)
-      + spol (niz)
-      + povprecna_mesecna_bruto_placa (število)
+      + leto (integer)
+      + sektor (factor)
+      + izobrazba (factor)
+      + spol (factor)
+      + povprecna_mesecna_bruto_placa (double)
       
     + [Vir](https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/0711340S.px)
 
+## Načrt dela
+
+Najprej bom uvozil podatke in naložil tabele, potem pa iz tabel izračunal nove podatke, s katerimi bom nadaljeval analizo, npr.:
+  
+  * absolutna_sprememba_bruto_plače (double)
+  
+  * relativna_sprememba_bruto_plače (double)
+  
+  To bom izračunal za vsako starostno skupino, spol, gospodarsko dejavnost, izobrazbeno skupino, ... 
+  
+  * absolutna_sprememba_prihodka_podjetij (double)
+  
+  * relativna_sprememba_prihodka_podjetij (double)
+  
+  * ...
 
 
 ## Program
