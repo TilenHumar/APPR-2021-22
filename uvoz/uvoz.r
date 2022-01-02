@@ -33,7 +33,7 @@ starost_spol_po_regijah = starost_spol_po_regijah[, c(4,1,3,2,5)]
 
 ### Druga tabela
 
-izobrazba_spol_po_dejavnostih = read_csv("podatki/povprecne_place_glede_na_dejavnost_izobrazbo_spol.csv", na=c("..."), locale=locale(encoding="Windows-1250"),skip = 1,
+izobrazba_spol_po_dejavnostih = read_csv("podatki/povprecne_place_glede_na_dejavnost_izobrazbo_spol.csv", na="...", locale=locale(encoding="Windows-1250"),skip = 1,
                                          col_names = c("dejavnost", "izobrazba", "spol","2008","2009","2010","2011","2012","2013","2014","2015","2016","2017","2018","2019"),
                                           col_types= cols(.default = col_guess(),
                                                           spol = col_factor(),
@@ -44,4 +44,10 @@ izobrazba_spol_po_dejavnostih = pivot_longer(izobrazba_spol_po_dejavnostih,cols 
                                              names_to = "leto",
                                              values_to = "placa")
 izobrazba_spol_po_dejavnostih = izobrazba_spol_po_dejavnostih[, c(4,1,2,3,5)]
+
+### Tretja tabela
+
+prihodek_podjetij_po_obcinah = read_excel("podatki/prihodek_podjetij_po_obcinah.xlsx", skip = 4, na = "-",
+                                          col_names = c("obcina","2008","2009","2010","2011","2012","2013","2014","2015","2016","2017","2018","2019"))
+prihodek_podjetij_po_obcinah = pivot_longer(prihodek_podjetij_po_obcinah,cols = colnames(prihodek_podjetij_po_obcinah)[-1], names_to = "leto", values_to = "prihodek")
                                          
