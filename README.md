@@ -36,7 +36,7 @@ Kot geografsko komponento bom uporabil statistične regije Slovenije in njihove 
       + statisticna_regija (factor)
       + prihodek_podjetij (double)
       
-    + [Vir](https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/1418806S.px)
+    + [Vir](https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/1418807S.px)
     
   * 4. tabela: Povprečne mesečne bruto plače glede na izobrazbo in spol po sektorjih.
     + Stolpci:
