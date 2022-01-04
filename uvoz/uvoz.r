@@ -127,7 +127,14 @@ izobrazba_spol_po_sektorjih = read_csv("podatki/povprecne_place_glede_na_izobraz
                                        ))
 
 #Pomožna tabela za preimenovanje sektorjev
-preimenovanje_sektorjev = tibble(sektor_uradno = c( "1 Javni in zasebni sektor - SKUPAJ", "11 Javni sektor - SKUPAJ", "12 Zasebni sektor - SKUPA"), sektor = c("javni in zasebni sektor", "javni sektor", "zasebni sektor"))
+preimenovanje_sektorjev = tibble(sektor_uradno = c( 
+  "1 Javni in zasebni sektor - SKUPAJ",
+  "11 Javni sektor - SKUPAJ",
+  "12 Zasebni sektor - SKUPAJ"),
+  sektor = c("javni in zasebni sektor",
+             "javni sektor",
+             "zasebni sektor")
+  )
 
 izobrazba_spol_po_sektorjih =  izobrazba_spol_po_sektorjih %>% pivot_longer(cols = colnames(izobrazba_spol_po_sektorjih)[c(4:15)],
                                            names_to = "leto",
@@ -137,3 +144,4 @@ izobrazba_spol_po_sektorjih =  izobrazba_spol_po_sektorjih %>% pivot_longer(cols
 izobrazba_spol_po_sektorjih = izobrazba_spol_po_sektorjih[-1]
  
 izobrazba_spol_po_sektorjih %>% write_csv("izobrazba_spol_po_sektorjih.csv")
+
