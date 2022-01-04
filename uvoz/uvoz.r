@@ -54,7 +54,17 @@ prihodek_podjetij_po_obcinah = read_excel("podatki/prihodek_podjetij_po_obcinah.
 prihodek_podjetij_po_obcinah = head(prihodek_podjetij_po_obcinah, -43)
 
 prihodek_podjetij_po_regijah = prihodek_podjetij_po_obcinah %>% right_join(obcine_v_regije) %>% pivot_longer(cols = colnames(prihodek_podjetij_po_obcinah)[c(2:13)], names_to = "leto", values_to = "prihodek")
+
 prihodek_podjetij_po_regijah = subset(prihodek_podjetij_po_regijah, select = -obcina)
+
+prihodek_podjetij_po_regijah[is.na(prihodek_podjetij_po_regijah)] = 0
+
+prihodek_podjetij_po_regijah = group_by(prihodek_podjetij_po_regijah, regija, leto)
+
+prihodek_podjetij_po_regijah =  summarise_at(prihodek_podjetij_po_regijah, vars(prihodek), sum)
+
+
+
 
 ### Četrta tabela
 
