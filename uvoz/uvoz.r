@@ -8,6 +8,11 @@ library(tidyverse)
 
 sl <- locale("sl", decimal_mark=",", grouping_mark=".")
 
+### Pretvorna tabela (iz občin v regije)
+
+obcine_v_regije = read_csv("podatki/obcine-regije.csv")
+obcine_v_regije %>% arrange(obcina)
+
 ### Prva tabela
 
 # Tabela ima v nekaterih poljih vrednost "z". To pomeni, da je podatek statistično zaščiten oziroma ga zaradi varovanja zaupnosti poročevalskih enot ne objavijo.
@@ -23,13 +28,10 @@ starost_spol_po_regijah = read_csv("podatki/povprecne_place_glede_na_spol_staros
                                      starost = col_factor(),
                                      regija = col_factor()
                                    ))
-
-starost_spol_po_regijah = pivot_longer(starost_spol_po_regijah,
-                                       cols = colnames(starost_spol_po_regijah)[c(4:15)],
-                                       names_to = "leto",
-                                       values_to = "placa")
-
-starost_spol_po_regijah = starost_spol_po_regijah[, c(4,1,3,2,5)]
+starost_spol_po_regijah = starost_spol_po_regijah %>% pivot_longer(cols = colnames(starost_spol_po_regijah)[c(4:15)],
+                                                                   names_to = "leto",
+                                                                   values_to = "placa"
+                                                                   ) %>% relocate(leto,regija,spol,starost,placa)
 
 ### Druga tabela
 
@@ -40,17 +42,19 @@ izobrazba_spol_po_dejavnostih = read_csv("podatki/povprecne_place_glede_na_dejav
                                                           dejavnost = col_factor(),
                                                           izobrazba = col_factor()
                                                           ))
-izobrazba_spol_po_dejavnostih = pivot_longer(izobrazba_spol_po_dejavnostih,cols = colnames(izobrazba_spol_po_dejavnostih)[c(4:15)],
-                                             names_to = "leto",
-                                             values_to = "placa")
-izobrazba_spol_po_dejavnostih = izobrazba_spol_po_dejavnostih[, c(4,1,2,3,5)]
+izobrazba_spol_po_dejavnostih = izobrazba_spol_po_dejavnostih %>% pivot_longer(cols = colnames(izobrazba_spol_po_dejavnostih)[c(4:15)],
+                                                                               names_to = "leto",
+                                                                               values_to = "placa"
+                                                                               ) %>% relocate(leto,dejavnost,izobrazba,spol,placa)
 
 ### Tretja tabela
 
-prihodek_podjetij_po_obcinah = read_excel("podatki/prihodek_podjetij_po_obcinah.xlsx", skip = 4, na = "-",
+prihodek_podjetij_po_obcinah = read_excel("podatki/prihodek_podjetij_po_obcinah.xlsx", skip = 5, na = "-",
                                           col_names = c("obcina","2008","2009","2010","2011","2012","2013","2014","2015","2016","2017","2018","2019"))
-prihodek_podjetij_po_obcinah = pivot_longer(prihodek_podjetij_po_obcinah,cols = colnames(prihodek_podjetij_po_obcinah)[-1], names_to = "leto", values_to = "prihodek")
+prihodek_podjetij_po_obcinah = head(prihodek_podjetij_po_obcinah, -43)
 
+prihodek_podjetij_po_regijah = prihodek_podjetij_po_obcinah %>% right_join(obcine_v_regije) %>% pivot_longer(cols = colnames(prihodek_podjetij_po_obcinah)[c(2:13)], names_to = "leto", values_to = "prihodek")
+prihodek_podjetij_po_regijah = subset(prihodek_podjetij_po_regijah, select = -obcina)
 
 ### Četrta tabela
 
@@ -60,7 +64,8 @@ izobrazba_spol_po_sektorjih = read_csv("podatki/povprecne_place_glede_na_izobraz
                                                        spol = col_factor(),
                                                        izobrazba = col_factor()
                                        ))
-izobrazba_spol_po_sektorjih = pivot_longer(izobrazba_spol_po_sektorjih, cols = colnames(izobrazba_spol_po_sektorjih)[c(4:15)],
+izobrazba_spol_po_sektorjih =  izobrazba_spol_po_sektorjih %>% pivot_longer(cols = colnames(izobrazba_spol_po_sektorjih)[c(4:15)],
                                            names_to = "leto",
-                                           values_to = "placa")
-izobrazba_spol_po_sektorjih = izobrazba_spol_po_sektorjih[, c(4,1,2,3,5)]
+                                           values_to = "placa"
+                                           ) %>% relocate(leto, sektor, izobrazba, spol, placa)
+
