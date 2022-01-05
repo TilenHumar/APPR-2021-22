@@ -5,6 +5,10 @@ library(tidyr)
 library(tmap)
 library(shiny)
 library(readr)
+library(tibble)
+library(dplyr)
+library(readxl)
+library(tidyverse)
 
 options(gsubfn.engine="R")
 

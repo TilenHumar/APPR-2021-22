@@ -1,2185 +1,1953 @@
 leto,regija,spol,starost,placa
-2008,SLOVENIJA,Moški,15-64 let,1469
-2009,SLOVENIJA,Moški,15-64 let,1491
-2010,SLOVENIJA,Moški,15-64 let,1559
-2011,SLOVENIJA,Moški,15-64 let,1611
-2012,SLOVENIJA,Moški,15-64 let,1635
-2013,SLOVENIJA,Moški,15-64 let,1634
-2014,SLOVENIJA,Moški,15-64 let,1673
-2015,SLOVENIJA,Moški,15-64 let,1692
-2016,SLOVENIJA,Moški,15-64 let,1726
-2017,SLOVENIJA,Moški,15-64 let,1764
-2018,SLOVENIJA,Moški,15-64 let,1830
-2019,SLOVENIJA,Moški,15-64 let,1893
-2008,SLOVENIJA,Ženske,15-64 let,1367
-2009,SLOVENIJA,Ženske,15-64 let,1451
-2010,SLOVENIJA,Ženske,15-64 let,1505
-2011,SLOVENIJA,Ženske,15-64 let,1541
-2012,SLOVENIJA,Ženske,15-64 let,1554
-2013,SLOVENIJA,Ženske,15-64 let,1549
-2014,SLOVENIJA,Ženske,15-64 let,1587
-2015,SLOVENIJA,Ženske,15-64 let,1596
-2016,SLOVENIJA,Ženske,15-64 let,1629
-2017,SLOVENIJA,Ženske,15-64 let,1662
-2018,SLOVENIJA,Ženske,15-64 let,1705
-2019,SLOVENIJA,Ženske,15-64 let,1787
-2008,SLOVENIJA,Moški,15-24 let,913
-2009,SLOVENIJA,Moški,15-24 let,913
-2010,SLOVENIJA,Moški,15-24 let,979
-2011,SLOVENIJA,Moški,15-24 let,1034
-2012,SLOVENIJA,Moški,15-24 let,1051
-2013,SLOVENIJA,Moški,15-24 let,1064
-2014,SLOVENIJA,Moški,15-24 let,1097
-2015,SLOVENIJA,Moški,15-24 let,1119
-2016,SLOVENIJA,Moški,15-24 let,1139
-2017,SLOVENIJA,Moški,15-24 let,1172
-2018,SLOVENIJA,Moški,15-24 let,1233
-2019,SLOVENIJA,Moški,15-24 let,1278
-2008,SLOVENIJA,Ženske,15-24 let,863
-2009,SLOVENIJA,Ženske,15-24 let,901
-2010,SLOVENIJA,Ženske,15-24 let,951
-2011,SLOVENIJA,Ženske,15-24 let,991
-2012,SLOVENIJA,Ženske,15-24 let,997
-2013,SLOVENIJA,Ženske,15-24 let,994
-2014,SLOVENIJA,Ženske,15-24 let,1006
-2015,SLOVENIJA,Ženske,15-24 let,1009
-2016,SLOVENIJA,Ženske,15-24 let,1026
-2017,SLOVENIJA,Ženske,15-24 let,1056
-2018,SLOVENIJA,Ženske,15-24 let,1097
-2019,SLOVENIJA,Ženske,15-24 let,1146
-2008,SLOVENIJA,Moški,25-34 let,1291
-2009,SLOVENIJA,Moški,25-34 let,1295
-2010,SLOVENIJA,Moški,25-34 let,1349
-2011,SLOVENIJA,Moški,25-34 let,1381
-2012,SLOVENIJA,Moški,25-34 let,1393
-2013,SLOVENIJA,Moški,25-34 let,1384
-2014,SLOVENIJA,Moški,25-34 let,1411
-2015,SLOVENIJA,Moški,25-34 let,1421
-2016,SLOVENIJA,Moški,25-34 let,1443
-2017,SLOVENIJA,Moški,25-34 let,1482
-2018,SLOVENIJA,Moški,25-34 let,1556
-2019,SLOVENIJA,Moški,25-34 let,1621
-2008,SLOVENIJA,Ženske,25-34 let,1205
-2009,SLOVENIJA,Ženske,25-34 let,1253
-2010,SLOVENIJA,Ženske,25-34 let,1299
-2011,SLOVENIJA,Ženske,25-34 let,1320
-2012,SLOVENIJA,Ženske,25-34 let,1326
-2013,SLOVENIJA,Ženske,25-34 let,1315
-2014,SLOVENIJA,Ženske,25-34 let,1328
-2015,SLOVENIJA,Ženske,25-34 let,1326
-2016,SLOVENIJA,Ženske,25-34 let,1340
-2017,SLOVENIJA,Ženske,25-34 let,1365
-2018,SLOVENIJA,Ženske,25-34 let,1411
-2019,SLOVENIJA,Ženske,25-34 let,1474
-2008,SLOVENIJA,Moški,35-44 let,1532
-2009,SLOVENIJA,Moški,35-44 let,1559
-2010,SLOVENIJA,Moški,35-44 let,1625
-2011,SLOVENIJA,Moški,35-44 let,1675
-2012,SLOVENIJA,Moški,35-44 let,1705
-2013,SLOVENIJA,Moški,35-44 let,1697
-2014,SLOVENIJA,Moški,35-44 let,1732
-2015,SLOVENIJA,Moški,35-44 let,1753
-2016,SLOVENIJA,Moški,35-44 let,1781
-2017,SLOVENIJA,Moški,35-44 let,1811
-2018,SLOVENIJA,Moški,35-44 let,1879
-2019,SLOVENIJA,Moški,35-44 let,1942
-2008,SLOVENIJA,Ženske,35-44 let,1372
-2009,SLOVENIJA,Ženske,35-44 let,1460
-2010,SLOVENIJA,Ženske,35-44 let,1511
-2011,SLOVENIJA,Ženske,35-44 let,1549
-2012,SLOVENIJA,Ženske,35-44 let,1567
-2013,SLOVENIJA,Ženske,35-44 let,1565
-2014,SLOVENIJA,Ženske,35-44 let,1599
-2015,SLOVENIJA,Ženske,35-44 let,1604
-2016,SLOVENIJA,Ženske,35-44 let,1634
-2017,SLOVENIJA,Ženske,35-44 let,1663
-2018,SLOVENIJA,Ženske,35-44 let,1703
-2019,SLOVENIJA,Ženske,35-44 let,1780
-2008,SLOVENIJA,Moški,45-54 let,1553
-2009,SLOVENIJA,Moški,45-54 let,1584
-2010,SLOVENIJA,Moški,45-54 let,1648
-2011,SLOVENIJA,Moški,45-54 let,1704
-2012,SLOVENIJA,Moški,45-54 let,1729
-2013,SLOVENIJA,Moški,45-54 let,1729
-2014,SLOVENIJA,Moški,45-54 let,1773
-2015,SLOVENIJA,Moški,45-54 let,1792
-2016,SLOVENIJA,Moški,45-54 let,1842
-2017,SLOVENIJA,Moški,45-54 let,1885
-2018,SLOVENIJA,Moški,45-54 let,1960
-2019,SLOVENIJA,Moški,45-54 let,2038
-2008,SLOVENIJA,Ženske,45-54 let,1424
-2009,SLOVENIJA,Ženske,45-54 let,1520
-2010,SLOVENIJA,Ženske,45-54 let,1573
-2011,SLOVENIJA,Ženske,45-54 let,1600
-2012,SLOVENIJA,Ženske,45-54 let,1607
-2013,SLOVENIJA,Ženske,45-54 let,1592
-2014,SLOVENIJA,Ženske,45-54 let,1631
-2015,SLOVENIJA,Ženske,45-54 let,1638
-2016,SLOVENIJA,Ženske,45-54 let,1675
-2017,SLOVENIJA,Ženske,45-54 let,1718
-2018,SLOVENIJA,Ženske,45-54 let,1771
-2019,SLOVENIJA,Ženske,45-54 let,1867
-2008,SLOVENIJA,Moški,55-64 let,1764
-2009,SLOVENIJA,Moški,55-64 let,1804
-2010,SLOVENIJA,Moški,55-64 let,1900
-2011,SLOVENIJA,Moški,55-64 let,1932
-2012,SLOVENIJA,Moški,55-64 let,1939
-2013,SLOVENIJA,Moški,55-64 let,1896
-2014,SLOVENIJA,Moški,55-64 let,1899
-2015,SLOVENIJA,Moški,55-64 let,1911
-2016,SLOVENIJA,Moški,55-64 let,1928
-2017,SLOVENIJA,Moški,55-64 let,1954
-2018,SLOVENIJA,Moški,55-64 let,1996
-2019,SLOVENIJA,Moški,55-64 let,2055
-2008,SLOVENIJA,Ženske,55-64 let,1874
-2009,SLOVENIJA,Ženske,55-64 let,1987
-2010,SLOVENIJA,Ženske,55-64 let,2037
-2011,SLOVENIJA,Ženske,55-64 let,2007
-2012,SLOVENIJA,Ženske,55-64 let,1995
-2013,SLOVENIJA,Ženske,55-64 let,1896
-2014,SLOVENIJA,Ženske,55-64 let,1884
-2015,SLOVENIJA,Ženske,55-64 let,1863
-2016,SLOVENIJA,Ženske,55-64 let,1873
-2017,SLOVENIJA,Ženske,55-64 let,1878
-2018,SLOVENIJA,Ženske,55-64 let,1905
-2019,SLOVENIJA,Ženske,55-64 let,1987
-2008,SLOVENIJA,Moški,65 let ali več,4066
-2009,SLOVENIJA,Moški,65 let ali več,4233
-2010,SLOVENIJA,Moški,65 let ali več,4195
-2011,SLOVENIJA,Moški,65 let ali več,4051
-2012,SLOVENIJA,Moški,65 let ali več,3984
-2013,SLOVENIJA,Moški,65 let ali več,3821
-2014,SLOVENIJA,Moški,65 let ali več,3608
-2015,SLOVENIJA,Moški,65 let ali več,3634
-2016,SLOVENIJA,Moški,65 let ali več,3517
-2017,SLOVENIJA,Moški,65 let ali več,3338
-2018,SLOVENIJA,Moški,65 let ali več,3156
-2019,SLOVENIJA,Moški,65 let ali več,3175
-2008,SLOVENIJA,Ženske,65 let ali več,3131
-2009,SLOVENIJA,Ženske,65 let ali več,3431
-2010,SLOVENIJA,Ženske,65 let ali več,3213
-2011,SLOVENIJA,Ženske,65 let ali več,3327
-2012,SLOVENIJA,Ženske,65 let ali več,3588
-2013,SLOVENIJA,Ženske,65 let ali več,3496
-2014,SLOVENIJA,Ženske,65 let ali več,3288
-2015,SLOVENIJA,Ženske,65 let ali več,3373
-2016,SLOVENIJA,Ženske,65 let ali več,3285
-2017,SLOVENIJA,Ženske,65 let ali več,3255
-2018,SLOVENIJA,Ženske,65 let ali več,3188
-2019,SLOVENIJA,Ženske,65 let ali več,3196
-2008,Pomurska,Moški,15-64 let,1227
-2009,Pomurska,Moški,15-64 let,1288
-2010,Pomurska,Moški,15-64 let,1328
-2011,Pomurska,Moški,15-64 let,1382
-2012,Pomurska,Moški,15-64 let,1404
-2013,Pomurska,Moški,15-64 let,1399
-2014,Pomurska,Moški,15-64 let,1457
-2015,Pomurska,Moški,15-64 let,NA
-2016,Pomurska,Moški,15-64 let,NA
-2017,Pomurska,Moški,15-64 let,NA
-2018,Pomurska,Moški,15-64 let,NA
-2019,Pomurska,Moški,15-64 let,1685
-2008,Pomurska,Ženske,15-64 let,1135
-2009,Pomurska,Ženske,15-64 let,1337
-2010,Pomurska,Ženske,15-64 let,1331
-2011,Pomurska,Ženske,15-64 let,1385
-2012,Pomurska,Ženske,15-64 let,1373
-2013,Pomurska,Ženske,15-64 let,1357
-2014,Pomurska,Ženske,15-64 let,1427
-2015,Pomurska,Ženske,15-64 let,NA
-2016,Pomurska,Ženske,15-64 let,NA
-2017,Pomurska,Ženske,15-64 let,NA
-2018,Pomurska,Ženske,15-64 let,NA
-2019,Pomurska,Ženske,15-64 let,1594
-2008,Pomurska,Moški,15-24 let,855
-2009,Pomurska,Moški,15-24 let,881
-2010,Pomurska,Moški,15-24 let,907
-2011,Pomurska,Moški,15-24 let,965
-2012,Pomurska,Moški,15-24 let,969
-2013,Pomurska,Moški,15-24 let,984
-2014,Pomurska,Moški,15-24 let,1003
-2015,Pomurska,Moški,15-24 let,NA
-2016,Pomurska,Moški,15-24 let,NA
-2017,Pomurska,Moški,15-24 let,NA
-2018,Pomurska,Moški,15-24 let,1172
-2019,Pomurska,Moški,15-24 let,1220
-2008,Pomurska,Ženske,15-24 let,783
-2009,Pomurska,Ženske,15-24 let,845
-2010,Pomurska,Ženske,15-24 let,880
-2011,Pomurska,Ženske,15-24 let,926
-2012,Pomurska,Ženske,15-24 let,916
-2013,Pomurska,Ženske,15-24 let,898
-2014,Pomurska,Ženske,15-24 let,904
-2015,Pomurska,Ženske,15-24 let,NA
-2016,Pomurska,Ženske,15-24 let,NA
-2017,Pomurska,Ženske,15-24 let,NA
-2018,Pomurska,Ženske,15-24 let,1012
-2019,Pomurska,Ženske,15-24 let,1079
-2008,Pomurska,Moški,25-34 let,1110
-2009,Pomurska,Moški,25-34 let,1126
-2010,Pomurska,Moški,25-34 let,1165
-2011,Pomurska,Moški,25-34 let,1208
-2012,Pomurska,Moški,25-34 let,1227
-2013,Pomurska,Moški,25-34 let,1217
-2014,Pomurska,Moški,25-34 let,1247
-2015,Pomurska,Moški,25-34 let,1260
-2016,Pomurska,Moški,25-34 let,1290
-2017,Pomurska,Moški,25-34 let,1332
-2018,Pomurska,Moški,25-34 let,1398
-2019,Pomurska,Moški,25-34 let,1489
-2008,Pomurska,Ženske,25-34 let,1053
-2009,Pomurska,Ženske,25-34 let,1130
-2010,Pomurska,Ženske,25-34 let,1152
-2011,Pomurska,Ženske,25-34 let,1185
-2012,Pomurska,Ženske,25-34 let,1204
-2013,Pomurska,Ženske,25-34 let,1179
-2014,Pomurska,Ženske,25-34 let,1184
-2015,Pomurska,Ženske,25-34 let,1191
-2016,Pomurska,Ženske,25-34 let,1200
-2017,Pomurska,Ženske,25-34 let,1226
-2018,Pomurska,Ženske,25-34 let,1259
-2019,Pomurska,Ženske,25-34 let,1338
-2008,Pomurska,Moški,35-44 let,1255
-2009,Pomurska,Moški,35-44 let,1322
-2010,Pomurska,Moški,35-44 let,1345
-2011,Pomurska,Moški,35-44 let,1393
-2012,Pomurska,Moški,35-44 let,1424
-2013,Pomurska,Moški,35-44 let,1432
-2014,Pomurska,Moški,35-44 let,1492
-2015,Pomurska,Moški,35-44 let,1500
-2016,Pomurska,Moški,35-44 let,1554
-2017,Pomurska,Moški,35-44 let,1597
-2018,Pomurska,Moški,35-44 let,1666
-2019,Pomurska,Moški,35-44 let,1742
-2008,Pomurska,Ženske,35-44 let,1095
-2009,Pomurska,Ženske,35-44 let,1336
-2010,Pomurska,Ženske,35-44 let,1303
-2011,Pomurska,Ženske,35-44 let,1359
-2012,Pomurska,Ženske,35-44 let,1354
-2013,Pomurska,Ženske,35-44 let,1334
-2014,Pomurska,Ženske,35-44 let,1397
-2015,Pomurska,Ženske,35-44 let,1401
-2016,Pomurska,Ženske,35-44 let,1404
-2017,Pomurska,Ženske,35-44 let,1441
-2018,Pomurska,Ženske,35-44 let,1485
-2019,Pomurska,Ženske,35-44 let,1557
-2008,Pomurska,Moški,45-54 let,1305
-2009,Pomurska,Moški,45-54 let,1385
-2010,Pomurska,Moški,45-54 let,1421
-2011,Pomurska,Moški,45-54 let,1466
-2012,Pomurska,Moški,45-54 let,1486
-2013,Pomurska,Moški,45-54 let,1457
-2014,Pomurska,Moški,45-54 let,1530
-2015,Pomurska,Moški,45-54 let,1530
-2016,Pomurska,Moški,45-54 let,1572
-2017,Pomurska,Moški,45-54 let,1591
-2018,Pomurska,Moški,45-54 let,1647
-2019,Pomurska,Moški,45-54 let,1762
-2008,Pomurska,Ženske,45-54 let,1196
-2009,Pomurska,Ženske,45-54 let,1458
-2010,Pomurska,Ženske,45-54 let,1429
-2011,Pomurska,Ženske,45-54 let,1470
-2012,Pomurska,Ženske,45-54 let,1429
-2013,Pomurska,Ženske,45-54 let,1407
-2014,Pomurska,Ženske,45-54 let,1502
-2015,Pomurska,Ženske,45-54 let,1480
-2016,Pomurska,Ženske,45-54 let,1457
-2017,Pomurska,Ženske,45-54 let,1477
-2018,Pomurska,Ženske,45-54 let,1507
-2019,Pomurska,Ženske,45-54 let,1630
-2008,Pomurska,Moški,55-64 let,1395
-2009,Pomurska,Moški,55-64 let,1527
-2010,Pomurska,Moški,55-64 let,1593
-2011,Pomurska,Moški,55-64 let,1643
-2012,Pomurska,Moški,55-64 let,1654
-2013,Pomurska,Moški,55-64 let,1632
-2014,Pomurska,Moški,55-64 let,1674
-2015,Pomurska,Moški,55-64 let,1660
-2016,Pomurska,Moški,55-64 let,1687
-2017,Pomurska,Moški,55-64 let,1715
-2018,Pomurska,Moški,55-64 let,NA
-2019,Pomurska,Moški,55-64 let,1794
-2008,Pomurska,Ženske,55-64 let,1610
-2009,Pomurska,Ženske,55-64 let,1866
-2010,Pomurska,Ženske,55-64 let,1960
-2011,Pomurska,Ženske,55-64 let,1916
-2012,Pomurska,Ženske,55-64 let,1821
-2013,Pomurska,Ženske,55-64 let,1707
-2014,Pomurska,Ženske,55-64 let,1762
-2015,Pomurska,Ženske,55-64 let,1720
-2016,Pomurska,Ženske,55-64 let,1738
-2017,Pomurska,Ženske,55-64 let,1735
-2018,Pomurska,Ženske,55-64 let,NA
-2019,Pomurska,Ženske,55-64 let,1864
-2008,Pomurska,Moški,65 let ali več,3840
-2009,Pomurska,Moški,65 let ali več,3775
-2010,Pomurska,Moški,65 let ali več,3264
-2011,Pomurska,Moški,65 let ali več,4295
-2012,Pomurska,Moški,65 let ali več,NA
-2013,Pomurska,Moški,65 let ali več,NA
-2014,Pomurska,Moški,65 let ali več,4106
-2015,Pomurska,Moški,65 let ali več,NA
-2016,Pomurska,Moški,65 let ali več,NA
-2017,Pomurska,Moški,65 let ali več,NA
-2018,Pomurska,Moški,65 let ali več,NA
-2019,Pomurska,Moški,65 let ali več,3582
-2008,Pomurska,Ženske,65 let ali več,NA
-2009,Pomurska,Ženske,65 let ali več,NA
-2010,Pomurska,Ženske,65 let ali več,NA
-2011,Pomurska,Ženske,65 let ali več,NA
-2012,Pomurska,Ženske,65 let ali več,NA
-2013,Pomurska,Ženske,65 let ali več,NA
-2014,Pomurska,Ženske,65 let ali več,NA
-2015,Pomurska,Ženske,65 let ali več,NA
-2016,Pomurska,Ženske,65 let ali več,NA
-2017,Pomurska,Ženske,65 let ali več,NA
-2018,Pomurska,Ženske,65 let ali več,NA
-2019,Pomurska,Ženske,65 let ali več,3681
-2008,Podravska,Moški,15-64 let,1362
-2009,Podravska,Moški,15-64 let,1377
-2010,Podravska,Moški,15-64 let,1439
-2011,Podravska,Moški,15-64 let,1499
-2012,Podravska,Moški,15-64 let,1519
-2013,Podravska,Moški,15-64 let,1522
-2014,Podravska,Moški,15-64 let,1554
-2015,Podravska,Moški,15-64 let,1562
-2016,Podravska,Moški,15-64 let,1586
-2017,Podravska,Moški,15-64 let,1643
-2018,Podravska,Moški,15-64 let,1710
-2019,Podravska,Moški,15-64 let,1779
-2008,Podravska,Ženske,15-64 let,1268
-2009,Podravska,Ženske,15-64 let,1349
-2010,Podravska,Ženske,15-64 let,1406
-2011,Podravska,Ženske,15-64 let,1432
-2012,Podravska,Ženske,15-64 let,1450
-2013,Podravska,Ženske,15-64 let,1444
-2014,Podravska,Ženske,15-64 let,1471
-2015,Podravska,Ženske,15-64 let,1483
-2016,Podravska,Ženske,15-64 let,1497
-2017,Podravska,Ženske,15-64 let,1545
-2018,Podravska,Ženske,15-64 let,1587
-2019,Podravska,Ženske,15-64 let,1668
-2008,Podravska,Moški,15-24 let,889
-2009,Podravska,Moški,15-24 let,886
-2010,Podravska,Moški,15-24 let,944
-2011,Podravska,Moški,15-24 let,979
-2012,Podravska,Moški,15-24 let,999
-2013,Podravska,Moški,15-24 let,1020
-2014,Podravska,Moški,15-24 let,1050
-2015,Podravska,Moški,15-24 let,1084
-2016,Podravska,Moški,15-24 let,1105
-2017,Podravska,Moški,15-24 let,1140
-2018,Podravska,Moški,15-24 let,1215
-2019,Podravska,Moški,15-24 let,1276
-2008,Podravska,Ženske,15-24 let,789
-2009,Podravska,Ženske,15-24 let,843
-2010,Podravska,Ženske,15-24 let,906
-2011,Podravska,Ženske,15-24 let,937
-2012,Podravska,Ženske,15-24 let,949
-2013,Podravska,Ženske,15-24 let,945
-2014,Podravska,Ženske,15-24 let,961
-2015,Podravska,Ženske,15-24 let,970
-2016,Podravska,Ženske,15-24 let,954
-2017,Podravska,Ženske,15-24 let,1019
-2018,Podravska,Ženske,15-24 let,1054
-2019,Podravska,Ženske,15-24 let,1110
-2008,Podravska,Moški,25-34 let,1203
-2009,Podravska,Moški,25-34 let,1205
-2010,Podravska,Moški,25-34 let,1254
-2011,Podravska,Moški,25-34 let,1285
-2012,Podravska,Moški,25-34 let,1293
-2013,Podravska,Moški,25-34 let,1286
-2014,Podravska,Moški,25-34 let,1314
-2015,Podravska,Moški,25-34 let,1319
-2016,Podravska,Moški,25-34 let,1335
-2017,Podravska,Moški,25-34 let,1390
-2018,Podravska,Moški,25-34 let,1480
-2019,Podravska,Moški,25-34 let,1556
-2008,Podravska,Ženske,25-34 let,1096
-2009,Podravska,Ženske,25-34 let,1150
-2010,Podravska,Ženske,25-34 let,1205
-2011,Podravska,Ženske,25-34 let,1229
-2012,Podravska,Ženske,25-34 let,1245
-2013,Podravska,Ženske,25-34 let,1225
-2014,Podravska,Ženske,25-34 let,1230
-2015,Podravska,Ženske,25-34 let,1227
-2016,Podravska,Ženske,25-34 let,1241
-2017,Podravska,Ženske,25-34 let,1267
-2018,Podravska,Ženske,25-34 let,1322
-2019,Podravska,Ženske,25-34 let,1383
-2008,Podravska,Moški,35-44 let,1396
-2009,Podravska,Moški,35-44 let,1413
-2010,Podravska,Moški,35-44 let,1476
-2011,Podravska,Moški,35-44 let,1533
-2012,Podravska,Moški,35-44 let,1564
-2013,Podravska,Moški,35-44 let,1563
-2014,Podravska,Moški,35-44 let,1589
-2015,Podravska,Moški,35-44 let,1589
-2016,Podravska,Moški,35-44 let,1610
-2017,Podravska,Moški,35-44 let,1671
-2018,Podravska,Moški,35-44 let,1744
-2019,Podravska,Moški,35-44 let,1814
-2008,Podravska,Ženske,35-44 let,1259
-2009,Podravska,Ženske,35-44 let,1331
-2010,Podravska,Ženske,35-44 let,1384
-2011,Podravska,Ženske,35-44 let,1418
-2012,Podravska,Ženske,35-44 let,1433
-2013,Podravska,Ženske,35-44 let,1438
-2014,Podravska,Ženske,35-44 let,1457
-2015,Podravska,Ženske,35-44 let,1459
-2016,Podravska,Ženske,35-44 let,1484
-2017,Podravska,Ženske,35-44 let,1532
-2018,Podravska,Ženske,35-44 let,1566
-2019,Podravska,Ženske,35-44 let,1643
-2008,Podravska,Moški,45-54 let,1424
-2009,Podravska,Moški,45-54 let,1446
-2010,Podravska,Moški,45-54 let,1498
-2011,Podravska,Moški,45-54 let,1571
-2012,Podravska,Moški,45-54 let,1592
-2013,Podravska,Moški,45-54 let,1595
-2014,Podravska,Moški,45-54 let,1635
-2015,Podravska,Moški,45-54 let,1644
-2016,Podravska,Moški,45-54 let,1687
-2017,Podravska,Moški,45-54 let,1737
-2018,Podravska,Moški,45-54 let,1805
-2019,Podravska,Moški,45-54 let,1887
-2008,Podravska,Ženske,45-54 let,1345
-2009,Podravska,Ženske,45-54 let,1432
-2010,Podravska,Ženske,45-54 let,1489
-2011,Podravska,Ženske,45-54 let,1491
-2012,Podravska,Ženske,45-54 let,1508
-2013,Podravska,Ženske,45-54 let,1495
-2014,Podravska,Ženske,45-54 let,1521
-2015,Podravska,Ženske,45-54 let,1523
-2016,Podravska,Ženske,45-54 let,1528
-2017,Podravska,Ženske,45-54 let,1583
-2018,Podravska,Ženske,45-54 let,1634
-2019,Podravska,Ženske,45-54 let,1731
-2008,Podravska,Moški,55-64 let,1662
-2009,Podravska,Moški,55-64 let,1681
-2010,Podravska,Moški,55-64 let,1758
-2011,Podravska,Moški,55-64 let,1820
-2012,Podravska,Moški,55-64 let,1792
-2013,Podravska,Moški,55-64 let,1777
-2014,Podravska,Moški,55-64 let,1763
-2015,Podravska,Moški,55-64 let,1772
-2016,Podravska,Moški,55-64 let,1758
-2017,Podravska,Moški,55-64 let,1813
-2018,Podravska,Moški,55-64 let,1840
-2019,Podravska,Moški,55-64 let,1905
-2008,Podravska,Ženske,55-64 let,1704
-2009,Podravska,Ženske,55-64 let,1811
-2010,Podravska,Ženske,55-64 let,1864
-2011,Podravska,Ženske,55-64 let,1853
-2012,Podravska,Ženske,55-64 let,1843
-2013,Podravska,Ženske,55-64 let,1735
-2014,Podravska,Ženske,55-64 let,1727
-2015,Podravska,Ženske,55-64 let,1755
-2016,Podravska,Ženske,55-64 let,1722
-2017,Podravska,Ženske,55-64 let,1753
-2018,Podravska,Ženske,55-64 let,1776
-2019,Podravska,Ženske,55-64 let,1852
-2008,Podravska,Moški,65 let ali več,4144
-2009,Podravska,Moški,65 let ali več,4509
-2010,Podravska,Moški,65 let ali več,4434
-2011,Podravska,Moški,65 let ali več,4156
-2012,Podravska,Moški,65 let ali več,4037
-2013,Podravska,Moški,65 let ali več,3708
-2014,Podravska,Moški,65 let ali več,3909
-2015,Podravska,Moški,65 let ali več,3889
-2016,Podravska,Moški,65 let ali več,3827
-2017,Podravska,Moški,65 let ali več,3593
-2018,Podravska,Moški,65 let ali več,3258
-2019,Podravska,Moški,65 let ali več,3145
-2008,Podravska,Ženske,65 let ali več,3063
-2009,Podravska,Ženske,65 let ali več,3648
-2010,Podravska,Ženske,65 let ali več,3551
-2011,Podravska,Ženske,65 let ali več,3874
-2012,Podravska,Ženske,65 let ali več,3928
-2013,Podravska,Ženske,65 let ali več,3673
-2014,Podravska,Ženske,65 let ali več,3479
-2015,Podravska,Ženske,65 let ali več,3364
-2016,Podravska,Ženske,65 let ali več,3314
-2017,Podravska,Ženske,65 let ali več,3120
-2018,Podravska,Ženske,65 let ali več,3097
-2019,Podravska,Ženske,65 let ali več,3078
-2008,Koroška,Moški,15-64 let,1313
-2009,Koroška,Moški,15-64 let,1310
-2010,Koroška,Moški,15-64 let,1379
-2011,Koroška,Moški,15-64 let,1451
-2012,Koroška,Moški,15-64 let,1466
-2013,Koroška,Moški,15-64 let,1477
-2014,Koroška,Moški,15-64 let,1514
-2015,Koroška,Moški,15-64 let,1561
-2016,Koroška,Moški,15-64 let,NA
-2017,Koroška,Moški,15-64 let,1655
-2018,Koroška,Moški,15-64 let,1719
-2019,Koroška,Moški,15-64 let,1763
-2008,Koroška,Ženske,15-64 let,1219
-2009,Koroška,Ženske,15-64 let,1294
-2010,Koroška,Ženske,15-64 let,1404
-2011,Koroška,Ženske,15-64 let,1445
-2012,Koroška,Ženske,15-64 let,1458
-2013,Koroška,Ženske,15-64 let,1449
-2014,Koroška,Ženske,15-64 let,1480
-2015,Koroška,Ženske,15-64 let,NA
-2016,Koroška,Ženske,15-64 let,NA
-2017,Koroška,Ženske,15-64 let,1558
-2018,Koroška,Ženske,15-64 let,1590
-2019,Koroška,Ženske,15-64 let,1650
-2008,Koroška,Moški,15-24 let,936
-2009,Koroška,Moški,15-24 let,898
-2010,Koroška,Moški,15-24 let,976
-2011,Koroška,Moški,15-24 let,1053
-2012,Koroška,Moški,15-24 let,1058
-2013,Koroška,Moški,15-24 let,1073
-2014,Koroška,Moški,15-24 let,1110
-2015,Koroška,Moški,15-24 let,1153
-2016,Koroška,Moški,15-24 let,NA
-2017,Koroška,Moški,15-24 let,1248
-2018,Koroška,Moški,15-24 let,1275
-2019,Koroška,Moški,15-24 let,1307
-2008,Koroška,Ženske,15-24 let,787
-2009,Koroška,Ženske,15-24 let,849
-2010,Koroška,Ženske,15-24 let,903
-2011,Koroška,Ženske,15-24 let,954
-2012,Koroška,Ženske,15-24 let,974
-2013,Koroška,Ženske,15-24 let,891
-2014,Koroška,Ženske,15-24 let,885
-2015,Koroška,Ženske,15-24 let,NA
-2016,Koroška,Ženske,15-24 let,NA
-2017,Koroška,Ženske,15-24 let,1008
-2018,Koroška,Ženske,15-24 let,1046
-2019,Koroška,Ženske,15-24 let,1108
-2008,Koroška,Moški,25-34 let,1140
-2009,Koroška,Moški,25-34 let,1124
-2010,Koroška,Moški,25-34 let,1175
-2011,Koroška,Moški,25-34 let,1247
-2012,Koroška,Moški,25-34 let,1264
-2013,Koroška,Moški,25-34 let,1278
-2014,Koroška,Moški,25-34 let,1318
-2015,Koroška,Moški,25-34 let,1360
-2016,Koroška,Moški,25-34 let,1403
-2017,Koroška,Moški,25-34 let,1469
-2018,Koroška,Moški,25-34 let,1539
-2019,Koroška,Moški,25-34 let,1566
-2008,Koroška,Ženske,25-34 let,1012
-2009,Koroška,Ženske,25-34 let,1045
-2010,Koroška,Ženske,25-34 let,1143
-2011,Koroška,Ženske,25-34 let,1182
-2012,Koroška,Ženske,25-34 let,1204
-2013,Koroška,Ženske,25-34 let,1185
-2014,Koroška,Ženske,25-34 let,1220
-2015,Koroška,Ženske,25-34 let,1232
-2016,Koroška,Ženske,25-34 let,1268
-2017,Koroška,Ženske,25-34 let,1272
-2018,Koroška,Ženske,25-34 let,1320
-2019,Koroška,Ženske,25-34 let,1372
-2008,Koroška,Moški,35-44 let,1326
-2009,Koroška,Moški,35-44 let,1329
-2010,Koroška,Moški,35-44 let,1396
-2011,Koroška,Moški,35-44 let,1479
-2012,Koroška,Moški,35-44 let,1494
-2013,Koroška,Moški,35-44 let,1501
-2014,Koroška,Moški,35-44 let,1541
-2015,Koroška,Moški,35-44 let,1592
-2016,Koroška,Moški,35-44 let,1600
-2017,Koroška,Moški,35-44 let,1674
-2018,Koroška,Moški,35-44 let,1744
-2019,Koroška,Moški,35-44 let,1792
-2008,Koroška,Ženske,35-44 let,1197
-2009,Koroška,Ženske,35-44 let,1258
-2010,Koroška,Ženske,35-44 let,1378
-2011,Koroška,Ženske,35-44 let,1423
-2012,Koroška,Ženske,35-44 let,1415
-2013,Koroška,Ženske,35-44 let,1417
-2014,Koroška,Ženske,35-44 let,1434
-2015,Koroška,Ženske,35-44 let,1453
-2016,Koroška,Ženske,35-44 let,1490
-2017,Koroška,Ženske,35-44 let,1512
-2018,Koroška,Ženske,35-44 let,1544
-2019,Koroška,Ženske,35-44 let,1604
-2008,Koroška,Moški,45-54 let,1416
-2009,Koroška,Moški,45-54 let,1410
-2010,Koroška,Moški,45-54 let,1488
-2011,Koroška,Moški,45-54 let,1533
-2012,Koroška,Moški,45-54 let,1556
-2013,Koroška,Moški,45-54 let,1549
-2014,Koroška,Moški,45-54 let,1579
-2015,Koroška,Moški,45-54 let,1631
-2016,Koroška,Moški,45-54 let,1683
-2017,Koroška,Moški,45-54 let,1718
-2018,Koroška,Moški,45-54 let,1794
-2019,Koroška,Moški,45-54 let,1865
-2008,Koroška,Ženske,45-54 let,1348
-2009,Koroška,Ženske,45-54 let,1424
-2010,Koroška,Ženske,45-54 let,1506
-2011,Koroška,Ženske,45-54 let,1526
-2012,Koroška,Ženske,45-54 let,1540
-2013,Koroška,Ženske,45-54 let,1513
-2014,Koroška,Ženske,45-54 let,1541
-2015,Koroška,Ženske,45-54 let,1535
-2016,Koroška,Ženske,45-54 let,1560
-2017,Koroška,Ženske,45-54 let,1606
-2018,Koroška,Ženske,45-54 let,1641
-2019,Koroška,Ženske,45-54 let,1696
-2008,Koroška,Moški,55-64 let,1664
-2009,Koroška,Moški,55-64 let,1674
-2010,Koroška,Moški,55-64 let,1697
-2011,Koroška,Moški,55-64 let,1751
-2012,Koroška,Moški,55-64 let,1757
-2013,Koroška,Moški,55-64 let,1774
-2014,Koroška,Moški,55-64 let,1775
-2015,Koroška,Moški,55-64 let,1795
-2016,Koroška,Moški,55-64 let,1845
-2017,Koroška,Moški,55-64 let,1881
-2018,Koroška,Moški,55-64 let,1922
-2019,Koroška,Moški,55-64 let,1959
-2008,Koroška,Ženske,55-64 let,1665
-2009,Koroška,Ženske,55-64 let,1808
-2010,Koroška,Ženske,55-64 let,1913
-2011,Koroška,Ženske,55-64 let,1935
-2012,Koroška,Ženske,55-64 let,1967
-2013,Koroška,Ženske,55-64 let,1876
-2014,Koroška,Ženske,55-64 let,1821
-2015,Koroška,Ženske,55-64 let,1828
-2016,Koroška,Ženske,55-64 let,1818
-2017,Koroška,Ženske,55-64 let,1825
-2018,Koroška,Ženske,55-64 let,1836
-2019,Koroška,Ženske,55-64 let,1908
-2008,Koroška,Moški,65 let ali več,NA
-2009,Koroška,Moški,65 let ali več,4294
-2010,Koroška,Moški,65 let ali več,NA
-2011,Koroška,Moški,65 let ali več,NA
-2012,Koroška,Moški,65 let ali več,4342
-2013,Koroška,Moški,65 let ali več,4432
-2014,Koroška,Moški,65 let ali več,4851
-2015,Koroška,Moški,65 let ali več,5772
-2016,Koroška,Moški,65 let ali več,NA
-2017,Koroška,Moški,65 let ali več,3818
-2018,Koroška,Moški,65 let ali več,3877
-2019,Koroška,Moški,65 let ali več,3410
-2008,Koroška,Ženske,65 let ali več,NA
-2009,Koroška,Ženske,65 let ali več,NA
-2010,Koroška,Ženske,65 let ali več,NA
-2011,Koroška,Ženske,65 let ali več,NA
-2012,Koroška,Ženske,65 let ali več,NA
-2013,Koroška,Ženske,65 let ali več,NA
-2014,Koroška,Ženske,65 let ali več,NA
-2015,Koroška,Ženske,65 let ali več,NA
-2016,Koroška,Ženske,65 let ali več,NA
-2017,Koroška,Ženske,65 let ali več,3429
-2018,Koroška,Ženske,65 let ali več,3540
-2019,Koroška,Ženske,65 let ali več,3612
-2008,Savinjska,Moški,15-64 let,1328
-2009,Savinjska,Moški,15-64 let,1334
-2010,Savinjska,Moški,15-64 let,1432
-2011,Savinjska,Moški,15-64 let,1480
-2012,Savinjska,Moški,15-64 let,1510
-2013,Savinjska,Moški,15-64 let,1519
-2014,Savinjska,Moški,15-64 let,1558
-2015,Savinjska,Moški,15-64 let,1570
-2016,Savinjska,Moški,15-64 let,1587
-2017,Savinjska,Moški,15-64 let,NA
-2018,Savinjska,Moški,15-64 let,1694
-2019,Savinjska,Moški,15-64 let,1735
-2008,Savinjska,Ženske,15-64 let,1228
-2009,Savinjska,Ženske,15-64 let,1293
-2010,Savinjska,Ženske,15-64 let,1353
-2011,Savinjska,Ženske,15-64 let,1386
-2012,Savinjska,Ženske,15-64 let,1403
-2013,Savinjska,Ženske,15-64 let,1407
-2014,Savinjska,Ženske,15-64 let,1440
-2015,Savinjska,Ženske,15-64 let,1447
-2016,Savinjska,Ženske,15-64 let,1479
-2017,Savinjska,Ženske,15-64 let,NA
-2018,Savinjska,Ženske,15-64 let,1541
-2019,Savinjska,Ženske,15-64 let,1606
-2008,Savinjska,Moški,15-24 let,877
-2009,Savinjska,Moški,15-24 let,869
-2010,Savinjska,Moški,15-24 let,961
-2011,Savinjska,Moški,15-24 let,1032
-2012,Savinjska,Moški,15-24 let,1076
-2013,Savinjska,Moški,15-24 let,1099
-2014,Savinjska,Moški,15-24 let,1133
-2015,Savinjska,Moški,15-24 let,1130
-2016,Savinjska,Moški,15-24 let,1124
-2017,Savinjska,Moški,15-24 let,NA
-2018,Savinjska,Moški,15-24 let,1255
-2019,Savinjska,Moški,15-24 let,1285
-2008,Savinjska,Ženske,15-24 let,807
-2009,Savinjska,Ženske,15-24 let,853
-2010,Savinjska,Ženske,15-24 let,917
-2011,Savinjska,Ženske,15-24 let,978
-2012,Savinjska,Ženske,15-24 let,977
-2013,Savinjska,Ženske,15-24 let,962
-2014,Savinjska,Ženske,15-24 let,966
-2015,Savinjska,Ženske,15-24 let,937
-2016,Savinjska,Ženske,15-24 let,968
-2017,Savinjska,Ženske,15-24 let,NA
-2018,Savinjska,Ženske,15-24 let,1044
-2019,Savinjska,Ženske,15-24 let,1093
-2008,Savinjska,Moški,25-34 let,1154
-2009,Savinjska,Moški,25-34 let,1155
-2010,Savinjska,Moški,25-34 let,1243
-2011,Savinjska,Moški,25-34 let,1283
-2012,Savinjska,Moški,25-34 let,1300
-2013,Savinjska,Moški,25-34 let,1298
-2014,Savinjska,Moški,25-34 let,1327
-2015,Savinjska,Moški,25-34 let,1330
-2016,Savinjska,Moški,25-34 let,1348
-2017,Savinjska,Moški,25-34 let,1394
-2018,Savinjska,Moški,25-34 let,1463
-2019,Savinjska,Moški,25-34 let,1511
-2008,Savinjska,Ženske,25-34 let,1068
-2009,Savinjska,Ženske,25-34 let,1114
-2010,Savinjska,Ženske,25-34 let,1160
-2011,Savinjska,Ženske,25-34 let,1196
-2012,Savinjska,Ženske,25-34 let,1211
-2013,Savinjska,Ženske,25-34 let,1205
-2014,Savinjska,Ženske,25-34 let,1215
-2015,Savinjska,Ženske,25-34 let,1214
-2016,Savinjska,Ženske,25-34 let,1227
-2017,Savinjska,Ženske,25-34 let,1250
-2018,Savinjska,Ženske,25-34 let,1289
-2019,Savinjska,Ženske,25-34 let,1333
-2008,Savinjska,Moški,35-44 let,1351
-2009,Savinjska,Moški,35-44 let,1360
-2010,Savinjska,Moški,35-44 let,1456
-2011,Savinjska,Moški,35-44 let,1504
-2012,Savinjska,Moški,35-44 let,1534
-2013,Savinjska,Moški,35-44 let,1537
-2014,Savinjska,Moški,35-44 let,1579
-2015,Savinjska,Moški,35-44 let,1585
-2016,Savinjska,Moški,35-44 let,1596
-2017,Savinjska,Moški,35-44 let,1647
-2018,Savinjska,Moški,35-44 let,1705
-2019,Savinjska,Moški,35-44 let,1752
-2008,Savinjska,Ženske,35-44 let,1217
-2009,Savinjska,Ženske,35-44 let,1279
-2010,Savinjska,Ženske,35-44 let,1337
-2011,Savinjska,Ženske,35-44 let,1368
-2012,Savinjska,Ženske,35-44 let,1385
-2013,Savinjska,Ženske,35-44 let,1395
-2014,Savinjska,Ženske,35-44 let,1426
-2015,Savinjska,Ženske,35-44 let,1430
-2016,Savinjska,Ženske,35-44 let,1466
-2017,Savinjska,Ženske,35-44 let,1489
-2018,Savinjska,Ženske,35-44 let,1530
-2019,Savinjska,Ženske,35-44 let,1597
-2008,Savinjska,Moški,45-54 let,1453
-2009,Savinjska,Moški,45-54 let,1467
-2010,Savinjska,Moški,45-54 let,1552
-2011,Savinjska,Moški,45-54 let,1589
-2012,Savinjska,Moški,45-54 let,1623
-2013,Savinjska,Moški,45-54 let,1629
-2014,Savinjska,Moški,45-54 let,1665
-2015,Savinjska,Moški,45-54 let,1676
-2016,Savinjska,Moški,45-54 let,1693
-2017,Savinjska,Moški,45-54 let,1745
-2018,Savinjska,Moški,45-54 let,1798
-2019,Savinjska,Moški,45-54 let,1845
-2008,Savinjska,Ženske,45-54 let,1309
-2009,Savinjska,Ženske,45-54 let,1379
-2010,Savinjska,Ženske,45-54 let,1437
-2011,Savinjska,Ženske,45-54 let,1453
-2012,Savinjska,Ženske,45-54 let,1464
-2013,Savinjska,Ženske,45-54 let,1453
-2014,Savinjska,Ženske,45-54 let,1487
-2015,Savinjska,Ženske,45-54 let,1482
-2016,Savinjska,Ženske,45-54 let,1511
-2017,Savinjska,Ženske,45-54 let,1548
-2018,Savinjska,Ženske,45-54 let,1581
-2019,Savinjska,Ženske,45-54 let,1654
-2008,Savinjska,Moški,55-64 let,1626
-2009,Savinjska,Moški,55-64 let,1610
-2010,Savinjska,Moški,55-64 let,1749
-2011,Savinjska,Moški,55-64 let,1783
-2012,Savinjska,Moški,55-64 let,1814
-2013,Savinjska,Moški,55-64 let,1800
-2014,Savinjska,Moški,55-64 let,1806
-2015,Savinjska,Moški,55-64 let,1834
-2016,Savinjska,Moški,55-64 let,1835
-2017,Savinjska,Moški,55-64 let,1868
-2018,Savinjska,Moški,55-64 let,1910
-2019,Savinjska,Moški,55-64 let,1938
-2008,Savinjska,Ženske,55-64 let,1699
-2009,Savinjska,Ženske,55-64 let,1775
-2010,Savinjska,Ženske,55-64 let,1868
-2011,Savinjska,Ženske,55-64 let,1833
-2012,Savinjska,Ženske,55-64 let,1833
-2013,Savinjska,Ženske,55-64 let,1749
-2014,Savinjska,Ženske,55-64 let,1716
-2015,Savinjska,Ženske,55-64 let,1712
-2016,Savinjska,Ženske,55-64 let,1724
-2017,Savinjska,Ženske,55-64 let,1729
-2018,Savinjska,Ženske,55-64 let,1752
-2019,Savinjska,Ženske,55-64 let,1809
-2008,Savinjska,Moški,65 let ali več,3757
-2009,Savinjska,Moški,65 let ali več,3722
-2010,Savinjska,Moški,65 let ali več,3839
-2011,Savinjska,Moški,65 let ali več,3866
-2012,Savinjska,Moški,65 let ali več,3658
-2013,Savinjska,Moški,65 let ali več,3773
-2014,Savinjska,Moški,65 let ali več,3359
-2015,Savinjska,Moški,65 let ali več,3355
-2016,Savinjska,Moški,65 let ali več,3160
-2017,Savinjska,Moški,65 let ali več,NA
-2018,Savinjska,Moški,65 let ali več,3384
-2019,Savinjska,Moški,65 let ali več,3044
-2008,Savinjska,Ženske,65 let ali več,3607
-2009,Savinjska,Ženske,65 let ali več,NA
-2010,Savinjska,Ženske,65 let ali več,NA
-2011,Savinjska,Ženske,65 let ali več,NA
-2012,Savinjska,Ženske,65 let ali več,NA
-2013,Savinjska,Ženske,65 let ali več,NA
-2014,Savinjska,Ženske,65 let ali več,3252
-2015,Savinjska,Ženske,65 let ali več,2818
-2016,Savinjska,Ženske,65 let ali več,3110
-2017,Savinjska,Ženske,65 let ali več,NA
-2018,Savinjska,Ženske,65 let ali več,2485
-2019,Savinjska,Ženske,65 let ali več,3220
-2008,Zasavska,Moški,15-64 let,1405
-2009,Zasavska,Moški,15-64 let,1444
-2010,Zasavska,Moški,15-64 let,1518
-2011,Zasavska,Moški,15-64 let,1574
-2012,Zasavska,Moški,15-64 let,1554
-2013,Zasavska,Moški,15-64 let,1554
-2014,Zasavska,Moški,15-64 let,1541
-2015,Zasavska,Moški,15-64 let,NA
-2016,Zasavska,Moški,15-64 let,NA
-2017,Zasavska,Moški,15-64 let,NA
-2018,Zasavska,Moški,15-64 let,NA
-2019,Zasavska,Moški,15-64 let,NA
-2008,Zasavska,Ženske,15-64 let,1235
-2009,Zasavska,Ženske,15-64 let,1347
-2010,Zasavska,Ženske,15-64 let,1406
-2011,Zasavska,Ženske,15-64 let,1455
-2012,Zasavska,Ženske,15-64 let,1448
-2013,Zasavska,Ženske,15-64 let,1455
-2014,Zasavska,Ženske,15-64 let,1465
-2015,Zasavska,Ženske,15-64 let,NA
-2016,Zasavska,Ženske,15-64 let,NA
-2017,Zasavska,Ženske,15-64 let,NA
-2018,Zasavska,Ženske,15-64 let,NA
-2019,Zasavska,Ženske,15-64 let,NA
-2008,Zasavska,Moški,15-24 let,894
-2009,Zasavska,Moški,15-24 let,886
-2010,Zasavska,Moški,15-24 let,945
-2011,Zasavska,Moški,15-24 let,1046
-2012,Zasavska,Moški,15-24 let,1004
-2013,Zasavska,Moški,15-24 let,1042
-2014,Zasavska,Moški,15-24 let,1001
-2015,Zasavska,Moški,15-24 let,NA
-2016,Zasavska,Moški,15-24 let,NA
-2017,Zasavska,Moški,15-24 let,1089
-2018,Zasavska,Moški,15-24 let,1143
-2019,Zasavska,Moški,15-24 let,1208
-2008,Zasavska,Ženske,15-24 let,810
-2009,Zasavska,Ženske,15-24 let,847
-2010,Zasavska,Ženske,15-24 let,909
-2011,Zasavska,Ženske,15-24 let,996
-2012,Zasavska,Ženske,15-24 let,977
-2013,Zasavska,Ženske,15-24 let,1103
-2014,Zasavska,Ženske,15-24 let,983
-2015,Zasavska,Ženske,15-24 let,NA
-2016,Zasavska,Ženske,15-24 let,NA
-2017,Zasavska,Ženske,15-24 let,1033
-2018,Zasavska,Ženske,15-24 let,1052
-2019,Zasavska,Ženske,15-24 let,1052
-2008,Zasavska,Moški,25-34 let,1205
-2009,Zasavska,Moški,25-34 let,1233
-2010,Zasavska,Moški,25-34 let,1284
-2011,Zasavska,Moški,25-34 let,1319
-2012,Zasavska,Moški,25-34 let,1300
-2013,Zasavska,Moški,25-34 let,1317
-2014,Zasavska,Moški,25-34 let,1308
-2015,Zasavska,Moški,25-34 let,1275
-2016,Zasavska,Moški,25-34 let,1317
-2017,Zasavska,Moški,25-34 let,1371
-2018,Zasavska,Moški,25-34 let,1447
-2019,Zasavska,Moški,25-34 let,NA
-2008,Zasavska,Ženske,25-34 let,1096
-2009,Zasavska,Ženske,25-34 let,1214
-2010,Zasavska,Ženske,25-34 let,1301
-2011,Zasavska,Ženske,25-34 let,1329
-2012,Zasavska,Ženske,25-34 let,1280
-2013,Zasavska,Ženske,25-34 let,1276
-2014,Zasavska,Ženske,25-34 let,1253
-2015,Zasavska,Ženske,25-34 let,1214
-2016,Zasavska,Ženske,25-34 let,1248
-2017,Zasavska,Ženske,25-34 let,1259
-2018,Zasavska,Ženske,25-34 let,1312
-2019,Zasavska,Ženske,25-34 let,NA
-2008,Zasavska,Moški,35-44 let,1442
-2009,Zasavska,Moški,35-44 let,1477
-2010,Zasavska,Moški,35-44 let,1542
-2011,Zasavska,Moški,35-44 let,1619
-2012,Zasavska,Moški,35-44 let,1590
-2013,Zasavska,Moški,35-44 let,1578
-2014,Zasavska,Moški,35-44 let,1553
-2015,Zasavska,Moški,35-44 let,1470
-2016,Zasavska,Moški,35-44 let,1503
-2017,Zasavska,Moški,35-44 let,1538
-2018,Zasavska,Moški,35-44 let,NA
-2019,Zasavska,Moški,35-44 let,1673
-2008,Zasavska,Ženske,35-44 let,1184
-2009,Zasavska,Ženske,35-44 let,1264
-2010,Zasavska,Ženske,35-44 let,1356
-2011,Zasavska,Ženske,35-44 let,1423
-2012,Zasavska,Ženske,35-44 let,1425
-2013,Zasavska,Ženske,35-44 let,1440
-2014,Zasavska,Ženske,35-44 let,1465
-2015,Zasavska,Ženske,35-44 let,1428
-2016,Zasavska,Ženske,35-44 let,1478
-2017,Zasavska,Ženske,35-44 let,1500
-2018,Zasavska,Ženske,35-44 let,NA
-2019,Zasavska,Ženske,35-44 let,1610
-2008,Zasavska,Moški,45-54 let,1518
-2009,Zasavska,Moški,45-54 let,1570
-2010,Zasavska,Moški,45-54 let,1648
-2011,Zasavska,Moški,45-54 let,1679
-2012,Zasavska,Moški,45-54 let,1645
-2013,Zasavska,Moški,45-54 let,1607
-2014,Zasavska,Moški,45-54 let,1594
-2015,Zasavska,Moški,45-54 let,1552
-2016,Zasavska,Moški,45-54 let,1589
-2017,Zasavska,Moški,45-54 let,1646
-2018,Zasavska,Moški,45-54 let,1663
-2019,Zasavska,Moški,45-54 let,1715
-2008,Zasavska,Ženske,45-54 let,1299
-2009,Zasavska,Ženske,45-54 let,1413
-2010,Zasavska,Ženske,45-54 let,1446
-2011,Zasavska,Ženske,45-54 let,1481
-2012,Zasavska,Ženske,45-54 let,1465
-2013,Zasavska,Ženske,45-54 let,1454
-2014,Zasavska,Ženske,45-54 let,1451
-2015,Zasavska,Ženske,45-54 let,1455
-2016,Zasavska,Ženske,45-54 let,1451
-2017,Zasavska,Ženske,45-54 let,1479
-2018,Zasavska,Ženske,45-54 let,1517
-2019,Zasavska,Ženske,45-54 let,1620
-2008,Zasavska,Moški,55-64 let,1536
-2009,Zasavska,Moški,55-64 let,1606
-2010,Zasavska,Moški,55-64 let,1764
-2011,Zasavska,Moški,55-64 let,1794
-2012,Zasavska,Moški,55-64 let,1849
-2013,Zasavska,Moški,55-64 let,1876
-2014,Zasavska,Moški,55-64 let,1820
-2015,Zasavska,Moški,55-64 let,1735
-2016,Zasavska,Moški,55-64 let,1742
-2017,Zasavska,Moški,55-64 let,NA
-2018,Zasavska,Moški,55-64 let,1827
-2019,Zasavska,Moški,55-64 let,1924
-2008,Zasavska,Ženske,55-64 let,1783
-2009,Zasavska,Ženske,55-64 let,1867
-2010,Zasavska,Ženske,55-64 let,1837
-2011,Zasavska,Ženske,55-64 let,1813
-2012,Zasavska,Ženske,55-64 let,1837
-2013,Zasavska,Ženske,55-64 let,1784
-2014,Zasavska,Ženske,55-64 let,1773
-2015,Zasavska,Ženske,55-64 let,1737
-2016,Zasavska,Ženske,55-64 let,1777
-2017,Zasavska,Ženske,55-64 let,NA
-2018,Zasavska,Ženske,55-64 let,1788
-2019,Zasavska,Ženske,55-64 let,1836
-2008,Zasavska,Moški,65 let ali več,NA
-2009,Zasavska,Moški,65 let ali več,NA
-2010,Zasavska,Moški,65 let ali več,NA
-2011,Zasavska,Moški,65 let ali več,NA
-2012,Zasavska,Moški,65 let ali več,NA
-2013,Zasavska,Moški,65 let ali več,NA
-2014,Zasavska,Moški,65 let ali več,NA
-2015,Zasavska,Moški,65 let ali več,NA
-2016,Zasavska,Moški,65 let ali več,NA
-2017,Zasavska,Moški,65 let ali več,NA
-2018,Zasavska,Moški,65 let ali več,NA
-2019,Zasavska,Moški,65 let ali več,NA
-2008,Zasavska,Ženske,65 let ali več,NA
-2009,Zasavska,Ženske,65 let ali več,NA
-2010,Zasavska,Ženske,65 let ali več,NA
-2011,Zasavska,Ženske,65 let ali več,NA
-2012,Zasavska,Ženske,65 let ali več,NA
-2013,Zasavska,Ženske,65 let ali več,NA
-2014,Zasavska,Ženske,65 let ali več,NA
-2015,Zasavska,Ženske,65 let ali več,NA
-2016,Zasavska,Ženske,65 let ali več,NA
-2017,Zasavska,Ženske,65 let ali več,NA
-2018,Zasavska,Ženske,65 let ali več,NA
-2019,Zasavska,Ženske,65 let ali več,NA
-2008,Posavska,Moški,15-64 let,1340
-2009,Posavska,Moški,15-64 let,1363
-2010,Posavska,Moški,15-64 let,1414
-2011,Posavska,Moški,15-64 let,1504
-2012,Posavska,Moški,15-64 let,1549
-2013,Posavska,Moški,15-64 let,1536
-2014,Posavska,Moški,15-64 let,1585
-2015,Posavska,Moški,15-64 let,NA
-2016,Posavska,Moški,15-64 let,NA
-2017,Posavska,Moški,15-64 let,NA
-2018,Posavska,Moški,15-64 let,1737
-2019,Posavska,Moški,15-64 let,1782
-2008,Posavska,Ženske,15-64 let,1207
-2009,Posavska,Ženske,15-64 let,1282
-2010,Posavska,Ženske,15-64 let,1350
-2011,Posavska,Ženske,15-64 let,1392
-2012,Posavska,Ženske,15-64 let,1401
-2013,Posavska,Ženske,15-64 let,1399
-2014,Posavska,Ženske,15-64 let,1429
-2015,Posavska,Ženske,15-64 let,NA
-2016,Posavska,Ženske,15-64 let,NA
-2017,Posavska,Ženske,15-64 let,NA
-2018,Posavska,Ženske,15-64 let,1545
-2019,Posavska,Ženske,15-64 let,1621
-2008,Posavska,Moški,15-24 let,907
-2009,Posavska,Moški,15-24 let,917
-2010,Posavska,Moški,15-24 let,963
-2011,Posavska,Moški,15-24 let,1052
-2012,Posavska,Moški,15-24 let,1109
-2013,Posavska,Moški,15-24 let,1057
-2014,Posavska,Moški,15-24 let,1056
-2015,Posavska,Moški,15-24 let,NA
-2016,Posavska,Moški,15-24 let,NA
-2017,Posavska,Moški,15-24 let,1199
-2018,Posavska,Moški,15-24 let,1247
-2019,Posavska,Moški,15-24 let,1298
-2008,Posavska,Ženske,15-24 let,817
-2009,Posavska,Ženske,15-24 let,849
-2010,Posavska,Ženske,15-24 let,899
-2011,Posavska,Ženske,15-24 let,960
-2012,Posavska,Ženske,15-24 let,964
-2013,Posavska,Ženske,15-24 let,965
-2014,Posavska,Ženske,15-24 let,1024
-2015,Posavska,Ženske,15-24 let,NA
-2016,Posavska,Ženske,15-24 let,NA
-2017,Posavska,Ženske,15-24 let,1016
-2018,Posavska,Ženske,15-24 let,1068
-2019,Posavska,Ženske,15-24 let,1082
-2008,Posavska,Moški,25-34 let,1167
-2009,Posavska,Moški,25-34 let,1176
-2010,Posavska,Moški,25-34 let,1233
-2011,Posavska,Moški,25-34 let,1310
-2012,Posavska,Moški,25-34 let,1350
-2013,Posavska,Moški,25-34 let,1371
-2014,Posavska,Moški,25-34 let,1416
-2015,Posavska,Moški,25-34 let,1448
-2016,Posavska,Moški,25-34 let,1484
-2017,Posavska,Moški,25-34 let,NA
-2018,Posavska,Moški,25-34 let,1597
-2019,Posavska,Moški,25-34 let,1620
-2008,Posavska,Ženske,25-34 let,1041
-2009,Posavska,Ženske,25-34 let,1115
-2010,Posavska,Ženske,25-34 let,1181
-2011,Posavska,Ženske,25-34 let,1212
-2012,Posavska,Ženske,25-34 let,1203
-2013,Posavska,Ženske,25-34 let,1200
-2014,Posavska,Ženske,25-34 let,1209
-2015,Posavska,Ženske,25-34 let,1225
-2016,Posavska,Ženske,25-34 let,1255
-2017,Posavska,Ženske,25-34 let,NA
-2018,Posavska,Ženske,25-34 let,1325
-2019,Posavska,Ženske,25-34 let,1386
-2008,Posavska,Moški,35-44 let,1336
-2009,Posavska,Moški,35-44 let,1361
-2010,Posavska,Moški,35-44 let,1419
-2011,Posavska,Moški,35-44 let,1497
-2012,Posavska,Moški,35-44 let,1554
-2013,Posavska,Moški,35-44 let,1524
-2014,Posavska,Moški,35-44 let,1593
-2015,Posavska,Moški,35-44 let,1600
-2016,Posavska,Moški,35-44 let,1648
-2017,Posavska,Moški,35-44 let,1676
-2018,Posavska,Moški,35-44 let,1747
-2019,Posavska,Moški,35-44 let,1792
-2008,Posavska,Ženske,35-44 let,1203
-2009,Posavska,Ženske,35-44 let,1265
-2010,Posavska,Ženske,35-44 let,1307
-2011,Posavska,Ženske,35-44 let,1364
-2012,Posavska,Ženske,35-44 let,1376
-2013,Posavska,Ženske,35-44 let,1380
-2014,Posavska,Ženske,35-44 let,1415
-2015,Posavska,Ženske,35-44 let,1428
-2016,Posavska,Ženske,35-44 let,1469
-2017,Posavska,Ženske,35-44 let,1488
-2018,Posavska,Ženske,35-44 let,1540
-2019,Posavska,Ženske,35-44 let,1623
-2008,Posavska,Moški,45-54 let,1507
-2009,Posavska,Moški,45-54 let,1539
-2010,Posavska,Moški,45-54 let,1556
-2011,Posavska,Moški,45-54 let,1625
-2012,Posavska,Moški,45-54 let,1633
-2013,Posavska,Moški,45-54 let,1593
-2014,Posavska,Moški,45-54 let,1628
-2015,Posavska,Moški,45-54 let,1612
-2016,Posavska,Moški,45-54 let,1658
-2017,Posavska,Moški,45-54 let,1703
-2018,Posavska,Moški,45-54 let,1777
-2019,Posavska,Moški,45-54 let,1844
-2008,Posavska,Ženske,45-54 let,1274
-2009,Posavska,Ženske,45-54 let,1348
-2010,Posavska,Ženske,45-54 let,1433
-2011,Posavska,Ženske,45-54 let,1456
-2012,Posavska,Ženske,45-54 let,1460
-2013,Posavska,Ženske,45-54 let,1426
-2014,Posavska,Ženske,45-54 let,1446
-2015,Posavska,Ženske,45-54 let,1428
-2016,Posavska,Ženske,45-54 let,1473
-2017,Posavska,Ženske,45-54 let,1516
-2018,Posavska,Ženske,45-54 let,1576
-2019,Posavska,Ženske,45-54 let,1651
-2008,Posavska,Moški,55-64 let,1639
-2009,Posavska,Moški,55-64 let,1688
-2010,Posavska,Moški,55-64 let,1866
-2011,Posavska,Moški,55-64 let,1969
-2012,Posavska,Moški,55-64 let,2032
-2013,Posavska,Moški,55-64 let,1945
-2014,Posavska,Moški,55-64 let,1974
-2015,Posavska,Moški,55-64 let,1905
-2016,Posavska,Moški,55-64 let,1951
-2017,Posavska,Moški,55-64 let,1963
-2018,Posavska,Moški,55-64 let,1988
-2019,Posavska,Moški,55-64 let,2024
-2008,Posavska,Ženske,55-64 let,1743
-2009,Posavska,Ženske,55-64 let,1847
-2010,Posavska,Ženske,55-64 let,1898
-2011,Posavska,Ženske,55-64 let,1873
-2012,Posavska,Ženske,55-64 let,1834
-2013,Posavska,Ženske,55-64 let,1801
-2014,Posavska,Ženske,55-64 let,1782
-2015,Posavska,Ženske,55-64 let,1725
-2016,Posavska,Ženske,55-64 let,1715
-2017,Posavska,Ženske,55-64 let,1723
-2018,Posavska,Ženske,55-64 let,1735
-2019,Posavska,Ženske,55-64 let,1807
-2008,Posavska,Moški,65 let ali več,3796
-2009,Posavska,Moški,65 let ali več,NA
-2010,Posavska,Moški,65 let ali več,4212
-2011,Posavska,Moški,65 let ali več,3756
-2012,Posavska,Moški,65 let ali več,NA
-2013,Posavska,Moški,65 let ali več,4054
-2014,Posavska,Moški,65 let ali več,3990
-2015,Posavska,Moški,65 let ali več,NA
-2016,Posavska,Moški,65 let ali več,NA
-2017,Posavska,Moški,65 let ali več,NA
-2018,Posavska,Moški,65 let ali več,3970
-2019,Posavska,Moški,65 let ali več,3684
-2008,Posavska,Ženske,65 let ali več,NA
-2009,Posavska,Ženske,65 let ali več,NA
-2010,Posavska,Ženske,65 let ali več,NA
-2011,Posavska,Ženske,65 let ali več,NA
-2012,Posavska,Ženske,65 let ali več,NA
-2013,Posavska,Ženske,65 let ali več,NA
-2014,Posavska,Ženske,65 let ali več,NA
-2015,Posavska,Ženske,65 let ali več,NA
-2016,Posavska,Ženske,65 let ali več,NA
-2017,Posavska,Ženske,65 let ali več,NA
-2018,Posavska,Ženske,65 let ali več,3944
-2019,Posavska,Ženske,65 let ali več,3760
-2008,Jugovzhodna Slovenija,Moški,15-64 let,1365
-2009,Jugovzhodna Slovenija,Moški,15-64 let,1368
-2010,Jugovzhodna Slovenija,Moški,15-64 let,1470
-2011,Jugovzhodna Slovenija,Moški,15-64 let,1519
-2012,Jugovzhodna Slovenija,Moški,15-64 let,1550
-2013,Jugovzhodna Slovenija,Moški,15-64 let,1551
-2014,Jugovzhodna Slovenija,Moški,15-64 let,1613
-2015,Jugovzhodna Slovenija,Moški,15-64 let,NA
-2016,Jugovzhodna Slovenija,Moški,15-64 let,NA
-2017,Jugovzhodna Slovenija,Moški,15-64 let,NA
-2018,Jugovzhodna Slovenija,Moški,15-64 let,NA
-2019,Jugovzhodna Slovenija,Moški,15-64 let,1832
-2008,Jugovzhodna Slovenija,Ženske,15-64 let,1333
-2009,Jugovzhodna Slovenija,Ženske,15-64 let,1397
-2010,Jugovzhodna Slovenija,Ženske,15-64 let,1492
-2011,Jugovzhodna Slovenija,Ženske,15-64 let,1562
-2012,Jugovzhodna Slovenija,Ženske,15-64 let,1580
-2013,Jugovzhodna Slovenija,Ženske,15-64 let,1570
-2014,Jugovzhodna Slovenija,Ženske,15-64 let,1626
-2015,Jugovzhodna Slovenija,Ženske,15-64 let,NA
-2016,Jugovzhodna Slovenija,Ženske,15-64 let,NA
-2017,Jugovzhodna Slovenija,Ženske,15-64 let,NA
-2018,Jugovzhodna Slovenija,Ženske,15-64 let,NA
-2019,Jugovzhodna Slovenija,Ženske,15-64 let,1821
-2008,Jugovzhodna Slovenija,Moški,15-24 let,935
-2009,Jugovzhodna Slovenija,Moški,15-24 let,941
-2010,Jugovzhodna Slovenija,Moški,15-24 let,1008
-2011,Jugovzhodna Slovenija,Moški,15-24 let,1054
-2012,Jugovzhodna Slovenija,Moški,15-24 let,1077
-2013,Jugovzhodna Slovenija,Moški,15-24 let,1101
-2014,Jugovzhodna Slovenija,Moški,15-24 let,1147
-2015,Jugovzhodna Slovenija,Moški,15-24 let,NA
-2016,Jugovzhodna Slovenija,Moški,15-24 let,NA
-2017,Jugovzhodna Slovenija,Moški,15-24 let,1195
-2018,Jugovzhodna Slovenija,Moški,15-24 let,1256
-2019,Jugovzhodna Slovenija,Moški,15-24 let,1278
-2008,Jugovzhodna Slovenija,Ženske,15-24 let,902
-2009,Jugovzhodna Slovenija,Ženske,15-24 let,951
-2010,Jugovzhodna Slovenija,Ženske,15-24 let,994
-2011,Jugovzhodna Slovenija,Ženske,15-24 let,1073
-2012,Jugovzhodna Slovenija,Ženske,15-24 let,1066
-2013,Jugovzhodna Slovenija,Ženske,15-24 let,1130
-2014,Jugovzhodna Slovenija,Ženske,15-24 let,1268
-2015,Jugovzhodna Slovenija,Ženske,15-24 let,NA
-2016,Jugovzhodna Slovenija,Ženske,15-24 let,NA
-2017,Jugovzhodna Slovenija,Ženske,15-24 let,1112
-2018,Jugovzhodna Slovenija,Ženske,15-24 let,1182
-2019,Jugovzhodna Slovenija,Ženske,15-24 let,1247
-2008,Jugovzhodna Slovenija,Moški,25-34 let,1213
-2009,Jugovzhodna Slovenija,Moški,25-34 let,1207
-2010,Jugovzhodna Slovenija,Moški,25-34 let,1301
-2011,Jugovzhodna Slovenija,Moški,25-34 let,1345
-2012,Jugovzhodna Slovenija,Moški,25-34 let,1368
-2013,Jugovzhodna Slovenija,Moški,25-34 let,1377
-2014,Jugovzhodna Slovenija,Moški,25-34 let,1439
-2015,Jugovzhodna Slovenija,Moški,25-34 let,1473
-2016,Jugovzhodna Slovenija,Moški,25-34 let,1480
-2017,Jugovzhodna Slovenija,Moški,25-34 let,1504
-2018,Jugovzhodna Slovenija,Moški,25-34 let,1571
-2019,Jugovzhodna Slovenija,Moški,25-34 let,1635
-2008,Jugovzhodna Slovenija,Ženske,25-34 let,1162
-2009,Jugovzhodna Slovenija,Ženske,25-34 let,1205
-2010,Jugovzhodna Slovenija,Ženske,25-34 let,1280
-2011,Jugovzhodna Slovenija,Ženske,25-34 let,1342
-2012,Jugovzhodna Slovenija,Ženske,25-34 let,1347
-2013,Jugovzhodna Slovenija,Ženske,25-34 let,1362
-2014,Jugovzhodna Slovenija,Ženske,25-34 let,1408
-2015,Jugovzhodna Slovenija,Ženske,25-34 let,1418
-2016,Jugovzhodna Slovenija,Ženske,25-34 let,1441
-2017,Jugovzhodna Slovenija,Ženske,25-34 let,1441
-2018,Jugovzhodna Slovenija,Ženske,25-34 let,1477
-2019,Jugovzhodna Slovenija,Ženske,25-34 let,1563
-2008,Jugovzhodna Slovenija,Moški,35-44 let,1401
-2009,Jugovzhodna Slovenija,Moški,35-44 let,1403
-2010,Jugovzhodna Slovenija,Moški,35-44 let,1495
-2011,Jugovzhodna Slovenija,Moški,35-44 let,1548
-2012,Jugovzhodna Slovenija,Moški,35-44 let,1572
-2013,Jugovzhodna Slovenija,Moški,35-44 let,1574
-2014,Jugovzhodna Slovenija,Moški,35-44 let,1640
-2015,Jugovzhodna Slovenija,Moški,35-44 let,1672
-2016,Jugovzhodna Slovenija,Moški,35-44 let,1713
-2017,Jugovzhodna Slovenija,Moški,35-44 let,1754
-2018,Jugovzhodna Slovenija,Moški,35-44 let,1822
-2019,Jugovzhodna Slovenija,Moški,35-44 let,1898
-2008,Jugovzhodna Slovenija,Ženske,35-44 let,1336
-2009,Jugovzhodna Slovenija,Ženske,35-44 let,1382
-2010,Jugovzhodna Slovenija,Ženske,35-44 let,1484
-2011,Jugovzhodna Slovenija,Ženske,35-44 let,1551
-2012,Jugovzhodna Slovenija,Ženske,35-44 let,1575
-2013,Jugovzhodna Slovenija,Ženske,35-44 let,1562
-2014,Jugovzhodna Slovenija,Ženske,35-44 let,1605
-2015,Jugovzhodna Slovenija,Ženske,35-44 let,1607
-2016,Jugovzhodna Slovenija,Ženske,35-44 let,1640
-2017,Jugovzhodna Slovenija,Ženske,35-44 let,1657
-2018,Jugovzhodna Slovenija,Ženske,35-44 let,1722
-2019,Jugovzhodna Slovenija,Ženske,35-44 let,1823
-2008,Jugovzhodna Slovenija,Moški,45-54 let,1472
-2009,Jugovzhodna Slovenija,Moški,45-54 let,1477
-2010,Jugovzhodna Slovenija,Moški,45-54 let,1584
-2011,Jugovzhodna Slovenija,Moški,45-54 let,1630
-2012,Jugovzhodna Slovenija,Moški,45-54 let,1678
-2013,Jugovzhodna Slovenija,Moški,45-54 let,1665
-2014,Jugovzhodna Slovenija,Moški,45-54 let,1719
-2015,Jugovzhodna Slovenija,Moški,45-54 let,1711
-2016,Jugovzhodna Slovenija,Moški,45-54 let,1734
-2017,Jugovzhodna Slovenija,Moški,45-54 let,1782
-2018,Jugovzhodna Slovenija,Moški,45-54 let,1852
-2019,Jugovzhodna Slovenija,Moški,45-54 let,1935
-2008,Jugovzhodna Slovenija,Ženske,45-54 let,1394
-2009,Jugovzhodna Slovenija,Ženske,45-54 let,1473
-2010,Jugovzhodna Slovenija,Ženske,45-54 let,1571
-2011,Jugovzhodna Slovenija,Ženske,45-54 let,1642
-2012,Jugovzhodna Slovenija,Ženske,45-54 let,1644
-2013,Jugovzhodna Slovenija,Ženske,45-54 let,1608
-2014,Jugovzhodna Slovenija,Ženske,45-54 let,1666
-2015,Jugovzhodna Slovenija,Ženske,45-54 let,1675
-2016,Jugovzhodna Slovenija,Ženske,45-54 let,1683
-2017,Jugovzhodna Slovenija,Ženske,45-54 let,1713
-2018,Jugovzhodna Slovenija,Ženske,45-54 let,1778
-2019,Jugovzhodna Slovenija,Ženske,45-54 let,1879
-2008,Jugovzhodna Slovenija,Moški,55-64 let,1630
-2009,Jugovzhodna Slovenija,Moški,55-64 let,1660
-2010,Jugovzhodna Slovenija,Moški,55-64 let,1801
-2011,Jugovzhodna Slovenija,Moški,55-64 let,1808
-2012,Jugovzhodna Slovenija,Moški,55-64 let,1816
-2013,Jugovzhodna Slovenija,Moški,55-64 let,1757
-2014,Jugovzhodna Slovenija,Moški,55-64 let,1791
-2015,Jugovzhodna Slovenija,Moški,55-64 let,1840
-2016,Jugovzhodna Slovenija,Moški,55-64 let,1855
-2017,Jugovzhodna Slovenija,Moški,55-64 let,NA
-2018,Jugovzhodna Slovenija,Moški,55-64 let,NA
-2019,Jugovzhodna Slovenija,Moški,55-64 let,2024
-2008,Jugovzhodna Slovenija,Ženske,55-64 let,2027
-2009,Jugovzhodna Slovenija,Ženske,55-64 let,2203
-2010,Jugovzhodna Slovenija,Ženske,55-64 let,2214
-2011,Jugovzhodna Slovenija,Ženske,55-64 let,2150
-2012,Jugovzhodna Slovenija,Ženske,55-64 let,2198
-2013,Jugovzhodna Slovenija,Ženske,55-64 let,2075
-2014,Jugovzhodna Slovenija,Ženske,55-64 let,2051
-2015,Jugovzhodna Slovenija,Ženske,55-64 let,1980
-2016,Jugovzhodna Slovenija,Ženske,55-64 let,1975
-2017,Jugovzhodna Slovenija,Ženske,55-64 let,NA
-2018,Jugovzhodna Slovenija,Ženske,55-64 let,NA
-2019,Jugovzhodna Slovenija,Ženske,55-64 let,2042
-2008,Jugovzhodna Slovenija,Moški,65 let ali več,4954
-2009,Jugovzhodna Slovenija,Moški,65 let ali več,4645
-2010,Jugovzhodna Slovenija,Moški,65 let ali več,3581
-2011,Jugovzhodna Slovenija,Moški,65 let ali več,4295
-2012,Jugovzhodna Slovenija,Moški,65 let ali več,4034
-2013,Jugovzhodna Slovenija,Moški,65 let ali več,4719
-2014,Jugovzhodna Slovenija,Moški,65 let ali več,4245
-2015,Jugovzhodna Slovenija,Moški,65 let ali več,NA
-2016,Jugovzhodna Slovenija,Moški,65 let ali več,NA
-2017,Jugovzhodna Slovenija,Moški,65 let ali več,NA
-2018,Jugovzhodna Slovenija,Moški,65 let ali več,NA
-2019,Jugovzhodna Slovenija,Moški,65 let ali več,3187
-2008,Jugovzhodna Slovenija,Ženske,65 let ali več,NA
-2009,Jugovzhodna Slovenija,Ženske,65 let ali več,NA
-2010,Jugovzhodna Slovenija,Ženske,65 let ali več,NA
-2011,Jugovzhodna Slovenija,Ženske,65 let ali več,NA
-2012,Jugovzhodna Slovenija,Ženske,65 let ali več,NA
-2013,Jugovzhodna Slovenija,Ženske,65 let ali več,NA
-2014,Jugovzhodna Slovenija,Ženske,65 let ali več,NA
-2015,Jugovzhodna Slovenija,Ženske,65 let ali več,NA
-2016,Jugovzhodna Slovenija,Ženske,65 let ali več,NA
-2017,Jugovzhodna Slovenija,Ženske,65 let ali več,NA
-2018,Jugovzhodna Slovenija,Ženske,65 let ali več,NA
-2019,Jugovzhodna Slovenija,Ženske,65 let ali več,4051
-2008,Osrednjeslovenska,Moški,15-64 let,1681
-2009,Osrednjeslovenska,Moški,15-64 let,1717
-2010,Osrednjeslovenska,Moški,15-64 let,1772
-2011,Osrednjeslovenska,Moški,15-64 let,1818
-2012,Osrednjeslovenska,Moški,15-64 let,1833
-2013,Osrednjeslovenska,Moški,15-64 let,1816
-2014,Osrednjeslovenska,Moški,15-64 let,1848
-2015,Osrednjeslovenska,Moški,15-64 let,1876
-2016,Osrednjeslovenska,Moški,15-64 let,1918
-2017,Osrednjeslovenska,Moški,15-64 let,1945
-2018,Osrednjeslovenska,Moški,15-64 let,2011
-2019,Osrednjeslovenska,Moški,15-64 let,2094
-2008,Osrednjeslovenska,Ženske,15-64 let,1573
-2009,Osrednjeslovenska,Ženske,15-64 let,1653
-2010,Osrednjeslovenska,Ženske,15-64 let,1697
-2011,Osrednjeslovenska,Ženske,15-64 let,1733
-2012,Osrednjeslovenska,Ženske,15-64 let,1741
-2013,Osrednjeslovenska,Ženske,15-64 let,1730
-2014,Osrednjeslovenska,Ženske,15-64 let,1770
-2015,Osrednjeslovenska,Ženske,15-64 let,1784
-2016,Osrednjeslovenska,Ženske,15-64 let,1823
-2017,Osrednjeslovenska,Ženske,15-64 let,1855
-2018,Osrednjeslovenska,Ženske,15-64 let,1900
-2019,Osrednjeslovenska,Ženske,15-64 let,1993
-2008,Osrednjeslovenska,Moški,15-24 let,942
-2009,Osrednjeslovenska,Moški,15-24 let,952
-2010,Osrednjeslovenska,Moški,15-24 let,1011
-2011,Osrednjeslovenska,Moški,15-24 let,1056
-2012,Osrednjeslovenska,Moški,15-24 let,1064
-2013,Osrednjeslovenska,Moški,15-24 let,1072
-2014,Osrednjeslovenska,Moški,15-24 let,1105
-2015,Osrednjeslovenska,Moški,15-24 let,1134
-2016,Osrednjeslovenska,Moški,15-24 let,1152
-2017,Osrednjeslovenska,Moški,15-24 let,1171
-2018,Osrednjeslovenska,Moški,15-24 let,1226
-2019,Osrednjeslovenska,Moški,15-24 let,1276
-2008,Osrednjeslovenska,Ženske,15-24 let,946
-2009,Osrednjeslovenska,Ženske,15-24 let,963
-2010,Osrednjeslovenska,Ženske,15-24 let,1001
-2011,Osrednjeslovenska,Ženske,15-24 let,1028
-2012,Osrednjeslovenska,Ženske,15-24 let,1036
-2013,Osrednjeslovenska,Ženske,15-24 let,1026
-2014,Osrednjeslovenska,Ženske,15-24 let,1015
-2015,Osrednjeslovenska,Ženske,15-24 let,1035
-2016,Osrednjeslovenska,Ženske,15-24 let,1063
-2017,Osrednjeslovenska,Ženske,15-24 let,1090
-2018,Osrednjeslovenska,Ženske,15-24 let,1128
-2019,Osrednjeslovenska,Ženske,15-24 let,1185
-2008,Osrednjeslovenska,Moški,25-34 let,1466
-2009,Osrednjeslovenska,Moški,25-34 let,1474
-2010,Osrednjeslovenska,Moški,25-34 let,1504
-2011,Osrednjeslovenska,Moški,25-34 let,1522
-2012,Osrednjeslovenska,Moški,25-34 let,1523
-2013,Osrednjeslovenska,Moški,25-34 let,1494
-2014,Osrednjeslovenska,Moški,25-34 let,1515
-2015,Osrednjeslovenska,Moški,25-34 let,1526
-2016,Osrednjeslovenska,Moški,25-34 let,1546
-2017,Osrednjeslovenska,Moški,25-34 let,1579
-2018,Osrednjeslovenska,Moški,25-34 let,1654
-2019,Osrednjeslovenska,Moški,25-34 let,1730
-2008,Osrednjeslovenska,Ženske,25-34 let,1384
-2009,Osrednjeslovenska,Ženske,25-34 let,1415
-2010,Osrednjeslovenska,Ženske,25-34 let,1446
-2011,Osrednjeslovenska,Ženske,25-34 let,1451
-2012,Osrednjeslovenska,Ženske,25-34 let,1446
-2013,Osrednjeslovenska,Ženske,25-34 let,1430
-2014,Osrednjeslovenska,Ženske,25-34 let,1440
-2015,Osrednjeslovenska,Ženske,25-34 let,1436
-2016,Osrednjeslovenska,Ženske,25-34 let,1441
-2017,Osrednjeslovenska,Ženske,25-34 let,1466
-2018,Osrednjeslovenska,Ženske,25-34 let,1514
-2019,Osrednjeslovenska,Ženske,25-34 let,1587
-2008,Osrednjeslovenska,Moški,35-44 let,1794
-2009,Osrednjeslovenska,Moški,35-44 let,1838
-2010,Osrednjeslovenska,Moški,35-44 let,1894
-2011,Osrednjeslovenska,Moški,35-44 let,1933
-2012,Osrednjeslovenska,Moški,35-44 let,1954
-2013,Osrednjeslovenska,Moški,35-44 let,1917
-2014,Osrednjeslovenska,Moški,35-44 let,1938
-2015,Osrednjeslovenska,Moški,35-44 let,1974
-2016,Osrednjeslovenska,Moški,35-44 let,2004
-2017,Osrednjeslovenska,Moški,35-44 let,2010
-2018,Osrednjeslovenska,Moški,35-44 let,2070
-2019,Osrednjeslovenska,Moški,35-44 let,2156
-2008,Osrednjeslovenska,Ženske,35-44 let,1622
-2009,Osrednjeslovenska,Ženske,35-44 let,1714
-2010,Osrednjeslovenska,Ženske,35-44 let,1762
-2011,Osrednjeslovenska,Ženske,35-44 let,1795
-2012,Osrednjeslovenska,Ženske,35-44 let,1813
-2013,Osrednjeslovenska,Ženske,35-44 let,1796
-2014,Osrednjeslovenska,Ženske,35-44 let,1827
-2015,Osrednjeslovenska,Ženske,35-44 let,1836
-2016,Osrednjeslovenska,Ženske,35-44 let,1855
-2017,Osrednjeslovenska,Ženske,35-44 let,1881
-2018,Osrednjeslovenska,Ženske,35-44 let,1915
-2019,Osrednjeslovenska,Ženske,35-44 let,1998
-2008,Osrednjeslovenska,Moški,45-54 let,1756
-2009,Osrednjeslovenska,Moški,45-54 let,1818
-2010,Osrednjeslovenska,Moški,45-54 let,1870
-2011,Osrednjeslovenska,Moški,45-54 let,1929
-2012,Osrednjeslovenska,Moški,45-54 let,1943
-2013,Osrednjeslovenska,Moški,45-54 let,1937
-2014,Osrednjeslovenska,Moški,45-54 let,1977
-2015,Osrednjeslovenska,Moški,45-54 let,2009
-2016,Osrednjeslovenska,Moški,45-54 let,2075
-2017,Osrednjeslovenska,Moški,45-54 let,2112
-2018,Osrednjeslovenska,Moški,45-54 let,2197
-2019,Osrednjeslovenska,Moški,45-54 let,2295
-2008,Osrednjeslovenska,Ženske,45-54 let,1609
-2009,Osrednjeslovenska,Ženske,45-54 let,1717
-2010,Osrednjeslovenska,Ženske,45-54 let,1761
-2011,Osrednjeslovenska,Ženske,45-54 let,1803
-2012,Osrednjeslovenska,Ženske,45-54 let,1806
-2013,Osrednjeslovenska,Ženske,45-54 let,1789
-2014,Osrednjeslovenska,Ženske,45-54 let,1835
-2015,Osrednjeslovenska,Ženske,45-54 let,1859
-2016,Osrednjeslovenska,Ženske,45-54 let,1924
-2017,Osrednjeslovenska,Ženske,45-54 let,1967
-2018,Osrednjeslovenska,Ženske,45-54 let,2031
-2019,Osrednjeslovenska,Ženske,45-54 let,2144
-2008,Osrednjeslovenska,Moški,55-64 let,1996
-2009,Osrednjeslovenska,Moški,55-64 let,2053
-2010,Osrednjeslovenska,Moški,55-64 let,2154
-2011,Osrednjeslovenska,Moški,55-64 let,2195
-2012,Osrednjeslovenska,Moški,55-64 let,2179
-2013,Osrednjeslovenska,Moški,55-64 let,2103
-2014,Osrednjeslovenska,Moški,55-64 let,2085
-2015,Osrednjeslovenska,Moški,55-64 let,2090
-2016,Osrednjeslovenska,Moški,55-64 let,2127
-2017,Osrednjeslovenska,Moški,55-64 let,2147
-2018,Osrednjeslovenska,Moški,55-64 let,2186
-2019,Osrednjeslovenska,Moški,55-64 let,2265
-2008,Osrednjeslovenska,Ženske,55-64 let,2092
-2009,Osrednjeslovenska,Ženske,55-64 let,2195
-2010,Osrednjeslovenska,Ženske,55-64 let,2225
-2011,Osrednjeslovenska,Ženske,55-64 let,2204
-2012,Osrednjeslovenska,Ženske,55-64 let,2179
-2013,Osrednjeslovenska,Ženske,55-64 let,2082
-2014,Osrednjeslovenska,Ženske,55-64 let,2074
-2015,Osrednjeslovenska,Ženske,55-64 let,2049
-2016,Osrednjeslovenska,Ženske,55-64 let,2073
-2017,Osrednjeslovenska,Ženske,55-64 let,2082
-2018,Osrednjeslovenska,Ženske,55-64 let,2106
-2019,Osrednjeslovenska,Ženske,55-64 let,2208
-2008,Osrednjeslovenska,Moški,65 let ali več,4157
-2009,Osrednjeslovenska,Moški,65 let ali več,4309
-2010,Osrednjeslovenska,Moški,65 let ali več,4317
-2011,Osrednjeslovenska,Moški,65 let ali več,4161
-2012,Osrednjeslovenska,Moški,65 let ali več,4086
-2013,Osrednjeslovenska,Moški,65 let ali več,3893
-2014,Osrednjeslovenska,Moški,65 let ali več,3664
-2015,Osrednjeslovenska,Moški,65 let ali več,3650
-2016,Osrednjeslovenska,Moški,65 let ali več,3583
-2017,Osrednjeslovenska,Moški,65 let ali več,3383
-2018,Osrednjeslovenska,Moški,65 let ali več,3167
-2019,Osrednjeslovenska,Moški,65 let ali več,3330
-2008,Osrednjeslovenska,Ženske,65 let ali več,3182
-2009,Osrednjeslovenska,Ženske,65 let ali več,3496
-2010,Osrednjeslovenska,Ženske,65 let ali več,3187
-2011,Osrednjeslovenska,Ženske,65 let ali več,3071
-2012,Osrednjeslovenska,Ženske,65 let ali več,3555
-2013,Osrednjeslovenska,Ženske,65 let ali več,3647
-2014,Osrednjeslovenska,Ženske,65 let ali več,3350
-2015,Osrednjeslovenska,Ženske,65 let ali več,3440
-2016,Osrednjeslovenska,Ženske,65 let ali več,3398
-2017,Osrednjeslovenska,Ženske,65 let ali več,3417
-2018,Osrednjeslovenska,Ženske,65 let ali več,3289
-2019,Osrednjeslovenska,Ženske,65 let ali več,3281
-2008,Gorenjska,Moški,15-64 let,1438
-2009,Gorenjska,Moški,15-64 let,1426
-2010,Gorenjska,Moški,15-64 let,1507
-2011,Gorenjska,Moški,15-64 let,1556
-2012,Gorenjska,Moški,15-64 let,1599
-2013,Gorenjska,Moški,15-64 let,1637
-2014,Gorenjska,Moški,15-64 let,1684
-2015,Gorenjska,Moški,15-64 let,1717
-2016,Gorenjska,Moški,15-64 let,1751
-2017,Gorenjska,Moški,15-64 let,1784
-2018,Gorenjska,Moški,15-64 let,1851
-2019,Gorenjska,Moški,15-64 let,1869
-2008,Gorenjska,Ženske,15-64 let,1293
-2009,Gorenjska,Ženske,15-64 let,1355
-2010,Gorenjska,Ženske,15-64 let,1413
-2011,Gorenjska,Ženske,15-64 let,1439
-2012,Gorenjska,Ženske,15-64 let,1470
-2013,Gorenjska,Ženske,15-64 let,1465
-2014,Gorenjska,Ženske,15-64 let,1499
-2015,Gorenjska,Ženske,15-64 let,1510
-2016,Gorenjska,Ženske,15-64 let,1549
-2017,Gorenjska,Ženske,15-64 let,1591
-2018,Gorenjska,Ženske,15-64 let,1637
-2019,Gorenjska,Ženske,15-64 let,1695
-2008,Gorenjska,Moški,15-24 let,947
-2009,Gorenjska,Moški,15-24 let,931
-2010,Gorenjska,Moški,15-24 let,993
-2011,Gorenjska,Moški,15-24 let,1052
-2012,Gorenjska,Moški,15-24 let,1063
-2013,Gorenjska,Moški,15-24 let,1085
-2014,Gorenjska,Moški,15-24 let,1146
-2015,Gorenjska,Moški,15-24 let,1155
-2016,Gorenjska,Moški,15-24 let,1188
-2017,Gorenjska,Moški,15-24 let,1220
-2018,Gorenjska,Moški,15-24 let,1273
-2019,Gorenjska,Moški,15-24 let,1325
-2008,Gorenjska,Ženske,15-24 let,843
-2009,Gorenjska,Ženske,15-24 let,871
-2010,Gorenjska,Ženske,15-24 let,928
-2011,Gorenjska,Ženske,15-24 let,961
-2012,Gorenjska,Ženske,15-24 let,955
-2013,Gorenjska,Ženske,15-24 let,966
-2014,Gorenjska,Ženske,15-24 let,984
-2015,Gorenjska,Ženske,15-24 let,1000
-2016,Gorenjska,Ženske,15-24 let,1037
-2017,Gorenjska,Ženske,15-24 let,1091
-2018,Gorenjska,Ženske,15-24 let,1144
-2019,Gorenjska,Ženske,15-24 let,1145
-2008,Gorenjska,Moški,25-34 let,1284
-2009,Gorenjska,Moški,25-34 let,1270
-2010,Gorenjska,Moški,25-34 let,1338
-2011,Gorenjska,Moški,25-34 let,1377
-2012,Gorenjska,Moški,25-34 let,1403
-2013,Gorenjska,Moški,25-34 let,1424
-2014,Gorenjska,Moški,25-34 let,1439
-2015,Gorenjska,Moški,25-34 let,1435
-2016,Gorenjska,Moški,25-34 let,1455
-2017,Gorenjska,Moški,25-34 let,1495
-2018,Gorenjska,Moški,25-34 let,1569
-2019,Gorenjska,Moški,25-34 let,1607
-2008,Gorenjska,Ženske,25-34 let,1127
-2009,Gorenjska,Ženske,25-34 let,1163
-2010,Gorenjska,Ženske,25-34 let,1217
-2011,Gorenjska,Ženske,25-34 let,1240
-2012,Gorenjska,Ženske,25-34 let,1263
-2013,Gorenjska,Ženske,25-34 let,1254
-2014,Gorenjska,Ženske,25-34 let,1263
-2015,Gorenjska,Ženske,25-34 let,1261
-2016,Gorenjska,Ženske,25-34 let,1276
-2017,Gorenjska,Ženske,25-34 let,1327
-2018,Gorenjska,Ženske,25-34 let,1383
-2019,Gorenjska,Ženske,25-34 let,1410
-2008,Gorenjska,Moški,35-44 let,1523
-2009,Gorenjska,Moški,35-44 let,1508
-2010,Gorenjska,Moški,35-44 let,1583
-2011,Gorenjska,Moški,35-44 let,1624
-2012,Gorenjska,Moški,35-44 let,1684
-2013,Gorenjska,Moški,35-44 let,1721
-2014,Gorenjska,Moški,35-44 let,1762
-2015,Gorenjska,Moški,35-44 let,1795
-2016,Gorenjska,Moški,35-44 let,1821
-2017,Gorenjska,Moški,35-44 let,1835
-2018,Gorenjska,Moški,35-44 let,1917
-2019,Gorenjska,Moški,35-44 let,1911
-2008,Gorenjska,Ženske,35-44 let,1289
-2009,Gorenjska,Ženske,35-44 let,1354
-2010,Gorenjska,Ženske,35-44 let,1409
-2011,Gorenjska,Ženske,35-44 let,1443
-2012,Gorenjska,Ženske,35-44 let,1477
-2013,Gorenjska,Ženske,35-44 let,1477
-2014,Gorenjska,Ženske,35-44 let,1507
-2015,Gorenjska,Ženske,35-44 let,1514
-2016,Gorenjska,Ženske,35-44 let,1553
-2017,Gorenjska,Ženske,35-44 let,1589
-2018,Gorenjska,Ženske,35-44 let,1629
-2019,Gorenjska,Ženske,35-44 let,1694
-2008,Gorenjska,Moški,45-54 let,1513
-2009,Gorenjska,Moški,45-54 let,1501
-2010,Gorenjska,Moški,45-54 let,1590
-2011,Gorenjska,Moški,45-54 let,1648
-2012,Gorenjska,Moški,45-54 let,1687
-2013,Gorenjska,Moški,45-54 let,1728
-2014,Gorenjska,Moški,45-54 let,1794
-2015,Gorenjska,Moški,45-54 let,1843
-2016,Gorenjska,Moški,45-54 let,1900
-2017,Gorenjska,Moški,45-54 let,1952
-2018,Gorenjska,Moški,45-54 let,2022
-2019,Gorenjska,Moški,45-54 let,2061
-2008,Gorenjska,Ženske,45-54 let,1370
-2009,Gorenjska,Ženske,45-54 let,1429
-2010,Gorenjska,Ženske,45-54 let,1489
-2011,Gorenjska,Ženske,45-54 let,1490
-2012,Gorenjska,Ženske,45-54 let,1516
-2013,Gorenjska,Ženske,45-54 let,1497
-2014,Gorenjska,Ženske,45-54 let,1526
-2015,Gorenjska,Ženske,45-54 let,1543
-2016,Gorenjska,Ženske,45-54 let,1580
-2017,Gorenjska,Ženske,45-54 let,1635
-2018,Gorenjska,Ženske,45-54 let,1686
-2019,Gorenjska,Ženske,45-54 let,1764
-2008,Gorenjska,Moški,55-64 let,1630
-2009,Gorenjska,Moški,55-64 let,1626
-2010,Gorenjska,Moški,55-64 let,1715
-2011,Gorenjska,Moški,55-64 let,1736
-2012,Gorenjska,Moški,55-64 let,1782
-2013,Gorenjska,Moški,55-64 let,1799
-2014,Gorenjska,Moški,55-64 let,1826
-2015,Gorenjska,Moški,55-64 let,1882
-2016,Gorenjska,Moški,55-64 let,1903
-2017,Gorenjska,Moški,55-64 let,1925
-2018,Gorenjska,Moški,55-64 let,1973
-2019,Gorenjska,Moški,55-64 let,2007
-2008,Gorenjska,Ženske,55-64 let,1773
-2009,Gorenjska,Ženske,55-64 let,1856
-2010,Gorenjska,Ženske,55-64 let,1927
-2011,Gorenjska,Ženske,55-64 let,1902
-2012,Gorenjska,Ženske,55-64 let,1925
-2013,Gorenjska,Ženske,55-64 let,1812
-2014,Gorenjska,Ženske,55-64 let,1810
-2015,Gorenjska,Ženske,55-64 let,1753
-2016,Gorenjska,Ženske,55-64 let,1786
-2017,Gorenjska,Ženske,55-64 let,1776
-2018,Gorenjska,Ženske,55-64 let,1817
-2019,Gorenjska,Ženske,55-64 let,1873
-2008,Gorenjska,Moški,65 let ali več,4004
-2009,Gorenjska,Moški,65 let ali več,3398
-2010,Gorenjska,Moški,65 let ali več,4191
-2011,Gorenjska,Moški,65 let ali več,3309
-2012,Gorenjska,Moški,65 let ali več,4041
-2013,Gorenjska,Moški,65 let ali več,3813
-2014,Gorenjska,Moški,65 let ali več,2876
-2015,Gorenjska,Moški,65 let ali več,2829
-2016,Gorenjska,Moški,65 let ali več,3137
-2017,Gorenjska,Moški,65 let ali več,2945
-2018,Gorenjska,Moški,65 let ali več,2795
-2019,Gorenjska,Moški,65 let ali več,2601
-2008,Gorenjska,Ženske,65 let ali več,2933
-2009,Gorenjska,Ženske,65 let ali več,2763
-2010,Gorenjska,Ženske,65 let ali več,NA
-2011,Gorenjska,Ženske,65 let ali več,NA
-2012,Gorenjska,Ženske,65 let ali več,NA
-2013,Gorenjska,Ženske,65 let ali več,NA
-2014,Gorenjska,Ženske,65 let ali več,2781
-2015,Gorenjska,Ženske,65 let ali več,3528
-2016,Gorenjska,Ženske,65 let ali več,2913
-2017,Gorenjska,Ženske,65 let ali več,2772
-2018,Gorenjska,Ženske,65 let ali več,2368
-2019,Gorenjska,Ženske,65 let ali več,2283
-2008,Primorsko-notranjska,Moški,15-64 let,1275
-2009,Primorsko-notranjska,Moški,15-64 let,1271
-2010,Primorsko-notranjska,Moški,15-64 let,1327
-2011,Primorsko-notranjska,Moški,15-64 let,1376
-2012,Primorsko-notranjska,Moški,15-64 let,1401
-2013,Primorsko-notranjska,Moški,15-64 let,1391
-2014,Primorsko-notranjska,Moški,15-64 let,1434
-2015,Primorsko-notranjska,Moški,15-64 let,NA
-2016,Primorsko-notranjska,Moški,15-64 let,NA
-2017,Primorsko-notranjska,Moški,15-64 let,NA
-2018,Primorsko-notranjska,Moški,15-64 let,NA
-2019,Primorsko-notranjska,Moški,15-64 let,NA
-2008,Primorsko-notranjska,Ženske,15-64 let,1178
-2009,Primorsko-notranjska,Ženske,15-64 let,1247
-2010,Primorsko-notranjska,Ženske,15-64 let,1272
-2011,Primorsko-notranjska,Ženske,15-64 let,1322
-2012,Primorsko-notranjska,Ženske,15-64 let,1339
-2013,Primorsko-notranjska,Ženske,15-64 let,1348
-2014,Primorsko-notranjska,Ženske,15-64 let,1356
-2015,Primorsko-notranjska,Ženske,15-64 let,NA
-2016,Primorsko-notranjska,Ženske,15-64 let,NA
-2017,Primorsko-notranjska,Ženske,15-64 let,NA
-2018,Primorsko-notranjska,Ženske,15-64 let,NA
-2019,Primorsko-notranjska,Ženske,15-64 let,NA
-2008,Primorsko-notranjska,Moški,15-24 let,862
-2009,Primorsko-notranjska,Moški,15-24 let,861
-2010,Primorsko-notranjska,Moški,15-24 let,951
-2011,Primorsko-notranjska,Moški,15-24 let,992
-2012,Primorsko-notranjska,Moški,15-24 let,1040
-2013,Primorsko-notranjska,Moški,15-24 let,1061
-2014,Primorsko-notranjska,Moški,15-24 let,1050
-2015,Primorsko-notranjska,Moški,15-24 let,NA
-2016,Primorsko-notranjska,Moški,15-24 let,NA
-2017,Primorsko-notranjska,Moški,15-24 let,1148
-2018,Primorsko-notranjska,Moški,15-24 let,1230
-2019,Primorsko-notranjska,Moški,15-24 let,1238
-2008,Primorsko-notranjska,Ženske,15-24 let,815
-2009,Primorsko-notranjska,Ženske,15-24 let,834
-2010,Primorsko-notranjska,Ženske,15-24 let,904
-2011,Primorsko-notranjska,Ženske,15-24 let,939
-2012,Primorsko-notranjska,Ženske,15-24 let,968
-2013,Primorsko-notranjska,Ženske,15-24 let,947
-2014,Primorsko-notranjska,Ženske,15-24 let,967
-2015,Primorsko-notranjska,Ženske,15-24 let,NA
-2016,Primorsko-notranjska,Ženske,15-24 let,NA
-2017,Primorsko-notranjska,Ženske,15-24 let,961
-2018,Primorsko-notranjska,Ženske,15-24 let,1053
-2019,Primorsko-notranjska,Ženske,15-24 let,1103
-2008,Primorsko-notranjska,Moški,25-34 let,1132
-2009,Primorsko-notranjska,Moški,25-34 let,1125
-2010,Primorsko-notranjska,Moški,25-34 let,1172
-2011,Primorsko-notranjska,Moški,25-34 let,1202
-2012,Primorsko-notranjska,Moški,25-34 let,1220
-2013,Primorsko-notranjska,Moški,25-34 let,1204
-2014,Primorsko-notranjska,Moški,25-34 let,1250
-2015,Primorsko-notranjska,Moški,25-34 let,1286
-2016,Primorsko-notranjska,Moški,25-34 let,1309
-2017,Primorsko-notranjska,Moški,25-34 let,NA
-2018,Primorsko-notranjska,Moški,25-34 let,1403
-2019,Primorsko-notranjska,Moški,25-34 let,NA
-2008,Primorsko-notranjska,Ženske,25-34 let,1030
-2009,Primorsko-notranjska,Ženske,25-34 let,1080
-2010,Primorsko-notranjska,Ženske,25-34 let,1116
-2011,Primorsko-notranjska,Ženske,25-34 let,1158
-2012,Primorsko-notranjska,Ženske,25-34 let,1165
-2013,Primorsko-notranjska,Ženske,25-34 let,1150
-2014,Primorsko-notranjska,Ženske,25-34 let,1160
-2015,Primorsko-notranjska,Ženske,25-34 let,1169
-2016,Primorsko-notranjska,Ženske,25-34 let,1192
-2017,Primorsko-notranjska,Ženske,25-34 let,NA
-2018,Primorsko-notranjska,Ženske,25-34 let,1278
-2019,Primorsko-notranjska,Ženske,25-34 let,NA
-2008,Primorsko-notranjska,Moški,35-44 let,1284
-2009,Primorsko-notranjska,Moški,35-44 let,1307
-2010,Primorsko-notranjska,Moški,35-44 let,1365
-2011,Primorsko-notranjska,Moški,35-44 let,1410
-2012,Primorsko-notranjska,Moški,35-44 let,1433
-2013,Primorsko-notranjska,Moški,35-44 let,1423
-2014,Primorsko-notranjska,Moški,35-44 let,1476
-2015,Primorsko-notranjska,Moški,35-44 let,1501
-2016,Primorsko-notranjska,Moški,35-44 let,1526
-2017,Primorsko-notranjska,Moški,35-44 let,1567
-2018,Primorsko-notranjska,Moški,35-44 let,NA
-2019,Primorsko-notranjska,Moški,35-44 let,1655
-2008,Primorsko-notranjska,Ženske,35-44 let,1138
-2009,Primorsko-notranjska,Ženske,35-44 let,1209
-2010,Primorsko-notranjska,Ženske,35-44 let,1209
-2011,Primorsko-notranjska,Ženske,35-44 let,1252
-2012,Primorsko-notranjska,Ženske,35-44 let,1275
-2013,Primorsko-notranjska,Ženske,35-44 let,1299
-2014,Primorsko-notranjska,Ženske,35-44 let,1314
-2015,Primorsko-notranjska,Ženske,35-44 let,1321
-2016,Primorsko-notranjska,Ženske,35-44 let,1374
-2017,Primorsko-notranjska,Ženske,35-44 let,1443
-2018,Primorsko-notranjska,Ženske,35-44 let,NA
-2019,Primorsko-notranjska,Ženske,35-44 let,1561
-2008,Primorsko-notranjska,Moški,45-54 let,1399
-2009,Primorsko-notranjska,Moški,45-54 let,1376
-2010,Primorsko-notranjska,Moški,45-54 let,1416
-2011,Primorsko-notranjska,Moški,45-54 let,1468
-2012,Primorsko-notranjska,Moški,45-54 let,1504
-2013,Primorsko-notranjska,Moški,45-54 let,1455
-2014,Primorsko-notranjska,Moški,45-54 let,1472
-2015,Primorsko-notranjska,Moški,45-54 let,1492
-2016,Primorsko-notranjska,Moški,45-54 let,1560
-2017,Primorsko-notranjska,Moški,45-54 let,1597
-2018,Primorsko-notranjska,Moški,45-54 let,1647
-2019,Primorsko-notranjska,Moški,45-54 let,1717
-2008,Primorsko-notranjska,Ženske,45-54 let,1273
-2009,Primorsko-notranjska,Ženske,45-54 let,1351
-2010,Primorsko-notranjska,Ženske,45-54 let,1376
-2011,Primorsko-notranjska,Ženske,45-54 let,1412
-2012,Primorsko-notranjska,Ženske,45-54 let,1417
-2013,Primorsko-notranjska,Ženske,45-54 let,1416
-2014,Primorsko-notranjska,Ženske,45-54 let,1407
-2015,Primorsko-notranjska,Ženske,45-54 let,1410
-2016,Primorsko-notranjska,Ženske,45-54 let,1422
-2017,Primorsko-notranjska,Ženske,45-54 let,1443
-2018,Primorsko-notranjska,Ženske,45-54 let,1465
-2019,Primorsko-notranjska,Ženske,45-54 let,1551
-2008,Primorsko-notranjska,Moški,55-64 let,1506
-2009,Primorsko-notranjska,Moški,55-64 let,1524
-2010,Primorsko-notranjska,Moški,55-64 let,1577
-2011,Primorsko-notranjska,Moški,55-64 let,1678
-2012,Primorsko-notranjska,Moški,55-64 let,1698
-2013,Primorsko-notranjska,Moški,55-64 let,1687
-2014,Primorsko-notranjska,Moški,55-64 let,1732
-2015,Primorsko-notranjska,Moški,55-64 let,1744
-2016,Primorsko-notranjska,Moški,55-64 let,1751
-2017,Primorsko-notranjska,Moški,55-64 let,1725
-2018,Primorsko-notranjska,Moški,55-64 let,1713
-2019,Primorsko-notranjska,Moški,55-64 let,1726
-2008,Primorsko-notranjska,Ženske,55-64 let,1614
-2009,Primorsko-notranjska,Ženske,55-64 let,1636
-2010,Primorsko-notranjska,Ženske,55-64 let,1633
-2011,Primorsko-notranjska,Ženske,55-64 let,1678
-2012,Primorsko-notranjska,Ženske,55-64 let,1716
-2013,Primorsko-notranjska,Ženske,55-64 let,1611
-2014,Primorsko-notranjska,Ženske,55-64 let,1600
-2015,Primorsko-notranjska,Ženske,55-64 let,1581
-2016,Primorsko-notranjska,Ženske,55-64 let,1636
-2017,Primorsko-notranjska,Ženske,55-64 let,1693
-2018,Primorsko-notranjska,Ženske,55-64 let,1738
-2019,Primorsko-notranjska,Ženske,55-64 let,1782
-2008,Primorsko-notranjska,Moški,65 let ali več,NA
-2009,Primorsko-notranjska,Moški,65 let ali več,3408
-2010,Primorsko-notranjska,Moški,65 let ali več,2947
-2011,Primorsko-notranjska,Moški,65 let ali več,2520
-2012,Primorsko-notranjska,Moški,65 let ali več,NA
-2013,Primorsko-notranjska,Moški,65 let ali več,2978
-2014,Primorsko-notranjska,Moški,65 let ali več,2713
-2015,Primorsko-notranjska,Moški,65 let ali več,NA
-2016,Primorsko-notranjska,Moški,65 let ali več,NA
-2017,Primorsko-notranjska,Moški,65 let ali več,NA
-2018,Primorsko-notranjska,Moški,65 let ali več,NA
-2019,Primorsko-notranjska,Moški,65 let ali več,NA
-2008,Primorsko-notranjska,Ženske,65 let ali več,NA
-2009,Primorsko-notranjska,Ženske,65 let ali več,NA
-2010,Primorsko-notranjska,Ženske,65 let ali več,NA
-2011,Primorsko-notranjska,Ženske,65 let ali več,NA
-2012,Primorsko-notranjska,Ženske,65 let ali več,NA
-2013,Primorsko-notranjska,Ženske,65 let ali več,NA
-2014,Primorsko-notranjska,Ženske,65 let ali več,NA
-2015,Primorsko-notranjska,Ženske,65 let ali več,NA
-2016,Primorsko-notranjska,Ženske,65 let ali več,NA
-2017,Primorsko-notranjska,Ženske,65 let ali več,NA
-2018,Primorsko-notranjska,Ženske,65 let ali več,NA
-2019,Primorsko-notranjska,Ženske,65 let ali več,NA
-2008,Goriška,Moški,15-64 let,1454
-2009,Goriška,Moški,15-64 let,1452
-2010,Goriška,Moški,15-64 let,1521
-2011,Goriška,Moški,15-64 let,1566
-2012,Goriška,Moški,15-64 let,1573
-2013,Goriška,Moški,15-64 let,1557
-2014,Goriška,Moški,15-64 let,1594
-2015,Goriška,Moški,15-64 let,NA
-2016,Goriška,Moški,15-64 let,NA
-2017,Goriška,Moški,15-64 let,1673
-2018,Goriška,Moški,15-64 let,1729
-2019,Goriška,Moški,15-64 let,1785
-2008,Goriška,Ženske,15-64 let,1310
-2009,Goriška,Ženske,15-64 let,1378
-2010,Goriška,Ženske,15-64 let,1432
-2011,Goriška,Ženske,15-64 let,1459
-2012,Goriška,Ženske,15-64 let,1465
-2013,Goriška,Ženske,15-64 let,1452
-2014,Goriška,Ženske,15-64 let,1483
-2015,Goriška,Ženske,15-64 let,NA
-2016,Goriška,Ženske,15-64 let,NA
-2017,Goriška,Ženske,15-64 let,1547
-2018,Goriška,Ženske,15-64 let,1593
-2019,Goriška,Ženske,15-64 let,1667
-2008,Goriška,Moški,15-24 let,907
-2009,Goriška,Moški,15-24 let,877
-2010,Goriška,Moški,15-24 let,950
-2011,Goriška,Moški,15-24 let,1004
-2012,Goriška,Moški,15-24 let,1027
-2013,Goriška,Moški,15-24 let,1023
-2014,Goriška,Moški,15-24 let,1041
-2015,Goriška,Moški,15-24 let,NA
-2016,Goriška,Moški,15-24 let,NA
-2017,Goriška,Moški,15-24 let,1145
-2018,Goriška,Moški,15-24 let,1174
-2019,Goriška,Moški,15-24 let,1225
-2008,Goriška,Ženske,15-24 let,864
-2009,Goriška,Ženske,15-24 let,852
-2010,Goriška,Ženske,15-24 let,914
-2011,Goriška,Ženske,15-24 let,964
-2012,Goriška,Ženske,15-24 let,958
-2013,Goriška,Ženske,15-24 let,927
-2014,Goriška,Ženske,15-24 let,927
-2015,Goriška,Ženske,15-24 let,NA
-2016,Goriška,Ženske,15-24 let,NA
-2017,Goriška,Ženske,15-24 let,1063
-2018,Goriška,Ženske,15-24 let,1079
-2019,Goriška,Ženske,15-24 let,1119
-2008,Goriška,Moški,25-34 let,1248
-2009,Goriška,Moški,25-34 let,1232
-2010,Goriška,Moški,25-34 let,1295
-2011,Goriška,Moški,25-34 let,1325
-2012,Goriška,Moški,25-34 let,1331
-2013,Goriška,Moški,25-34 let,1340
-2014,Goriška,Moški,25-34 let,1356
-2015,Goriška,Moški,25-34 let,1361
-2016,Goriška,Moški,25-34 let,1394
-2017,Goriška,Moški,25-34 let,1412
-2018,Goriška,Moški,25-34 let,1452
-2019,Goriška,Moški,25-34 let,1517
-2008,Goriška,Ženske,25-34 let,1151
-2009,Goriška,Ženske,25-34 let,1190
-2010,Goriška,Ženske,25-34 let,1212
-2011,Goriška,Ženske,25-34 let,1243
-2012,Goriška,Ženske,25-34 let,1241
-2013,Goriška,Ženske,25-34 let,1227
-2014,Goriška,Ženske,25-34 let,1237
-2015,Goriška,Ženske,25-34 let,1217
-2016,Goriška,Ženske,25-34 let,1253
-2017,Goriška,Ženske,25-34 let,1287
-2018,Goriška,Ženske,25-34 let,1336
-2019,Goriška,Ženske,25-34 let,1387
-2008,Goriška,Moški,35-44 let,1506
-2009,Goriška,Moški,35-44 let,1513
-2010,Goriška,Moški,35-44 let,1570
-2011,Goriška,Moški,35-44 let,1605
-2012,Goriška,Moški,35-44 let,1606
-2013,Goriška,Moški,35-44 let,1591
-2014,Goriška,Moški,35-44 let,1630
-2015,Goriška,Moški,35-44 let,1629
-2016,Goriška,Moški,35-44 let,1667
-2017,Goriška,Moški,35-44 let,1692
-2018,Goriška,Moški,35-44 let,1768
-2019,Goriška,Moški,35-44 let,1820
-2008,Goriška,Ženske,35-44 let,1303
-2009,Goriška,Ženske,35-44 let,1358
-2010,Goriška,Ženske,35-44 let,1414
-2011,Goriška,Ženske,35-44 let,1433
-2012,Goriška,Ženske,35-44 let,1436
-2013,Goriška,Ženske,35-44 let,1427
-2014,Goriška,Ženske,35-44 let,1462
-2015,Goriška,Ženske,35-44 let,1452
-2016,Goriška,Ženske,35-44 let,1517
-2017,Goriška,Ženske,35-44 let,1519
-2018,Goriška,Ženske,35-44 let,1561
-2019,Goriška,Ženske,35-44 let,1641
-2008,Goriška,Moški,45-54 let,1561
-2009,Goriška,Moški,45-54 let,1548
-2010,Goriška,Moški,45-54 let,1615
-2011,Goriška,Moški,45-54 let,1670
-2012,Goriška,Moški,45-54 let,1659
-2013,Goriška,Moški,45-54 let,1625
-2014,Goriška,Moški,45-54 let,1659
-2015,Goriška,Moški,45-54 let,1671
-2016,Goriška,Moški,45-54 let,1746
-2017,Goriška,Moški,45-54 let,1772
-2018,Goriška,Moški,45-54 let,1815
-2019,Goriška,Moški,45-54 let,1889
-2008,Goriška,Ženske,45-54 let,1384
-2009,Goriška,Ženske,45-54 let,1454
-2010,Goriška,Ženske,45-54 let,1514
-2011,Goriška,Ženske,45-54 let,1522
-2012,Goriška,Ženske,45-54 let,1523
-2013,Goriška,Ženske,45-54 let,1494
-2014,Goriška,Ženske,45-54 let,1511
-2015,Goriška,Ženske,45-54 let,1499
-2016,Goriška,Ženske,45-54 let,1547
-2017,Goriška,Ženske,45-54 let,1576
-2018,Goriška,Ženske,45-54 let,1633
-2019,Goriška,Ženske,45-54 let,1715
-2008,Goriška,Moški,55-64 let,1755
-2009,Goriška,Moški,55-64 let,1787
-2010,Goriška,Moški,55-64 let,1876
-2011,Goriška,Moški,55-64 let,1903
-2012,Goriška,Moški,55-64 let,1928
-2013,Goriška,Moški,55-64 let,1844
-2014,Goriška,Moški,55-64 let,1856
-2015,Goriška,Moški,55-64 let,1857
-2016,Goriška,Moški,55-64 let,1878
-2017,Goriška,Moški,55-64 let,1873
-2018,Goriška,Moški,55-64 let,1947
-2019,Goriška,Moški,55-64 let,1999
-2008,Goriška,Ženske,55-64 let,1742
-2009,Goriška,Ženske,55-64 let,1936
-2010,Goriška,Ženske,55-64 let,1987
-2011,Goriška,Ženske,55-64 let,1936
-2012,Goriška,Ženske,55-64 let,1920
-2013,Goriška,Ženske,55-64 let,1809
-2014,Goriška,Ženske,55-64 let,1787
-2015,Goriška,Ženske,55-64 let,1753
-2016,Goriška,Ženske,55-64 let,1794
-2017,Goriška,Ženske,55-64 let,1761
-2018,Goriška,Ženske,55-64 let,1787
-2019,Goriška,Ženske,55-64 let,1863
-2008,Goriška,Moški,65 let ali več,3660
-2009,Goriška,Moški,65 let ali več,4930
-2010,Goriška,Moški,65 let ali več,NA
-2011,Goriška,Moški,65 let ali več,3923
-2012,Goriška,Moški,65 let ali več,3892
-2013,Goriška,Moški,65 let ali več,3616
-2014,Goriška,Moški,65 let ali več,3127
-2015,Goriška,Moški,65 let ali več,NA
-2016,Goriška,Moški,65 let ali več,NA
-2017,Goriška,Moški,65 let ali več,2968
-2018,Goriška,Moški,65 let ali več,2690
-2019,Goriška,Moški,65 let ali več,2891
-2008,Goriška,Ženske,65 let ali več,NA
-2009,Goriška,Ženske,65 let ali več,NA
-2010,Goriška,Ženske,65 let ali več,NA
-2011,Goriška,Ženske,65 let ali več,NA
-2012,Goriška,Ženske,65 let ali več,NA
-2013,Goriška,Ženske,65 let ali več,NA
-2014,Goriška,Ženske,65 let ali več,NA
-2015,Goriška,Ženske,65 let ali več,NA
-2016,Goriška,Ženske,65 let ali več,NA
-2017,Goriška,Ženske,65 let ali več,2162
-2018,Goriška,Ženske,65 let ali več,3577
-2019,Goriška,Ženske,65 let ali več,3102
-2008,Obalno-kraška,Moški,15-64 let,1474
-2009,Obalno-kraška,Moški,15-64 let,1508
-2010,Obalno-kraška,Moški,15-64 let,1541
-2011,Obalno-kraška,Moški,15-64 let,1587
-2012,Obalno-kraška,Moški,15-64 let,1608
-2013,Obalno-kraška,Moški,15-64 let,1601
-2014,Obalno-kraška,Moški,15-64 let,1656
-2015,Obalno-kraška,Moški,15-64 let,1673
-2016,Obalno-kraška,Moški,15-64 let,1720
-2017,Obalno-kraška,Moški,15-64 let,1736
-2018,Obalno-kraška,Moški,15-64 let,1791
-2019,Obalno-kraška,Moški,15-64 let,1875
-2008,Obalno-kraška,Ženske,15-64 let,1374
-2009,Obalno-kraška,Ženske,15-64 let,1457
-2010,Obalno-kraška,Ženske,15-64 let,1496
-2011,Obalno-kraška,Ženske,15-64 let,1524
-2012,Obalno-kraška,Ženske,15-64 let,1539
-2013,Obalno-kraška,Ženske,15-64 let,1547
-2014,Obalno-kraška,Ženske,15-64 let,1583
-2015,Obalno-kraška,Ženske,15-64 let,1593
-2016,Obalno-kraška,Ženske,15-64 let,1625
-2017,Obalno-kraška,Ženske,15-64 let,1640
-2018,Obalno-kraška,Ženske,15-64 let,1678
-2019,Obalno-kraška,Ženske,15-64 let,1753
-2008,Obalno-kraška,Moški,15-24 let,904
-2009,Obalno-kraška,Moški,15-24 let,909
-2010,Obalno-kraška,Moški,15-24 let,961
-2011,Obalno-kraška,Moški,15-24 let,1039
-2012,Obalno-kraška,Moški,15-24 let,1027
-2013,Obalno-kraška,Moški,15-24 let,1033
-2014,Obalno-kraška,Moški,15-24 let,1076
-2015,Obalno-kraška,Moški,15-24 let,1082
-2016,Obalno-kraška,Moški,15-24 let,1102
-2017,Obalno-kraška,Moški,15-24 let,1163
-2018,Obalno-kraška,Moški,15-24 let,1214
-2019,Obalno-kraška,Moški,15-24 let,1266
-2008,Obalno-kraška,Ženske,15-24 let,864
-2009,Obalno-kraška,Ženske,15-24 let,901
-2010,Obalno-kraška,Ženske,15-24 let,943
-2011,Obalno-kraška,Ženske,15-24 let,969
-2012,Obalno-kraška,Ženske,15-24 let,1010
-2013,Obalno-kraška,Ženske,15-24 let,997
-2014,Obalno-kraška,Ženske,15-24 let,984
-2015,Obalno-kraška,Ženske,15-24 let,976
-2016,Obalno-kraška,Ženske,15-24 let,994
-2017,Obalno-kraška,Ženske,15-24 let,1047
-2018,Obalno-kraška,Ženske,15-24 let,1084
-2019,Obalno-kraška,Ženske,15-24 let,1157
-2008,Obalno-kraška,Moški,25-34 let,1262
-2009,Obalno-kraška,Moški,25-34 let,1279
-2010,Obalno-kraška,Moški,25-34 let,1305
-2011,Obalno-kraška,Moški,25-34 let,1342
-2012,Obalno-kraška,Moški,25-34 let,1358
-2013,Obalno-kraška,Moški,25-34 let,1336
-2014,Obalno-kraška,Moški,25-34 let,1367
-2015,Obalno-kraška,Moški,25-34 let,1364
-2016,Obalno-kraška,Moški,25-34 let,1407
-2017,Obalno-kraška,Moški,25-34 let,1443
-2018,Obalno-kraška,Moški,25-34 let,1500
-2019,Obalno-kraška,Moški,25-34 let,1604
-2008,Obalno-kraška,Ženske,25-34 let,1185
-2009,Obalno-kraška,Ženske,25-34 let,1221
-2010,Obalno-kraška,Ženske,25-34 let,1275
-2011,Obalno-kraška,Ženske,25-34 let,1292
-2012,Obalno-kraška,Ženske,25-34 let,1297
-2013,Obalno-kraška,Ženske,25-34 let,1284
-2014,Obalno-kraška,Ženske,25-34 let,1303
-2015,Obalno-kraška,Ženske,25-34 let,1296
-2016,Obalno-kraška,Ženske,25-34 let,1307
-2017,Obalno-kraška,Ženske,25-34 let,1320
-2018,Obalno-kraška,Ženske,25-34 let,1348
-2019,Obalno-kraška,Ženske,25-34 let,1408
-2008,Obalno-kraška,Moški,35-44 let,1534
-2009,Obalno-kraška,Moški,35-44 let,1584
-2010,Obalno-kraška,Moški,35-44 let,1608
-2011,Obalno-kraška,Moški,35-44 let,1658
-2012,Obalno-kraška,Moški,35-44 let,1669
-2013,Obalno-kraška,Moški,35-44 let,1654
-2014,Obalno-kraška,Moški,35-44 let,1703
-2015,Obalno-kraška,Moški,35-44 let,1723
-2016,Obalno-kraška,Moški,35-44 let,1759
-2017,Obalno-kraška,Moški,35-44 let,1773
-2018,Obalno-kraška,Moški,35-44 let,1817
-2019,Obalno-kraška,Moški,35-44 let,1904
-2008,Obalno-kraška,Ženske,35-44 let,1404
-2009,Obalno-kraška,Ženske,35-44 let,1499
-2010,Obalno-kraška,Ženske,35-44 let,1513
-2011,Obalno-kraška,Ženske,35-44 let,1537
-2012,Obalno-kraška,Ženske,35-44 let,1559
-2013,Obalno-kraška,Ženske,35-44 let,1563
-2014,Obalno-kraška,Ženske,35-44 let,1594
-2015,Obalno-kraška,Ženske,35-44 let,1607
-2016,Obalno-kraška,Ženske,35-44 let,1620
-2017,Obalno-kraška,Ženske,35-44 let,1626
-2018,Obalno-kraška,Ženske,35-44 let,1653
-2019,Obalno-kraška,Ženske,35-44 let,1705
-2008,Obalno-kraška,Moški,45-54 let,1581
-2009,Obalno-kraška,Moški,45-54 let,1619
-2010,Obalno-kraška,Moški,45-54 let,1662
-2011,Obalno-kraška,Moški,45-54 let,1694
-2012,Obalno-kraška,Moški,45-54 let,1705
-2013,Obalno-kraška,Moški,45-54 let,1715
-2014,Obalno-kraška,Moški,45-54 let,1762
-2015,Obalno-kraška,Moški,45-54 let,1772
-2016,Obalno-kraška,Moški,45-54 let,1832
-2017,Obalno-kraška,Moški,45-54 let,1839
-2018,Obalno-kraška,Moški,45-54 let,1934
-2019,Obalno-kraška,Moški,45-54 let,2038
-2008,Obalno-kraška,Ženske,45-54 let,1437
-2009,Obalno-kraška,Ženske,45-54 let,1531
-2010,Obalno-kraška,Ženske,45-54 let,1568
-2011,Obalno-kraška,Ženske,45-54 let,1599
-2012,Obalno-kraška,Ženske,45-54 let,1603
-2013,Obalno-kraška,Ženske,45-54 let,1613
-2014,Obalno-kraška,Ženske,45-54 let,1644
-2015,Obalno-kraška,Ženske,45-54 let,1648
-2016,Obalno-kraška,Ženske,45-54 let,1706
-2017,Obalno-kraška,Ženske,45-54 let,1719
-2018,Obalno-kraška,Ženske,45-54 let,1781
-2019,Obalno-kraška,Ženske,45-54 let,1880
-2008,Obalno-kraška,Moški,55-64 let,1740
-2009,Obalno-kraška,Moški,55-64 let,1807
-2010,Obalno-kraška,Moški,55-64 let,1800
-2011,Obalno-kraška,Moški,55-64 let,1807
-2012,Obalno-kraška,Moški,55-64 let,1875
-2013,Obalno-kraška,Moški,55-64 let,1824
-2014,Obalno-kraška,Moški,55-64 let,1878
-2015,Obalno-kraška,Moški,55-64 let,1918
-2016,Obalno-kraška,Moški,55-64 let,1921
-2017,Obalno-kraška,Moški,55-64 let,1899
-2018,Obalno-kraška,Moški,55-64 let,1902
-2019,Obalno-kraška,Moški,55-64 let,1949
-2008,Obalno-kraška,Ženske,55-64 let,1672
-2009,Obalno-kraška,Ženske,55-64 let,1802
-2010,Obalno-kraška,Ženske,55-64 let,1872
-2011,Obalno-kraška,Ženske,55-64 let,1855
-2012,Obalno-kraška,Ženske,55-64 let,1837
-2013,Obalno-kraška,Ženske,55-64 let,1785
-2014,Obalno-kraška,Ženske,55-64 let,1805
-2015,Obalno-kraška,Ženske,55-64 let,1797
-2016,Obalno-kraška,Ženske,55-64 let,1809
-2017,Obalno-kraška,Ženske,55-64 let,1832
-2018,Obalno-kraška,Ženske,55-64 let,1861
-2019,Obalno-kraška,Ženske,55-64 let,1928
-2008,Obalno-kraška,Moški,65 let ali več,3585
-2009,Obalno-kraška,Moški,65 let ali več,3750
-2010,Obalno-kraška,Moški,65 let ali več,3768
-2011,Obalno-kraška,Moški,65 let ali več,3880
-2012,Obalno-kraška,Moški,65 let ali več,3667
-2013,Obalno-kraška,Moški,65 let ali več,3199
-2014,Obalno-kraška,Moški,65 let ali več,2990
-2015,Obalno-kraška,Moški,65 let ali več,2725
-2016,Obalno-kraška,Moški,65 let ali več,2902
-2017,Obalno-kraška,Moški,65 let ali več,2833
-2018,Obalno-kraška,Moški,65 let ali več,2554
-2019,Obalno-kraška,Moški,65 let ali več,2525
-2008,Obalno-kraška,Ženske,65 let ali več,NA
-2009,Obalno-kraška,Ženske,65 let ali več,NA
-2010,Obalno-kraška,Ženske,65 let ali več,NA
-2011,Obalno-kraška,Ženske,65 let ali več,3141
-2012,Obalno-kraška,Ženske,65 let ali več,3096
-2013,Obalno-kraška,Ženske,65 let ali več,3734
-2014,Obalno-kraška,Ženske,65 let ali več,NA
-2015,Obalno-kraška,Ženske,65 let ali več,3980
-2016,Obalno-kraška,Ženske,65 let ali več,3058
-2017,Obalno-kraška,Ženske,65 let ali več,2863
-2018,Obalno-kraška,Ženske,65 let ali več,3292
-2019,Obalno-kraška,Ženske,65 let ali več,3098
+2008,SLOVENIJA,m,15-64 let,1469
+2009,SLOVENIJA,m,15-64 let,1491
+2010,SLOVENIJA,m,15-64 let,1559
+2011,SLOVENIJA,m,15-64 let,1611
+2012,SLOVENIJA,m,15-64 let,1635
+2013,SLOVENIJA,m,15-64 let,1634
+2014,SLOVENIJA,m,15-64 let,1673
+2015,SLOVENIJA,m,15-64 let,1692
+2016,SLOVENIJA,m,15-64 let,1726
+2017,SLOVENIJA,m,15-64 let,1764
+2018,SLOVENIJA,m,15-64 let,1830
+2019,SLOVENIJA,m,15-64 let,1893
+2008,SLOVENIJA,ž,15-64 let,1367
+2009,SLOVENIJA,ž,15-64 let,1451
+2010,SLOVENIJA,ž,15-64 let,1505
+2011,SLOVENIJA,ž,15-64 let,1541
+2012,SLOVENIJA,ž,15-64 let,1554
+2013,SLOVENIJA,ž,15-64 let,1549
+2014,SLOVENIJA,ž,15-64 let,1587
+2015,SLOVENIJA,ž,15-64 let,1596
+2016,SLOVENIJA,ž,15-64 let,1629
+2017,SLOVENIJA,ž,15-64 let,1662
+2018,SLOVENIJA,ž,15-64 let,1705
+2019,SLOVENIJA,ž,15-64 let,1787
+2008,SLOVENIJA,m,15-24 let,913
+2009,SLOVENIJA,m,15-24 let,913
+2010,SLOVENIJA,m,15-24 let,979
+2011,SLOVENIJA,m,15-24 let,1034
+2012,SLOVENIJA,m,15-24 let,1051
+2013,SLOVENIJA,m,15-24 let,1064
+2014,SLOVENIJA,m,15-24 let,1097
+2015,SLOVENIJA,m,15-24 let,1119
+2016,SLOVENIJA,m,15-24 let,1139
+2017,SLOVENIJA,m,15-24 let,1172
+2018,SLOVENIJA,m,15-24 let,1233
+2019,SLOVENIJA,m,15-24 let,1278
+2008,SLOVENIJA,ž,15-24 let,863
+2009,SLOVENIJA,ž,15-24 let,901
+2010,SLOVENIJA,ž,15-24 let,951
+2011,SLOVENIJA,ž,15-24 let,991
+2012,SLOVENIJA,ž,15-24 let,997
+2013,SLOVENIJA,ž,15-24 let,994
+2014,SLOVENIJA,ž,15-24 let,1006
+2015,SLOVENIJA,ž,15-24 let,1009
+2016,SLOVENIJA,ž,15-24 let,1026
+2017,SLOVENIJA,ž,15-24 let,1056
+2018,SLOVENIJA,ž,15-24 let,1097
+2019,SLOVENIJA,ž,15-24 let,1146
+2008,SLOVENIJA,m,25-34 let,1291
+2009,SLOVENIJA,m,25-34 let,1295
+2010,SLOVENIJA,m,25-34 let,1349
+2011,SLOVENIJA,m,25-34 let,1381
+2012,SLOVENIJA,m,25-34 let,1393
+2013,SLOVENIJA,m,25-34 let,1384
+2014,SLOVENIJA,m,25-34 let,1411
+2015,SLOVENIJA,m,25-34 let,1421
+2016,SLOVENIJA,m,25-34 let,1443
+2017,SLOVENIJA,m,25-34 let,1482
+2018,SLOVENIJA,m,25-34 let,1556
+2019,SLOVENIJA,m,25-34 let,1621
+2008,SLOVENIJA,ž,25-34 let,1205
+2009,SLOVENIJA,ž,25-34 let,1253
+2010,SLOVENIJA,ž,25-34 let,1299
+2011,SLOVENIJA,ž,25-34 let,1320
+2012,SLOVENIJA,ž,25-34 let,1326
+2013,SLOVENIJA,ž,25-34 let,1315
+2014,SLOVENIJA,ž,25-34 let,1328
+2015,SLOVENIJA,ž,25-34 let,1326
+2016,SLOVENIJA,ž,25-34 let,1340
+2017,SLOVENIJA,ž,25-34 let,1365
+2018,SLOVENIJA,ž,25-34 let,1411
+2019,SLOVENIJA,ž,25-34 let,1474
+2008,SLOVENIJA,m,35-44 let,1532
+2009,SLOVENIJA,m,35-44 let,1559
+2010,SLOVENIJA,m,35-44 let,1625
+2011,SLOVENIJA,m,35-44 let,1675
+2012,SLOVENIJA,m,35-44 let,1705
+2013,SLOVENIJA,m,35-44 let,1697
+2014,SLOVENIJA,m,35-44 let,1732
+2015,SLOVENIJA,m,35-44 let,1753
+2016,SLOVENIJA,m,35-44 let,1781
+2017,SLOVENIJA,m,35-44 let,1811
+2018,SLOVENIJA,m,35-44 let,1879
+2019,SLOVENIJA,m,35-44 let,1942
+2008,SLOVENIJA,ž,35-44 let,1372
+2009,SLOVENIJA,ž,35-44 let,1460
+2010,SLOVENIJA,ž,35-44 let,1511
+2011,SLOVENIJA,ž,35-44 let,1549
+2012,SLOVENIJA,ž,35-44 let,1567
+2013,SLOVENIJA,ž,35-44 let,1565
+2014,SLOVENIJA,ž,35-44 let,1599
+2015,SLOVENIJA,ž,35-44 let,1604
+2016,SLOVENIJA,ž,35-44 let,1634
+2017,SLOVENIJA,ž,35-44 let,1663
+2018,SLOVENIJA,ž,35-44 let,1703
+2019,SLOVENIJA,ž,35-44 let,1780
+2008,SLOVENIJA,m,45-54 let,1553
+2009,SLOVENIJA,m,45-54 let,1584
+2010,SLOVENIJA,m,45-54 let,1648
+2011,SLOVENIJA,m,45-54 let,1704
+2012,SLOVENIJA,m,45-54 let,1729
+2013,SLOVENIJA,m,45-54 let,1729
+2014,SLOVENIJA,m,45-54 let,1773
+2015,SLOVENIJA,m,45-54 let,1792
+2016,SLOVENIJA,m,45-54 let,1842
+2017,SLOVENIJA,m,45-54 let,1885
+2018,SLOVENIJA,m,45-54 let,1960
+2019,SLOVENIJA,m,45-54 let,2038
+2008,SLOVENIJA,ž,45-54 let,1424
+2009,SLOVENIJA,ž,45-54 let,1520
+2010,SLOVENIJA,ž,45-54 let,1573
+2011,SLOVENIJA,ž,45-54 let,1600
+2012,SLOVENIJA,ž,45-54 let,1607
+2013,SLOVENIJA,ž,45-54 let,1592
+2014,SLOVENIJA,ž,45-54 let,1631
+2015,SLOVENIJA,ž,45-54 let,1638
+2016,SLOVENIJA,ž,45-54 let,1675
+2017,SLOVENIJA,ž,45-54 let,1718
+2018,SLOVENIJA,ž,45-54 let,1771
+2019,SLOVENIJA,ž,45-54 let,1867
+2008,SLOVENIJA,m,55-64 let,1764
+2009,SLOVENIJA,m,55-64 let,1804
+2010,SLOVENIJA,m,55-64 let,1900
+2011,SLOVENIJA,m,55-64 let,1932
+2012,SLOVENIJA,m,55-64 let,1939
+2013,SLOVENIJA,m,55-64 let,1896
+2014,SLOVENIJA,m,55-64 let,1899
+2015,SLOVENIJA,m,55-64 let,1911
+2016,SLOVENIJA,m,55-64 let,1928
+2017,SLOVENIJA,m,55-64 let,1954
+2018,SLOVENIJA,m,55-64 let,1996
+2019,SLOVENIJA,m,55-64 let,2055
+2008,SLOVENIJA,ž,55-64 let,1874
+2009,SLOVENIJA,ž,55-64 let,1987
+2010,SLOVENIJA,ž,55-64 let,2037
+2011,SLOVENIJA,ž,55-64 let,2007
+2012,SLOVENIJA,ž,55-64 let,1995
+2013,SLOVENIJA,ž,55-64 let,1896
+2014,SLOVENIJA,ž,55-64 let,1884
+2015,SLOVENIJA,ž,55-64 let,1863
+2016,SLOVENIJA,ž,55-64 let,1873
+2017,SLOVENIJA,ž,55-64 let,1878
+2018,SLOVENIJA,ž,55-64 let,1905
+2019,SLOVENIJA,ž,55-64 let,1987
+2008,SLOVENIJA,m,65 let ali več,4066
+2009,SLOVENIJA,m,65 let ali več,4233
+2010,SLOVENIJA,m,65 let ali več,4195
+2011,SLOVENIJA,m,65 let ali več,4051
+2012,SLOVENIJA,m,65 let ali več,3984
+2013,SLOVENIJA,m,65 let ali več,3821
+2014,SLOVENIJA,m,65 let ali več,3608
+2015,SLOVENIJA,m,65 let ali več,3634
+2016,SLOVENIJA,m,65 let ali več,3517
+2017,SLOVENIJA,m,65 let ali več,3338
+2018,SLOVENIJA,m,65 let ali več,3156
+2019,SLOVENIJA,m,65 let ali več,3175
+2008,SLOVENIJA,ž,65 let ali več,3131
+2009,SLOVENIJA,ž,65 let ali več,3431
+2010,SLOVENIJA,ž,65 let ali več,3213
+2011,SLOVENIJA,ž,65 let ali več,3327
+2012,SLOVENIJA,ž,65 let ali več,3588
+2013,SLOVENIJA,ž,65 let ali več,3496
+2014,SLOVENIJA,ž,65 let ali več,3288
+2015,SLOVENIJA,ž,65 let ali več,3373
+2016,SLOVENIJA,ž,65 let ali več,3285
+2017,SLOVENIJA,ž,65 let ali več,3255
+2018,SLOVENIJA,ž,65 let ali več,3188
+2019,SLOVENIJA,ž,65 let ali več,3196
+2008,Pomurska,m,15-64 let,1227
+2009,Pomurska,m,15-64 let,1288
+2010,Pomurska,m,15-64 let,1328
+2011,Pomurska,m,15-64 let,1382
+2012,Pomurska,m,15-64 let,1404
+2013,Pomurska,m,15-64 let,1399
+2014,Pomurska,m,15-64 let,1457
+2019,Pomurska,m,15-64 let,1685
+2008,Pomurska,ž,15-64 let,1135
+2009,Pomurska,ž,15-64 let,1337
+2010,Pomurska,ž,15-64 let,1331
+2011,Pomurska,ž,15-64 let,1385
+2012,Pomurska,ž,15-64 let,1373
+2013,Pomurska,ž,15-64 let,1357
+2014,Pomurska,ž,15-64 let,1427
+2019,Pomurska,ž,15-64 let,1594
+2008,Pomurska,m,15-24 let,855
+2009,Pomurska,m,15-24 let,881
+2010,Pomurska,m,15-24 let,907
+2011,Pomurska,m,15-24 let,965
+2012,Pomurska,m,15-24 let,969
+2013,Pomurska,m,15-24 let,984
+2014,Pomurska,m,15-24 let,1003
+2018,Pomurska,m,15-24 let,1172
+2019,Pomurska,m,15-24 let,1220
+2008,Pomurska,ž,15-24 let,783
+2009,Pomurska,ž,15-24 let,845
+2010,Pomurska,ž,15-24 let,880
+2011,Pomurska,ž,15-24 let,926
+2012,Pomurska,ž,15-24 let,916
+2013,Pomurska,ž,15-24 let,898
+2014,Pomurska,ž,15-24 let,904
+2018,Pomurska,ž,15-24 let,1012
+2019,Pomurska,ž,15-24 let,1079
+2008,Pomurska,m,25-34 let,1110
+2009,Pomurska,m,25-34 let,1126
+2010,Pomurska,m,25-34 let,1165
+2011,Pomurska,m,25-34 let,1208
+2012,Pomurska,m,25-34 let,1227
+2013,Pomurska,m,25-34 let,1217
+2014,Pomurska,m,25-34 let,1247
+2015,Pomurska,m,25-34 let,1260
+2016,Pomurska,m,25-34 let,1290
+2017,Pomurska,m,25-34 let,1332
+2018,Pomurska,m,25-34 let,1398
+2019,Pomurska,m,25-34 let,1489
+2008,Pomurska,ž,25-34 let,1053
+2009,Pomurska,ž,25-34 let,1130
+2010,Pomurska,ž,25-34 let,1152
+2011,Pomurska,ž,25-34 let,1185
+2012,Pomurska,ž,25-34 let,1204
+2013,Pomurska,ž,25-34 let,1179
+2014,Pomurska,ž,25-34 let,1184
+2015,Pomurska,ž,25-34 let,1191
+2016,Pomurska,ž,25-34 let,1200
+2017,Pomurska,ž,25-34 let,1226
+2018,Pomurska,ž,25-34 let,1259
+2019,Pomurska,ž,25-34 let,1338
+2008,Pomurska,m,35-44 let,1255
+2009,Pomurska,m,35-44 let,1322
+2010,Pomurska,m,35-44 let,1345
+2011,Pomurska,m,35-44 let,1393
+2012,Pomurska,m,35-44 let,1424
+2013,Pomurska,m,35-44 let,1432
+2014,Pomurska,m,35-44 let,1492
+2015,Pomurska,m,35-44 let,1500
+2016,Pomurska,m,35-44 let,1554
+2017,Pomurska,m,35-44 let,1597
+2018,Pomurska,m,35-44 let,1666
+2019,Pomurska,m,35-44 let,1742
+2008,Pomurska,ž,35-44 let,1095
+2009,Pomurska,ž,35-44 let,1336
+2010,Pomurska,ž,35-44 let,1303
+2011,Pomurska,ž,35-44 let,1359
+2012,Pomurska,ž,35-44 let,1354
+2013,Pomurska,ž,35-44 let,1334
+2014,Pomurska,ž,35-44 let,1397
+2015,Pomurska,ž,35-44 let,1401
+2016,Pomurska,ž,35-44 let,1404
+2017,Pomurska,ž,35-44 let,1441
+2018,Pomurska,ž,35-44 let,1485
+2019,Pomurska,ž,35-44 let,1557
+2008,Pomurska,m,45-54 let,1305
+2009,Pomurska,m,45-54 let,1385
+2010,Pomurska,m,45-54 let,1421
+2011,Pomurska,m,45-54 let,1466
+2012,Pomurska,m,45-54 let,1486
+2013,Pomurska,m,45-54 let,1457
+2014,Pomurska,m,45-54 let,1530
+2015,Pomurska,m,45-54 let,1530
+2016,Pomurska,m,45-54 let,1572
+2017,Pomurska,m,45-54 let,1591
+2018,Pomurska,m,45-54 let,1647
+2019,Pomurska,m,45-54 let,1762
+2008,Pomurska,ž,45-54 let,1196
+2009,Pomurska,ž,45-54 let,1458
+2010,Pomurska,ž,45-54 let,1429
+2011,Pomurska,ž,45-54 let,1470
+2012,Pomurska,ž,45-54 let,1429
+2013,Pomurska,ž,45-54 let,1407
+2014,Pomurska,ž,45-54 let,1502
+2015,Pomurska,ž,45-54 let,1480
+2016,Pomurska,ž,45-54 let,1457
+2017,Pomurska,ž,45-54 let,1477
+2018,Pomurska,ž,45-54 let,1507
+2019,Pomurska,ž,45-54 let,1630
+2008,Pomurska,m,55-64 let,1395
+2009,Pomurska,m,55-64 let,1527
+2010,Pomurska,m,55-64 let,1593
+2011,Pomurska,m,55-64 let,1643
+2012,Pomurska,m,55-64 let,1654
+2013,Pomurska,m,55-64 let,1632
+2014,Pomurska,m,55-64 let,1674
+2015,Pomurska,m,55-64 let,1660
+2016,Pomurska,m,55-64 let,1687
+2017,Pomurska,m,55-64 let,1715
+2019,Pomurska,m,55-64 let,1794
+2008,Pomurska,ž,55-64 let,1610
+2009,Pomurska,ž,55-64 let,1866
+2010,Pomurska,ž,55-64 let,1960
+2011,Pomurska,ž,55-64 let,1916
+2012,Pomurska,ž,55-64 let,1821
+2013,Pomurska,ž,55-64 let,1707
+2014,Pomurska,ž,55-64 let,1762
+2015,Pomurska,ž,55-64 let,1720
+2016,Pomurska,ž,55-64 let,1738
+2017,Pomurska,ž,55-64 let,1735
+2019,Pomurska,ž,55-64 let,1864
+2008,Pomurska,m,65 let ali več,3840
+2009,Pomurska,m,65 let ali več,3775
+2010,Pomurska,m,65 let ali več,3264
+2011,Pomurska,m,65 let ali več,4295
+2014,Pomurska,m,65 let ali več,4106
+2019,Pomurska,m,65 let ali več,3582
+2019,Pomurska,ž,65 let ali več,3681
+2008,Podravska,m,15-64 let,1362
+2009,Podravska,m,15-64 let,1377
+2010,Podravska,m,15-64 let,1439
+2011,Podravska,m,15-64 let,1499
+2012,Podravska,m,15-64 let,1519
+2013,Podravska,m,15-64 let,1522
+2014,Podravska,m,15-64 let,1554
+2015,Podravska,m,15-64 let,1562
+2016,Podravska,m,15-64 let,1586
+2017,Podravska,m,15-64 let,1643
+2018,Podravska,m,15-64 let,1710
+2019,Podravska,m,15-64 let,1779
+2008,Podravska,ž,15-64 let,1268
+2009,Podravska,ž,15-64 let,1349
+2010,Podravska,ž,15-64 let,1406
+2011,Podravska,ž,15-64 let,1432
+2012,Podravska,ž,15-64 let,1450
+2013,Podravska,ž,15-64 let,1444
+2014,Podravska,ž,15-64 let,1471
+2015,Podravska,ž,15-64 let,1483
+2016,Podravska,ž,15-64 let,1497
+2017,Podravska,ž,15-64 let,1545
+2018,Podravska,ž,15-64 let,1587
+2019,Podravska,ž,15-64 let,1668
+2008,Podravska,m,15-24 let,889
+2009,Podravska,m,15-24 let,886
+2010,Podravska,m,15-24 let,944
+2011,Podravska,m,15-24 let,979
+2012,Podravska,m,15-24 let,999
+2013,Podravska,m,15-24 let,1020
+2014,Podravska,m,15-24 let,1050
+2015,Podravska,m,15-24 let,1084
+2016,Podravska,m,15-24 let,1105
+2017,Podravska,m,15-24 let,1140
+2018,Podravska,m,15-24 let,1215
+2019,Podravska,m,15-24 let,1276
+2008,Podravska,ž,15-24 let,789
+2009,Podravska,ž,15-24 let,843
+2010,Podravska,ž,15-24 let,906
+2011,Podravska,ž,15-24 let,937
+2012,Podravska,ž,15-24 let,949
+2013,Podravska,ž,15-24 let,945
+2014,Podravska,ž,15-24 let,961
+2015,Podravska,ž,15-24 let,970
+2016,Podravska,ž,15-24 let,954
+2017,Podravska,ž,15-24 let,1019
+2018,Podravska,ž,15-24 let,1054
+2019,Podravska,ž,15-24 let,1110
+2008,Podravska,m,25-34 let,1203
+2009,Podravska,m,25-34 let,1205
+2010,Podravska,m,25-34 let,1254
+2011,Podravska,m,25-34 let,1285
+2012,Podravska,m,25-34 let,1293
+2013,Podravska,m,25-34 let,1286
+2014,Podravska,m,25-34 let,1314
+2015,Podravska,m,25-34 let,1319
+2016,Podravska,m,25-34 let,1335
+2017,Podravska,m,25-34 let,1390
+2018,Podravska,m,25-34 let,1480
+2019,Podravska,m,25-34 let,1556
+2008,Podravska,ž,25-34 let,1096
+2009,Podravska,ž,25-34 let,1150
+2010,Podravska,ž,25-34 let,1205
+2011,Podravska,ž,25-34 let,1229
+2012,Podravska,ž,25-34 let,1245
+2013,Podravska,ž,25-34 let,1225
+2014,Podravska,ž,25-34 let,1230
+2015,Podravska,ž,25-34 let,1227
+2016,Podravska,ž,25-34 let,1241
+2017,Podravska,ž,25-34 let,1267
+2018,Podravska,ž,25-34 let,1322
+2019,Podravska,ž,25-34 let,1383
+2008,Podravska,m,35-44 let,1396
+2009,Podravska,m,35-44 let,1413
+2010,Podravska,m,35-44 let,1476
+2011,Podravska,m,35-44 let,1533
+2012,Podravska,m,35-44 let,1564
+2013,Podravska,m,35-44 let,1563
+2014,Podravska,m,35-44 let,1589
+2015,Podravska,m,35-44 let,1589
+2016,Podravska,m,35-44 let,1610
+2017,Podravska,m,35-44 let,1671
+2018,Podravska,m,35-44 let,1744
+2019,Podravska,m,35-44 let,1814
+2008,Podravska,ž,35-44 let,1259
+2009,Podravska,ž,35-44 let,1331
+2010,Podravska,ž,35-44 let,1384
+2011,Podravska,ž,35-44 let,1418
+2012,Podravska,ž,35-44 let,1433
+2013,Podravska,ž,35-44 let,1438
+2014,Podravska,ž,35-44 let,1457
+2015,Podravska,ž,35-44 let,1459
+2016,Podravska,ž,35-44 let,1484
+2017,Podravska,ž,35-44 let,1532
+2018,Podravska,ž,35-44 let,1566
+2019,Podravska,ž,35-44 let,1643
+2008,Podravska,m,45-54 let,1424
+2009,Podravska,m,45-54 let,1446
+2010,Podravska,m,45-54 let,1498
+2011,Podravska,m,45-54 let,1571
+2012,Podravska,m,45-54 let,1592
+2013,Podravska,m,45-54 let,1595
+2014,Podravska,m,45-54 let,1635
+2015,Podravska,m,45-54 let,1644
+2016,Podravska,m,45-54 let,1687
+2017,Podravska,m,45-54 let,1737
+2018,Podravska,m,45-54 let,1805
+2019,Podravska,m,45-54 let,1887
+2008,Podravska,ž,45-54 let,1345
+2009,Podravska,ž,45-54 let,1432
+2010,Podravska,ž,45-54 let,1489
+2011,Podravska,ž,45-54 let,1491
+2012,Podravska,ž,45-54 let,1508
+2013,Podravska,ž,45-54 let,1495
+2014,Podravska,ž,45-54 let,1521
+2015,Podravska,ž,45-54 let,1523
+2016,Podravska,ž,45-54 let,1528
+2017,Podravska,ž,45-54 let,1583
+2018,Podravska,ž,45-54 let,1634
+2019,Podravska,ž,45-54 let,1731
+2008,Podravska,m,55-64 let,1662
+2009,Podravska,m,55-64 let,1681
+2010,Podravska,m,55-64 let,1758
+2011,Podravska,m,55-64 let,1820
+2012,Podravska,m,55-64 let,1792
+2013,Podravska,m,55-64 let,1777
+2014,Podravska,m,55-64 let,1763
+2015,Podravska,m,55-64 let,1772
+2016,Podravska,m,55-64 let,1758
+2017,Podravska,m,55-64 let,1813
+2018,Podravska,m,55-64 let,1840
+2019,Podravska,m,55-64 let,1905
+2008,Podravska,ž,55-64 let,1704
+2009,Podravska,ž,55-64 let,1811
+2010,Podravska,ž,55-64 let,1864
+2011,Podravska,ž,55-64 let,1853
+2012,Podravska,ž,55-64 let,1843
+2013,Podravska,ž,55-64 let,1735
+2014,Podravska,ž,55-64 let,1727
+2015,Podravska,ž,55-64 let,1755
+2016,Podravska,ž,55-64 let,1722
+2017,Podravska,ž,55-64 let,1753
+2018,Podravska,ž,55-64 let,1776
+2019,Podravska,ž,55-64 let,1852
+2008,Podravska,m,65 let ali več,4144
+2009,Podravska,m,65 let ali več,4509
+2010,Podravska,m,65 let ali več,4434
+2011,Podravska,m,65 let ali več,4156
+2012,Podravska,m,65 let ali več,4037
+2013,Podravska,m,65 let ali več,3708
+2014,Podravska,m,65 let ali več,3909
+2015,Podravska,m,65 let ali več,3889
+2016,Podravska,m,65 let ali več,3827
+2017,Podravska,m,65 let ali več,3593
+2018,Podravska,m,65 let ali več,3258
+2019,Podravska,m,65 let ali več,3145
+2008,Podravska,ž,65 let ali več,3063
+2009,Podravska,ž,65 let ali več,3648
+2010,Podravska,ž,65 let ali več,3551
+2011,Podravska,ž,65 let ali več,3874
+2012,Podravska,ž,65 let ali več,3928
+2013,Podravska,ž,65 let ali več,3673
+2014,Podravska,ž,65 let ali več,3479
+2015,Podravska,ž,65 let ali več,3364
+2016,Podravska,ž,65 let ali več,3314
+2017,Podravska,ž,65 let ali več,3120
+2018,Podravska,ž,65 let ali več,3097
+2019,Podravska,ž,65 let ali več,3078
+2008,Koroška,m,15-64 let,1313
+2009,Koroška,m,15-64 let,1310
+2010,Koroška,m,15-64 let,1379
+2011,Koroška,m,15-64 let,1451
+2012,Koroška,m,15-64 let,1466
+2013,Koroška,m,15-64 let,1477
+2014,Koroška,m,15-64 let,1514
+2015,Koroška,m,15-64 let,1561
+2017,Koroška,m,15-64 let,1655
+2018,Koroška,m,15-64 let,1719
+2019,Koroška,m,15-64 let,1763
+2008,Koroška,ž,15-64 let,1219
+2009,Koroška,ž,15-64 let,1294
+2010,Koroška,ž,15-64 let,1404
+2011,Koroška,ž,15-64 let,1445
+2012,Koroška,ž,15-64 let,1458
+2013,Koroška,ž,15-64 let,1449
+2014,Koroška,ž,15-64 let,1480
+2017,Koroška,ž,15-64 let,1558
+2018,Koroška,ž,15-64 let,1590
+2019,Koroška,ž,15-64 let,1650
+2008,Koroška,m,15-24 let,936
+2009,Koroška,m,15-24 let,898
+2010,Koroška,m,15-24 let,976
+2011,Koroška,m,15-24 let,1053
+2012,Koroška,m,15-24 let,1058
+2013,Koroška,m,15-24 let,1073
+2014,Koroška,m,15-24 let,1110
+2015,Koroška,m,15-24 let,1153
+2017,Koroška,m,15-24 let,1248
+2018,Koroška,m,15-24 let,1275
+2019,Koroška,m,15-24 let,1307
+2008,Koroška,ž,15-24 let,787
+2009,Koroška,ž,15-24 let,849
+2010,Koroška,ž,15-24 let,903
+2011,Koroška,ž,15-24 let,954
+2012,Koroška,ž,15-24 let,974
+2013,Koroška,ž,15-24 let,891
+2014,Koroška,ž,15-24 let,885
+2017,Koroška,ž,15-24 let,1008
+2018,Koroška,ž,15-24 let,1046
+2019,Koroška,ž,15-24 let,1108
+2008,Koroška,m,25-34 let,1140
+2009,Koroška,m,25-34 let,1124
+2010,Koroška,m,25-34 let,1175
+2011,Koroška,m,25-34 let,1247
+2012,Koroška,m,25-34 let,1264
+2013,Koroška,m,25-34 let,1278
+2014,Koroška,m,25-34 let,1318
+2015,Koroška,m,25-34 let,1360
+2016,Koroška,m,25-34 let,1403
+2017,Koroška,m,25-34 let,1469
+2018,Koroška,m,25-34 let,1539
+2019,Koroška,m,25-34 let,1566
+2008,Koroška,ž,25-34 let,1012
+2009,Koroška,ž,25-34 let,1045
+2010,Koroška,ž,25-34 let,1143
+2011,Koroška,ž,25-34 let,1182
+2012,Koroška,ž,25-34 let,1204
+2013,Koroška,ž,25-34 let,1185
+2014,Koroška,ž,25-34 let,1220
+2015,Koroška,ž,25-34 let,1232
+2016,Koroška,ž,25-34 let,1268
+2017,Koroška,ž,25-34 let,1272
+2018,Koroška,ž,25-34 let,1320
+2019,Koroška,ž,25-34 let,1372
+2008,Koroška,m,35-44 let,1326
+2009,Koroška,m,35-44 let,1329
+2010,Koroška,m,35-44 let,1396
+2011,Koroška,m,35-44 let,1479
+2012,Koroška,m,35-44 let,1494
+2013,Koroška,m,35-44 let,1501
+2014,Koroška,m,35-44 let,1541
+2015,Koroška,m,35-44 let,1592
+2016,Koroška,m,35-44 let,1600
+2017,Koroška,m,35-44 let,1674
+2018,Koroška,m,35-44 let,1744
+2019,Koroška,m,35-44 let,1792
+2008,Koroška,ž,35-44 let,1197
+2009,Koroška,ž,35-44 let,1258
+2010,Koroška,ž,35-44 let,1378
+2011,Koroška,ž,35-44 let,1423
+2012,Koroška,ž,35-44 let,1415
+2013,Koroška,ž,35-44 let,1417
+2014,Koroška,ž,35-44 let,1434
+2015,Koroška,ž,35-44 let,1453
+2016,Koroška,ž,35-44 let,1490
+2017,Koroška,ž,35-44 let,1512
+2018,Koroška,ž,35-44 let,1544
+2019,Koroška,ž,35-44 let,1604
+2008,Koroška,m,45-54 let,1416
+2009,Koroška,m,45-54 let,1410
+2010,Koroška,m,45-54 let,1488
+2011,Koroška,m,45-54 let,1533
+2012,Koroška,m,45-54 let,1556
+2013,Koroška,m,45-54 let,1549
+2014,Koroška,m,45-54 let,1579
+2015,Koroška,m,45-54 let,1631
+2016,Koroška,m,45-54 let,1683
+2017,Koroška,m,45-54 let,1718
+2018,Koroška,m,45-54 let,1794
+2019,Koroška,m,45-54 let,1865
+2008,Koroška,ž,45-54 let,1348
+2009,Koroška,ž,45-54 let,1424
+2010,Koroška,ž,45-54 let,1506
+2011,Koroška,ž,45-54 let,1526
+2012,Koroška,ž,45-54 let,1540
+2013,Koroška,ž,45-54 let,1513
+2014,Koroška,ž,45-54 let,1541
+2015,Koroška,ž,45-54 let,1535
+2016,Koroška,ž,45-54 let,1560
+2017,Koroška,ž,45-54 let,1606
+2018,Koroška,ž,45-54 let,1641
+2019,Koroška,ž,45-54 let,1696
+2008,Koroška,m,55-64 let,1664
+2009,Koroška,m,55-64 let,1674
+2010,Koroška,m,55-64 let,1697
+2011,Koroška,m,55-64 let,1751
+2012,Koroška,m,55-64 let,1757
+2013,Koroška,m,55-64 let,1774
+2014,Koroška,m,55-64 let,1775
+2015,Koroška,m,55-64 let,1795
+2016,Koroška,m,55-64 let,1845
+2017,Koroška,m,55-64 let,1881
+2018,Koroška,m,55-64 let,1922
+2019,Koroška,m,55-64 let,1959
+2008,Koroška,ž,55-64 let,1665
+2009,Koroška,ž,55-64 let,1808
+2010,Koroška,ž,55-64 let,1913
+2011,Koroška,ž,55-64 let,1935
+2012,Koroška,ž,55-64 let,1967
+2013,Koroška,ž,55-64 let,1876
+2014,Koroška,ž,55-64 let,1821
+2015,Koroška,ž,55-64 let,1828
+2016,Koroška,ž,55-64 let,1818
+2017,Koroška,ž,55-64 let,1825
+2018,Koroška,ž,55-64 let,1836
+2019,Koroška,ž,55-64 let,1908
+2009,Koroška,m,65 let ali več,4294
+2012,Koroška,m,65 let ali več,4342
+2013,Koroška,m,65 let ali več,4432
+2014,Koroška,m,65 let ali več,4851
+2015,Koroška,m,65 let ali več,5772
+2017,Koroška,m,65 let ali več,3818
+2018,Koroška,m,65 let ali več,3877
+2019,Koroška,m,65 let ali več,3410
+2017,Koroška,ž,65 let ali več,3429
+2018,Koroška,ž,65 let ali več,3540
+2019,Koroška,ž,65 let ali več,3612
+2008,Savinjska,m,15-64 let,1328
+2009,Savinjska,m,15-64 let,1334
+2010,Savinjska,m,15-64 let,1432
+2011,Savinjska,m,15-64 let,1480
+2012,Savinjska,m,15-64 let,1510
+2013,Savinjska,m,15-64 let,1519
+2014,Savinjska,m,15-64 let,1558
+2015,Savinjska,m,15-64 let,1570
+2016,Savinjska,m,15-64 let,1587
+2018,Savinjska,m,15-64 let,1694
+2019,Savinjska,m,15-64 let,1735
+2008,Savinjska,ž,15-64 let,1228
+2009,Savinjska,ž,15-64 let,1293
+2010,Savinjska,ž,15-64 let,1353
+2011,Savinjska,ž,15-64 let,1386
+2012,Savinjska,ž,15-64 let,1403
+2013,Savinjska,ž,15-64 let,1407
+2014,Savinjska,ž,15-64 let,1440
+2015,Savinjska,ž,15-64 let,1447
+2016,Savinjska,ž,15-64 let,1479
+2018,Savinjska,ž,15-64 let,1541
+2019,Savinjska,ž,15-64 let,1606
+2008,Savinjska,m,15-24 let,877
+2009,Savinjska,m,15-24 let,869
+2010,Savinjska,m,15-24 let,961
+2011,Savinjska,m,15-24 let,1032
+2012,Savinjska,m,15-24 let,1076
+2013,Savinjska,m,15-24 let,1099
+2014,Savinjska,m,15-24 let,1133
+2015,Savinjska,m,15-24 let,1130
+2016,Savinjska,m,15-24 let,1124
+2018,Savinjska,m,15-24 let,1255
+2019,Savinjska,m,15-24 let,1285
+2008,Savinjska,ž,15-24 let,807
+2009,Savinjska,ž,15-24 let,853
+2010,Savinjska,ž,15-24 let,917
+2011,Savinjska,ž,15-24 let,978
+2012,Savinjska,ž,15-24 let,977
+2013,Savinjska,ž,15-24 let,962
+2014,Savinjska,ž,15-24 let,966
+2015,Savinjska,ž,15-24 let,937
+2016,Savinjska,ž,15-24 let,968
+2018,Savinjska,ž,15-24 let,1044
+2019,Savinjska,ž,15-24 let,1093
+2008,Savinjska,m,25-34 let,1154
+2009,Savinjska,m,25-34 let,1155
+2010,Savinjska,m,25-34 let,1243
+2011,Savinjska,m,25-34 let,1283
+2012,Savinjska,m,25-34 let,1300
+2013,Savinjska,m,25-34 let,1298
+2014,Savinjska,m,25-34 let,1327
+2015,Savinjska,m,25-34 let,1330
+2016,Savinjska,m,25-34 let,1348
+2017,Savinjska,m,25-34 let,1394
+2018,Savinjska,m,25-34 let,1463
+2019,Savinjska,m,25-34 let,1511
+2008,Savinjska,ž,25-34 let,1068
+2009,Savinjska,ž,25-34 let,1114
+2010,Savinjska,ž,25-34 let,1160
+2011,Savinjska,ž,25-34 let,1196
+2012,Savinjska,ž,25-34 let,1211
+2013,Savinjska,ž,25-34 let,1205
+2014,Savinjska,ž,25-34 let,1215
+2015,Savinjska,ž,25-34 let,1214
+2016,Savinjska,ž,25-34 let,1227
+2017,Savinjska,ž,25-34 let,1250
+2018,Savinjska,ž,25-34 let,1289
+2019,Savinjska,ž,25-34 let,1333
+2008,Savinjska,m,35-44 let,1351
+2009,Savinjska,m,35-44 let,1360
+2010,Savinjska,m,35-44 let,1456
+2011,Savinjska,m,35-44 let,1504
+2012,Savinjska,m,35-44 let,1534
+2013,Savinjska,m,35-44 let,1537
+2014,Savinjska,m,35-44 let,1579
+2015,Savinjska,m,35-44 let,1585
+2016,Savinjska,m,35-44 let,1596
+2017,Savinjska,m,35-44 let,1647
+2018,Savinjska,m,35-44 let,1705
+2019,Savinjska,m,35-44 let,1752
+2008,Savinjska,ž,35-44 let,1217
+2009,Savinjska,ž,35-44 let,1279
+2010,Savinjska,ž,35-44 let,1337
+2011,Savinjska,ž,35-44 let,1368
+2012,Savinjska,ž,35-44 let,1385
+2013,Savinjska,ž,35-44 let,1395
+2014,Savinjska,ž,35-44 let,1426
+2015,Savinjska,ž,35-44 let,1430
+2016,Savinjska,ž,35-44 let,1466
+2017,Savinjska,ž,35-44 let,1489
+2018,Savinjska,ž,35-44 let,1530
+2019,Savinjska,ž,35-44 let,1597
+2008,Savinjska,m,45-54 let,1453
+2009,Savinjska,m,45-54 let,1467
+2010,Savinjska,m,45-54 let,1552
+2011,Savinjska,m,45-54 let,1589
+2012,Savinjska,m,45-54 let,1623
+2013,Savinjska,m,45-54 let,1629
+2014,Savinjska,m,45-54 let,1665
+2015,Savinjska,m,45-54 let,1676
+2016,Savinjska,m,45-54 let,1693
+2017,Savinjska,m,45-54 let,1745
+2018,Savinjska,m,45-54 let,1798
+2019,Savinjska,m,45-54 let,1845
+2008,Savinjska,ž,45-54 let,1309
+2009,Savinjska,ž,45-54 let,1379
+2010,Savinjska,ž,45-54 let,1437
+2011,Savinjska,ž,45-54 let,1453
+2012,Savinjska,ž,45-54 let,1464
+2013,Savinjska,ž,45-54 let,1453
+2014,Savinjska,ž,45-54 let,1487
+2015,Savinjska,ž,45-54 let,1482
+2016,Savinjska,ž,45-54 let,1511
+2017,Savinjska,ž,45-54 let,1548
+2018,Savinjska,ž,45-54 let,1581
+2019,Savinjska,ž,45-54 let,1654
+2008,Savinjska,m,55-64 let,1626
+2009,Savinjska,m,55-64 let,1610
+2010,Savinjska,m,55-64 let,1749
+2011,Savinjska,m,55-64 let,1783
+2012,Savinjska,m,55-64 let,1814
+2013,Savinjska,m,55-64 let,1800
+2014,Savinjska,m,55-64 let,1806
+2015,Savinjska,m,55-64 let,1834
+2016,Savinjska,m,55-64 let,1835
+2017,Savinjska,m,55-64 let,1868
+2018,Savinjska,m,55-64 let,1910
+2019,Savinjska,m,55-64 let,1938
+2008,Savinjska,ž,55-64 let,1699
+2009,Savinjska,ž,55-64 let,1775
+2010,Savinjska,ž,55-64 let,1868
+2011,Savinjska,ž,55-64 let,1833
+2012,Savinjska,ž,55-64 let,1833
+2013,Savinjska,ž,55-64 let,1749
+2014,Savinjska,ž,55-64 let,1716
+2015,Savinjska,ž,55-64 let,1712
+2016,Savinjska,ž,55-64 let,1724
+2017,Savinjska,ž,55-64 let,1729
+2018,Savinjska,ž,55-64 let,1752
+2019,Savinjska,ž,55-64 let,1809
+2008,Savinjska,m,65 let ali več,3757
+2009,Savinjska,m,65 let ali več,3722
+2010,Savinjska,m,65 let ali več,3839
+2011,Savinjska,m,65 let ali več,3866
+2012,Savinjska,m,65 let ali več,3658
+2013,Savinjska,m,65 let ali več,3773
+2014,Savinjska,m,65 let ali več,3359
+2015,Savinjska,m,65 let ali več,3355
+2016,Savinjska,m,65 let ali več,3160
+2018,Savinjska,m,65 let ali več,3384
+2019,Savinjska,m,65 let ali več,3044
+2008,Savinjska,ž,65 let ali več,3607
+2014,Savinjska,ž,65 let ali več,3252
+2015,Savinjska,ž,65 let ali več,2818
+2016,Savinjska,ž,65 let ali več,3110
+2018,Savinjska,ž,65 let ali več,2485
+2019,Savinjska,ž,65 let ali več,3220
+2008,Zasavska,m,15-64 let,1405
+2009,Zasavska,m,15-64 let,1444
+2010,Zasavska,m,15-64 let,1518
+2011,Zasavska,m,15-64 let,1574
+2012,Zasavska,m,15-64 let,1554
+2013,Zasavska,m,15-64 let,1554
+2014,Zasavska,m,15-64 let,1541
+2008,Zasavska,ž,15-64 let,1235
+2009,Zasavska,ž,15-64 let,1347
+2010,Zasavska,ž,15-64 let,1406
+2011,Zasavska,ž,15-64 let,1455
+2012,Zasavska,ž,15-64 let,1448
+2013,Zasavska,ž,15-64 let,1455
+2014,Zasavska,ž,15-64 let,1465
+2008,Zasavska,m,15-24 let,894
+2009,Zasavska,m,15-24 let,886
+2010,Zasavska,m,15-24 let,945
+2011,Zasavska,m,15-24 let,1046
+2012,Zasavska,m,15-24 let,1004
+2013,Zasavska,m,15-24 let,1042
+2014,Zasavska,m,15-24 let,1001
+2017,Zasavska,m,15-24 let,1089
+2018,Zasavska,m,15-24 let,1143
+2019,Zasavska,m,15-24 let,1208
+2008,Zasavska,ž,15-24 let,810
+2009,Zasavska,ž,15-24 let,847
+2010,Zasavska,ž,15-24 let,909
+2011,Zasavska,ž,15-24 let,996
+2012,Zasavska,ž,15-24 let,977
+2013,Zasavska,ž,15-24 let,1103
+2014,Zasavska,ž,15-24 let,983
+2017,Zasavska,ž,15-24 let,1033
+2018,Zasavska,ž,15-24 let,1052
+2019,Zasavska,ž,15-24 let,1052
+2008,Zasavska,m,25-34 let,1205
+2009,Zasavska,m,25-34 let,1233
+2010,Zasavska,m,25-34 let,1284
+2011,Zasavska,m,25-34 let,1319
+2012,Zasavska,m,25-34 let,1300
+2013,Zasavska,m,25-34 let,1317
+2014,Zasavska,m,25-34 let,1308
+2015,Zasavska,m,25-34 let,1275
+2016,Zasavska,m,25-34 let,1317
+2017,Zasavska,m,25-34 let,1371
+2018,Zasavska,m,25-34 let,1447
+2008,Zasavska,ž,25-34 let,1096
+2009,Zasavska,ž,25-34 let,1214
+2010,Zasavska,ž,25-34 let,1301
+2011,Zasavska,ž,25-34 let,1329
+2012,Zasavska,ž,25-34 let,1280
+2013,Zasavska,ž,25-34 let,1276
+2014,Zasavska,ž,25-34 let,1253
+2015,Zasavska,ž,25-34 let,1214
+2016,Zasavska,ž,25-34 let,1248
+2017,Zasavska,ž,25-34 let,1259
+2018,Zasavska,ž,25-34 let,1312
+2008,Zasavska,m,35-44 let,1442
+2009,Zasavska,m,35-44 let,1477
+2010,Zasavska,m,35-44 let,1542
+2011,Zasavska,m,35-44 let,1619
+2012,Zasavska,m,35-44 let,1590
+2013,Zasavska,m,35-44 let,1578
+2014,Zasavska,m,35-44 let,1553
+2015,Zasavska,m,35-44 let,1470
+2016,Zasavska,m,35-44 let,1503
+2017,Zasavska,m,35-44 let,1538
+2019,Zasavska,m,35-44 let,1673
+2008,Zasavska,ž,35-44 let,1184
+2009,Zasavska,ž,35-44 let,1264
+2010,Zasavska,ž,35-44 let,1356
+2011,Zasavska,ž,35-44 let,1423
+2012,Zasavska,ž,35-44 let,1425
+2013,Zasavska,ž,35-44 let,1440
+2014,Zasavska,ž,35-44 let,1465
+2015,Zasavska,ž,35-44 let,1428
+2016,Zasavska,ž,35-44 let,1478
+2017,Zasavska,ž,35-44 let,1500
+2019,Zasavska,ž,35-44 let,1610
+2008,Zasavska,m,45-54 let,1518
+2009,Zasavska,m,45-54 let,1570
+2010,Zasavska,m,45-54 let,1648
+2011,Zasavska,m,45-54 let,1679
+2012,Zasavska,m,45-54 let,1645
+2013,Zasavska,m,45-54 let,1607
+2014,Zasavska,m,45-54 let,1594
+2015,Zasavska,m,45-54 let,1552
+2016,Zasavska,m,45-54 let,1589
+2017,Zasavska,m,45-54 let,1646
+2018,Zasavska,m,45-54 let,1663
+2019,Zasavska,m,45-54 let,1715
+2008,Zasavska,ž,45-54 let,1299
+2009,Zasavska,ž,45-54 let,1413
+2010,Zasavska,ž,45-54 let,1446
+2011,Zasavska,ž,45-54 let,1481
+2012,Zasavska,ž,45-54 let,1465
+2013,Zasavska,ž,45-54 let,1454
+2014,Zasavska,ž,45-54 let,1451
+2015,Zasavska,ž,45-54 let,1455
+2016,Zasavska,ž,45-54 let,1451
+2017,Zasavska,ž,45-54 let,1479
+2018,Zasavska,ž,45-54 let,1517
+2019,Zasavska,ž,45-54 let,1620
+2008,Zasavska,m,55-64 let,1536
+2009,Zasavska,m,55-64 let,1606
+2010,Zasavska,m,55-64 let,1764
+2011,Zasavska,m,55-64 let,1794
+2012,Zasavska,m,55-64 let,1849
+2013,Zasavska,m,55-64 let,1876
+2014,Zasavska,m,55-64 let,1820
+2015,Zasavska,m,55-64 let,1735
+2016,Zasavska,m,55-64 let,1742
+2018,Zasavska,m,55-64 let,1827
+2019,Zasavska,m,55-64 let,1924
+2008,Zasavska,ž,55-64 let,1783
+2009,Zasavska,ž,55-64 let,1867
+2010,Zasavska,ž,55-64 let,1837
+2011,Zasavska,ž,55-64 let,1813
+2012,Zasavska,ž,55-64 let,1837
+2013,Zasavska,ž,55-64 let,1784
+2014,Zasavska,ž,55-64 let,1773
+2015,Zasavska,ž,55-64 let,1737
+2016,Zasavska,ž,55-64 let,1777
+2018,Zasavska,ž,55-64 let,1788
+2019,Zasavska,ž,55-64 let,1836
+2008,Posavska,m,15-64 let,1340
+2009,Posavska,m,15-64 let,1363
+2010,Posavska,m,15-64 let,1414
+2011,Posavska,m,15-64 let,1504
+2012,Posavska,m,15-64 let,1549
+2013,Posavska,m,15-64 let,1536
+2014,Posavska,m,15-64 let,1585
+2018,Posavska,m,15-64 let,1737
+2019,Posavska,m,15-64 let,1782
+2008,Posavska,ž,15-64 let,1207
+2009,Posavska,ž,15-64 let,1282
+2010,Posavska,ž,15-64 let,1350
+2011,Posavska,ž,15-64 let,1392
+2012,Posavska,ž,15-64 let,1401
+2013,Posavska,ž,15-64 let,1399
+2014,Posavska,ž,15-64 let,1429
+2018,Posavska,ž,15-64 let,1545
+2019,Posavska,ž,15-64 let,1621
+2008,Posavska,m,15-24 let,907
+2009,Posavska,m,15-24 let,917
+2010,Posavska,m,15-24 let,963
+2011,Posavska,m,15-24 let,1052
+2012,Posavska,m,15-24 let,1109
+2013,Posavska,m,15-24 let,1057
+2014,Posavska,m,15-24 let,1056
+2017,Posavska,m,15-24 let,1199
+2018,Posavska,m,15-24 let,1247
+2019,Posavska,m,15-24 let,1298
+2008,Posavska,ž,15-24 let,817
+2009,Posavska,ž,15-24 let,849
+2010,Posavska,ž,15-24 let,899
+2011,Posavska,ž,15-24 let,960
+2012,Posavska,ž,15-24 let,964
+2013,Posavska,ž,15-24 let,965
+2014,Posavska,ž,15-24 let,1024
+2017,Posavska,ž,15-24 let,1016
+2018,Posavska,ž,15-24 let,1068
+2019,Posavska,ž,15-24 let,1082
+2008,Posavska,m,25-34 let,1167
+2009,Posavska,m,25-34 let,1176
+2010,Posavska,m,25-34 let,1233
+2011,Posavska,m,25-34 let,1310
+2012,Posavska,m,25-34 let,1350
+2013,Posavska,m,25-34 let,1371
+2014,Posavska,m,25-34 let,1416
+2015,Posavska,m,25-34 let,1448
+2016,Posavska,m,25-34 let,1484
+2018,Posavska,m,25-34 let,1597
+2019,Posavska,m,25-34 let,1620
+2008,Posavska,ž,25-34 let,1041
+2009,Posavska,ž,25-34 let,1115
+2010,Posavska,ž,25-34 let,1181
+2011,Posavska,ž,25-34 let,1212
+2012,Posavska,ž,25-34 let,1203
+2013,Posavska,ž,25-34 let,1200
+2014,Posavska,ž,25-34 let,1209
+2015,Posavska,ž,25-34 let,1225
+2016,Posavska,ž,25-34 let,1255
+2018,Posavska,ž,25-34 let,1325
+2019,Posavska,ž,25-34 let,1386
+2008,Posavska,m,35-44 let,1336
+2009,Posavska,m,35-44 let,1361
+2010,Posavska,m,35-44 let,1419
+2011,Posavska,m,35-44 let,1497
+2012,Posavska,m,35-44 let,1554
+2013,Posavska,m,35-44 let,1524
+2014,Posavska,m,35-44 let,1593
+2015,Posavska,m,35-44 let,1600
+2016,Posavska,m,35-44 let,1648
+2017,Posavska,m,35-44 let,1676
+2018,Posavska,m,35-44 let,1747
+2019,Posavska,m,35-44 let,1792
+2008,Posavska,ž,35-44 let,1203
+2009,Posavska,ž,35-44 let,1265
+2010,Posavska,ž,35-44 let,1307
+2011,Posavska,ž,35-44 let,1364
+2012,Posavska,ž,35-44 let,1376
+2013,Posavska,ž,35-44 let,1380
+2014,Posavska,ž,35-44 let,1415
+2015,Posavska,ž,35-44 let,1428
+2016,Posavska,ž,35-44 let,1469
+2017,Posavska,ž,35-44 let,1488
+2018,Posavska,ž,35-44 let,1540
+2019,Posavska,ž,35-44 let,1623
+2008,Posavska,m,45-54 let,1507
+2009,Posavska,m,45-54 let,1539
+2010,Posavska,m,45-54 let,1556
+2011,Posavska,m,45-54 let,1625
+2012,Posavska,m,45-54 let,1633
+2013,Posavska,m,45-54 let,1593
+2014,Posavska,m,45-54 let,1628
+2015,Posavska,m,45-54 let,1612
+2016,Posavska,m,45-54 let,1658
+2017,Posavska,m,45-54 let,1703
+2018,Posavska,m,45-54 let,1777
+2019,Posavska,m,45-54 let,1844
+2008,Posavska,ž,45-54 let,1274
+2009,Posavska,ž,45-54 let,1348
+2010,Posavska,ž,45-54 let,1433
+2011,Posavska,ž,45-54 let,1456
+2012,Posavska,ž,45-54 let,1460
+2013,Posavska,ž,45-54 let,1426
+2014,Posavska,ž,45-54 let,1446
+2015,Posavska,ž,45-54 let,1428
+2016,Posavska,ž,45-54 let,1473
+2017,Posavska,ž,45-54 let,1516
+2018,Posavska,ž,45-54 let,1576
+2019,Posavska,ž,45-54 let,1651
+2008,Posavska,m,55-64 let,1639
+2009,Posavska,m,55-64 let,1688
+2010,Posavska,m,55-64 let,1866
+2011,Posavska,m,55-64 let,1969
+2012,Posavska,m,55-64 let,2032
+2013,Posavska,m,55-64 let,1945
+2014,Posavska,m,55-64 let,1974
+2015,Posavska,m,55-64 let,1905
+2016,Posavska,m,55-64 let,1951
+2017,Posavska,m,55-64 let,1963
+2018,Posavska,m,55-64 let,1988
+2019,Posavska,m,55-64 let,2024
+2008,Posavska,ž,55-64 let,1743
+2009,Posavska,ž,55-64 let,1847
+2010,Posavska,ž,55-64 let,1898
+2011,Posavska,ž,55-64 let,1873
+2012,Posavska,ž,55-64 let,1834
+2013,Posavska,ž,55-64 let,1801
+2014,Posavska,ž,55-64 let,1782
+2015,Posavska,ž,55-64 let,1725
+2016,Posavska,ž,55-64 let,1715
+2017,Posavska,ž,55-64 let,1723
+2018,Posavska,ž,55-64 let,1735
+2019,Posavska,ž,55-64 let,1807
+2008,Posavska,m,65 let ali več,3796
+2010,Posavska,m,65 let ali več,4212
+2011,Posavska,m,65 let ali več,3756
+2013,Posavska,m,65 let ali več,4054
+2014,Posavska,m,65 let ali več,3990
+2018,Posavska,m,65 let ali več,3970
+2019,Posavska,m,65 let ali več,3684
+2018,Posavska,ž,65 let ali več,3944
+2019,Posavska,ž,65 let ali več,3760
+2008,Jugovzhodna Slovenija,m,15-64 let,1365
+2009,Jugovzhodna Slovenija,m,15-64 let,1368
+2010,Jugovzhodna Slovenija,m,15-64 let,1470
+2011,Jugovzhodna Slovenija,m,15-64 let,1519
+2012,Jugovzhodna Slovenija,m,15-64 let,1550
+2013,Jugovzhodna Slovenija,m,15-64 let,1551
+2014,Jugovzhodna Slovenija,m,15-64 let,1613
+2019,Jugovzhodna Slovenija,m,15-64 let,1832
+2008,Jugovzhodna Slovenija,ž,15-64 let,1333
+2009,Jugovzhodna Slovenija,ž,15-64 let,1397
+2010,Jugovzhodna Slovenija,ž,15-64 let,1492
+2011,Jugovzhodna Slovenija,ž,15-64 let,1562
+2012,Jugovzhodna Slovenija,ž,15-64 let,1580
+2013,Jugovzhodna Slovenija,ž,15-64 let,1570
+2014,Jugovzhodna Slovenija,ž,15-64 let,1626
+2019,Jugovzhodna Slovenija,ž,15-64 let,1821
+2008,Jugovzhodna Slovenija,m,15-24 let,935
+2009,Jugovzhodna Slovenija,m,15-24 let,941
+2010,Jugovzhodna Slovenija,m,15-24 let,1008
+2011,Jugovzhodna Slovenija,m,15-24 let,1054
+2012,Jugovzhodna Slovenija,m,15-24 let,1077
+2013,Jugovzhodna Slovenija,m,15-24 let,1101
+2014,Jugovzhodna Slovenija,m,15-24 let,1147
+2017,Jugovzhodna Slovenija,m,15-24 let,1195
+2018,Jugovzhodna Slovenija,m,15-24 let,1256
+2019,Jugovzhodna Slovenija,m,15-24 let,1278
+2008,Jugovzhodna Slovenija,ž,15-24 let,902
+2009,Jugovzhodna Slovenija,ž,15-24 let,951
+2010,Jugovzhodna Slovenija,ž,15-24 let,994
+2011,Jugovzhodna Slovenija,ž,15-24 let,1073
+2012,Jugovzhodna Slovenija,ž,15-24 let,1066
+2013,Jugovzhodna Slovenija,ž,15-24 let,1130
+2014,Jugovzhodna Slovenija,ž,15-24 let,1268
+2017,Jugovzhodna Slovenija,ž,15-24 let,1112
+2018,Jugovzhodna Slovenija,ž,15-24 let,1182
+2019,Jugovzhodna Slovenija,ž,15-24 let,1247
+2008,Jugovzhodna Slovenija,m,25-34 let,1213
+2009,Jugovzhodna Slovenija,m,25-34 let,1207
+2010,Jugovzhodna Slovenija,m,25-34 let,1301
+2011,Jugovzhodna Slovenija,m,25-34 let,1345
+2012,Jugovzhodna Slovenija,m,25-34 let,1368
+2013,Jugovzhodna Slovenija,m,25-34 let,1377
+2014,Jugovzhodna Slovenija,m,25-34 let,1439
+2015,Jugovzhodna Slovenija,m,25-34 let,1473
+2016,Jugovzhodna Slovenija,m,25-34 let,1480
+2017,Jugovzhodna Slovenija,m,25-34 let,1504
+2018,Jugovzhodna Slovenija,m,25-34 let,1571
+2019,Jugovzhodna Slovenija,m,25-34 let,1635
+2008,Jugovzhodna Slovenija,ž,25-34 let,1162
+2009,Jugovzhodna Slovenija,ž,25-34 let,1205
+2010,Jugovzhodna Slovenija,ž,25-34 let,1280
+2011,Jugovzhodna Slovenija,ž,25-34 let,1342
+2012,Jugovzhodna Slovenija,ž,25-34 let,1347
+2013,Jugovzhodna Slovenija,ž,25-34 let,1362
+2014,Jugovzhodna Slovenija,ž,25-34 let,1408
+2015,Jugovzhodna Slovenija,ž,25-34 let,1418
+2016,Jugovzhodna Slovenija,ž,25-34 let,1441
+2017,Jugovzhodna Slovenija,ž,25-34 let,1441
+2018,Jugovzhodna Slovenija,ž,25-34 let,1477
+2019,Jugovzhodna Slovenija,ž,25-34 let,1563
+2008,Jugovzhodna Slovenija,m,35-44 let,1401
+2009,Jugovzhodna Slovenija,m,35-44 let,1403
+2010,Jugovzhodna Slovenija,m,35-44 let,1495
+2011,Jugovzhodna Slovenija,m,35-44 let,1548
+2012,Jugovzhodna Slovenija,m,35-44 let,1572
+2013,Jugovzhodna Slovenija,m,35-44 let,1574
+2014,Jugovzhodna Slovenija,m,35-44 let,1640
+2015,Jugovzhodna Slovenija,m,35-44 let,1672
+2016,Jugovzhodna Slovenija,m,35-44 let,1713
+2017,Jugovzhodna Slovenija,m,35-44 let,1754
+2018,Jugovzhodna Slovenija,m,35-44 let,1822
+2019,Jugovzhodna Slovenija,m,35-44 let,1898
+2008,Jugovzhodna Slovenija,ž,35-44 let,1336
+2009,Jugovzhodna Slovenija,ž,35-44 let,1382
+2010,Jugovzhodna Slovenija,ž,35-44 let,1484
+2011,Jugovzhodna Slovenija,ž,35-44 let,1551
+2012,Jugovzhodna Slovenija,ž,35-44 let,1575
+2013,Jugovzhodna Slovenija,ž,35-44 let,1562
+2014,Jugovzhodna Slovenija,ž,35-44 let,1605
+2015,Jugovzhodna Slovenija,ž,35-44 let,1607
+2016,Jugovzhodna Slovenija,ž,35-44 let,1640
+2017,Jugovzhodna Slovenija,ž,35-44 let,1657
+2018,Jugovzhodna Slovenija,ž,35-44 let,1722
+2019,Jugovzhodna Slovenija,ž,35-44 let,1823
+2008,Jugovzhodna Slovenija,m,45-54 let,1472
+2009,Jugovzhodna Slovenija,m,45-54 let,1477
+2010,Jugovzhodna Slovenija,m,45-54 let,1584
+2011,Jugovzhodna Slovenija,m,45-54 let,1630
+2012,Jugovzhodna Slovenija,m,45-54 let,1678
+2013,Jugovzhodna Slovenija,m,45-54 let,1665
+2014,Jugovzhodna Slovenija,m,45-54 let,1719
+2015,Jugovzhodna Slovenija,m,45-54 let,1711
+2016,Jugovzhodna Slovenija,m,45-54 let,1734
+2017,Jugovzhodna Slovenija,m,45-54 let,1782
+2018,Jugovzhodna Slovenija,m,45-54 let,1852
+2019,Jugovzhodna Slovenija,m,45-54 let,1935
+2008,Jugovzhodna Slovenija,ž,45-54 let,1394
+2009,Jugovzhodna Slovenija,ž,45-54 let,1473
+2010,Jugovzhodna Slovenija,ž,45-54 let,1571
+2011,Jugovzhodna Slovenija,ž,45-54 let,1642
+2012,Jugovzhodna Slovenija,ž,45-54 let,1644
+2013,Jugovzhodna Slovenija,ž,45-54 let,1608
+2014,Jugovzhodna Slovenija,ž,45-54 let,1666
+2015,Jugovzhodna Slovenija,ž,45-54 let,1675
+2016,Jugovzhodna Slovenija,ž,45-54 let,1683
+2017,Jugovzhodna Slovenija,ž,45-54 let,1713
+2018,Jugovzhodna Slovenija,ž,45-54 let,1778
+2019,Jugovzhodna Slovenija,ž,45-54 let,1879
+2008,Jugovzhodna Slovenija,m,55-64 let,1630
+2009,Jugovzhodna Slovenija,m,55-64 let,1660
+2010,Jugovzhodna Slovenija,m,55-64 let,1801
+2011,Jugovzhodna Slovenija,m,55-64 let,1808
+2012,Jugovzhodna Slovenija,m,55-64 let,1816
+2013,Jugovzhodna Slovenija,m,55-64 let,1757
+2014,Jugovzhodna Slovenija,m,55-64 let,1791
+2015,Jugovzhodna Slovenija,m,55-64 let,1840
+2016,Jugovzhodna Slovenija,m,55-64 let,1855
+2019,Jugovzhodna Slovenija,m,55-64 let,2024
+2008,Jugovzhodna Slovenija,ž,55-64 let,2027
+2009,Jugovzhodna Slovenija,ž,55-64 let,2203
+2010,Jugovzhodna Slovenija,ž,55-64 let,2214
+2011,Jugovzhodna Slovenija,ž,55-64 let,2150
+2012,Jugovzhodna Slovenija,ž,55-64 let,2198
+2013,Jugovzhodna Slovenija,ž,55-64 let,2075
+2014,Jugovzhodna Slovenija,ž,55-64 let,2051
+2015,Jugovzhodna Slovenija,ž,55-64 let,1980
+2016,Jugovzhodna Slovenija,ž,55-64 let,1975
+2019,Jugovzhodna Slovenija,ž,55-64 let,2042
+2008,Jugovzhodna Slovenija,m,65 let ali več,4954
+2009,Jugovzhodna Slovenija,m,65 let ali več,4645
+2010,Jugovzhodna Slovenija,m,65 let ali več,3581
+2011,Jugovzhodna Slovenija,m,65 let ali več,4295
+2012,Jugovzhodna Slovenija,m,65 let ali več,4034
+2013,Jugovzhodna Slovenija,m,65 let ali več,4719
+2014,Jugovzhodna Slovenija,m,65 let ali več,4245
+2019,Jugovzhodna Slovenija,m,65 let ali več,3187
+2019,Jugovzhodna Slovenija,ž,65 let ali več,4051
+2008,Osrednjeslovenska,m,15-64 let,1681
+2009,Osrednjeslovenska,m,15-64 let,1717
+2010,Osrednjeslovenska,m,15-64 let,1772
+2011,Osrednjeslovenska,m,15-64 let,1818
+2012,Osrednjeslovenska,m,15-64 let,1833
+2013,Osrednjeslovenska,m,15-64 let,1816
+2014,Osrednjeslovenska,m,15-64 let,1848
+2015,Osrednjeslovenska,m,15-64 let,1876
+2016,Osrednjeslovenska,m,15-64 let,1918
+2017,Osrednjeslovenska,m,15-64 let,1945
+2018,Osrednjeslovenska,m,15-64 let,2011
+2019,Osrednjeslovenska,m,15-64 let,2094
+2008,Osrednjeslovenska,ž,15-64 let,1573
+2009,Osrednjeslovenska,ž,15-64 let,1653
+2010,Osrednjeslovenska,ž,15-64 let,1697
+2011,Osrednjeslovenska,ž,15-64 let,1733
+2012,Osrednjeslovenska,ž,15-64 let,1741
+2013,Osrednjeslovenska,ž,15-64 let,1730
+2014,Osrednjeslovenska,ž,15-64 let,1770
+2015,Osrednjeslovenska,ž,15-64 let,1784
+2016,Osrednjeslovenska,ž,15-64 let,1823
+2017,Osrednjeslovenska,ž,15-64 let,1855
+2018,Osrednjeslovenska,ž,15-64 let,1900
+2019,Osrednjeslovenska,ž,15-64 let,1993
+2008,Osrednjeslovenska,m,15-24 let,942
+2009,Osrednjeslovenska,m,15-24 let,952
+2010,Osrednjeslovenska,m,15-24 let,1011
+2011,Osrednjeslovenska,m,15-24 let,1056
+2012,Osrednjeslovenska,m,15-24 let,1064
+2013,Osrednjeslovenska,m,15-24 let,1072
+2014,Osrednjeslovenska,m,15-24 let,1105
+2015,Osrednjeslovenska,m,15-24 let,1134
+2016,Osrednjeslovenska,m,15-24 let,1152
+2017,Osrednjeslovenska,m,15-24 let,1171
+2018,Osrednjeslovenska,m,15-24 let,1226
+2019,Osrednjeslovenska,m,15-24 let,1276
+2008,Osrednjeslovenska,ž,15-24 let,946
+2009,Osrednjeslovenska,ž,15-24 let,963
+2010,Osrednjeslovenska,ž,15-24 let,1001
+2011,Osrednjeslovenska,ž,15-24 let,1028
+2012,Osrednjeslovenska,ž,15-24 let,1036
+2013,Osrednjeslovenska,ž,15-24 let,1026
+2014,Osrednjeslovenska,ž,15-24 let,1015
+2015,Osrednjeslovenska,ž,15-24 let,1035
+2016,Osrednjeslovenska,ž,15-24 let,1063
+2017,Osrednjeslovenska,ž,15-24 let,1090
+2018,Osrednjeslovenska,ž,15-24 let,1128
+2019,Osrednjeslovenska,ž,15-24 let,1185
+2008,Osrednjeslovenska,m,25-34 let,1466
+2009,Osrednjeslovenska,m,25-34 let,1474
+2010,Osrednjeslovenska,m,25-34 let,1504
+2011,Osrednjeslovenska,m,25-34 let,1522
+2012,Osrednjeslovenska,m,25-34 let,1523
+2013,Osrednjeslovenska,m,25-34 let,1494
+2014,Osrednjeslovenska,m,25-34 let,1515
+2015,Osrednjeslovenska,m,25-34 let,1526
+2016,Osrednjeslovenska,m,25-34 let,1546
+2017,Osrednjeslovenska,m,25-34 let,1579
+2018,Osrednjeslovenska,m,25-34 let,1654
+2019,Osrednjeslovenska,m,25-34 let,1730
+2008,Osrednjeslovenska,ž,25-34 let,1384
+2009,Osrednjeslovenska,ž,25-34 let,1415
+2010,Osrednjeslovenska,ž,25-34 let,1446
+2011,Osrednjeslovenska,ž,25-34 let,1451
+2012,Osrednjeslovenska,ž,25-34 let,1446
+2013,Osrednjeslovenska,ž,25-34 let,1430
+2014,Osrednjeslovenska,ž,25-34 let,1440
+2015,Osrednjeslovenska,ž,25-34 let,1436
+2016,Osrednjeslovenska,ž,25-34 let,1441
+2017,Osrednjeslovenska,ž,25-34 let,1466
+2018,Osrednjeslovenska,ž,25-34 let,1514
+2019,Osrednjeslovenska,ž,25-34 let,1587
+2008,Osrednjeslovenska,m,35-44 let,1794
+2009,Osrednjeslovenska,m,35-44 let,1838
+2010,Osrednjeslovenska,m,35-44 let,1894
+2011,Osrednjeslovenska,m,35-44 let,1933
+2012,Osrednjeslovenska,m,35-44 let,1954
+2013,Osrednjeslovenska,m,35-44 let,1917
+2014,Osrednjeslovenska,m,35-44 let,1938
+2015,Osrednjeslovenska,m,35-44 let,1974
+2016,Osrednjeslovenska,m,35-44 let,2004
+2017,Osrednjeslovenska,m,35-44 let,2010
+2018,Osrednjeslovenska,m,35-44 let,2070
+2019,Osrednjeslovenska,m,35-44 let,2156
+2008,Osrednjeslovenska,ž,35-44 let,1622
+2009,Osrednjeslovenska,ž,35-44 let,1714
+2010,Osrednjeslovenska,ž,35-44 let,1762
+2011,Osrednjeslovenska,ž,35-44 let,1795
+2012,Osrednjeslovenska,ž,35-44 let,1813
+2013,Osrednjeslovenska,ž,35-44 let,1796
+2014,Osrednjeslovenska,ž,35-44 let,1827
+2015,Osrednjeslovenska,ž,35-44 let,1836
+2016,Osrednjeslovenska,ž,35-44 let,1855
+2017,Osrednjeslovenska,ž,35-44 let,1881
+2018,Osrednjeslovenska,ž,35-44 let,1915
+2019,Osrednjeslovenska,ž,35-44 let,1998
+2008,Osrednjeslovenska,m,45-54 let,1756
+2009,Osrednjeslovenska,m,45-54 let,1818
+2010,Osrednjeslovenska,m,45-54 let,1870
+2011,Osrednjeslovenska,m,45-54 let,1929
+2012,Osrednjeslovenska,m,45-54 let,1943
+2013,Osrednjeslovenska,m,45-54 let,1937
+2014,Osrednjeslovenska,m,45-54 let,1977
+2015,Osrednjeslovenska,m,45-54 let,2009
+2016,Osrednjeslovenska,m,45-54 let,2075
+2017,Osrednjeslovenska,m,45-54 let,2112
+2018,Osrednjeslovenska,m,45-54 let,2197
+2019,Osrednjeslovenska,m,45-54 let,2295
+2008,Osrednjeslovenska,ž,45-54 let,1609
+2009,Osrednjeslovenska,ž,45-54 let,1717
+2010,Osrednjeslovenska,ž,45-54 let,1761
+2011,Osrednjeslovenska,ž,45-54 let,1803
+2012,Osrednjeslovenska,ž,45-54 let,1806
+2013,Osrednjeslovenska,ž,45-54 let,1789
+2014,Osrednjeslovenska,ž,45-54 let,1835
+2015,Osrednjeslovenska,ž,45-54 let,1859
+2016,Osrednjeslovenska,ž,45-54 let,1924
+2017,Osrednjeslovenska,ž,45-54 let,1967
+2018,Osrednjeslovenska,ž,45-54 let,2031
+2019,Osrednjeslovenska,ž,45-54 let,2144
+2008,Osrednjeslovenska,m,55-64 let,1996
+2009,Osrednjeslovenska,m,55-64 let,2053
+2010,Osrednjeslovenska,m,55-64 let,2154
+2011,Osrednjeslovenska,m,55-64 let,2195
+2012,Osrednjeslovenska,m,55-64 let,2179
+2013,Osrednjeslovenska,m,55-64 let,2103
+2014,Osrednjeslovenska,m,55-64 let,2085
+2015,Osrednjeslovenska,m,55-64 let,2090
+2016,Osrednjeslovenska,m,55-64 let,2127
+2017,Osrednjeslovenska,m,55-64 let,2147
+2018,Osrednjeslovenska,m,55-64 let,2186
+2019,Osrednjeslovenska,m,55-64 let,2265
+2008,Osrednjeslovenska,ž,55-64 let,2092
+2009,Osrednjeslovenska,ž,55-64 let,2195
+2010,Osrednjeslovenska,ž,55-64 let,2225
+2011,Osrednjeslovenska,ž,55-64 let,2204
+2012,Osrednjeslovenska,ž,55-64 let,2179
+2013,Osrednjeslovenska,ž,55-64 let,2082
+2014,Osrednjeslovenska,ž,55-64 let,2074
+2015,Osrednjeslovenska,ž,55-64 let,2049
+2016,Osrednjeslovenska,ž,55-64 let,2073
+2017,Osrednjeslovenska,ž,55-64 let,2082
+2018,Osrednjeslovenska,ž,55-64 let,2106
+2019,Osrednjeslovenska,ž,55-64 let,2208
+2008,Osrednjeslovenska,m,65 let ali več,4157
+2009,Osrednjeslovenska,m,65 let ali več,4309
+2010,Osrednjeslovenska,m,65 let ali več,4317
+2011,Osrednjeslovenska,m,65 let ali več,4161
+2012,Osrednjeslovenska,m,65 let ali več,4086
+2013,Osrednjeslovenska,m,65 let ali več,3893
+2014,Osrednjeslovenska,m,65 let ali več,3664
+2015,Osrednjeslovenska,m,65 let ali več,3650
+2016,Osrednjeslovenska,m,65 let ali več,3583
+2017,Osrednjeslovenska,m,65 let ali več,3383
+2018,Osrednjeslovenska,m,65 let ali več,3167
+2019,Osrednjeslovenska,m,65 let ali več,3330
+2008,Osrednjeslovenska,ž,65 let ali več,3182
+2009,Osrednjeslovenska,ž,65 let ali več,3496
+2010,Osrednjeslovenska,ž,65 let ali več,3187
+2011,Osrednjeslovenska,ž,65 let ali več,3071
+2012,Osrednjeslovenska,ž,65 let ali več,3555
+2013,Osrednjeslovenska,ž,65 let ali več,3647
+2014,Osrednjeslovenska,ž,65 let ali več,3350
+2015,Osrednjeslovenska,ž,65 let ali več,3440
+2016,Osrednjeslovenska,ž,65 let ali več,3398
+2017,Osrednjeslovenska,ž,65 let ali več,3417
+2018,Osrednjeslovenska,ž,65 let ali več,3289
+2019,Osrednjeslovenska,ž,65 let ali več,3281
+2008,Gorenjska,m,15-64 let,1438
+2009,Gorenjska,m,15-64 let,1426
+2010,Gorenjska,m,15-64 let,1507
+2011,Gorenjska,m,15-64 let,1556
+2012,Gorenjska,m,15-64 let,1599
+2013,Gorenjska,m,15-64 let,1637
+2014,Gorenjska,m,15-64 let,1684
+2015,Gorenjska,m,15-64 let,1717
+2016,Gorenjska,m,15-64 let,1751
+2017,Gorenjska,m,15-64 let,1784
+2018,Gorenjska,m,15-64 let,1851
+2019,Gorenjska,m,15-64 let,1869
+2008,Gorenjska,ž,15-64 let,1293
+2009,Gorenjska,ž,15-64 let,1355
+2010,Gorenjska,ž,15-64 let,1413
+2011,Gorenjska,ž,15-64 let,1439
+2012,Gorenjska,ž,15-64 let,1470
+2013,Gorenjska,ž,15-64 let,1465
+2014,Gorenjska,ž,15-64 let,1499
+2015,Gorenjska,ž,15-64 let,1510
+2016,Gorenjska,ž,15-64 let,1549
+2017,Gorenjska,ž,15-64 let,1591
+2018,Gorenjska,ž,15-64 let,1637
+2019,Gorenjska,ž,15-64 let,1695
+2008,Gorenjska,m,15-24 let,947
+2009,Gorenjska,m,15-24 let,931
+2010,Gorenjska,m,15-24 let,993
+2011,Gorenjska,m,15-24 let,1052
+2012,Gorenjska,m,15-24 let,1063
+2013,Gorenjska,m,15-24 let,1085
+2014,Gorenjska,m,15-24 let,1146
+2015,Gorenjska,m,15-24 let,1155
+2016,Gorenjska,m,15-24 let,1188
+2017,Gorenjska,m,15-24 let,1220
+2018,Gorenjska,m,15-24 let,1273
+2019,Gorenjska,m,15-24 let,1325
+2008,Gorenjska,ž,15-24 let,843
+2009,Gorenjska,ž,15-24 let,871
+2010,Gorenjska,ž,15-24 let,928
+2011,Gorenjska,ž,15-24 let,961
+2012,Gorenjska,ž,15-24 let,955
+2013,Gorenjska,ž,15-24 let,966
+2014,Gorenjska,ž,15-24 let,984
+2015,Gorenjska,ž,15-24 let,1000
+2016,Gorenjska,ž,15-24 let,1037
+2017,Gorenjska,ž,15-24 let,1091
+2018,Gorenjska,ž,15-24 let,1144
+2019,Gorenjska,ž,15-24 let,1145
+2008,Gorenjska,m,25-34 let,1284
+2009,Gorenjska,m,25-34 let,1270
+2010,Gorenjska,m,25-34 let,1338
+2011,Gorenjska,m,25-34 let,1377
+2012,Gorenjska,m,25-34 let,1403
+2013,Gorenjska,m,25-34 let,1424
+2014,Gorenjska,m,25-34 let,1439
+2015,Gorenjska,m,25-34 let,1435
+2016,Gorenjska,m,25-34 let,1455
+2017,Gorenjska,m,25-34 let,1495
+2018,Gorenjska,m,25-34 let,1569
+2019,Gorenjska,m,25-34 let,1607
+2008,Gorenjska,ž,25-34 let,1127
+2009,Gorenjska,ž,25-34 let,1163
+2010,Gorenjska,ž,25-34 let,1217
+2011,Gorenjska,ž,25-34 let,1240
+2012,Gorenjska,ž,25-34 let,1263
+2013,Gorenjska,ž,25-34 let,1254
+2014,Gorenjska,ž,25-34 let,1263
+2015,Gorenjska,ž,25-34 let,1261
+2016,Gorenjska,ž,25-34 let,1276
+2017,Gorenjska,ž,25-34 let,1327
+2018,Gorenjska,ž,25-34 let,1383
+2019,Gorenjska,ž,25-34 let,1410
+2008,Gorenjska,m,35-44 let,1523
+2009,Gorenjska,m,35-44 let,1508
+2010,Gorenjska,m,35-44 let,1583
+2011,Gorenjska,m,35-44 let,1624
+2012,Gorenjska,m,35-44 let,1684
+2013,Gorenjska,m,35-44 let,1721
+2014,Gorenjska,m,35-44 let,1762
+2015,Gorenjska,m,35-44 let,1795
+2016,Gorenjska,m,35-44 let,1821
+2017,Gorenjska,m,35-44 let,1835
+2018,Gorenjska,m,35-44 let,1917
+2019,Gorenjska,m,35-44 let,1911
+2008,Gorenjska,ž,35-44 let,1289
+2009,Gorenjska,ž,35-44 let,1354
+2010,Gorenjska,ž,35-44 let,1409
+2011,Gorenjska,ž,35-44 let,1443
+2012,Gorenjska,ž,35-44 let,1477
+2013,Gorenjska,ž,35-44 let,1477
+2014,Gorenjska,ž,35-44 let,1507
+2015,Gorenjska,ž,35-44 let,1514
+2016,Gorenjska,ž,35-44 let,1553
+2017,Gorenjska,ž,35-44 let,1589
+2018,Gorenjska,ž,35-44 let,1629
+2019,Gorenjska,ž,35-44 let,1694
+2008,Gorenjska,m,45-54 let,1513
+2009,Gorenjska,m,45-54 let,1501
+2010,Gorenjska,m,45-54 let,1590
+2011,Gorenjska,m,45-54 let,1648
+2012,Gorenjska,m,45-54 let,1687
+2013,Gorenjska,m,45-54 let,1728
+2014,Gorenjska,m,45-54 let,1794
+2015,Gorenjska,m,45-54 let,1843
+2016,Gorenjska,m,45-54 let,1900
+2017,Gorenjska,m,45-54 let,1952
+2018,Gorenjska,m,45-54 let,2022
+2019,Gorenjska,m,45-54 let,2061
+2008,Gorenjska,ž,45-54 let,1370
+2009,Gorenjska,ž,45-54 let,1429
+2010,Gorenjska,ž,45-54 let,1489
+2011,Gorenjska,ž,45-54 let,1490
+2012,Gorenjska,ž,45-54 let,1516
+2013,Gorenjska,ž,45-54 let,1497
+2014,Gorenjska,ž,45-54 let,1526
+2015,Gorenjska,ž,45-54 let,1543
+2016,Gorenjska,ž,45-54 let,1580
+2017,Gorenjska,ž,45-54 let,1635
+2018,Gorenjska,ž,45-54 let,1686
+2019,Gorenjska,ž,45-54 let,1764
+2008,Gorenjska,m,55-64 let,1630
+2009,Gorenjska,m,55-64 let,1626
+2010,Gorenjska,m,55-64 let,1715
+2011,Gorenjska,m,55-64 let,1736
+2012,Gorenjska,m,55-64 let,1782
+2013,Gorenjska,m,55-64 let,1799
+2014,Gorenjska,m,55-64 let,1826
+2015,Gorenjska,m,55-64 let,1882
+2016,Gorenjska,m,55-64 let,1903
+2017,Gorenjska,m,55-64 let,1925
+2018,Gorenjska,m,55-64 let,1973
+2019,Gorenjska,m,55-64 let,2007
+2008,Gorenjska,ž,55-64 let,1773
+2009,Gorenjska,ž,55-64 let,1856
+2010,Gorenjska,ž,55-64 let,1927
+2011,Gorenjska,ž,55-64 let,1902
+2012,Gorenjska,ž,55-64 let,1925
+2013,Gorenjska,ž,55-64 let,1812
+2014,Gorenjska,ž,55-64 let,1810
+2015,Gorenjska,ž,55-64 let,1753
+2016,Gorenjska,ž,55-64 let,1786
+2017,Gorenjska,ž,55-64 let,1776
+2018,Gorenjska,ž,55-64 let,1817
+2019,Gorenjska,ž,55-64 let,1873
+2008,Gorenjska,m,65 let ali več,4004
+2009,Gorenjska,m,65 let ali več,3398
+2010,Gorenjska,m,65 let ali več,4191
+2011,Gorenjska,m,65 let ali več,3309
+2012,Gorenjska,m,65 let ali več,4041
+2013,Gorenjska,m,65 let ali več,3813
+2014,Gorenjska,m,65 let ali več,2876
+2015,Gorenjska,m,65 let ali več,2829
+2016,Gorenjska,m,65 let ali več,3137
+2017,Gorenjska,m,65 let ali več,2945
+2018,Gorenjska,m,65 let ali več,2795
+2019,Gorenjska,m,65 let ali več,2601
+2008,Gorenjska,ž,65 let ali več,2933
+2009,Gorenjska,ž,65 let ali več,2763
+2014,Gorenjska,ž,65 let ali več,2781
+2015,Gorenjska,ž,65 let ali več,3528
+2016,Gorenjska,ž,65 let ali več,2913
+2017,Gorenjska,ž,65 let ali več,2772
+2018,Gorenjska,ž,65 let ali več,2368
+2019,Gorenjska,ž,65 let ali več,2283
+2008,Primorsko-notranjska,m,15-64 let,1275
+2009,Primorsko-notranjska,m,15-64 let,1271
+2010,Primorsko-notranjska,m,15-64 let,1327
+2011,Primorsko-notranjska,m,15-64 let,1376
+2012,Primorsko-notranjska,m,15-64 let,1401
+2013,Primorsko-notranjska,m,15-64 let,1391
+2014,Primorsko-notranjska,m,15-64 let,1434
+2008,Primorsko-notranjska,ž,15-64 let,1178
+2009,Primorsko-notranjska,ž,15-64 let,1247
+2010,Primorsko-notranjska,ž,15-64 let,1272
+2011,Primorsko-notranjska,ž,15-64 let,1322
+2012,Primorsko-notranjska,ž,15-64 let,1339
+2013,Primorsko-notranjska,ž,15-64 let,1348
+2014,Primorsko-notranjska,ž,15-64 let,1356
+2008,Primorsko-notranjska,m,15-24 let,862
+2009,Primorsko-notranjska,m,15-24 let,861
+2010,Primorsko-notranjska,m,15-24 let,951
+2011,Primorsko-notranjska,m,15-24 let,992
+2012,Primorsko-notranjska,m,15-24 let,1040
+2013,Primorsko-notranjska,m,15-24 let,1061
+2014,Primorsko-notranjska,m,15-24 let,1050
+2017,Primorsko-notranjska,m,15-24 let,1148
+2018,Primorsko-notranjska,m,15-24 let,1230
+2019,Primorsko-notranjska,m,15-24 let,1238
+2008,Primorsko-notranjska,ž,15-24 let,815
+2009,Primorsko-notranjska,ž,15-24 let,834
+2010,Primorsko-notranjska,ž,15-24 let,904
+2011,Primorsko-notranjska,ž,15-24 let,939
+2012,Primorsko-notranjska,ž,15-24 let,968
+2013,Primorsko-notranjska,ž,15-24 let,947
+2014,Primorsko-notranjska,ž,15-24 let,967
+2017,Primorsko-notranjska,ž,15-24 let,961
+2018,Primorsko-notranjska,ž,15-24 let,1053
+2019,Primorsko-notranjska,ž,15-24 let,1103
+2008,Primorsko-notranjska,m,25-34 let,1132
+2009,Primorsko-notranjska,m,25-34 let,1125
+2010,Primorsko-notranjska,m,25-34 let,1172
+2011,Primorsko-notranjska,m,25-34 let,1202
+2012,Primorsko-notranjska,m,25-34 let,1220
+2013,Primorsko-notranjska,m,25-34 let,1204
+2014,Primorsko-notranjska,m,25-34 let,1250
+2015,Primorsko-notranjska,m,25-34 let,1286
+2016,Primorsko-notranjska,m,25-34 let,1309
+2018,Primorsko-notranjska,m,25-34 let,1403
+2008,Primorsko-notranjska,ž,25-34 let,1030
+2009,Primorsko-notranjska,ž,25-34 let,1080
+2010,Primorsko-notranjska,ž,25-34 let,1116
+2011,Primorsko-notranjska,ž,25-34 let,1158
+2012,Primorsko-notranjska,ž,25-34 let,1165
+2013,Primorsko-notranjska,ž,25-34 let,1150
+2014,Primorsko-notranjska,ž,25-34 let,1160
+2015,Primorsko-notranjska,ž,25-34 let,1169
+2016,Primorsko-notranjska,ž,25-34 let,1192
+2018,Primorsko-notranjska,ž,25-34 let,1278
+2008,Primorsko-notranjska,m,35-44 let,1284
+2009,Primorsko-notranjska,m,35-44 let,1307
+2010,Primorsko-notranjska,m,35-44 let,1365
+2011,Primorsko-notranjska,m,35-44 let,1410
+2012,Primorsko-notranjska,m,35-44 let,1433
+2013,Primorsko-notranjska,m,35-44 let,1423
+2014,Primorsko-notranjska,m,35-44 let,1476
+2015,Primorsko-notranjska,m,35-44 let,1501
+2016,Primorsko-notranjska,m,35-44 let,1526
+2017,Primorsko-notranjska,m,35-44 let,1567
+2019,Primorsko-notranjska,m,35-44 let,1655
+2008,Primorsko-notranjska,ž,35-44 let,1138
+2009,Primorsko-notranjska,ž,35-44 let,1209
+2010,Primorsko-notranjska,ž,35-44 let,1209
+2011,Primorsko-notranjska,ž,35-44 let,1252
+2012,Primorsko-notranjska,ž,35-44 let,1275
+2013,Primorsko-notranjska,ž,35-44 let,1299
+2014,Primorsko-notranjska,ž,35-44 let,1314
+2015,Primorsko-notranjska,ž,35-44 let,1321
+2016,Primorsko-notranjska,ž,35-44 let,1374
+2017,Primorsko-notranjska,ž,35-44 let,1443
+2019,Primorsko-notranjska,ž,35-44 let,1561
+2008,Primorsko-notranjska,m,45-54 let,1399
+2009,Primorsko-notranjska,m,45-54 let,1376
+2010,Primorsko-notranjska,m,45-54 let,1416
+2011,Primorsko-notranjska,m,45-54 let,1468
+2012,Primorsko-notranjska,m,45-54 let,1504
+2013,Primorsko-notranjska,m,45-54 let,1455
+2014,Primorsko-notranjska,m,45-54 let,1472
+2015,Primorsko-notranjska,m,45-54 let,1492
+2016,Primorsko-notranjska,m,45-54 let,1560
+2017,Primorsko-notranjska,m,45-54 let,1597
+2018,Primorsko-notranjska,m,45-54 let,1647
+2019,Primorsko-notranjska,m,45-54 let,1717
+2008,Primorsko-notranjska,ž,45-54 let,1273
+2009,Primorsko-notranjska,ž,45-54 let,1351
+2010,Primorsko-notranjska,ž,45-54 let,1376
+2011,Primorsko-notranjska,ž,45-54 let,1412
+2012,Primorsko-notranjska,ž,45-54 let,1417
+2013,Primorsko-notranjska,ž,45-54 let,1416
+2014,Primorsko-notranjska,ž,45-54 let,1407
+2015,Primorsko-notranjska,ž,45-54 let,1410
+2016,Primorsko-notranjska,ž,45-54 let,1422
+2017,Primorsko-notranjska,ž,45-54 let,1443
+2018,Primorsko-notranjska,ž,45-54 let,1465
+2019,Primorsko-notranjska,ž,45-54 let,1551
+2008,Primorsko-notranjska,m,55-64 let,1506
+2009,Primorsko-notranjska,m,55-64 let,1524
+2010,Primorsko-notranjska,m,55-64 let,1577
+2011,Primorsko-notranjska,m,55-64 let,1678
+2012,Primorsko-notranjska,m,55-64 let,1698
+2013,Primorsko-notranjska,m,55-64 let,1687
+2014,Primorsko-notranjska,m,55-64 let,1732
+2015,Primorsko-notranjska,m,55-64 let,1744
+2016,Primorsko-notranjska,m,55-64 let,1751
+2017,Primorsko-notranjska,m,55-64 let,1725
+2018,Primorsko-notranjska,m,55-64 let,1713
+2019,Primorsko-notranjska,m,55-64 let,1726
+2008,Primorsko-notranjska,ž,55-64 let,1614
+2009,Primorsko-notranjska,ž,55-64 let,1636
+2010,Primorsko-notranjska,ž,55-64 let,1633
+2011,Primorsko-notranjska,ž,55-64 let,1678
+2012,Primorsko-notranjska,ž,55-64 let,1716
+2013,Primorsko-notranjska,ž,55-64 let,1611
+2014,Primorsko-notranjska,ž,55-64 let,1600
+2015,Primorsko-notranjska,ž,55-64 let,1581
+2016,Primorsko-notranjska,ž,55-64 let,1636
+2017,Primorsko-notranjska,ž,55-64 let,1693
+2018,Primorsko-notranjska,ž,55-64 let,1738
+2019,Primorsko-notranjska,ž,55-64 let,1782
+2009,Primorsko-notranjska,m,65 let ali več,3408
+2010,Primorsko-notranjska,m,65 let ali več,2947
+2011,Primorsko-notranjska,m,65 let ali več,2520
+2013,Primorsko-notranjska,m,65 let ali več,2978
+2014,Primorsko-notranjska,m,65 let ali več,2713
+2008,Goriška,m,15-64 let,1454
+2009,Goriška,m,15-64 let,1452
+2010,Goriška,m,15-64 let,1521
+2011,Goriška,m,15-64 let,1566
+2012,Goriška,m,15-64 let,1573
+2013,Goriška,m,15-64 let,1557
+2014,Goriška,m,15-64 let,1594
+2017,Goriška,m,15-64 let,1673
+2018,Goriška,m,15-64 let,1729
+2019,Goriška,m,15-64 let,1785
+2008,Goriška,ž,15-64 let,1310
+2009,Goriška,ž,15-64 let,1378
+2010,Goriška,ž,15-64 let,1432
+2011,Goriška,ž,15-64 let,1459
+2012,Goriška,ž,15-64 let,1465
+2013,Goriška,ž,15-64 let,1452
+2014,Goriška,ž,15-64 let,1483
+2017,Goriška,ž,15-64 let,1547
+2018,Goriška,ž,15-64 let,1593
+2019,Goriška,ž,15-64 let,1667
+2008,Goriška,m,15-24 let,907
+2009,Goriška,m,15-24 let,877
+2010,Goriška,m,15-24 let,950
+2011,Goriška,m,15-24 let,1004
+2012,Goriška,m,15-24 let,1027
+2013,Goriška,m,15-24 let,1023
+2014,Goriška,m,15-24 let,1041
+2017,Goriška,m,15-24 let,1145
+2018,Goriška,m,15-24 let,1174
+2019,Goriška,m,15-24 let,1225
+2008,Goriška,ž,15-24 let,864
+2009,Goriška,ž,15-24 let,852
+2010,Goriška,ž,15-24 let,914
+2011,Goriška,ž,15-24 let,964
+2012,Goriška,ž,15-24 let,958
+2013,Goriška,ž,15-24 let,927
+2014,Goriška,ž,15-24 let,927
+2017,Goriška,ž,15-24 let,1063
+2018,Goriška,ž,15-24 let,1079
+2019,Goriška,ž,15-24 let,1119
+2008,Goriška,m,25-34 let,1248
+2009,Goriška,m,25-34 let,1232
+2010,Goriška,m,25-34 let,1295
+2011,Goriška,m,25-34 let,1325
+2012,Goriška,m,25-34 let,1331
+2013,Goriška,m,25-34 let,1340
+2014,Goriška,m,25-34 let,1356
+2015,Goriška,m,25-34 let,1361
+2016,Goriška,m,25-34 let,1394
+2017,Goriška,m,25-34 let,1412
+2018,Goriška,m,25-34 let,1452
+2019,Goriška,m,25-34 let,1517
+2008,Goriška,ž,25-34 let,1151
+2009,Goriška,ž,25-34 let,1190
+2010,Goriška,ž,25-34 let,1212
+2011,Goriška,ž,25-34 let,1243
+2012,Goriška,ž,25-34 let,1241
+2013,Goriška,ž,25-34 let,1227
+2014,Goriška,ž,25-34 let,1237
+2015,Goriška,ž,25-34 let,1217
+2016,Goriška,ž,25-34 let,1253
+2017,Goriška,ž,25-34 let,1287
+2018,Goriška,ž,25-34 let,1336
+2019,Goriška,ž,25-34 let,1387
+2008,Goriška,m,35-44 let,1506
+2009,Goriška,m,35-44 let,1513
+2010,Goriška,m,35-44 let,1570
+2011,Goriška,m,35-44 let,1605
+2012,Goriška,m,35-44 let,1606
+2013,Goriška,m,35-44 let,1591
+2014,Goriška,m,35-44 let,1630
+2015,Goriška,m,35-44 let,1629
+2016,Goriška,m,35-44 let,1667
+2017,Goriška,m,35-44 let,1692
+2018,Goriška,m,35-44 let,1768
+2019,Goriška,m,35-44 let,1820
+2008,Goriška,ž,35-44 let,1303
+2009,Goriška,ž,35-44 let,1358
+2010,Goriška,ž,35-44 let,1414
+2011,Goriška,ž,35-44 let,1433
+2012,Goriška,ž,35-44 let,1436
+2013,Goriška,ž,35-44 let,1427
+2014,Goriška,ž,35-44 let,1462
+2015,Goriška,ž,35-44 let,1452
+2016,Goriška,ž,35-44 let,1517
+2017,Goriška,ž,35-44 let,1519
+2018,Goriška,ž,35-44 let,1561
+2019,Goriška,ž,35-44 let,1641
+2008,Goriška,m,45-54 let,1561
+2009,Goriška,m,45-54 let,1548
+2010,Goriška,m,45-54 let,1615
+2011,Goriška,m,45-54 let,1670
+2012,Goriška,m,45-54 let,1659
+2013,Goriška,m,45-54 let,1625
+2014,Goriška,m,45-54 let,1659
+2015,Goriška,m,45-54 let,1671
+2016,Goriška,m,45-54 let,1746
+2017,Goriška,m,45-54 let,1772
+2018,Goriška,m,45-54 let,1815
+2019,Goriška,m,45-54 let,1889
+2008,Goriška,ž,45-54 let,1384
+2009,Goriška,ž,45-54 let,1454
+2010,Goriška,ž,45-54 let,1514
+2011,Goriška,ž,45-54 let,1522
+2012,Goriška,ž,45-54 let,1523
+2013,Goriška,ž,45-54 let,1494
+2014,Goriška,ž,45-54 let,1511
+2015,Goriška,ž,45-54 let,1499
+2016,Goriška,ž,45-54 let,1547
+2017,Goriška,ž,45-54 let,1576
+2018,Goriška,ž,45-54 let,1633
+2019,Goriška,ž,45-54 let,1715
+2008,Goriška,m,55-64 let,1755
+2009,Goriška,m,55-64 let,1787
+2010,Goriška,m,55-64 let,1876
+2011,Goriška,m,55-64 let,1903
+2012,Goriška,m,55-64 let,1928
+2013,Goriška,m,55-64 let,1844
+2014,Goriška,m,55-64 let,1856
+2015,Goriška,m,55-64 let,1857
+2016,Goriška,m,55-64 let,1878
+2017,Goriška,m,55-64 let,1873
+2018,Goriška,m,55-64 let,1947
+2019,Goriška,m,55-64 let,1999
+2008,Goriška,ž,55-64 let,1742
+2009,Goriška,ž,55-64 let,1936
+2010,Goriška,ž,55-64 let,1987
+2011,Goriška,ž,55-64 let,1936
+2012,Goriška,ž,55-64 let,1920
+2013,Goriška,ž,55-64 let,1809
+2014,Goriška,ž,55-64 let,1787
+2015,Goriška,ž,55-64 let,1753
+2016,Goriška,ž,55-64 let,1794
+2017,Goriška,ž,55-64 let,1761
+2018,Goriška,ž,55-64 let,1787
+2019,Goriška,ž,55-64 let,1863
+2008,Goriška,m,65 let ali več,3660
+2009,Goriška,m,65 let ali več,4930
+2011,Goriška,m,65 let ali več,3923
+2012,Goriška,m,65 let ali več,3892
+2013,Goriška,m,65 let ali več,3616
+2014,Goriška,m,65 let ali več,3127
+2017,Goriška,m,65 let ali več,2968
+2018,Goriška,m,65 let ali več,2690
+2019,Goriška,m,65 let ali več,2891
+2017,Goriška,ž,65 let ali več,2162
+2018,Goriška,ž,65 let ali več,3577
+2019,Goriška,ž,65 let ali več,3102
+2008,Obalno-kraška,m,15-64 let,1474
+2009,Obalno-kraška,m,15-64 let,1508
+2010,Obalno-kraška,m,15-64 let,1541
+2011,Obalno-kraška,m,15-64 let,1587
+2012,Obalno-kraška,m,15-64 let,1608
+2013,Obalno-kraška,m,15-64 let,1601
+2014,Obalno-kraška,m,15-64 let,1656
+2015,Obalno-kraška,m,15-64 let,1673
+2016,Obalno-kraška,m,15-64 let,1720
+2017,Obalno-kraška,m,15-64 let,1736
+2018,Obalno-kraška,m,15-64 let,1791
+2019,Obalno-kraška,m,15-64 let,1875
+2008,Obalno-kraška,ž,15-64 let,1374
+2009,Obalno-kraška,ž,15-64 let,1457
+2010,Obalno-kraška,ž,15-64 let,1496
+2011,Obalno-kraška,ž,15-64 let,1524
+2012,Obalno-kraška,ž,15-64 let,1539
+2013,Obalno-kraška,ž,15-64 let,1547
+2014,Obalno-kraška,ž,15-64 let,1583
+2015,Obalno-kraška,ž,15-64 let,1593
+2016,Obalno-kraška,ž,15-64 let,1625
+2017,Obalno-kraška,ž,15-64 let,1640
+2018,Obalno-kraška,ž,15-64 let,1678
+2019,Obalno-kraška,ž,15-64 let,1753
+2008,Obalno-kraška,m,15-24 let,904
+2009,Obalno-kraška,m,15-24 let,909
+2010,Obalno-kraška,m,15-24 let,961
+2011,Obalno-kraška,m,15-24 let,1039
+2012,Obalno-kraška,m,15-24 let,1027
+2013,Obalno-kraška,m,15-24 let,1033
+2014,Obalno-kraška,m,15-24 let,1076
+2015,Obalno-kraška,m,15-24 let,1082
+2016,Obalno-kraška,m,15-24 let,1102
+2017,Obalno-kraška,m,15-24 let,1163
+2018,Obalno-kraška,m,15-24 let,1214
+2019,Obalno-kraška,m,15-24 let,1266
+2008,Obalno-kraška,ž,15-24 let,864
+2009,Obalno-kraška,ž,15-24 let,901
+2010,Obalno-kraška,ž,15-24 let,943
+2011,Obalno-kraška,ž,15-24 let,969
+2012,Obalno-kraška,ž,15-24 let,1010
+2013,Obalno-kraška,ž,15-24 let,997
+2014,Obalno-kraška,ž,15-24 let,984
+2015,Obalno-kraška,ž,15-24 let,976
+2016,Obalno-kraška,ž,15-24 let,994
+2017,Obalno-kraška,ž,15-24 let,1047
+2018,Obalno-kraška,ž,15-24 let,1084
+2019,Obalno-kraška,ž,15-24 let,1157
+2008,Obalno-kraška,m,25-34 let,1262
+2009,Obalno-kraška,m,25-34 let,1279
+2010,Obalno-kraška,m,25-34 let,1305
+2011,Obalno-kraška,m,25-34 let,1342
+2012,Obalno-kraška,m,25-34 let,1358
+2013,Obalno-kraška,m,25-34 let,1336
+2014,Obalno-kraška,m,25-34 let,1367
+2015,Obalno-kraška,m,25-34 let,1364
+2016,Obalno-kraška,m,25-34 let,1407
+2017,Obalno-kraška,m,25-34 let,1443
+2018,Obalno-kraška,m,25-34 let,1500
+2019,Obalno-kraška,m,25-34 let,1604
+2008,Obalno-kraška,ž,25-34 let,1185
+2009,Obalno-kraška,ž,25-34 let,1221
+2010,Obalno-kraška,ž,25-34 let,1275
+2011,Obalno-kraška,ž,25-34 let,1292
+2012,Obalno-kraška,ž,25-34 let,1297
+2013,Obalno-kraška,ž,25-34 let,1284
+2014,Obalno-kraška,ž,25-34 let,1303
+2015,Obalno-kraška,ž,25-34 let,1296
+2016,Obalno-kraška,ž,25-34 let,1307
+2017,Obalno-kraška,ž,25-34 let,1320
+2018,Obalno-kraška,ž,25-34 let,1348
+2019,Obalno-kraška,ž,25-34 let,1408
+2008,Obalno-kraška,m,35-44 let,1534
+2009,Obalno-kraška,m,35-44 let,1584
+2010,Obalno-kraška,m,35-44 let,1608
+2011,Obalno-kraška,m,35-44 let,1658
+2012,Obalno-kraška,m,35-44 let,1669
+2013,Obalno-kraška,m,35-44 let,1654
+2014,Obalno-kraška,m,35-44 let,1703
+2015,Obalno-kraška,m,35-44 let,1723
+2016,Obalno-kraška,m,35-44 let,1759
+2017,Obalno-kraška,m,35-44 let,1773
+2018,Obalno-kraška,m,35-44 let,1817
+2019,Obalno-kraška,m,35-44 let,1904
+2008,Obalno-kraška,ž,35-44 let,1404
+2009,Obalno-kraška,ž,35-44 let,1499
+2010,Obalno-kraška,ž,35-44 let,1513
+2011,Obalno-kraška,ž,35-44 let,1537
+2012,Obalno-kraška,ž,35-44 let,1559
+2013,Obalno-kraška,ž,35-44 let,1563
+2014,Obalno-kraška,ž,35-44 let,1594
+2015,Obalno-kraška,ž,35-44 let,1607
+2016,Obalno-kraška,ž,35-44 let,1620
+2017,Obalno-kraška,ž,35-44 let,1626
+2018,Obalno-kraška,ž,35-44 let,1653
+2019,Obalno-kraška,ž,35-44 let,1705
+2008,Obalno-kraška,m,45-54 let,1581
+2009,Obalno-kraška,m,45-54 let,1619
+2010,Obalno-kraška,m,45-54 let,1662
+2011,Obalno-kraška,m,45-54 let,1694
+2012,Obalno-kraška,m,45-54 let,1705
+2013,Obalno-kraška,m,45-54 let,1715
+2014,Obalno-kraška,m,45-54 let,1762
+2015,Obalno-kraška,m,45-54 let,1772
+2016,Obalno-kraška,m,45-54 let,1832
+2017,Obalno-kraška,m,45-54 let,1839
+2018,Obalno-kraška,m,45-54 let,1934
+2019,Obalno-kraška,m,45-54 let,2038
+2008,Obalno-kraška,ž,45-54 let,1437
+2009,Obalno-kraška,ž,45-54 let,1531
+2010,Obalno-kraška,ž,45-54 let,1568
+2011,Obalno-kraška,ž,45-54 let,1599
+2012,Obalno-kraška,ž,45-54 let,1603
+2013,Obalno-kraška,ž,45-54 let,1613
+2014,Obalno-kraška,ž,45-54 let,1644
+2015,Obalno-kraška,ž,45-54 let,1648
+2016,Obalno-kraška,ž,45-54 let,1706
+2017,Obalno-kraška,ž,45-54 let,1719
+2018,Obalno-kraška,ž,45-54 let,1781
+2019,Obalno-kraška,ž,45-54 let,1880
+2008,Obalno-kraška,m,55-64 let,1740
+2009,Obalno-kraška,m,55-64 let,1807
+2010,Obalno-kraška,m,55-64 let,1800
+2011,Obalno-kraška,m,55-64 let,1807
+2012,Obalno-kraška,m,55-64 let,1875
+2013,Obalno-kraška,m,55-64 let,1824
+2014,Obalno-kraška,m,55-64 let,1878
+2015,Obalno-kraška,m,55-64 let,1918
+2016,Obalno-kraška,m,55-64 let,1921
+2017,Obalno-kraška,m,55-64 let,1899
+2018,Obalno-kraška,m,55-64 let,1902
+2019,Obalno-kraška,m,55-64 let,1949
+2008,Obalno-kraška,ž,55-64 let,1672
+2009,Obalno-kraška,ž,55-64 let,1802
+2010,Obalno-kraška,ž,55-64 let,1872
+2011,Obalno-kraška,ž,55-64 let,1855
+2012,Obalno-kraška,ž,55-64 let,1837
+2013,Obalno-kraška,ž,55-64 let,1785
+2014,Obalno-kraška,ž,55-64 let,1805
+2015,Obalno-kraška,ž,55-64 let,1797
+2016,Obalno-kraška,ž,55-64 let,1809
+2017,Obalno-kraška,ž,55-64 let,1832
+2018,Obalno-kraška,ž,55-64 let,1861
+2019,Obalno-kraška,ž,55-64 let,1928
+2008,Obalno-kraška,m,65 let ali več,3585
+2009,Obalno-kraška,m,65 let ali več,3750
+2010,Obalno-kraška,m,65 let ali več,3768
+2011,Obalno-kraška,m,65 let ali več,3880
+2012,Obalno-kraška,m,65 let ali več,3667
+2013,Obalno-kraška,m,65 let ali več,3199
+2014,Obalno-kraška,m,65 let ali več,2990
+2015,Obalno-kraška,m,65 let ali več,2725
+2016,Obalno-kraška,m,65 let ali več,2902
+2017,Obalno-kraška,m,65 let ali več,2833
+2018,Obalno-kraška,m,65 let ali več,2554
+2019,Obalno-kraška,m,65 let ali več,2525
+2011,Obalno-kraška,ž,65 let ali več,3141
+2012,Obalno-kraška,ž,65 let ali več,3096
+2013,Obalno-kraška,ž,65 let ali več,3734
+2015,Obalno-kraška,ž,65 let ali več,3980
+2016,Obalno-kraška,ž,65 let ali več,3058
+2017,Obalno-kraška,ž,65 let ali več,2863
+2018,Obalno-kraška,ž,65 let ali več,3292
+2019,Obalno-kraška,ž,65 let ali več,3098

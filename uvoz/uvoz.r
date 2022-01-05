@@ -1,39 +1,50 @@
 # 2. faza: Uvoz podatkov
-library(readr)
-library(tibble)
-library(tidyr)
-library(dplyr)
-library(readxl)
-library(tidyverse)
 
+source("lib/libraries.r")
 sl <- locale("sl", decimal_mark=",", grouping_mark=".")
 
-### Pretvorna tabela (iz občin v regije)
-
-obcine_v_regije = read_csv("podatki/obcine-regije.csv")
-obcine_v_regije %>% arrange(obcina)
-
 ### Prva tabela
+
+#Pomožna tabela za preimenovanje spola
+preimenovanje_spol = tibble(spol_uradno = c(
+  "Spol - SKUPAJ",
+  "Moški",
+  "Ženske"),
+  spol = c(
+    "skupaj",
+    "m",
+    "ž")
+  )
 
 # Tabela ima v nekaterih poljih vrednost "z". To pomeni, da je podatek statistično zaščiten oziroma ga zaradi varovanja zaupnosti poročevalskih enot ne objavijo.
 # Ta polja bom izpustil iz nadaljne analize, za zdaj pa sem jih nastavil na vrednost NA. Na NA sem nastavil tudi polja, kjer ni podatkov.
 
 
 starost_spol_po_regijah = read_csv("podatki/povprecne_place_glede_na_spol_starost_po_regijah.csv", na=c("z","-"),locale=locale(encoding="Windows-1250"), skip = 1,
-                                    col_names = c("bruto","regija","starost","spol","2008","2009","2010","2011","2012","2013","2014","2015","2016","2017","2018","2019"),
+                                    col_names = c("bruto","regija","starost","spol_uradno","2008","2009","2010","2011","2012","2013","2014","2015","2016","2017","2018","2019"),
                                    col_types = cols(
                                      .default = col_guess(),
                                      bruto = col_skip(),
-                                     spol = col_factor(),
+                                     spol_uradno = col_factor(),
                                      starost = col_factor(),
                                      regija = col_factor()
                                    ))
+
 starost_spol_po_regijah = starost_spol_po_regijah %>% pivot_longer(cols = colnames(starost_spol_po_regijah)[c(4:15)],
                                                                    names_to = "leto",
                                                                    values_to = "placa"
-                                                                   ) %>% relocate(leto,regija,spol,starost,placa)
+                                                                   ) %>% left_join(preimenovanje_spol, by = "spol_uradno") %>% relocate(spol_uradno, leto, regija, spol, starost, placa) %>% select(-spol_uradno)
+#preverimo, da so tipi stolpcev ustrezni
+sapply(starost_spol_po_regijah, class)
+
+#pretvorimo stolpec leto v numeričnega
+starost_spol_po_regijah$leto = as.numeric(as.character(starost_spol_po_regijah$leto))
+
+#Ker vrstic z Na ne moremo naprej proučevati jih izpustimo
+starost_spol_po_regijah = na.omit(starost_spol_po_regijah)
 
 starost_spol_po_regijah %>% write_csv("starost_spol_po_regijah.csv")
+
 
 ### Druga tabela
 
@@ -85,9 +96,9 @@ preimenovanje_dejavnosti = tibble(dejavnost_uradno = c(
     
 
 izobrazba_spol_po_dejavnostih = read_csv("podatki/povprecne_place_glede_na_dejavnost_izobrazbo_spol.csv", na="...", locale=locale(encoding="Windows-1250"),skip = 1,
-                                         col_names = c("dejavnost_uradno", "izobrazba", "spol","2008","2009","2010","2011","2012","2013","2014","2015","2016","2017","2018","2019"),
+                                         col_names = c("dejavnost_uradno", "izobrazba", "spol_uradno","2008","2009","2010","2011","2012","2013","2014","2015","2016","2017","2018","2019"),
                                           col_types= cols(.default = col_guess(),
-                                                          spol = col_factor(),
+                                                          spol_uradno = col_factor(),
                                                           dejavnost_uradno = col_factor(),
                                                           izobrazba = col_factor()
                                                           ))
@@ -96,33 +107,47 @@ izobrazba_spol_po_dejavnostih = read_csv("podatki/povprecne_place_glede_na_dejav
 izobrazba_spol_po_dejavnostih = izobrazba_spol_po_dejavnostih %>% pivot_longer(cols = colnames(izobrazba_spol_po_dejavnostih)[c(4:15)],
                                                                                names_to = "leto",
                                                                                values_to = "placa"
-                                                                               ) %>% left_join(preimenovanje_dejavnosti, by = "dejavnost_uradno") %>% relocate(dejavnost_uradno,leto,dejavnost,izobrazba,spol,placa)
-izobrazba_spol_po_dejavnostih = izobrazba_spol_po_dejavnostih[-1]
+                                                                               ) %>% left_join(preimenovanje_dejavnosti, by = "dejavnost_uradno") %>% left_join(preimenovanje_spol, by = "spol_uradno") %>%
+                                                                                relocate(dejavnost_uradno, spol_uradno, leto, dejavnost, izobrazba, spol, placa) %>% select(-c(dejavnost_uradno, spol_uradno))
+#preverimo, da so tipi stolpcev ustrezni
+sapply(izobrazba_spol_po_dejavnostih, class)
+
+#pretvorimo stolpec leto v numeričnega, stolpca dejavnost in spol pa v faktor
+izobrazba_spol_po_dejavnostih$leto = as.numeric(as.character(izobrazba_spol_po_dejavnostih$leto))
+izobrazba_spol_po_dejavnostih$dejavnost = as.factor(izobrazba_spol_po_dejavnostih$dejavnost)
+izobrazba_spol_po_dejavnostih$spol = as.factor(izobrazba_spol_po_dejavnostih$spol)
 
 izobrazba_spol_po_dejavnostih %>% write_csv("izobrazba_spol_po_dejavnostih.csv")
 
 ### Tretja tabela
 
+### Pretvorna tabela (iz občin v regije)
+obcine_v_regije = read_csv("podatki/obcine-regije.csv")
+obcine_v_regije %>% arrange(obcina)
+
 prihodek_podjetij_po_obcinah = read_excel("podatki/prihodek_podjetij_po_obcinah.xlsx", skip = 5, na = "-",
                                           col_names = c("obcina","2008","2009","2010","2011","2012","2013","2014","2015","2016","2017","2018","2019"))
 prihodek_podjetij_po_obcinah = head(prihodek_podjetij_po_obcinah, -43)
+prihodek_podjetij_po_obcinah[is.na(prihodek_podjetij_po_obcinah)] = 0 # Z vrednostjo NA ne moremo računati, zato jo nastavimo na 0
 
-prihodek_podjetij_po_regijah = prihodek_podjetij_po_obcinah %>% right_join(obcine_v_regije, by = "obcina") %>% pivot_longer(cols = colnames(prihodek_podjetij_po_obcinah)[c(2:13)], names_to = "leto", values_to = "prihodek")
+prihodek_podjetij_po_regijah = prihodek_podjetij_po_obcinah %>% right_join(obcine_v_regije, by = "obcina") %>% pivot_longer(cols = colnames(prihodek_podjetij_po_obcinah)[c(2:13)], names_to = "leto", values_to = "prihodek") %>%
+  select(-obcina) %>% group_by(regija, leto) %>% summarise(prihodek = sum(prihodek)) %>% relocate(leto, regija, prihodek)
 
-prihodek_podjetij_po_regijah = subset(prihodek_podjetij_po_regijah, select = -obcina)
+#preverimo, da so tipi stolpcev ustrezni
+sapply(prihodek_podjetij_po_regijah, class)
 
-prihodek_podjetij_po_regijah[is.na(prihodek_podjetij_po_regijah)] = 0 # Z vrednostjo NA ne moremo računati, zato jo nastavimo na 0
-
-prihodek_podjetij_po_regijah = prihodek_podjetij_po_regijah %>% group_by(regija, leto) %>% summarise(prihodek = sum(prihodek))
+#pretvorimo stolpec leto v numeričnega, stolpec regija pa v faktor
+prihodek_podjetij_po_regijah$leto = as.numeric(as.character(prihodek_podjetij_po_regijah$leto))
+prihodek_podjetij_po_regijah$regija = as.factor(prihodek_podjetij_po_regijah$regija)
 
 prihodek_podjetij_po_regijah %>% write_csv("prihodek_podjetij_po_regijah.csv")
 
 ### Četrta tabela
 
 izobrazba_spol_po_sektorjih = read_csv("podatki/povprecne_place_glede_na_izobrazbo_spol_po_sektorjih.csv", na="...", locale=locale(encoding="Windows-1250"),skip = 1,
-                                       col_names = c("sektor_uradno", "izobrazba", "spol","2008","2009","2010","2011","2012","2013","2014","2015","2016","2017","2018","2019"),
+                                       col_names = c("sektor_uradno", "izobrazba", "spol_uradno","2008","2009","2010","2011","2012","2013","2014","2015","2016","2017","2018","2019"),
                                        col_types= cols(.default = col_guess(),
-                                                       spol = col_factor(),
+                                                       spol_uradno = col_factor(),
                                                        izobrazba = col_factor()
                                        ))
 
@@ -139,9 +164,16 @@ preimenovanje_sektorjev = tibble(sektor_uradno = c(
 izobrazba_spol_po_sektorjih =  izobrazba_spol_po_sektorjih %>% pivot_longer(cols = colnames(izobrazba_spol_po_sektorjih)[c(4:15)],
                                            names_to = "leto",
                                            values_to = "placa"
-                                           )  %>% left_join(preimenovanje_sektorjev, by = "sektor_uradno")  %>% relocate(sektor_uradno,leto, sektor, izobrazba, spol, placa)
+                                           )  %>% left_join(preimenovanje_sektorjev, by = "sektor_uradno") %>% left_join(preimenovanje_spol, by = "spol_uradno")  %>%
+                                        relocate(sektor_uradno, spol_uradno, leto, sektor, izobrazba, spol, placa) %>% select(-c(sektor_uradno, spol_uradno))
 
-izobrazba_spol_po_sektorjih = izobrazba_spol_po_sektorjih[-1]
- 
+#preverimo, da so tipi stolpcev ustrezni
+sapply(izobrazba_spol_po_sektorjih, class)
+
+#pretvorimo stolpec leto v numeričnega, stolpca sektor in spol pa v faktor
+izobrazba_spol_po_sektorjih$leto = as.numeric(as.character(izobrazba_spol_po_sektorjih$leto))
+izobrazba_spol_po_sektorjih$sektor = as.factor(izobrazba_spol_po_sektorjih$sektor)
+izobrazba_spol_po_sektorjih$spol = as.factor(izobrazba_spol_po_sektorjih$spol)
+
 izobrazba_spol_po_sektorjih %>% write_csv("izobrazba_spol_po_sektorjih.csv")
 
