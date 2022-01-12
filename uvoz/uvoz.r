@@ -33,7 +33,7 @@ starost_spol_po_regijah = read_csv("podatki/povprecne_place_glede_na_spol_staros
 starost_spol_po_regijah = starost_spol_po_regijah %>% pivot_longer(cols = colnames(starost_spol_po_regijah)[c(4:15)],
                                                                    names_to = "leto",
                                                                    values_to = "placa"
-                                                                   ) %>% left_join(preimenovanje_spol, by = "spol_uradno") %>% relocate(spol_uradno, leto, regija, spol, starost, placa) %>% select(-spol_uradno)
+                                                                   ) %>% left_join(preimenovanje_spol, by = "spol_uradno") %>% relocate(spol_uradno, leto, regija, spol, starost, placa) %>% select(-spol_uradno) %>% filter(regija != "SLOVENIJA")
 #preverimo, da so tipi stolpcev ustrezni
 sapply(starost_spol_po_regijah, class)
 
