@@ -37,8 +37,9 @@ starost_spol_po_regijah = starost_spol_po_regijah %>% pivot_longer(cols = colnam
 #preverimo, da so tipi stolpcev ustrezni
 sapply(starost_spol_po_regijah, class)
 
-#pretvorimo stolpec leto v numeričnega
+#pretvorimo stolpec leto v numeričnega in stolpec spol v faktor
 starost_spol_po_regijah$leto = as.numeric(as.character(starost_spol_po_regijah$leto))
+starost_spol_po_regijah$spol = as.factor(starost_spol_po_regijah$spol)
 
 #Ker vrstic z Na ne moremo naprej proučevati jih izpustimo
 starost_spol_po_regijah = na.omit(starost_spol_po_regijah)
@@ -73,13 +74,13 @@ preimenovanje_dejavnosti = tibble(dejavnost_uradno = c(
   
   dejavnost = c(
     "skupaj",
-    "kmetijstvo, lov, gozdarstvno in ribištvo",
+    "kmetijstvo, lov, gozdarstvo in ribištvo",
     "rudarstvo",
     "predelovalne dejavnosti",
     "oskrba z električno energijo, plinom in paro",
     "oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",
     "gradbeništvo",
-    "trgovina, vzdrževnaje in popravila motornih vozil",
+    "trgovina, vzdrževanje in popravila motornih vozil",
     "promet in skladiščenje",
     "gostinstvo",
     "informacijske in komunikacijske dejavnosti",
@@ -93,29 +94,44 @@ preimenovanje_dejavnosti = tibble(dejavnost_uradno = c(
     "kulturne, razvedrilne in rekreacijske dejavnosti",
     "druge dejavnosti")
   )
-    
+
+#Pomožna tabela za preimenovanje stopnje izobrazbe
+preimenovanje_izobrazba = tibble(izobrazba_uradno = c(
+  "Izobrazba - SKUPAJ",
+  "Osnovnošolska ali manj",
+  "Srednješolska",
+  "Višješolska, visokošolska"),
+  izobrazba = c(
+    "skupaj",
+    "osnovna",
+    "srednja",
+    "visoka")
+)
+
 
 izobrazba_spol_po_dejavnostih = read_csv("podatki/povprecne_place_glede_na_dejavnost_izobrazbo_spol.csv", na="...", locale=locale(encoding="Windows-1250"),skip = 1,
-                                         col_names = c("dejavnost_uradno", "izobrazba", "spol_uradno","2008","2009","2010","2011","2012","2013","2014","2015","2016","2017","2018","2019"),
+                                         col_names = c("dejavnost_uradno", "izobrazba_uradno", "spol_uradno","2008","2009","2010","2011","2012","2013","2014","2015","2016","2017","2018","2019"),
                                           col_types= cols(.default = col_guess(),
                                                           spol_uradno = col_factor(),
                                                           dejavnost_uradno = col_factor(),
-                                                          izobrazba = col_factor()
+                                                          izobrazba_uradno = col_factor()
                                                           ))
 
 
 izobrazba_spol_po_dejavnostih = izobrazba_spol_po_dejavnostih %>% pivot_longer(cols = colnames(izobrazba_spol_po_dejavnostih)[c(4:15)],
                                                                                names_to = "leto",
-                                                                               values_to = "placa"
-                                                                               ) %>% left_join(preimenovanje_dejavnosti, by = "dejavnost_uradno") %>% left_join(preimenovanje_spol, by = "spol_uradno") %>%
-                                                                                relocate(dejavnost_uradno, spol_uradno, leto, dejavnost, izobrazba, spol, placa) %>% select(-c(dejavnost_uradno, spol_uradno))
+                                                                               values_to = "placa") %>% left_join(preimenovanje_dejavnosti, by = "dejavnost_uradno") %>% left_join(preimenovanje_spol, by = "spol_uradno") %>% 
+                                                                                left_join(preimenovanje_izobrazba, by = "izobrazba_uradno") %>%
+                                                                                relocate(dejavnost_uradno, spol_uradno, izobrazba_uradno, leto, dejavnost, izobrazba, spol, placa) %>% select(-c(dejavnost_uradno, spol_uradno, izobrazba_uradno))
 #preverimo, da so tipi stolpcev ustrezni
 sapply(izobrazba_spol_po_dejavnostih, class)
 
-#pretvorimo stolpec leto v numeričnega, stolpca dejavnost in spol pa v faktor
+#pretvorimo stolpec leto v numeričnega, stolpce dejavnost, spol in izobrazba pa v faktor
 izobrazba_spol_po_dejavnostih$leto = as.numeric(as.character(izobrazba_spol_po_dejavnostih$leto))
 izobrazba_spol_po_dejavnostih$dejavnost = as.factor(izobrazba_spol_po_dejavnostih$dejavnost)
+izobrazba_spol_po_dejavnostih$izobrazba = as.factor(izobrazba_spol_po_dejavnostih$izobrazba)
 izobrazba_spol_po_dejavnostih$spol = as.factor(izobrazba_spol_po_dejavnostih$spol)
+
 
 izobrazba_spol_po_dejavnostih %>% write_csv("izobrazba_spol_po_dejavnostih.csv")
 
@@ -127,8 +143,12 @@ obcine_v_regije %>% arrange(obcina)
 
 prihodek_podjetij_po_obcinah = read_excel("podatki/prihodek_podjetij_po_obcinah.xlsx", skip = 5, na = "-",
                                           col_names = c("obcina","2008","2009","2010","2011","2012","2013","2014","2015","2016","2017","2018","2019"))
+
+#Izpustimo nepomembne vrstice
 prihodek_podjetij_po_obcinah = head(prihodek_podjetij_po_obcinah, -43)
-prihodek_podjetij_po_obcinah[is.na(prihodek_podjetij_po_obcinah)] = 0 # Z vrednostjo NA ne moremo računati, zato jo nastavimo na 0
+
+#Ker vrstic z Na ne moremo naprej proučevati, prihodke nastavimo na 0
+prihodek_podjetij_po_obcinah[is.na(prihodek_podjetij_po_obcinah)] = 0
 
 prihodek_podjetij_po_regijah = prihodek_podjetij_po_obcinah %>% right_join(obcine_v_regije, by = "obcina") %>% pivot_longer(cols = colnames(prihodek_podjetij_po_obcinah)[c(2:13)], names_to = "leto", values_to = "prihodek") %>%
   select(-obcina) %>% group_by(regija, leto) %>% summarise(prihodek = sum(prihodek)) %>% relocate(leto, regija, prihodek)
@@ -145,10 +165,10 @@ prihodek_podjetij_po_regijah %>% write_csv("prihodek_podjetij_po_regijah.csv")
 ### Četrta tabela
 
 izobrazba_spol_po_sektorjih = read_csv("podatki/povprecne_place_glede_na_izobrazbo_spol_po_sektorjih.csv", na="...", locale=locale(encoding="Windows-1250"),skip = 1,
-                                       col_names = c("sektor_uradno", "izobrazba", "spol_uradno","2008","2009","2010","2011","2012","2013","2014","2015","2016","2017","2018","2019"),
+                                       col_names = c("sektor_uradno", "izobrazba_uradno", "spol_uradno","2008","2009","2010","2011","2012","2013","2014","2015","2016","2017","2018","2019"),
                                        col_types= cols(.default = col_guess(),
                                                        spol_uradno = col_factor(),
-                                                       izobrazba = col_factor()
+                                                       izobrazba_uradno = col_factor()
                                        ))
 
 #Pomožna tabela za preimenovanje sektorjev
@@ -156,23 +176,38 @@ preimenovanje_sektorjev = tibble(sektor_uradno = c(
   "1 Javni in zasebni sektor - SKUPAJ",
   "11 Javni sektor - SKUPAJ",
   "12 Zasebni sektor - SKUPAJ"),
-  sektor = c("javni in zasebni sektor",
+  sektor = c("skupaj",
              "javni sektor",
              "zasebni sektor")
   )
 
+#Popravek v pomožni tabeli za preimenovanje izobrazbe
+#Pomožna tabela za preimenovanje stopnje izobrazbe
+preimenovanje_izobrazba = tibble(izobrazba_uradno = c(
+  "Izobrazba - Skupaj",
+  "Osnovnošolska ali manj",
+  "Srednješolska",
+  "Višješolska, visokošolska"),
+  izobrazba = c(
+    "skupaj",
+    "osnovna",
+    "srednja",
+    "visoka")
+)
+
 izobrazba_spol_po_sektorjih =  izobrazba_spol_po_sektorjih %>% pivot_longer(cols = colnames(izobrazba_spol_po_sektorjih)[c(4:15)],
                                            names_to = "leto",
                                            values_to = "placa"
-                                           )  %>% left_join(preimenovanje_sektorjev, by = "sektor_uradno") %>% left_join(preimenovanje_spol, by = "spol_uradno")  %>%
-                                        relocate(sektor_uradno, spol_uradno, leto, sektor, izobrazba, spol, placa) %>% select(-c(sektor_uradno, spol_uradno))
+                                           )  %>% left_join(preimenovanje_sektorjev, by = "sektor_uradno") %>% left_join(preimenovanje_izobrazba, by = "izobrazba_uradno") %>% left_join(preimenovanje_spol, by = "spol_uradno")  %>%
+                                        relocate(sektor_uradno, spol_uradno, leto, sektor, izobrazba, spol, placa) %>% select(-c(sektor_uradno, spol_uradno, izobrazba_uradno))
 
 #preverimo, da so tipi stolpcev ustrezni
 sapply(izobrazba_spol_po_sektorjih, class)
 
-#pretvorimo stolpec leto v numeričnega, stolpca sektor in spol pa v faktor
+#pretvorimo stolpec leto v numeričnega, stolpce sektor, izobrazba in spol pa v faktor
 izobrazba_spol_po_sektorjih$leto = as.numeric(as.character(izobrazba_spol_po_sektorjih$leto))
 izobrazba_spol_po_sektorjih$sektor = as.factor(izobrazba_spol_po_sektorjih$sektor)
+izobrazba_spol_po_sektorjih$izobrazba = as.factor(izobrazba_spol_po_sektorjih$izobrazba)
 izobrazba_spol_po_sektorjih$spol = as.factor(izobrazba_spol_po_sektorjih$spol)
 
 izobrazba_spol_po_sektorjih %>% write_csv("izobrazba_spol_po_sektorjih.csv")
