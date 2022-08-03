@@ -1,196 +1,4 @@
 leto,dejavnost,izobrazba,spol,placa
-2008,skupaj,skupaj,skupaj,1427
-2009,skupaj,skupaj,skupaj,1477
-2010,skupaj,skupaj,skupaj,1538
-2011,skupaj,skupaj,skupaj,1582
-2012,skupaj,skupaj,skupaj,1601
-2013,skupaj,skupaj,skupaj,1598
-2014,skupaj,skupaj,skupaj,1637
-2015,skupaj,skupaj,skupaj,1652
-2016,skupaj,skupaj,skupaj,1686
-2017,skupaj,skupaj,skupaj,1722
-2018,skupaj,skupaj,skupaj,1778
-2019,skupaj,skupaj,skupaj,1851
-2008,skupaj,skupaj,m,1474
-2009,skupaj,skupaj,m,1496
-2010,skupaj,skupaj,m,1564
-2011,skupaj,skupaj,m,1617
-2012,skupaj,skupaj,m,1639
-2013,skupaj,skupaj,m,1639
-2014,skupaj,skupaj,m,1678
-2015,skupaj,skupaj,m,1698
-2016,skupaj,skupaj,m,1733
-2017,skupaj,skupaj,m,1770
-2018,skupaj,skupaj,m,1837
-2019,skupaj,skupaj,m,1900
-2008,skupaj,skupaj,ž,1368
-2009,skupaj,skupaj,ž,1453
-2010,skupaj,skupaj,ž,1506
-2011,skupaj,skupaj,ž,1542
-2012,skupaj,skupaj,ž,1555
-2013,skupaj,skupaj,ž,1551
-2014,skupaj,skupaj,ž,1589
-2015,skupaj,skupaj,ž,1598
-2016,skupaj,skupaj,ž,1631
-2017,skupaj,skupaj,ž,1664
-2018,skupaj,skupaj,ž,1708
-2019,skupaj,skupaj,ž,1790
-2008,skupaj,osnovna,skupaj,891
-2009,skupaj,osnovna,skupaj,895
-2010,skupaj,osnovna,skupaj,952
-2011,skupaj,osnovna,skupaj,993
-2012,skupaj,osnovna,skupaj,1022
-2013,skupaj,osnovna,skupaj,1037
-2014,skupaj,osnovna,skupaj,1068
-2015,skupaj,osnovna,skupaj,1087
-2016,skupaj,osnovna,skupaj,1103
-2017,skupaj,osnovna,skupaj,1135
-2018,skupaj,osnovna,skupaj,1193
-2019,skupaj,osnovna,skupaj,1238
-2008,skupaj,osnovna,m,955
-2009,skupaj,osnovna,m,940
-2010,skupaj,osnovna,m,1003
-2011,skupaj,osnovna,m,1052
-2012,skupaj,osnovna,m,1088
-2013,skupaj,osnovna,m,1108
-2014,skupaj,osnovna,m,1143
-2015,skupaj,osnovna,m,1170
-2016,skupaj,osnovna,m,1189
-2017,skupaj,osnovna,m,1223
-2018,skupaj,osnovna,m,1284
-2019,skupaj,osnovna,m,1323
-2008,skupaj,osnovna,ž,793
-2009,skupaj,osnovna,ž,824
-2010,skupaj,osnovna,ž,873
-2011,skupaj,osnovna,ž,909
-2012,skupaj,osnovna,ž,929
-2013,skupaj,osnovna,ž,940
-2014,skupaj,osnovna,ž,964
-2015,skupaj,osnovna,ž,973
-2016,skupaj,osnovna,ž,987
-2017,skupaj,osnovna,ž,1015
-2018,skupaj,osnovna,ž,1067
-2019,skupaj,osnovna,ž,1114
-2008,skupaj,srednja,skupaj,1203
-2009,skupaj,srednja,skupaj,1219
-2010,skupaj,srednja,skupaj,1265
-2011,skupaj,srednja,skupaj,1287
-2012,skupaj,srednja,skupaj,1301
-2013,skupaj,srednja,skupaj,1302
-2014,skupaj,srednja,skupaj,1334
-2015,skupaj,srednja,skupaj,1346
-2016,skupaj,srednja,skupaj,1365
-2017,skupaj,srednja,skupaj,1390
-2018,skupaj,srednja,skupaj,1447
-2019,skupaj,srednja,skupaj,1506
-2008,skupaj,srednja,m,1269
-2009,skupaj,srednja,m,1264
-2010,skupaj,srednja,m,1316
-2011,skupaj,srednja,m,1345
-2012,skupaj,srednja,m,1363
-2013,skupaj,srednja,m,1364
-2014,skupaj,srednja,m,1400
-2015,skupaj,srednja,m,1418
-2016,skupaj,srednja,m,1438
-2017,skupaj,srednja,m,1466
-2018,skupaj,srednja,m,1531
-2019,skupaj,srednja,m,1588
-2008,skupaj,srednja,ž,1105
-2009,skupaj,srednja,ž,1152
-2010,skupaj,srednja,ž,1189
-2011,skupaj,srednja,ž,1202
-2012,skupaj,srednja,ž,1210
-2013,skupaj,srednja,ž,1209
-2014,skupaj,srednja,ž,1232
-2015,skupaj,srednja,ž,1233
-2016,skupaj,srednja,ž,1249
-2017,skupaj,srednja,ž,1266
-2018,skupaj,srednja,ž,1311
-2019,skupaj,srednja,ž,1365
-2008,skupaj,visoka,skupaj,2322
-2009,skupaj,visoka,skupaj,2362
-2010,skupaj,visoka,skupaj,2375
-2011,skupaj,visoka,skupaj,2375
-2012,skupaj,visoka,skupaj,2347
-2013,skupaj,visoka,skupaj,2292
-2014,skupaj,visoka,skupaj,2311
-2015,skupaj,visoka,skupaj,2313
-2016,skupaj,visoka,skupaj,2334
-2017,skupaj,visoka,skupaj,2356
-2018,skupaj,visoka,skupaj,2401
-2019,skupaj,visoka,skupaj,2487
-2008,skupaj,visoka,m,2644
-2009,skupaj,visoka,m,2657
-2010,skupaj,visoka,m,2661
-2011,skupaj,visoka,m,2657
-2012,skupaj,visoka,m,2633
-2013,skupaj,visoka,m,2568
-2014,skupaj,visoka,m,2569
-2015,skupaj,visoka,m,2579
-2016,skupaj,visoka,m,2596
-2017,skupaj,visoka,m,2615
-2018,skupaj,visoka,m,2681
-2019,skupaj,visoka,m,2771
-2008,skupaj,visoka,ž,2079
-2009,skupaj,visoka,ž,2144
-2010,skupaj,visoka,ž,2164
-2011,skupaj,visoka,ž,2171
-2012,skupaj,visoka,ž,2144
-2013,skupaj,visoka,ž,2097
-2014,skupaj,visoka,ž,2125
-2015,skupaj,visoka,ž,2123
-2016,skupaj,visoka,ž,2147
-2017,skupaj,visoka,ž,2169
-2018,skupaj,visoka,ž,2199
-2019,skupaj,visoka,ž,2284
-2008,"kmetijstvo, lov, gozdarstvo in ribištvo",skupaj,skupaj,1195
-2009,"kmetijstvo, lov, gozdarstvo in ribištvo",skupaj,skupaj,1212
-2010,"kmetijstvo, lov, gozdarstvo in ribištvo",skupaj,skupaj,1263
-2011,"kmetijstvo, lov, gozdarstvo in ribištvo",skupaj,skupaj,1312
-2012,"kmetijstvo, lov, gozdarstvo in ribištvo",skupaj,skupaj,1310
-2013,"kmetijstvo, lov, gozdarstvo in ribištvo",skupaj,skupaj,1300
-2014,"kmetijstvo, lov, gozdarstvo in ribištvo",skupaj,skupaj,1336
-2015,"kmetijstvo, lov, gozdarstvo in ribištvo",skupaj,skupaj,1343
-2016,"kmetijstvo, lov, gozdarstvo in ribištvo",skupaj,skupaj,1311
-2017,"kmetijstvo, lov, gozdarstvo in ribištvo",skupaj,skupaj,1331
-2018,"kmetijstvo, lov, gozdarstvo in ribištvo",skupaj,skupaj,1414
-2019,"kmetijstvo, lov, gozdarstvo in ribištvo",skupaj,skupaj,1452
-2008,"kmetijstvo, lov, gozdarstvo in ribištvo",skupaj,m,1247
-2009,"kmetijstvo, lov, gozdarstvo in ribištvo",skupaj,m,1255
-2010,"kmetijstvo, lov, gozdarstvo in ribištvo",skupaj,m,1303
-2011,"kmetijstvo, lov, gozdarstvo in ribištvo",skupaj,m,1352
-2012,"kmetijstvo, lov, gozdarstvo in ribištvo",skupaj,m,1349
-2013,"kmetijstvo, lov, gozdarstvo in ribištvo",skupaj,m,1339
-2014,"kmetijstvo, lov, gozdarstvo in ribištvo",skupaj,m,1380
-2015,"kmetijstvo, lov, gozdarstvo in ribištvo",skupaj,m,1388
-2016,"kmetijstvo, lov, gozdarstvo in ribištvo",skupaj,m,1344
-2017,"kmetijstvo, lov, gozdarstvo in ribištvo",skupaj,m,1356
-2018,"kmetijstvo, lov, gozdarstvo in ribištvo",skupaj,m,1440
-2019,"kmetijstvo, lov, gozdarstvo in ribištvo",skupaj,m,1472
-2008,"kmetijstvo, lov, gozdarstvo in ribištvo",skupaj,ž,1079
-2009,"kmetijstvo, lov, gozdarstvo in ribištvo",skupaj,ž,1113
-2010,"kmetijstvo, lov, gozdarstvo in ribištvo",skupaj,ž,1175
-2011,"kmetijstvo, lov, gozdarstvo in ribištvo",skupaj,ž,1219
-2012,"kmetijstvo, lov, gozdarstvo in ribištvo",skupaj,ž,1219
-2013,"kmetijstvo, lov, gozdarstvo in ribištvo",skupaj,ž,1210
-2014,"kmetijstvo, lov, gozdarstvo in ribištvo",skupaj,ž,1235
-2015,"kmetijstvo, lov, gozdarstvo in ribištvo",skupaj,ž,1243
-2016,"kmetijstvo, lov, gozdarstvo in ribištvo",skupaj,ž,1245
-2017,"kmetijstvo, lov, gozdarstvo in ribištvo",skupaj,ž,1282
-2018,"kmetijstvo, lov, gozdarstvo in ribištvo",skupaj,ž,1365
-2019,"kmetijstvo, lov, gozdarstvo in ribištvo",skupaj,ž,1414
-2008,"kmetijstvo, lov, gozdarstvo in ribištvo",osnovna,skupaj,929
-2009,"kmetijstvo, lov, gozdarstvo in ribištvo",osnovna,skupaj,943
-2010,"kmetijstvo, lov, gozdarstvo in ribištvo",osnovna,skupaj,977
-2011,"kmetijstvo, lov, gozdarstvo in ribištvo",osnovna,skupaj,1011
-2012,"kmetijstvo, lov, gozdarstvo in ribištvo",osnovna,skupaj,1010
-2013,"kmetijstvo, lov, gozdarstvo in ribištvo",osnovna,skupaj,1014
-2014,"kmetijstvo, lov, gozdarstvo in ribištvo",osnovna,skupaj,1053
-2015,"kmetijstvo, lov, gozdarstvo in ribištvo",osnovna,skupaj,1061
-2016,"kmetijstvo, lov, gozdarstvo in ribištvo",osnovna,skupaj,1050
-2017,"kmetijstvo, lov, gozdarstvo in ribištvo",osnovna,skupaj,1047
-2018,"kmetijstvo, lov, gozdarstvo in ribištvo",osnovna,skupaj,1110
-2019,"kmetijstvo, lov, gozdarstvo in ribištvo",osnovna,skupaj,1152
 2008,"kmetijstvo, lov, gozdarstvo in ribištvo",osnovna,m,967
 2009,"kmetijstvo, lov, gozdarstvo in ribištvo",osnovna,m,980
 2010,"kmetijstvo, lov, gozdarstvo in ribištvo",osnovna,m,1012
@@ -215,18 +23,6 @@ leto,dejavnost,izobrazba,spol,placa
 2017,"kmetijstvo, lov, gozdarstvo in ribištvo",osnovna,ž,968
 2018,"kmetijstvo, lov, gozdarstvo in ribištvo",osnovna,ž,1051
 2019,"kmetijstvo, lov, gozdarstvo in ribištvo",osnovna,ž,1092
-2008,"kmetijstvo, lov, gozdarstvo in ribištvo",srednja,skupaj,1091
-2009,"kmetijstvo, lov, gozdarstvo in ribištvo",srednja,skupaj,1105
-2010,"kmetijstvo, lov, gozdarstvo in ribištvo",srednja,skupaj,1143
-2011,"kmetijstvo, lov, gozdarstvo in ribištvo",srednja,skupaj,1190
-2012,"kmetijstvo, lov, gozdarstvo in ribištvo",srednja,skupaj,1195
-2013,"kmetijstvo, lov, gozdarstvo in ribištvo",srednja,skupaj,1192
-2014,"kmetijstvo, lov, gozdarstvo in ribištvo",srednja,skupaj,1228
-2015,"kmetijstvo, lov, gozdarstvo in ribištvo",srednja,skupaj,1241
-2016,"kmetijstvo, lov, gozdarstvo in ribištvo",srednja,skupaj,1218
-2017,"kmetijstvo, lov, gozdarstvo in ribištvo",srednja,skupaj,1214
-2018,"kmetijstvo, lov, gozdarstvo in ribištvo",srednja,skupaj,1260
-2019,"kmetijstvo, lov, gozdarstvo in ribištvo",srednja,skupaj,1302
 2008,"kmetijstvo, lov, gozdarstvo in ribištvo",srednja,m,1151
 2009,"kmetijstvo, lov, gozdarstvo in ribištvo",srednja,m,1153
 2010,"kmetijstvo, lov, gozdarstvo in ribištvo",srednja,m,1192
@@ -251,18 +47,6 @@ leto,dejavnost,izobrazba,spol,placa
 2017,"kmetijstvo, lov, gozdarstvo in ribištvo",srednja,ž,1154
 2018,"kmetijstvo, lov, gozdarstvo in ribištvo",srednja,ž,1201
 2019,"kmetijstvo, lov, gozdarstvo in ribištvo",srednja,ž,1228
-2008,"kmetijstvo, lov, gozdarstvo in ribištvo",visoka,skupaj,2345
-2009,"kmetijstvo, lov, gozdarstvo in ribištvo",visoka,skupaj,2313
-2010,"kmetijstvo, lov, gozdarstvo in ribištvo",visoka,skupaj,2323
-2011,"kmetijstvo, lov, gozdarstvo in ribištvo",visoka,skupaj,2351
-2012,"kmetijstvo, lov, gozdarstvo in ribištvo",visoka,skupaj,2303
-2013,"kmetijstvo, lov, gozdarstvo in ribištvo",visoka,skupaj,2197
-2014,"kmetijstvo, lov, gozdarstvo in ribištvo",visoka,skupaj,2171
-2015,"kmetijstvo, lov, gozdarstvo in ribištvo",visoka,skupaj,2093
-2016,"kmetijstvo, lov, gozdarstvo in ribištvo",visoka,skupaj,1958
-2017,"kmetijstvo, lov, gozdarstvo in ribištvo",visoka,skupaj,1959
-2018,"kmetijstvo, lov, gozdarstvo in ribištvo",visoka,skupaj,2114
-2019,"kmetijstvo, lov, gozdarstvo in ribištvo",visoka,skupaj,2113
 2008,"kmetijstvo, lov, gozdarstvo in ribištvo",visoka,m,2755
 2009,"kmetijstvo, lov, gozdarstvo in ribištvo",visoka,m,2688
 2010,"kmetijstvo, lov, gozdarstvo in ribištvo",visoka,m,2738
@@ -287,54 +71,6 @@ leto,dejavnost,izobrazba,spol,placa
 2017,"kmetijstvo, lov, gozdarstvo in ribištvo",visoka,ž,1795
 2018,"kmetijstvo, lov, gozdarstvo in ribištvo",visoka,ž,1898
 2019,"kmetijstvo, lov, gozdarstvo in ribištvo",visoka,ž,1917
-2008,rudarstvo,skupaj,skupaj,1843
-2009,rudarstvo,skupaj,skupaj,1891
-2010,rudarstvo,skupaj,skupaj,1937
-2011,rudarstvo,skupaj,skupaj,2024
-2012,rudarstvo,skupaj,skupaj,2128
-2013,rudarstvo,skupaj,skupaj,2061
-2014,rudarstvo,skupaj,skupaj,2189
-2015,rudarstvo,skupaj,skupaj,2096
-2016,rudarstvo,skupaj,skupaj,2146
-2017,rudarstvo,skupaj,skupaj,2246
-2018,rudarstvo,skupaj,skupaj,2350
-2019,rudarstvo,skupaj,skupaj,2352
-2008,rudarstvo,skupaj,m,1873
-2009,rudarstvo,skupaj,m,1923
-2010,rudarstvo,skupaj,m,1966
-2011,rudarstvo,skupaj,m,2057
-2012,rudarstvo,skupaj,m,2167
-2013,rudarstvo,skupaj,m,2091
-2014,rudarstvo,skupaj,m,2221
-2015,rudarstvo,skupaj,m,2132
-2016,rudarstvo,skupaj,m,2184
-2017,rudarstvo,skupaj,m,2292
-2018,rudarstvo,skupaj,m,2410
-2019,rudarstvo,skupaj,m,2414
-2008,rudarstvo,skupaj,ž,1602
-2009,rudarstvo,skupaj,ž,1655
-2010,rudarstvo,skupaj,ž,1717
-2011,rudarstvo,skupaj,ž,1795
-2012,rudarstvo,skupaj,ž,1847
-2013,rudarstvo,skupaj,ž,1835
-2014,rudarstvo,skupaj,ž,1954
-2015,rudarstvo,skupaj,ž,1827
-2016,rudarstvo,skupaj,ž,1881
-2017,rudarstvo,skupaj,ž,1937
-2018,rudarstvo,skupaj,ž,1992
-2019,rudarstvo,skupaj,ž,1978
-2008,rudarstvo,osnovna,skupaj,1386
-2009,rudarstvo,osnovna,skupaj,1383
-2010,rudarstvo,osnovna,skupaj,1334
-2011,rudarstvo,osnovna,skupaj,1365
-2012,rudarstvo,osnovna,skupaj,1376
-2013,rudarstvo,osnovna,skupaj,1354
-2014,rudarstvo,osnovna,skupaj,1365
-2015,rudarstvo,osnovna,skupaj,1354
-2016,rudarstvo,osnovna,skupaj,1408
-2017,rudarstvo,osnovna,skupaj,1399
-2018,rudarstvo,osnovna,skupaj,1500
-2019,rudarstvo,osnovna,skupaj,1504
 2008,rudarstvo,osnovna,m,1401
 2009,rudarstvo,osnovna,m,1403
 2010,rudarstvo,osnovna,m,1353
@@ -359,18 +95,6 @@ leto,dejavnost,izobrazba,spol,placa
 2017,rudarstvo,osnovna,ž,1233
 2018,rudarstvo,osnovna,ž,1240
 2019,rudarstvo,osnovna,ž,1255
-2008,rudarstvo,srednja,skupaj,1801
-2009,rudarstvo,srednja,skupaj,1821
-2010,rudarstvo,srednja,skupaj,1858
-2011,rudarstvo,srednja,skupaj,1938
-2012,rudarstvo,srednja,skupaj,2038
-2013,rudarstvo,srednja,skupaj,1971
-2014,rudarstvo,srednja,skupaj,2095
-2015,rudarstvo,srednja,skupaj,2014
-2016,rudarstvo,srednja,skupaj,2054
-2017,rudarstvo,srednja,skupaj,2140
-2018,rudarstvo,srednja,skupaj,2237
-2019,rudarstvo,srednja,skupaj,2221
 2008,rudarstvo,srednja,m,1843
 2009,rudarstvo,srednja,m,1860
 2010,rudarstvo,srednja,m,1894
@@ -395,18 +119,6 @@ leto,dejavnost,izobrazba,spol,placa
 2017,rudarstvo,srednja,ž,1661
 2018,rudarstvo,srednja,ž,1676
 2019,rudarstvo,srednja,ž,1639
-2008,rudarstvo,visoka,skupaj,2748
-2009,rudarstvo,visoka,skupaj,2734
-2010,rudarstvo,visoka,skupaj,2770
-2011,rudarstvo,visoka,skupaj,2843
-2012,rudarstvo,visoka,skupaj,2903
-2013,rudarstvo,visoka,skupaj,2782
-2014,rudarstvo,visoka,skupaj,2961
-2015,rudarstvo,visoka,skupaj,2727
-2016,rudarstvo,visoka,skupaj,2843
-2017,rudarstvo,visoka,skupaj,2995
-2018,rudarstvo,visoka,skupaj,3033
-2019,rudarstvo,visoka,skupaj,3114
 2008,rudarstvo,visoka,m,2978
 2009,rudarstvo,visoka,m,2959
 2010,rudarstvo,visoka,m,2992
@@ -431,54 +143,6 @@ leto,dejavnost,izobrazba,spol,placa
 2017,rudarstvo,visoka,ž,2335
 2018,rudarstvo,visoka,ž,2446
 2019,rudarstvo,visoka,ž,2463
-2008,predelovalne dejavnosti,skupaj,skupaj,1226
-2009,predelovalne dejavnosti,skupaj,skupaj,1241
-2010,predelovalne dejavnosti,skupaj,skupaj,1348
-2011,predelovalne dejavnosti,skupaj,skupaj,1411
-2012,predelovalne dejavnosti,skupaj,skupaj,1457
-2013,predelovalne dejavnosti,skupaj,skupaj,1478
-2014,predelovalne dejavnosti,skupaj,skupaj,1535
-2015,predelovalne dejavnosti,skupaj,skupaj,1576
-2016,predelovalne dejavnosti,skupaj,skupaj,1604
-2017,predelovalne dejavnosti,skupaj,skupaj,1647
-2018,predelovalne dejavnosti,skupaj,skupaj,1707
-2019,predelovalne dejavnosti,skupaj,skupaj,1765
-2008,predelovalne dejavnosti,skupaj,m,1318
-2009,predelovalne dejavnosti,skupaj,m,1309
-2010,predelovalne dejavnosti,skupaj,m,1419
-2011,predelovalne dejavnosti,skupaj,m,1484
-2012,predelovalne dejavnosti,skupaj,m,1525
-2013,predelovalne dejavnosti,skupaj,m,1546
-2014,predelovalne dejavnosti,skupaj,m,1600
-2015,predelovalne dejavnosti,skupaj,m,1644
-2016,predelovalne dejavnosti,skupaj,m,1676
-2017,predelovalne dejavnosti,skupaj,m,1724
-2018,predelovalne dejavnosti,skupaj,m,1791
-2019,predelovalne dejavnosti,skupaj,m,1844
-2008,predelovalne dejavnosti,skupaj,ž,1059
-2009,predelovalne dejavnosti,skupaj,ž,1107
-2010,predelovalne dejavnosti,skupaj,ž,1206
-2011,predelovalne dejavnosti,skupaj,ž,1264
-2012,predelovalne dejavnosti,skupaj,ž,1313
-2013,predelovalne dejavnosti,skupaj,ž,1336
-2014,predelovalne dejavnosti,skupaj,ž,1394
-2015,predelovalne dejavnosti,skupaj,ž,1430
-2016,predelovalne dejavnosti,skupaj,ž,1450
-2017,predelovalne dejavnosti,skupaj,ž,1482
-2018,predelovalne dejavnosti,skupaj,ž,1528
-2019,predelovalne dejavnosti,skupaj,ž,1593
-2008,predelovalne dejavnosti,osnovna,skupaj,898
-2009,predelovalne dejavnosti,osnovna,skupaj,901
-2010,predelovalne dejavnosti,osnovna,skupaj,983
-2011,predelovalne dejavnosti,osnovna,skupaj,1033
-2012,predelovalne dejavnosti,osnovna,skupaj,1062
-2013,predelovalne dejavnosti,osnovna,skupaj,1081
-2014,predelovalne dejavnosti,osnovna,skupaj,1121
-2015,predelovalne dejavnosti,osnovna,skupaj,1151
-2016,predelovalne dejavnosti,osnovna,skupaj,1171
-2017,predelovalne dejavnosti,osnovna,skupaj,1206
-2018,predelovalne dejavnosti,osnovna,skupaj,1266
-2019,predelovalne dejavnosti,osnovna,skupaj,1315
 2008,predelovalne dejavnosti,osnovna,m,980
 2009,predelovalne dejavnosti,osnovna,m,968
 2010,predelovalne dejavnosti,osnovna,m,1053
@@ -503,18 +167,6 @@ leto,dejavnost,izobrazba,spol,placa
 2017,predelovalne dejavnosti,osnovna,ž,1068
 2018,predelovalne dejavnosti,osnovna,ž,1113
 2019,predelovalne dejavnosti,osnovna,ž,1156
-2008,predelovalne dejavnosti,srednja,skupaj,1139
-2009,predelovalne dejavnosti,srednja,skupaj,1132
-2010,predelovalne dejavnosti,srednja,skupaj,1219
-2011,predelovalne dejavnosti,srednja,skupaj,1268
-2012,predelovalne dejavnosti,srednja,skupaj,1299
-2013,predelovalne dejavnosti,srednja,skupaj,1316
-2014,predelovalne dejavnosti,srednja,skupaj,1358
-2015,predelovalne dejavnosti,srednja,skupaj,1387
-2016,predelovalne dejavnosti,srednja,skupaj,1409
-2017,predelovalne dejavnosti,srednja,skupaj,1438
-2018,predelovalne dejavnosti,srednja,skupaj,1495
-2019,predelovalne dejavnosti,srednja,skupaj,1544
 2008,predelovalne dejavnosti,srednja,m,1215
 2009,predelovalne dejavnosti,srednja,m,1190
 2010,predelovalne dejavnosti,srednja,m,1281
@@ -539,18 +191,6 @@ leto,dejavnost,izobrazba,spol,placa
 2017,predelovalne dejavnosti,srednja,ž,1228
 2018,predelovalne dejavnosti,srednja,ž,1267
 2019,predelovalne dejavnosti,srednja,ž,1311
-2008,predelovalne dejavnosti,visoka,skupaj,2475
-2009,predelovalne dejavnosti,visoka,skupaj,2378
-2010,predelovalne dejavnosti,visoka,skupaj,2518
-2011,predelovalne dejavnosti,visoka,skupaj,2566
-2012,predelovalne dejavnosti,visoka,skupaj,2579
-2013,predelovalne dejavnosti,visoka,skupaj,2537
-2014,predelovalne dejavnosti,visoka,skupaj,2584
-2015,predelovalne dejavnosti,visoka,skupaj,2617
-2016,predelovalne dejavnosti,visoka,skupaj,2624
-2017,predelovalne dejavnosti,visoka,skupaj,2619
-2018,predelovalne dejavnosti,visoka,skupaj,2659
-2019,predelovalne dejavnosti,visoka,skupaj,2714
 2008,predelovalne dejavnosti,visoka,m,2672
 2009,predelovalne dejavnosti,visoka,m,2540
 2010,predelovalne dejavnosti,visoka,m,2677
@@ -575,54 +215,6 @@ leto,dejavnost,izobrazba,spol,placa
 2017,predelovalne dejavnosti,visoka,ž,2380
 2018,predelovalne dejavnosti,visoka,ž,2407
 2019,predelovalne dejavnosti,visoka,ž,2457
-2008,"oskrba z električno energijo, plinom in paro",skupaj,skupaj,1959
-2009,"oskrba z električno energijo, plinom in paro",skupaj,skupaj,2051
-2010,"oskrba z električno energijo, plinom in paro",skupaj,skupaj,2120
-2011,"oskrba z električno energijo, plinom in paro",skupaj,skupaj,2205
-2012,"oskrba z električno energijo, plinom in paro",skupaj,skupaj,2300
-2013,"oskrba z električno energijo, plinom in paro",skupaj,skupaj,2321
-2014,"oskrba z električno energijo, plinom in paro",skupaj,skupaj,2403
-2015,"oskrba z električno energijo, plinom in paro",skupaj,skupaj,2376
-2016,"oskrba z električno energijo, plinom in paro",skupaj,skupaj,2403
-2017,"oskrba z električno energijo, plinom in paro",skupaj,skupaj,2431
-2018,"oskrba z električno energijo, plinom in paro",skupaj,skupaj,2526
-2019,"oskrba z električno energijo, plinom in paro",skupaj,skupaj,2590
-2008,"oskrba z električno energijo, plinom in paro",skupaj,m,1995
-2009,"oskrba z električno energijo, plinom in paro",skupaj,m,2079
-2010,"oskrba z električno energijo, plinom in paro",skupaj,m,2141
-2011,"oskrba z električno energijo, plinom in paro",skupaj,m,2216
-2012,"oskrba z električno energijo, plinom in paro",skupaj,m,2332
-2013,"oskrba z električno energijo, plinom in paro",skupaj,m,2342
-2014,"oskrba z električno energijo, plinom in paro",skupaj,m,2439
-2015,"oskrba z električno energijo, plinom in paro",skupaj,m,2405
-2016,"oskrba z električno energijo, plinom in paro",skupaj,m,2437
-2017,"oskrba z električno energijo, plinom in paro",skupaj,m,2455
-2018,"oskrba z električno energijo, plinom in paro",skupaj,m,2561
-2019,"oskrba z električno energijo, plinom in paro",skupaj,m,2623
-2008,"oskrba z električno energijo, plinom in paro",skupaj,ž,1794
-2009,"oskrba z električno energijo, plinom in paro",skupaj,ž,1925
-2010,"oskrba z električno energijo, plinom in paro",skupaj,ž,2022
-2011,"oskrba z električno energijo, plinom in paro",skupaj,ž,2151
-2012,"oskrba z električno energijo, plinom in paro",skupaj,ž,2165
-2013,"oskrba z električno energijo, plinom in paro",skupaj,ž,2226
-2014,"oskrba z električno energijo, plinom in paro",skupaj,ž,2252
-2015,"oskrba z električno energijo, plinom in paro",skupaj,ž,2253
-2016,"oskrba z električno energijo, plinom in paro",skupaj,ž,2257
-2017,"oskrba z električno energijo, plinom in paro",skupaj,ž,2330
-2018,"oskrba z električno energijo, plinom in paro",skupaj,ž,2380
-2019,"oskrba z električno energijo, plinom in paro",skupaj,ž,2455
-2008,"oskrba z električno energijo, plinom in paro",osnovna,skupaj,1330
-2009,"oskrba z električno energijo, plinom in paro",osnovna,skupaj,1382
-2010,"oskrba z električno energijo, plinom in paro",osnovna,skupaj,1426
-2011,"oskrba z električno energijo, plinom in paro",osnovna,skupaj,1472
-2012,"oskrba z električno energijo, plinom in paro",osnovna,skupaj,1528
-2013,"oskrba z električno energijo, plinom in paro",osnovna,skupaj,1539
-2014,"oskrba z električno energijo, plinom in paro",osnovna,skupaj,1528
-2015,"oskrba z električno energijo, plinom in paro",osnovna,skupaj,1524
-2016,"oskrba z električno energijo, plinom in paro",osnovna,skupaj,1536
-2017,"oskrba z električno energijo, plinom in paro",osnovna,skupaj,1516
-2018,"oskrba z električno energijo, plinom in paro",osnovna,skupaj,1537
-2019,"oskrba z električno energijo, plinom in paro",osnovna,skupaj,1601
 2008,"oskrba z električno energijo, plinom in paro",osnovna,m,1378
 2009,"oskrba z električno energijo, plinom in paro",osnovna,m,1426
 2010,"oskrba z električno energijo, plinom in paro",osnovna,m,1479
@@ -647,18 +239,6 @@ leto,dejavnost,izobrazba,spol,placa
 2017,"oskrba z električno energijo, plinom in paro",osnovna,ž,1333
 2018,"oskrba z električno energijo, plinom in paro",osnovna,ž,1313
 2019,"oskrba z električno energijo, plinom in paro",osnovna,ž,1372
-2008,"oskrba z električno energijo, plinom in paro",srednja,skupaj,1648
-2009,"oskrba z električno energijo, plinom in paro",srednja,skupaj,1722
-2010,"oskrba z električno energijo, plinom in paro",srednja,skupaj,1759
-2011,"oskrba z električno energijo, plinom in paro",srednja,skupaj,1786
-2012,"oskrba z električno energijo, plinom in paro",srednja,skupaj,1849
-2013,"oskrba z električno energijo, plinom in paro",srednja,skupaj,1855
-2014,"oskrba z električno energijo, plinom in paro",srednja,skupaj,1913
-2015,"oskrba z električno energijo, plinom in paro",srednja,skupaj,1893
-2016,"oskrba z električno energijo, plinom in paro",srednja,skupaj,1889
-2017,"oskrba z električno energijo, plinom in paro",srednja,skupaj,1886
-2018,"oskrba z električno energijo, plinom in paro",srednja,skupaj,1943
-2019,"oskrba z električno energijo, plinom in paro",srednja,skupaj,1982
 2008,"oskrba z električno energijo, plinom in paro",srednja,m,1682
 2009,"oskrba z električno energijo, plinom in paro",srednja,m,1754
 2010,"oskrba z električno energijo, plinom in paro",srednja,m,1786
@@ -683,18 +263,6 @@ leto,dejavnost,izobrazba,spol,placa
 2017,"oskrba z električno energijo, plinom in paro",srednja,ž,1777
 2018,"oskrba z električno energijo, plinom in paro",srednja,ž,1817
 2019,"oskrba z električno energijo, plinom in paro",srednja,ž,1872
-2008,"oskrba z električno energijo, plinom in paro",visoka,skupaj,2707
-2009,"oskrba z električno energijo, plinom in paro",visoka,skupaj,2788
-2010,"oskrba z električno energijo, plinom in paro",visoka,skupaj,2839
-2011,"oskrba z električno energijo, plinom in paro",visoka,skupaj,2925
-2012,"oskrba z električno energijo, plinom in paro",visoka,skupaj,2949
-2013,"oskrba z električno energijo, plinom in paro",visoka,skupaj,2998
-2014,"oskrba z električno energijo, plinom in paro",visoka,skupaj,3067
-2015,"oskrba z električno energijo, plinom in paro",visoka,skupaj,3007
-2016,"oskrba z električno energijo, plinom in paro",visoka,skupaj,3037
-2017,"oskrba z električno energijo, plinom in paro",visoka,skupaj,3075
-2018,"oskrba z električno energijo, plinom in paro",visoka,skupaj,3175
-2019,"oskrba z električno energijo, plinom in paro",visoka,skupaj,3247
 2008,"oskrba z električno energijo, plinom in paro",visoka,m,2796
 2009,"oskrba z električno energijo, plinom in paro",visoka,m,2866
 2010,"oskrba z električno energijo, plinom in paro",visoka,m,2909
@@ -719,54 +287,6 @@ leto,dejavnost,izobrazba,spol,placa
 2017,"oskrba z električno energijo, plinom in paro",visoka,ž,2703
 2018,"oskrba z električno energijo, plinom in paro",visoka,ž,2729
 2019,"oskrba z električno energijo, plinom in paro",visoka,ž,2801
-2008,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",skupaj,skupaj,1419
-2009,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",skupaj,skupaj,1444
-2010,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",skupaj,skupaj,1477
-2011,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",skupaj,skupaj,1493
-2012,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",skupaj,skupaj,1502
-2013,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",skupaj,skupaj,1502
-2014,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",skupaj,skupaj,1538
-2015,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",skupaj,skupaj,1551
-2016,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",skupaj,skupaj,1570
-2017,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",skupaj,skupaj,1616
-2018,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",skupaj,skupaj,1669
-2019,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",skupaj,skupaj,1712
-2008,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",skupaj,m,1380
-2009,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",skupaj,m,1398
-2010,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",skupaj,m,1434
-2011,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",skupaj,m,1445
-2012,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",skupaj,m,1457
-2013,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",skupaj,m,1461
-2014,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",skupaj,m,1486
-2015,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",skupaj,m,1504
-2016,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",skupaj,m,1521
-2017,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",skupaj,m,1567
-2018,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",skupaj,m,1625
-2019,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",skupaj,m,1659
-2008,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",skupaj,ž,1569
-2009,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",skupaj,ž,1619
-2010,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",skupaj,ž,1648
-2011,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",skupaj,ž,1675
-2012,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",skupaj,ž,1672
-2013,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",skupaj,ž,1646
-2014,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",skupaj,ž,1730
-2015,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",skupaj,ž,1725
-2016,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",skupaj,ž,1754
-2017,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",skupaj,ž,1800
-2018,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",skupaj,ž,1832
-2019,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",skupaj,ž,1911
-2008,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",osnovna,skupaj,1020
-2009,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",osnovna,skupaj,1039
-2010,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",osnovna,skupaj,1080
-2011,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",osnovna,skupaj,1095
-2012,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",osnovna,skupaj,1103
-2013,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",osnovna,skupaj,1113
-2014,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",osnovna,skupaj,1134
-2015,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",osnovna,skupaj,1158
-2016,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",osnovna,skupaj,1170
-2017,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",osnovna,skupaj,1205
-2018,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",osnovna,skupaj,1257
-2019,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",osnovna,skupaj,1294
 2008,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",osnovna,m,1035
 2009,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",osnovna,m,1056
 2010,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",osnovna,m,1097
@@ -791,18 +311,6 @@ leto,dejavnost,izobrazba,spol,placa
 2017,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",osnovna,ž,1044
 2018,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",osnovna,ž,1086
 2019,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",osnovna,ž,1108
-2008,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",srednja,skupaj,1313
-2009,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",srednja,skupaj,1320
-2010,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",srednja,skupaj,1345
-2011,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",srednja,skupaj,1344
-2012,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",srednja,skupaj,1339
-2013,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",srednja,skupaj,1334
-2014,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",srednja,skupaj,1350
-2015,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",srednja,skupaj,1366
-2016,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",srednja,skupaj,1376
-2017,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",srednja,skupaj,1405
-2018,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",srednja,skupaj,1455
-2019,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",srednja,skupaj,1490
 2008,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",srednja,m,1309
 2009,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",srednja,m,1313
 2010,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",srednja,m,1340
@@ -827,18 +335,6 @@ leto,dejavnost,izobrazba,spol,placa
 2017,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",srednja,ž,1409
 2018,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",srednja,ž,1430
 2019,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",srednja,ž,1478
-2008,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",visoka,skupaj,2511
-2009,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",visoka,skupaj,2525
-2010,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",visoka,skupaj,2507
-2011,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",visoka,skupaj,2466
-2012,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",visoka,skupaj,2462
-2013,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",visoka,skupaj,2401
-2014,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",visoka,skupaj,2408
-2015,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",visoka,skupaj,2381
-2016,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",visoka,skupaj,2384
-2017,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",visoka,skupaj,2437
-2018,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",visoka,skupaj,2486
-2019,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",visoka,skupaj,2529
 2008,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",visoka,m,2813
 2009,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",visoka,m,2825
 2010,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",visoka,m,2771
@@ -863,54 +359,6 @@ leto,dejavnost,izobrazba,spol,placa
 2017,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",visoka,ž,2219
 2018,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",visoka,ž,2254
 2019,"oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",visoka,ž,2318
-2008,gradbeništvo,skupaj,skupaj,1137
-2009,gradbeništvo,skupaj,skupaj,1119
-2010,gradbeništvo,skupaj,skupaj,1167
-2011,gradbeništvo,skupaj,skupaj,1207
-2012,gradbeništvo,skupaj,skupaj,1228
-2013,gradbeništvo,skupaj,skupaj,1245
-2014,gradbeništvo,skupaj,skupaj,1266
-2015,gradbeništvo,skupaj,skupaj,1279
-2016,gradbeništvo,skupaj,skupaj,1294
-2017,gradbeništvo,skupaj,skupaj,1311
-2018,gradbeništvo,skupaj,skupaj,1379
-2019,gradbeništvo,skupaj,skupaj,1429
-2008,gradbeništvo,skupaj,m,1114
-2009,gradbeništvo,skupaj,m,1093
-2010,gradbeništvo,skupaj,m,1142
-2011,gradbeništvo,skupaj,m,1183
-2012,gradbeništvo,skupaj,m,1205
-2013,gradbeništvo,skupaj,m,1224
-2014,gradbeništvo,skupaj,m,1248
-2015,gradbeništvo,skupaj,m,1261
-2016,gradbeništvo,skupaj,m,1275
-2017,gradbeništvo,skupaj,m,1294
-2018,gradbeništvo,skupaj,m,1363
-2019,gradbeništvo,skupaj,m,1413
-2008,gradbeništvo,skupaj,ž,1368
-2009,gradbeništvo,skupaj,ž,1381
-2010,gradbeništvo,skupaj,ž,1410
-2011,gradbeništvo,skupaj,ž,1418
-2012,gradbeništvo,skupaj,ž,1429
-2013,gradbeništvo,skupaj,ž,1424
-2014,gradbeništvo,skupaj,ž,1435
-2015,gradbeništvo,skupaj,ž,1446
-2016,gradbeništvo,skupaj,ž,1465
-2017,gradbeništvo,skupaj,ž,1462
-2018,gradbeništvo,skupaj,ž,1522
-2019,gradbeništvo,skupaj,ž,1578
-2008,gradbeništvo,osnovna,skupaj,852
-2009,gradbeništvo,osnovna,skupaj,829
-2010,gradbeništvo,osnovna,skupaj,880
-2011,gradbeništvo,osnovna,skupaj,927
-2012,gradbeništvo,osnovna,skupaj,966
-2013,gradbeništvo,osnovna,skupaj,991
-2014,gradbeništvo,osnovna,skupaj,1023
-2015,gradbeništvo,osnovna,skupaj,1040
-2016,gradbeništvo,osnovna,skupaj,1053
-2017,gradbeništvo,osnovna,skupaj,1071
-2018,gradbeništvo,osnovna,skupaj,1126
-2019,gradbeništvo,osnovna,skupaj,1165
 2008,gradbeništvo,osnovna,m,853
 2009,gradbeništvo,osnovna,m,829
 2010,gradbeništvo,osnovna,m,881
@@ -935,18 +383,6 @@ leto,dejavnost,izobrazba,spol,placa
 2017,gradbeništvo,osnovna,ž,1006
 2018,gradbeništvo,osnovna,ž,1066
 2019,gradbeništvo,osnovna,ž,1098
-2008,gradbeništvo,srednja,skupaj,1138
-2009,gradbeništvo,srednja,skupaj,1104
-2010,gradbeništvo,srednja,skupaj,1139
-2011,gradbeništvo,srednja,skupaj,1157
-2012,gradbeništvo,srednja,skupaj,1167
-2013,gradbeništvo,srednja,skupaj,1179
-2014,gradbeništvo,srednja,skupaj,1204
-2015,gradbeništvo,srednja,skupaj,1215
-2016,gradbeništvo,srednja,skupaj,1222
-2017,gradbeništvo,srednja,skupaj,1237
-2018,gradbeništvo,srednja,skupaj,1306
-2019,gradbeništvo,srednja,skupaj,1360
 2008,gradbeništvo,srednja,m,1128
 2009,gradbeništvo,srednja,m,1090
 2010,gradbeništvo,srednja,m,1126
@@ -971,18 +407,6 @@ leto,dejavnost,izobrazba,spol,placa
 2017,gradbeništvo,srednja,ž,1298
 2018,gradbeništvo,srednja,ž,1349
 2019,gradbeništvo,srednja,ž,1401
-2008,gradbeništvo,visoka,skupaj,2552
-2009,gradbeništvo,visoka,skupaj,2474
-2010,gradbeništvo,visoka,skupaj,2366
-2011,gradbeništvo,visoka,skupaj,2310
-2012,gradbeništvo,visoka,skupaj,2225
-2013,gradbeništvo,visoka,skupaj,2141
-2014,gradbeništvo,visoka,skupaj,2067
-2015,gradbeništvo,visoka,skupaj,2052
-2016,gradbeništvo,visoka,skupaj,2065
-2017,gradbeništvo,visoka,skupaj,2033
-2018,gradbeništvo,visoka,skupaj,2102
-2019,gradbeništvo,visoka,skupaj,2171
 2008,gradbeništvo,visoka,m,2801
 2009,gradbeništvo,visoka,m,2701
 2010,gradbeništvo,visoka,m,2548
@@ -1007,54 +431,6 @@ leto,dejavnost,izobrazba,spol,placa
 2017,gradbeništvo,visoka,ž,1761
 2018,gradbeništvo,visoka,ž,1816
 2019,gradbeništvo,visoka,ž,1861
-2008,"trgovina, vzdrževanje in popravila motornih vozil",skupaj,skupaj,1297
-2009,"trgovina, vzdrževanje in popravila motornih vozil",skupaj,skupaj,1320
-2010,"trgovina, vzdrževanje in popravila motornih vozil",skupaj,skupaj,1374
-2011,"trgovina, vzdrževanje in popravila motornih vozil",skupaj,skupaj,1419
-2012,"trgovina, vzdrževanje in popravila motornih vozil",skupaj,skupaj,1444
-2013,"trgovina, vzdrževanje in popravila motornih vozil",skupaj,skupaj,1452
-2014,"trgovina, vzdrževanje in popravila motornih vozil",skupaj,skupaj,1485
-2015,"trgovina, vzdrževanje in popravila motornih vozil",skupaj,skupaj,1514
-2016,"trgovina, vzdrževanje in popravila motornih vozil",skupaj,skupaj,1549
-2017,"trgovina, vzdrževanje in popravila motornih vozil",skupaj,skupaj,1584
-2018,"trgovina, vzdrževanje in popravila motornih vozil",skupaj,skupaj,1648
-2019,"trgovina, vzdrževanje in popravila motornih vozil",skupaj,skupaj,1708
-2008,"trgovina, vzdrževanje in popravila motornih vozil",skupaj,m,1433
-2009,"trgovina, vzdrževanje in popravila motornih vozil",skupaj,m,1443
-2010,"trgovina, vzdrževanje in popravila motornih vozil",skupaj,m,1486
-2011,"trgovina, vzdrževanje in popravila motornih vozil",skupaj,m,1537
-2012,"trgovina, vzdrževanje in popravila motornih vozil",skupaj,m,1559
-2013,"trgovina, vzdrževanje in popravila motornih vozil",skupaj,m,1559
-2014,"trgovina, vzdrževanje in popravila motornih vozil",skupaj,m,1593
-2015,"trgovina, vzdrževanje in popravila motornih vozil",skupaj,m,1627
-2016,"trgovina, vzdrževanje in popravila motornih vozil",skupaj,m,1664
-2017,"trgovina, vzdrževanje in popravila motornih vozil",skupaj,m,1703
-2018,"trgovina, vzdrževanje in popravila motornih vozil",skupaj,m,1774
-2019,"trgovina, vzdrževanje in popravila motornih vozil",skupaj,m,1830
-2008,"trgovina, vzdrževanje in popravila motornih vozil",skupaj,ž,1167
-2009,"trgovina, vzdrževanje in popravila motornih vozil",skupaj,ž,1201
-2010,"trgovina, vzdrževanje in popravila motornih vozil",skupaj,ž,1264
-2011,"trgovina, vzdrževanje in popravila motornih vozil",skupaj,ž,1304
-2012,"trgovina, vzdrževanje in popravila motornih vozil",skupaj,ž,1335
-2013,"trgovina, vzdrževanje in popravila motornih vozil",skupaj,ž,1351
-2014,"trgovina, vzdrževanje in popravila motornih vozil",skupaj,ž,1382
-2015,"trgovina, vzdrževanje in popravila motornih vozil",skupaj,ž,1404
-2016,"trgovina, vzdrževanje in popravila motornih vozil",skupaj,ž,1434
-2017,"trgovina, vzdrževanje in popravila motornih vozil",skupaj,ž,1468
-2018,"trgovina, vzdrževanje in popravila motornih vozil",skupaj,ž,1526
-2019,"trgovina, vzdrževanje in popravila motornih vozil",skupaj,ž,1587
-2008,"trgovina, vzdrževanje in popravila motornih vozil",osnovna,skupaj,936
-2009,"trgovina, vzdrževanje in popravila motornih vozil",osnovna,skupaj,939
-2010,"trgovina, vzdrževanje in popravila motornih vozil",osnovna,skupaj,984
-2011,"trgovina, vzdrževanje in popravila motornih vozil",osnovna,skupaj,1028
-2012,"trgovina, vzdrževanje in popravila motornih vozil",osnovna,skupaj,1051
-2013,"trgovina, vzdrževanje in popravila motornih vozil",osnovna,skupaj,1065
-2014,"trgovina, vzdrževanje in popravila motornih vozil",osnovna,skupaj,1093
-2015,"trgovina, vzdrževanje in popravila motornih vozil",osnovna,skupaj,1119
-2016,"trgovina, vzdrževanje in popravila motornih vozil",osnovna,skupaj,1144
-2017,"trgovina, vzdrževanje in popravila motornih vozil",osnovna,skupaj,1171
-2018,"trgovina, vzdrževanje in popravila motornih vozil",osnovna,skupaj,1238
-2019,"trgovina, vzdrževanje in popravila motornih vozil",osnovna,skupaj,1292
 2008,"trgovina, vzdrževanje in popravila motornih vozil",osnovna,m,978
 2009,"trgovina, vzdrževanje in popravila motornih vozil",osnovna,m,973
 2010,"trgovina, vzdrževanje in popravila motornih vozil",osnovna,m,1017
@@ -1079,18 +455,6 @@ leto,dejavnost,izobrazba,spol,placa
 2017,"trgovina, vzdrževanje in popravila motornih vozil",osnovna,ž,1036
 2018,"trgovina, vzdrževanje in popravila motornih vozil",osnovna,ž,1094
 2019,"trgovina, vzdrževanje in popravila motornih vozil",osnovna,ž,1142
-2008,"trgovina, vzdrževanje in popravila motornih vozil",srednja,skupaj,1117
-2009,"trgovina, vzdrževanje in popravila motornih vozil",srednja,skupaj,1132
-2010,"trgovina, vzdrževanje in popravila motornih vozil",srednja,skupaj,1177
-2011,"trgovina, vzdrževanje in popravila motornih vozil",srednja,skupaj,1207
-2012,"trgovina, vzdrževanje in popravila motornih vozil",srednja,skupaj,1221
-2013,"trgovina, vzdrževanje in popravila motornih vozil",srednja,skupaj,1229
-2014,"trgovina, vzdrževanje in popravila motornih vozil",srednja,skupaj,1256
-2015,"trgovina, vzdrževanje in popravila motornih vozil",srednja,skupaj,1276
-2016,"trgovina, vzdrževanje in popravila motornih vozil",srednja,skupaj,1307
-2017,"trgovina, vzdrževanje in popravila motornih vozil",srednja,skupaj,1329
-2018,"trgovina, vzdrževanje in popravila motornih vozil",srednja,skupaj,1394
-2019,"trgovina, vzdrževanje in popravila motornih vozil",srednja,skupaj,1450
 2008,"trgovina, vzdrževanje in popravila motornih vozil",srednja,m,1257
 2009,"trgovina, vzdrževanje in popravila motornih vozil",srednja,m,1258
 2010,"trgovina, vzdrževanje in popravila motornih vozil",srednja,m,1297
@@ -1115,18 +479,6 @@ leto,dejavnost,izobrazba,spol,placa
 2017,"trgovina, vzdrževanje in popravila motornih vozil",srednja,ž,1191
 2018,"trgovina, vzdrževanje in popravila motornih vozil",srednja,ž,1247
 2019,"trgovina, vzdrževanje in popravila motornih vozil",srednja,ž,1298
-2008,"trgovina, vzdrževanje in popravila motornih vozil",visoka,skupaj,2370
-2009,"trgovina, vzdrževanje in popravila motornih vozil",visoka,skupaj,2349
-2010,"trgovina, vzdrževanje in popravila motornih vozil",visoka,skupaj,2363
-2011,"trgovina, vzdrževanje in popravila motornih vozil",visoka,skupaj,2386
-2012,"trgovina, vzdrževanje in popravila motornih vozil",visoka,skupaj,2382
-2013,"trgovina, vzdrževanje in popravila motornih vozil",visoka,skupaj,2310
-2014,"trgovina, vzdrževanje in popravila motornih vozil",visoka,skupaj,2307
-2015,"trgovina, vzdrževanje in popravila motornih vozil",visoka,skupaj,2308
-2016,"trgovina, vzdrževanje in popravila motornih vozil",visoka,skupaj,2309
-2017,"trgovina, vzdrževanje in popravila motornih vozil",visoka,skupaj,2312
-2018,"trgovina, vzdrževanje in popravila motornih vozil",visoka,skupaj,2343
-2019,"trgovina, vzdrževanje in popravila motornih vozil",visoka,skupaj,2400
 2008,"trgovina, vzdrževanje in popravila motornih vozil",visoka,m,2671
 2009,"trgovina, vzdrževanje in popravila motornih vozil",visoka,m,2641
 2010,"trgovina, vzdrževanje in popravila motornih vozil",visoka,m,2631
@@ -1151,54 +503,6 @@ leto,dejavnost,izobrazba,spol,placa
 2017,"trgovina, vzdrževanje in popravila motornih vozil",visoka,ž,2121
 2018,"trgovina, vzdrževanje in popravila motornih vozil",visoka,ž,2146
 2019,"trgovina, vzdrževanje in popravila motornih vozil",visoka,ž,2202
-2008,promet in skladiščenje,skupaj,skupaj,1363
-2009,promet in skladiščenje,skupaj,skupaj,1361
-2010,promet in skladiščenje,skupaj,skupaj,1397
-2011,promet in skladiščenje,skupaj,skupaj,1409
-2012,promet in skladiščenje,skupaj,skupaj,1441
-2013,promet in skladiščenje,skupaj,skupaj,1452
-2014,promet in skladiščenje,skupaj,skupaj,1492
-2015,promet in skladiščenje,skupaj,skupaj,1522
-2016,promet in skladiščenje,skupaj,skupaj,1525
-2017,promet in skladiščenje,skupaj,skupaj,1543
-2018,promet in skladiščenje,skupaj,skupaj,1594
-2019,promet in skladiščenje,skupaj,skupaj,1607
-2008,promet in skladiščenje,skupaj,m,1344
-2009,promet in skladiščenje,skupaj,m,1332
-2010,promet in skladiščenje,skupaj,m,1368
-2011,promet in skladiščenje,skupaj,m,1366
-2012,promet in skladiščenje,skupaj,m,1397
-2013,promet in skladiščenje,skupaj,m,1416
-2014,promet in skladiščenje,skupaj,m,1458
-2015,promet in skladiščenje,skupaj,m,1487
-2016,promet in skladiščenje,skupaj,m,1486
-2017,promet in skladiščenje,skupaj,m,1505
-2018,promet in skladiščenje,skupaj,m,1554
-2019,promet in skladiščenje,skupaj,m,1566
-2008,promet in skladiščenje,skupaj,ž,1440
-2009,promet in skladiščenje,skupaj,ž,1479
-2010,promet in skladiščenje,skupaj,ž,1516
-2011,promet in skladiščenje,skupaj,ž,1574
-2012,promet in skladiščenje,skupaj,ž,1619
-2013,promet in skladiščenje,skupaj,ž,1589
-2014,promet in skladiščenje,skupaj,ž,1624
-2015,promet in skladiščenje,skupaj,ž,1658
-2016,promet in skladiščenje,skupaj,ž,1677
-2017,promet in skladiščenje,skupaj,ž,1696
-2018,promet in skladiščenje,skupaj,ž,1750
-2019,promet in skladiščenje,skupaj,ž,1783
-2008,promet in skladiščenje,osnovna,skupaj,1037
-2009,promet in skladiščenje,osnovna,skupaj,1015
-2010,promet in skladiščenje,osnovna,skupaj,1041
-2011,promet in skladiščenje,osnovna,skupaj,1025
-2012,promet in skladiščenje,osnovna,skupaj,1098
-2013,promet in skladiščenje,osnovna,skupaj,1103
-2014,promet in skladiščenje,osnovna,skupaj,1142
-2015,promet in skladiščenje,osnovna,skupaj,1168
-2016,promet in skladiščenje,osnovna,skupaj,1164
-2017,promet in skladiščenje,osnovna,skupaj,1184
-2018,promet in skladiščenje,osnovna,skupaj,1220
-2019,promet in skladiščenje,osnovna,skupaj,1238
 2008,promet in skladiščenje,osnovna,m,1041
 2009,promet in skladiščenje,osnovna,m,1017
 2010,promet in skladiščenje,osnovna,m,1041
@@ -1223,18 +527,6 @@ leto,dejavnost,izobrazba,spol,placa
 2017,promet in skladiščenje,osnovna,ž,1065
 2018,promet in skladiščenje,osnovna,ž,1142
 2019,promet in skladiščenje,osnovna,ž,1165
-2008,promet in skladiščenje,srednja,skupaj,1264
-2009,promet in skladiščenje,srednja,skupaj,1246
-2010,promet in skladiščenje,srednja,skupaj,1281
-2011,promet in skladiščenje,srednja,skupaj,1261
-2012,promet in skladiščenje,srednja,skupaj,1305
-2013,promet in skladiščenje,srednja,skupaj,1312
-2014,promet in skladiščenje,srednja,skupaj,1347
-2015,promet in skladiščenje,srednja,skupaj,1371
-2016,promet in skladiščenje,srednja,skupaj,1356
-2017,promet in skladiščenje,srednja,skupaj,1372
-2018,promet in skladiščenje,srednja,skupaj,1423
-2019,promet in skladiščenje,srednja,skupaj,1459
 2008,promet in skladiščenje,srednja,m,1256
 2009,promet in skladiščenje,srednja,m,1228
 2010,promet in skladiščenje,srednja,m,1263
@@ -1259,18 +551,6 @@ leto,dejavnost,izobrazba,spol,placa
 2017,promet in skladiščenje,srednja,ž,1459
 2018,promet in skladiščenje,srednja,ž,1512
 2019,promet in skladiščenje,srednja,ž,1535
-2008,promet in skladiščenje,visoka,skupaj,2442
-2009,promet in skladiščenje,visoka,skupaj,2442
-2010,promet in skladiščenje,visoka,skupaj,2401
-2011,promet in skladiščenje,visoka,skupaj,2442
-2012,promet in skladiščenje,visoka,skupaj,2366
-2013,promet in skladiščenje,visoka,skupaj,2360
-2014,promet in skladiščenje,visoka,skupaj,2389
-2015,promet in skladiščenje,visoka,skupaj,2424
-2016,promet in skladiščenje,visoka,skupaj,2465
-2017,promet in skladiščenje,visoka,skupaj,2472
-2018,promet in skladiščenje,visoka,skupaj,2519
-2019,promet in skladiščenje,visoka,skupaj,2471
 2008,promet in skladiščenje,visoka,m,2844
 2009,promet in skladiščenje,visoka,m,2859
 2010,promet in skladiščenje,visoka,m,2777
@@ -1295,54 +575,6 @@ leto,dejavnost,izobrazba,spol,placa
 2017,promet in skladiščenje,visoka,ž,2093
 2018,promet in skladiščenje,visoka,ž,2134
 2019,promet in skladiščenje,visoka,ž,2168
-2008,gostinstvo,skupaj,skupaj,1008
-2009,gostinstvo,skupaj,skupaj,1022
-2010,gostinstvo,skupaj,skupaj,1078
-2011,gostinstvo,skupaj,skupaj,1117
-2012,gostinstvo,skupaj,skupaj,1130
-2013,gostinstvo,skupaj,skupaj,1141
-2014,gostinstvo,skupaj,skupaj,1152
-2015,gostinstvo,skupaj,skupaj,1165
-2016,gostinstvo,skupaj,skupaj,1188
-2017,gostinstvo,skupaj,skupaj,1210
-2018,gostinstvo,skupaj,skupaj,1266
-2019,gostinstvo,skupaj,skupaj,1321
-2008,gostinstvo,skupaj,m,1098
-2009,gostinstvo,skupaj,m,1099
-2010,gostinstvo,skupaj,m,1149
-2011,gostinstvo,skupaj,m,1178
-2012,gostinstvo,skupaj,m,1190
-2013,gostinstvo,skupaj,m,1195
-2014,gostinstvo,skupaj,m,1205
-2015,gostinstvo,skupaj,m,1221
-2016,gostinstvo,skupaj,m,1248
-2017,gostinstvo,skupaj,m,1276
-2018,gostinstvo,skupaj,m,1330
-2019,gostinstvo,skupaj,m,1389
-2008,gostinstvo,skupaj,ž,954
-2009,gostinstvo,skupaj,ž,973
-2010,gostinstvo,skupaj,ž,1032
-2011,gostinstvo,skupaj,ž,1077
-2012,gostinstvo,skupaj,ž,1090
-2013,gostinstvo,skupaj,ž,1105
-2014,gostinstvo,skupaj,ž,1116
-2015,gostinstvo,skupaj,ž,1128
-2016,gostinstvo,skupaj,ž,1148
-2017,gostinstvo,skupaj,ž,1165
-2018,gostinstvo,skupaj,ž,1221
-2019,gostinstvo,skupaj,ž,1274
-2008,gostinstvo,osnovna,skupaj,785
-2009,gostinstvo,osnovna,skupaj,807
-2010,gostinstvo,osnovna,skupaj,856
-2011,gostinstvo,osnovna,skupaj,891
-2012,gostinstvo,osnovna,skupaj,901
-2013,gostinstvo,osnovna,skupaj,920
-2014,gostinstvo,osnovna,skupaj,936
-2015,gostinstvo,osnovna,skupaj,951
-2016,gostinstvo,osnovna,skupaj,985
-2017,gostinstvo,osnovna,skupaj,1013
-2018,gostinstvo,osnovna,skupaj,1082
-2019,gostinstvo,osnovna,skupaj,1138
 2008,gostinstvo,osnovna,m,809
 2009,gostinstvo,osnovna,m,817
 2010,gostinstvo,osnovna,m,873
@@ -1367,18 +599,6 @@ leto,dejavnost,izobrazba,spol,placa
 2017,gostinstvo,osnovna,ž,1002
 2018,gostinstvo,osnovna,ž,1066
 2019,gostinstvo,osnovna,ž,1115
-2008,gostinstvo,srednja,skupaj,958
-2009,gostinstvo,srednja,skupaj,972
-2010,gostinstvo,srednja,skupaj,1021
-2011,gostinstvo,srednja,skupaj,1054
-2012,gostinstvo,srednja,skupaj,1064
-2013,gostinstvo,srednja,skupaj,1073
-2014,gostinstvo,srednja,skupaj,1083
-2015,gostinstvo,srednja,skupaj,1090
-2016,gostinstvo,srednja,skupaj,1117
-2017,gostinstvo,srednja,skupaj,1137
-2018,gostinstvo,srednja,skupaj,1196
-2019,gostinstvo,srednja,skupaj,1249
 2008,gostinstvo,srednja,m,1018
 2009,gostinstvo,srednja,m,1035
 2010,gostinstvo,srednja,m,1078
@@ -1403,18 +623,6 @@ leto,dejavnost,izobrazba,spol,placa
 2017,gostinstvo,srednja,ž,1084
 2018,gostinstvo,srednja,ž,1143
 2019,gostinstvo,srednja,ž,1190
-2008,gostinstvo,visoka,skupaj,2052
-2009,gostinstvo,visoka,skupaj,1956
-2010,gostinstvo,visoka,skupaj,2009
-2011,gostinstvo,visoka,skupaj,2004
-2012,gostinstvo,visoka,skupaj,1931
-2013,gostinstvo,visoka,skupaj,1820
-2014,gostinstvo,visoka,skupaj,1771
-2015,gostinstvo,visoka,skupaj,1770
-2016,gostinstvo,visoka,skupaj,1736
-2017,gostinstvo,visoka,skupaj,1722
-2018,gostinstvo,visoka,skupaj,1732
-2019,gostinstvo,visoka,skupaj,1781
 2008,gostinstvo,visoka,m,2511
 2009,gostinstvo,visoka,m,2295
 2010,gostinstvo,visoka,m,2355
@@ -1439,54 +647,6 @@ leto,dejavnost,izobrazba,spol,placa
 2017,gostinstvo,visoka,ž,1627
 2018,gostinstvo,visoka,ž,1654
 2019,gostinstvo,visoka,ž,1707
-2008,informacijske in komunikacijske dejavnosti,skupaj,skupaj,2063
-2009,informacijske in komunikacijske dejavnosti,skupaj,skupaj,2091
-2010,informacijske in komunikacijske dejavnosti,skupaj,skupaj,2154
-2011,informacijske in komunikacijske dejavnosti,skupaj,skupaj,2126
-2012,informacijske in komunikacijske dejavnosti,skupaj,skupaj,2208
-2013,informacijske in komunikacijske dejavnosti,skupaj,skupaj,2181
-2014,informacijske in komunikacijske dejavnosti,skupaj,skupaj,2195
-2015,informacijske in komunikacijske dejavnosti,skupaj,skupaj,2207
-2016,informacijske in komunikacijske dejavnosti,skupaj,skupaj,2234
-2017,informacijske in komunikacijske dejavnosti,skupaj,skupaj,2221
-2018,informacijske in komunikacijske dejavnosti,skupaj,skupaj,2324
-2019,informacijske in komunikacijske dejavnosti,skupaj,skupaj,2431
-2008,informacijske in komunikacijske dejavnosti,skupaj,m,2186
-2009,informacijske in komunikacijske dejavnosti,skupaj,m,2215
-2010,informacijske in komunikacijske dejavnosti,skupaj,m,2264
-2011,informacijske in komunikacijske dejavnosti,skupaj,m,2219
-2012,informacijske in komunikacijske dejavnosti,skupaj,m,2313
-2013,informacijske in komunikacijske dejavnosti,skupaj,m,2276
-2014,informacijske in komunikacijske dejavnosti,skupaj,m,2289
-2015,informacijske in komunikacijske dejavnosti,skupaj,m,2307
-2016,informacijske in komunikacijske dejavnosti,skupaj,m,2330
-2017,informacijske in komunikacijske dejavnosti,skupaj,m,2322
-2018,informacijske in komunikacijske dejavnosti,skupaj,m,2437
-2019,informacijske in komunikacijske dejavnosti,skupaj,m,2554
-2008,informacijske in komunikacijske dejavnosti,skupaj,ž,1829
-2009,informacijske in komunikacijske dejavnosti,skupaj,ž,1856
-2010,informacijske in komunikacijske dejavnosti,skupaj,ž,1937
-2011,informacijske in komunikacijske dejavnosti,skupaj,ž,1936
-2012,informacijske in komunikacijske dejavnosti,skupaj,ž,1999
-2013,informacijske in komunikacijske dejavnosti,skupaj,ž,1993
-2014,informacijske in komunikacijske dejavnosti,skupaj,ž,2007
-2015,informacijske in komunikacijske dejavnosti,skupaj,ž,2001
-2016,informacijske in komunikacijske dejavnosti,skupaj,ž,2033
-2017,informacijske in komunikacijske dejavnosti,skupaj,ž,2018
-2018,informacijske in komunikacijske dejavnosti,skupaj,ž,2097
-2019,informacijske in komunikacijske dejavnosti,skupaj,ž,2178
-2008,informacijske in komunikacijske dejavnosti,osnovna,skupaj,1222
-2009,informacijske in komunikacijske dejavnosti,osnovna,skupaj,1242
-2010,informacijske in komunikacijske dejavnosti,osnovna,skupaj,1297
-2011,informacijske in komunikacijske dejavnosti,osnovna,skupaj,1298
-2012,informacijske in komunikacijske dejavnosti,osnovna,skupaj,1340
-2013,informacijske in komunikacijske dejavnosti,osnovna,skupaj,1286
-2014,informacijske in komunikacijske dejavnosti,osnovna,skupaj,1394
-2015,informacijske in komunikacijske dejavnosti,osnovna,skupaj,1417
-2016,informacijske in komunikacijske dejavnosti,osnovna,skupaj,1443
-2017,informacijske in komunikacijske dejavnosti,osnovna,skupaj,1462
-2018,informacijske in komunikacijske dejavnosti,osnovna,skupaj,1498
-2019,informacijske in komunikacijske dejavnosti,osnovna,skupaj,1600
 2008,informacijske in komunikacijske dejavnosti,osnovna,m,1299
 2009,informacijske in komunikacijske dejavnosti,osnovna,m,1349
 2010,informacijske in komunikacijske dejavnosti,osnovna,m,1404
@@ -1511,18 +671,6 @@ leto,dejavnost,izobrazba,spol,placa
 2017,informacijske in komunikacijske dejavnosti,osnovna,ž,1295
 2018,informacijske in komunikacijske dejavnosti,osnovna,ž,1347
 2019,informacijske in komunikacijske dejavnosti,osnovna,ž,1426
-2008,informacijske in komunikacijske dejavnosti,srednja,skupaj,1687
-2009,informacijske in komunikacijske dejavnosti,srednja,skupaj,1732
-2010,informacijske in komunikacijske dejavnosti,srednja,skupaj,1787
-2011,informacijske in komunikacijske dejavnosti,srednja,skupaj,1754
-2012,informacijske in komunikacijske dejavnosti,srednja,skupaj,1811
-2013,informacijske in komunikacijske dejavnosti,srednja,skupaj,1802
-2014,informacijske in komunikacijske dejavnosti,srednja,skupaj,1814
-2015,informacijske in komunikacijske dejavnosti,srednja,skupaj,1832
-2016,informacijske in komunikacijske dejavnosti,srednja,skupaj,1855
-2017,informacijske in komunikacijske dejavnosti,srednja,skupaj,1827
-2018,informacijske in komunikacijske dejavnosti,srednja,skupaj,1896
-2019,informacijske in komunikacijske dejavnosti,srednja,skupaj,2007
 2008,informacijske in komunikacijske dejavnosti,srednja,m,1780
 2009,informacijske in komunikacijske dejavnosti,srednja,m,1829
 2010,informacijske in komunikacijske dejavnosti,srednja,m,1879
@@ -1547,18 +695,6 @@ leto,dejavnost,izobrazba,spol,placa
 2017,informacijske in komunikacijske dejavnosti,srednja,ž,1617
 2018,informacijske in komunikacijske dejavnosti,srednja,ž,1663
 2019,informacijske in komunikacijske dejavnosti,srednja,ž,1741
-2008,informacijske in komunikacijske dejavnosti,visoka,skupaj,2551
-2009,informacijske in komunikacijske dejavnosti,visoka,skupaj,2523
-2010,informacijske in komunikacijske dejavnosti,visoka,skupaj,2555
-2011,informacijske in komunikacijske dejavnosti,visoka,skupaj,2506
-2012,informacijske in komunikacijske dejavnosti,visoka,skupaj,2573
-2013,informacijske in komunikacijske dejavnosti,visoka,skupaj,2519
-2014,informacijske in komunikacijske dejavnosti,visoka,skupaj,2512
-2015,informacijske in komunikacijske dejavnosti,visoka,skupaj,2497
-2016,informacijske in komunikacijske dejavnosti,visoka,skupaj,2503
-2017,informacijske in komunikacijske dejavnosti,visoka,skupaj,2471
-2018,informacijske in komunikacijske dejavnosti,visoka,skupaj,2581
-2019,informacijske in komunikacijske dejavnosti,visoka,skupaj,2680
 2008,informacijske in komunikacijske dejavnosti,visoka,m,2752
 2009,informacijske in komunikacijske dejavnosti,visoka,m,2726
 2010,informacijske in komunikacijske dejavnosti,visoka,m,2728
@@ -1583,54 +719,6 @@ leto,dejavnost,izobrazba,spol,placa
 2017,informacijske in komunikacijske dejavnosti,visoka,ž,2214
 2018,informacijske in komunikacijske dejavnosti,visoka,ž,2294
 2019,informacijske in komunikacijske dejavnosti,visoka,ž,2370
-2008,finančne in zavarovalniške dejavnosti,skupaj,skupaj,2232
-2009,finančne in zavarovalniške dejavnosti,skupaj,skupaj,2200
-2010,finančne in zavarovalniške dejavnosti,skupaj,skupaj,2221
-2011,finančne in zavarovalniške dejavnosti,skupaj,skupaj,2256
-2012,finančne in zavarovalniške dejavnosti,skupaj,skupaj,2283
-2013,finančne in zavarovalniške dejavnosti,skupaj,skupaj,2267
-2014,finančne in zavarovalniške dejavnosti,skupaj,skupaj,2318
-2015,finančne in zavarovalniške dejavnosti,skupaj,skupaj,2383
-2016,finančne in zavarovalniške dejavnosti,skupaj,skupaj,2405
-2017,finančne in zavarovalniške dejavnosti,skupaj,skupaj,2461
-2018,finančne in zavarovalniške dejavnosti,skupaj,skupaj,2530
-2019,finančne in zavarovalniške dejavnosti,skupaj,skupaj,2662
-2008,finančne in zavarovalniške dejavnosti,skupaj,m,2859
-2009,finančne in zavarovalniške dejavnosti,skupaj,m,2726
-2010,finančne in zavarovalniške dejavnosti,skupaj,m,2706
-2011,finančne in zavarovalniške dejavnosti,skupaj,m,2711
-2012,finančne in zavarovalniške dejavnosti,skupaj,m,2717
-2013,finančne in zavarovalniške dejavnosti,skupaj,m,2696
-2014,finančne in zavarovalniške dejavnosti,skupaj,m,2764
-2015,finančne in zavarovalniške dejavnosti,skupaj,m,2821
-2016,finančne in zavarovalniške dejavnosti,skupaj,m,2827
-2017,finančne in zavarovalniške dejavnosti,skupaj,m,2915
-2018,finančne in zavarovalniške dejavnosti,skupaj,m,2986
-2019,finančne in zavarovalniške dejavnosti,skupaj,m,3130
-2008,finančne in zavarovalniške dejavnosti,skupaj,ž,1906
-2009,finančne in zavarovalniške dejavnosti,skupaj,ž,1925
-2010,finančne in zavarovalniške dejavnosti,skupaj,ž,1959
-2011,finančne in zavarovalniške dejavnosti,skupaj,ž,2003
-2012,finančne in zavarovalniške dejavnosti,skupaj,ž,2040
-2013,finančne in zavarovalniške dejavnosti,skupaj,ž,2028
-2014,finančne in zavarovalniške dejavnosti,skupaj,ž,2066
-2015,finančne in zavarovalniške dejavnosti,skupaj,ž,2130
-2016,finančne in zavarovalniške dejavnosti,skupaj,ž,2161
-2017,finančne in zavarovalniške dejavnosti,skupaj,ž,2203
-2018,finančne in zavarovalniške dejavnosti,skupaj,ž,2263
-2019,finančne in zavarovalniške dejavnosti,skupaj,ž,2385
-2008,finančne in zavarovalniške dejavnosti,osnovna,skupaj,1291
-2009,finančne in zavarovalniške dejavnosti,osnovna,skupaj,1314
-2010,finančne in zavarovalniške dejavnosti,osnovna,skupaj,1431
-2011,finančne in zavarovalniške dejavnosti,osnovna,skupaj,1356
-2012,finančne in zavarovalniške dejavnosti,osnovna,skupaj,1342
-2013,finančne in zavarovalniške dejavnosti,osnovna,skupaj,1333
-2014,finančne in zavarovalniške dejavnosti,osnovna,skupaj,1335
-2015,finančne in zavarovalniške dejavnosti,osnovna,skupaj,1387
-2016,finančne in zavarovalniške dejavnosti,osnovna,skupaj,1407
-2017,finančne in zavarovalniške dejavnosti,osnovna,skupaj,1380
-2018,finančne in zavarovalniške dejavnosti,osnovna,skupaj,1424
-2019,finančne in zavarovalniške dejavnosti,osnovna,skupaj,1461
 2008,finančne in zavarovalniške dejavnosti,osnovna,m,1556
 2009,finančne in zavarovalniške dejavnosti,osnovna,m,1520
 2010,finančne in zavarovalniške dejavnosti,osnovna,m,1812
@@ -1655,18 +743,6 @@ leto,dejavnost,izobrazba,spol,placa
 2017,finančne in zavarovalniške dejavnosti,osnovna,ž,1331
 2018,finančne in zavarovalniške dejavnosti,osnovna,ž,1386
 2019,finančne in zavarovalniške dejavnosti,osnovna,ž,1473
-2008,finančne in zavarovalniške dejavnosti,srednja,skupaj,1644
-2009,finančne in zavarovalniške dejavnosti,srednja,skupaj,1658
-2010,finančne in zavarovalniške dejavnosti,srednja,skupaj,1672
-2011,finančne in zavarovalniške dejavnosti,srednja,skupaj,1684
-2012,finančne in zavarovalniške dejavnosti,srednja,skupaj,1704
-2013,finančne in zavarovalniške dejavnosti,srednja,skupaj,1705
-2014,finančne in zavarovalniške dejavnosti,srednja,skupaj,1735
-2015,finančne in zavarovalniške dejavnosti,srednja,skupaj,1782
-2016,finančne in zavarovalniške dejavnosti,srednja,skupaj,1790
-2017,finančne in zavarovalniške dejavnosti,srednja,skupaj,1807
-2018,finančne in zavarovalniške dejavnosti,srednja,skupaj,1862
-2019,finančne in zavarovalniške dejavnosti,srednja,skupaj,1951
 2008,finančne in zavarovalniške dejavnosti,srednja,m,2005
 2009,finančne in zavarovalniške dejavnosti,srednja,m,1946
 2010,finančne in zavarovalniške dejavnosti,srednja,m,1947
@@ -1691,18 +767,6 @@ leto,dejavnost,izobrazba,spol,placa
 2017,finančne in zavarovalniške dejavnosti,srednja,ž,1648
 2018,finančne in zavarovalniške dejavnosti,srednja,ž,1699
 2019,finančne in zavarovalniške dejavnosti,srednja,ž,1775
-2008,finančne in zavarovalniške dejavnosti,visoka,skupaj,2947
-2009,finančne in zavarovalniške dejavnosti,visoka,skupaj,2816
-2010,finančne in zavarovalniške dejavnosti,visoka,skupaj,2799
-2011,finančne in zavarovalniške dejavnosti,visoka,skupaj,2792
-2012,finančne in zavarovalniške dejavnosti,visoka,skupaj,2780
-2013,finančne in zavarovalniške dejavnosti,visoka,skupaj,2717
-2014,finančne in zavarovalniške dejavnosti,visoka,skupaj,2751
-2015,finančne in zavarovalniške dejavnosti,visoka,skupaj,2810
-2016,finančne in zavarovalniške dejavnosti,visoka,skupaj,2806
-2017,finančne in zavarovalniške dejavnosti,visoka,skupaj,2842
-2018,finančne in zavarovalniške dejavnosti,visoka,skupaj,2905
-2019,finančne in zavarovalniške dejavnosti,visoka,skupaj,3038
 2008,finančne in zavarovalniške dejavnosti,visoka,m,3714
 2009,finančne in zavarovalniške dejavnosti,visoka,m,3493
 2010,finančne in zavarovalniške dejavnosti,visoka,m,3413
@@ -1727,54 +791,6 @@ leto,dejavnost,izobrazba,spol,placa
 2017,finančne in zavarovalniške dejavnosti,visoka,ž,2536
 2018,finančne in zavarovalniške dejavnosti,visoka,ž,2585
 2019,finančne in zavarovalniške dejavnosti,visoka,ž,2707
-2008,poslovanje z nepremičninami,skupaj,skupaj,1471
-2009,poslovanje z nepremičninami,skupaj,skupaj,1486
-2010,poslovanje z nepremičninami,skupaj,skupaj,1502
-2011,poslovanje z nepremičninami,skupaj,skupaj,1567
-2012,poslovanje z nepremičninami,skupaj,skupaj,1575
-2013,poslovanje z nepremičninami,skupaj,skupaj,1598
-2014,poslovanje z nepremičninami,skupaj,skupaj,1602
-2015,poslovanje z nepremičninami,skupaj,skupaj,1623
-2016,poslovanje z nepremičninami,skupaj,skupaj,1617
-2017,poslovanje z nepremičninami,skupaj,skupaj,1750
-2018,poslovanje z nepremičninami,skupaj,skupaj,1835
-2019,poslovanje z nepremičninami,skupaj,skupaj,1892
-2008,poslovanje z nepremičninami,skupaj,m,1565
-2009,poslovanje z nepremičninami,skupaj,m,1536
-2010,poslovanje z nepremičninami,skupaj,m,1556
-2011,poslovanje z nepremičninami,skupaj,m,1630
-2012,poslovanje z nepremičninami,skupaj,m,1622
-2013,poslovanje z nepremičninami,skupaj,m,1611
-2014,poslovanje z nepremičninami,skupaj,m,1637
-2015,poslovanje z nepremičninami,skupaj,m,1643
-2016,poslovanje z nepremičninami,skupaj,m,1626
-2017,poslovanje z nepremičninami,skupaj,m,1792
-2018,poslovanje z nepremičninami,skupaj,m,1897
-2019,poslovanje z nepremičninami,skupaj,m,1952
-2008,poslovanje z nepremičninami,skupaj,ž,1371
-2009,poslovanje z nepremičninami,skupaj,ž,1426
-2010,poslovanje z nepremičninami,skupaj,ž,1436
-2011,poslovanje z nepremičninami,skupaj,ž,1489
-2012,poslovanje z nepremičninami,skupaj,ž,1519
-2013,poslovanje z nepremičninami,skupaj,ž,1583
-2014,poslovanje z nepremičninami,skupaj,ž,1558
-2015,poslovanje z nepremičninami,skupaj,ž,1598
-2016,poslovanje z nepremičninami,skupaj,ž,1607
-2017,poslovanje z nepremičninami,skupaj,ž,1649
-2018,poslovanje z nepremičninami,skupaj,ž,1685
-2019,poslovanje z nepremičninami,skupaj,ž,1749
-2008,poslovanje z nepremičninami,osnovna,skupaj,864
-2009,poslovanje z nepremičninami,osnovna,skupaj,906
-2010,poslovanje z nepremičninami,osnovna,skupaj,956
-2011,poslovanje z nepremičninami,osnovna,skupaj,1003
-2012,poslovanje z nepremičninami,osnovna,skupaj,1027
-2013,poslovanje z nepremičninami,osnovna,skupaj,1032
-2014,poslovanje z nepremičninami,osnovna,skupaj,1039
-2015,poslovanje z nepremičninami,osnovna,skupaj,1052
-2016,poslovanje z nepremičninami,osnovna,skupaj,1061
-2017,poslovanje z nepremičninami,osnovna,skupaj,1252
-2018,poslovanje z nepremičninami,osnovna,skupaj,1338
-2019,poslovanje z nepremičninami,osnovna,skupaj,1379
 2008,poslovanje z nepremičninami,osnovna,m,918
 2009,poslovanje z nepremičninami,osnovna,m,941
 2010,poslovanje z nepremičninami,osnovna,m,1018
@@ -1799,18 +815,6 @@ leto,dejavnost,izobrazba,spol,placa
 2017,poslovanje z nepremičninami,osnovna,ž,968
 2018,poslovanje z nepremičninami,osnovna,ž,1007
 2019,poslovanje z nepremičninami,osnovna,ž,1074
-2008,poslovanje z nepremičninami,srednja,skupaj,1224
-2009,poslovanje z nepremičninami,srednja,skupaj,1259
-2010,poslovanje z nepremičninami,srednja,skupaj,1302
-2011,poslovanje z nepremičninami,srednja,skupaj,1342
-2012,poslovanje z nepremičninami,srednja,skupaj,1355
-2013,poslovanje z nepremičninami,srednja,skupaj,1372
-2014,poslovanje z nepremičninami,srednja,skupaj,1378
-2015,poslovanje z nepremičninami,srednja,skupaj,1394
-2016,poslovanje z nepremičninami,srednja,skupaj,1403
-2017,poslovanje z nepremičninami,srednja,skupaj,1695
-2018,poslovanje z nepremičninami,srednja,skupaj,1791
-2019,poslovanje z nepremičninami,srednja,skupaj,1851
 2008,poslovanje z nepremičninami,srednja,m,1231
 2009,poslovanje z nepremičninami,srednja,m,1260
 2010,poslovanje z nepremičninami,srednja,m,1306
@@ -1835,18 +839,6 @@ leto,dejavnost,izobrazba,spol,placa
 2017,poslovanje z nepremičninami,srednja,ž,1497
 2018,poslovanje z nepremičninami,srednja,ž,1544
 2019,poslovanje z nepremičninami,srednja,ž,1622
-2008,poslovanje z nepremičninami,visoka,skupaj,2121
-2009,poslovanje z nepremičninami,visoka,skupaj,2089
-2010,poslovanje z nepremičninami,visoka,skupaj,2018
-2011,poslovanje z nepremičninami,visoka,skupaj,2059
-2012,poslovanje z nepremičninami,visoka,skupaj,2048
-2013,poslovanje z nepremičninami,visoka,skupaj,2051
-2014,poslovanje z nepremičninami,visoka,skupaj,2028
-2015,poslovanje z nepremičninami,visoka,skupaj,2000
-2016,poslovanje z nepremičninami,visoka,skupaj,1986
-2017,poslovanje z nepremičninami,visoka,skupaj,2005
-2018,poslovanje z nepremičninami,visoka,skupaj,2054
-2019,poslovanje z nepremičninami,visoka,skupaj,2101
 2008,poslovanje z nepremičninami,visoka,m,2469
 2009,poslovanje z nepremičninami,visoka,m,2367
 2010,poslovanje z nepremičninami,visoka,m,2256
@@ -1871,54 +863,6 @@ leto,dejavnost,izobrazba,spol,placa
 2017,poslovanje z nepremičninami,visoka,ž,1881
 2018,poslovanje z nepremičninami,visoka,ž,1884
 2019,poslovanje z nepremičninami,visoka,ž,1931
-2008,"strokovne, znanstvene in tehnične dejavnosti",skupaj,skupaj,1755
-2009,"strokovne, znanstvene in tehnične dejavnosti",skupaj,skupaj,1800
-2010,"strokovne, znanstvene in tehnične dejavnosti",skupaj,skupaj,1836
-2011,"strokovne, znanstvene in tehnične dejavnosti",skupaj,skupaj,1866
-2012,"strokovne, znanstvene in tehnične dejavnosti",skupaj,skupaj,1896
-2013,"strokovne, znanstvene in tehnične dejavnosti",skupaj,skupaj,1863
-2014,"strokovne, znanstvene in tehnične dejavnosti",skupaj,skupaj,1889
-2015,"strokovne, znanstvene in tehnične dejavnosti",skupaj,skupaj,1905
-2016,"strokovne, znanstvene in tehnične dejavnosti",skupaj,skupaj,1917
-2017,"strokovne, znanstvene in tehnične dejavnosti",skupaj,skupaj,1950
-2018,"strokovne, znanstvene in tehnične dejavnosti",skupaj,skupaj,2023
-2019,"strokovne, znanstvene in tehnične dejavnosti",skupaj,skupaj,2115
-2008,"strokovne, znanstvene in tehnične dejavnosti",skupaj,m,1867
-2009,"strokovne, znanstvene in tehnične dejavnosti",skupaj,m,1901
-2010,"strokovne, znanstvene in tehnične dejavnosti",skupaj,m,1938
-2011,"strokovne, znanstvene in tehnične dejavnosti",skupaj,m,1960
-2012,"strokovne, znanstvene in tehnične dejavnosti",skupaj,m,1979
-2013,"strokovne, znanstvene in tehnične dejavnosti",skupaj,m,1936
-2014,"strokovne, znanstvene in tehnične dejavnosti",skupaj,m,1952
-2015,"strokovne, znanstvene in tehnične dejavnosti",skupaj,m,1964
-2016,"strokovne, znanstvene in tehnične dejavnosti",skupaj,m,1979
-2017,"strokovne, znanstvene in tehnične dejavnosti",skupaj,m,2017
-2018,"strokovne, znanstvene in tehnične dejavnosti",skupaj,m,2102
-2019,"strokovne, znanstvene in tehnične dejavnosti",skupaj,m,2206
-2008,"strokovne, znanstvene in tehnične dejavnosti",skupaj,ž,1612
-2009,"strokovne, znanstvene in tehnične dejavnosti",skupaj,ž,1670
-2010,"strokovne, znanstvene in tehnične dejavnosti",skupaj,ž,1708
-2011,"strokovne, znanstvene in tehnične dejavnosti",skupaj,ž,1754
-2012,"strokovne, znanstvene in tehnične dejavnosti",skupaj,ž,1796
-2013,"strokovne, znanstvene in tehnične dejavnosti",skupaj,ž,1775
-2014,"strokovne, znanstvene in tehnične dejavnosti",skupaj,ž,1813
-2015,"strokovne, znanstvene in tehnične dejavnosti",skupaj,ž,1833
-2016,"strokovne, znanstvene in tehnične dejavnosti",skupaj,ž,1841
-2017,"strokovne, znanstvene in tehnične dejavnosti",skupaj,ž,1867
-2018,"strokovne, znanstvene in tehnične dejavnosti",skupaj,ž,1924
-2019,"strokovne, znanstvene in tehnične dejavnosti",skupaj,ž,2001
-2008,"strokovne, znanstvene in tehnične dejavnosti",osnovna,skupaj,943
-2009,"strokovne, znanstvene in tehnične dejavnosti",osnovna,skupaj,951
-2010,"strokovne, znanstvene in tehnične dejavnosti",osnovna,skupaj,969
-2011,"strokovne, znanstvene in tehnične dejavnosti",osnovna,skupaj,1007
-2012,"strokovne, znanstvene in tehnične dejavnosti",osnovna,skupaj,1061
-2013,"strokovne, znanstvene in tehnične dejavnosti",osnovna,skupaj,1039
-2014,"strokovne, znanstvene in tehnične dejavnosti",osnovna,skupaj,1060
-2015,"strokovne, znanstvene in tehnične dejavnosti",osnovna,skupaj,1069
-2016,"strokovne, znanstvene in tehnične dejavnosti",osnovna,skupaj,1091
-2017,"strokovne, znanstvene in tehnične dejavnosti",osnovna,skupaj,1119
-2018,"strokovne, znanstvene in tehnične dejavnosti",osnovna,skupaj,1166
-2019,"strokovne, znanstvene in tehnične dejavnosti",osnovna,skupaj,1217
 2008,"strokovne, znanstvene in tehnične dejavnosti",osnovna,m,982
 2009,"strokovne, znanstvene in tehnične dejavnosti",osnovna,m,990
 2010,"strokovne, znanstvene in tehnične dejavnosti",osnovna,m,1012
@@ -1943,18 +887,6 @@ leto,dejavnost,izobrazba,spol,placa
 2017,"strokovne, znanstvene in tehnične dejavnosti",osnovna,ž,1047
 2018,"strokovne, znanstvene in tehnične dejavnosti",osnovna,ž,1070
 2019,"strokovne, znanstvene in tehnične dejavnosti",osnovna,ž,1097
-2008,"strokovne, znanstvene in tehnične dejavnosti",srednja,skupaj,1307
-2009,"strokovne, znanstvene in tehnične dejavnosti",srednja,skupaj,1337
-2010,"strokovne, znanstvene in tehnične dejavnosti",srednja,skupaj,1370
-2011,"strokovne, znanstvene in tehnične dejavnosti",srednja,skupaj,1390
-2012,"strokovne, znanstvene in tehnične dejavnosti",srednja,skupaj,1407
-2013,"strokovne, znanstvene in tehnične dejavnosti",srednja,skupaj,1395
-2014,"strokovne, znanstvene in tehnične dejavnosti",srednja,skupaj,1407
-2015,"strokovne, znanstvene in tehnične dejavnosti",srednja,skupaj,1420
-2016,"strokovne, znanstvene in tehnične dejavnosti",srednja,skupaj,1424
-2017,"strokovne, znanstvene in tehnične dejavnosti",srednja,skupaj,1437
-2018,"strokovne, znanstvene in tehnične dejavnosti",srednja,skupaj,1501
-2019,"strokovne, znanstvene in tehnične dejavnosti",srednja,skupaj,1569
 2008,"strokovne, znanstvene in tehnične dejavnosti",srednja,m,1348
 2009,"strokovne, znanstvene in tehnične dejavnosti",srednja,m,1361
 2010,"strokovne, znanstvene in tehnične dejavnosti",srednja,m,1394
@@ -1979,18 +911,6 @@ leto,dejavnost,izobrazba,spol,placa
 2017,"strokovne, znanstvene in tehnične dejavnosti",srednja,ž,1429
 2018,"strokovne, znanstvene in tehnične dejavnosti",srednja,ž,1476
 2019,"strokovne, znanstvene in tehnične dejavnosti",srednja,ž,1531
-2008,"strokovne, znanstvene in tehnične dejavnosti",visoka,skupaj,2240
-2009,"strokovne, znanstvene in tehnične dejavnosti",visoka,skupaj,2254
-2010,"strokovne, znanstvene in tehnične dejavnosti",visoka,skupaj,2263
-2011,"strokovne, znanstvene in tehnične dejavnosti",visoka,skupaj,2262
-2012,"strokovne, znanstvene in tehnične dejavnosti",visoka,skupaj,2270
-2013,"strokovne, znanstvene in tehnične dejavnosti",visoka,skupaj,2213
-2014,"strokovne, znanstvene in tehnične dejavnosti",visoka,skupaj,2227
-2015,"strokovne, znanstvene in tehnične dejavnosti",visoka,skupaj,2227
-2016,"strokovne, znanstvene in tehnične dejavnosti",visoka,skupaj,2227
-2017,"strokovne, znanstvene in tehnične dejavnosti",visoka,skupaj,2242
-2018,"strokovne, znanstvene in tehnične dejavnosti",visoka,skupaj,2313
-2019,"strokovne, znanstvene in tehnične dejavnosti",visoka,skupaj,2419
 2008,"strokovne, znanstvene in tehnične dejavnosti",visoka,m,2415
 2009,"strokovne, znanstvene in tehnične dejavnosti",visoka,m,2437
 2010,"strokovne, znanstvene in tehnične dejavnosti",visoka,m,2438
@@ -2015,54 +935,6 @@ leto,dejavnost,izobrazba,spol,placa
 2017,"strokovne, znanstvene in tehnične dejavnosti",visoka,ž,2093
 2018,"strokovne, znanstvene in tehnične dejavnosti",visoka,ž,2144
 2019,"strokovne, znanstvene in tehnične dejavnosti",visoka,ž,2228
-2008,druge poslovne dejavnosti,skupaj,skupaj,998
-2009,druge poslovne dejavnosti,skupaj,skupaj,1006
-2010,druge poslovne dejavnosti,skupaj,skupaj,1033
-2011,druge poslovne dejavnosti,skupaj,skupaj,1079
-2012,druge poslovne dejavnosti,skupaj,skupaj,1101
-2013,druge poslovne dejavnosti,skupaj,skupaj,1099
-2014,druge poslovne dejavnosti,skupaj,skupaj,1141
-2015,druge poslovne dejavnosti,skupaj,skupaj,1165
-2016,druge poslovne dejavnosti,skupaj,skupaj,1192
-2017,druge poslovne dejavnosti,skupaj,skupaj,1227
-2018,druge poslovne dejavnosti,skupaj,skupaj,1287
-2019,druge poslovne dejavnosti,skupaj,skupaj,1337
-2008,druge poslovne dejavnosti,skupaj,m,1086
-2009,druge poslovne dejavnosti,skupaj,m,1075
-2010,druge poslovne dejavnosti,skupaj,m,1096
-2011,druge poslovne dejavnosti,skupaj,m,1139
-2012,druge poslovne dejavnosti,skupaj,m,1146
-2013,druge poslovne dejavnosti,skupaj,m,1139
-2014,druge poslovne dejavnosti,skupaj,m,1176
-2015,druge poslovne dejavnosti,skupaj,m,1202
-2016,druge poslovne dejavnosti,skupaj,m,1237
-2017,druge poslovne dejavnosti,skupaj,m,1281
-2018,druge poslovne dejavnosti,skupaj,m,1341
-2019,druge poslovne dejavnosti,skupaj,m,1394
-2008,druge poslovne dejavnosti,skupaj,ž,883
-2009,druge poslovne dejavnosti,skupaj,ž,913
-2010,druge poslovne dejavnosti,skupaj,ž,955
-2011,druge poslovne dejavnosti,skupaj,ž,1009
-2012,druge poslovne dejavnosti,skupaj,ž,1047
-2013,druge poslovne dejavnosti,skupaj,ž,1052
-2014,druge poslovne dejavnosti,skupaj,ž,1090
-2015,druge poslovne dejavnosti,skupaj,ž,1113
-2016,druge poslovne dejavnosti,skupaj,ž,1129
-2017,druge poslovne dejavnosti,skupaj,ž,1153
-2018,druge poslovne dejavnosti,skupaj,ž,1211
-2019,druge poslovne dejavnosti,skupaj,ž,1261
-2008,druge poslovne dejavnosti,osnovna,skupaj,742
-2009,druge poslovne dejavnosti,osnovna,skupaj,741
-2010,druge poslovne dejavnosti,osnovna,skupaj,787
-2011,druge poslovne dejavnosti,osnovna,skupaj,835
-2012,druge poslovne dejavnosti,osnovna,skupaj,880
-2013,druge poslovne dejavnosti,osnovna,skupaj,900
-2014,druge poslovne dejavnosti,osnovna,skupaj,923
-2015,druge poslovne dejavnosti,osnovna,skupaj,940
-2016,druge poslovne dejavnosti,osnovna,skupaj,947
-2017,druge poslovne dejavnosti,osnovna,skupaj,962
-2018,druge poslovne dejavnosti,osnovna,skupaj,1021
-2019,druge poslovne dejavnosti,osnovna,skupaj,1063
 2008,druge poslovne dejavnosti,osnovna,m,897
 2009,druge poslovne dejavnosti,osnovna,m,857
 2010,druge poslovne dejavnosti,osnovna,m,895
@@ -2087,18 +959,6 @@ leto,dejavnost,izobrazba,spol,placa
 2017,druge poslovne dejavnosti,osnovna,ž,891
 2018,druge poslovne dejavnosti,osnovna,ž,946
 2019,druge poslovne dejavnosti,osnovna,ž,987
-2008,druge poslovne dejavnosti,srednja,skupaj,1010
-2009,druge poslovne dejavnosti,srednja,skupaj,992
-2010,druge poslovne dejavnosti,srednja,skupaj,1023
-2011,druge poslovne dejavnosti,srednja,skupaj,1049
-2012,druge poslovne dejavnosti,srednja,skupaj,1072
-2013,druge poslovne dejavnosti,srednja,skupaj,1070
-2014,druge poslovne dejavnosti,srednja,skupaj,1111
-2015,druge poslovne dejavnosti,srednja,skupaj,1125
-2016,druge poslovne dejavnosti,srednja,skupaj,1153
-2017,druge poslovne dejavnosti,srednja,skupaj,1171
-2018,druge poslovne dejavnosti,srednja,skupaj,1230
-2019,druge poslovne dejavnosti,srednja,skupaj,1280
 2008,druge poslovne dejavnosti,srednja,m,1033
 2009,druge poslovne dejavnosti,srednja,m,1014
 2010,druge poslovne dejavnosti,srednja,m,1049
@@ -2123,18 +983,6 @@ leto,dejavnost,izobrazba,spol,placa
 2017,druge poslovne dejavnosti,srednja,ž,1087
 2018,druge poslovne dejavnosti,srednja,ž,1135
 2019,druge poslovne dejavnosti,srednja,ž,1182
-2008,druge poslovne dejavnosti,visoka,skupaj,1794
-2009,druge poslovne dejavnosti,visoka,skupaj,1760
-2010,druge poslovne dejavnosti,visoka,skupaj,1729
-2011,druge poslovne dejavnosti,visoka,skupaj,1777
-2012,druge poslovne dejavnosti,visoka,skupaj,1695
-2013,druge poslovne dejavnosti,visoka,skupaj,1629
-2014,druge poslovne dejavnosti,visoka,skupaj,1674
-2015,druge poslovne dejavnosti,visoka,skupaj,1698
-2016,druge poslovne dejavnosti,visoka,skupaj,1705
-2017,druge poslovne dejavnosti,visoka,skupaj,1752
-2018,druge poslovne dejavnosti,visoka,skupaj,1797
-2019,druge poslovne dejavnosti,visoka,skupaj,1837
 2008,druge poslovne dejavnosti,visoka,m,2017
 2009,druge poslovne dejavnosti,visoka,m,2007
 2010,druge poslovne dejavnosti,visoka,m,1849
@@ -2159,54 +1007,6 @@ leto,dejavnost,izobrazba,spol,placa
 2017,druge poslovne dejavnosti,visoka,ž,1633
 2018,druge poslovne dejavnosti,visoka,ž,1672
 2019,druge poslovne dejavnosti,visoka,ž,1729
-2008,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,skupaj,skupaj,1727
-2009,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,skupaj,skupaj,1836
-2010,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,skupaj,skupaj,1831
-2011,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,skupaj,skupaj,1844
-2012,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,skupaj,skupaj,1789
-2013,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,skupaj,skupaj,1798
-2014,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,skupaj,skupaj,1807
-2015,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,skupaj,skupaj,1829
-2016,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,skupaj,skupaj,1933
-2017,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,skupaj,skupaj,2004
-2018,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,skupaj,skupaj,2053
-2019,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,skupaj,skupaj,2241
-2008,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,skupaj,m,1806
-2009,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,skupaj,m,1941
-2010,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,skupaj,m,1905
-2011,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,skupaj,m,1910
-2012,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,skupaj,m,1851
-2013,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,skupaj,m,1847
-2014,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,skupaj,m,1855
-2015,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,skupaj,m,1870
-2016,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,skupaj,m,2001
-2017,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,skupaj,m,2079
-2018,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,skupaj,m,2143
-2019,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,skupaj,m,2379
-2008,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,skupaj,ž,1648
-2009,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,skupaj,ž,1736
-2010,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,skupaj,ž,1759
-2011,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,skupaj,ž,1778
-2012,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,skupaj,ž,1730
-2013,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,skupaj,ž,1759
-2014,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,skupaj,ž,1760
-2015,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,skupaj,ž,1791
-2016,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,skupaj,ž,1868
-2017,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,skupaj,ž,1936
-2018,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,skupaj,ž,1968
-2019,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,skupaj,ž,2119
-2008,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,osnovna,skupaj,872
-2009,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,osnovna,skupaj,900
-2010,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,osnovna,skupaj,903
-2011,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,osnovna,skupaj,895
-2012,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,osnovna,skupaj,883
-2013,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,osnovna,skupaj,889
-2014,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,osnovna,skupaj,891
-2015,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,osnovna,skupaj,887
-2016,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,osnovna,skupaj,895
-2017,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,osnovna,skupaj,920
-2018,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,osnovna,skupaj,968
-2019,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,osnovna,skupaj,1039
 2008,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,osnovna,m,1016
 2009,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,osnovna,m,1018
 2010,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,osnovna,m,979
@@ -2231,18 +1031,6 @@ leto,dejavnost,izobrazba,spol,placa
 2017,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,osnovna,ž,917
 2018,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,osnovna,ž,967
 2019,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,osnovna,ž,1047
-2008,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,srednja,skupaj,1296
-2009,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,srednja,skupaj,1402
-2010,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,srednja,skupaj,1378
-2011,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,srednja,skupaj,1381
-2012,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,srednja,skupaj,1361
-2013,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,srednja,skupaj,1282
-2014,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,srednja,skupaj,1372
-2015,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,srednja,skupaj,1392
-2016,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,srednja,skupaj,1472
-2017,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,srednja,skupaj,1533
-2018,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,srednja,skupaj,1618
-2019,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,srednja,skupaj,1811
 2008,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,srednja,m,1421
 2009,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,srednja,m,1554
 2010,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,srednja,m,1504
@@ -2267,18 +1055,6 @@ leto,dejavnost,izobrazba,spol,placa
 2017,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,srednja,ž,1293
 2018,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,srednja,ž,1354
 2019,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,srednja,ž,1481
-2008,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,visoka,skupaj,2159
-2009,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,visoka,skupaj,2249
-2010,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,visoka,skupaj,2236
-2011,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,visoka,skupaj,2226
-2012,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,visoka,skupaj,2129
-2013,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,visoka,skupaj,2104
-2014,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,visoka,skupaj,2109
-2015,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,visoka,skupaj,2135
-2016,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,visoka,skupaj,2222
-2017,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,visoka,skupaj,2283
-2018,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,visoka,skupaj,2312
-2019,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,visoka,skupaj,2476
 2008,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,visoka,m,2322
 2009,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,visoka,m,2446
 2010,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,visoka,m,2407
@@ -2303,54 +1079,6 @@ leto,dejavnost,izobrazba,spol,placa
 2017,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,visoka,ž,2190
 2018,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,visoka,ž,2211
 2019,dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti,visoka,ž,2347
-2008,izobraževanje,skupaj,skupaj,1743
-2009,izobraževanje,skupaj,skupaj,1825
-2010,izobraževanje,skupaj,skupaj,1839
-2011,izobraževanje,skupaj,skupaj,1849
-2012,izobraževanje,skupaj,skupaj,1803
-2013,izobraževanje,skupaj,skupaj,1741
-2014,izobraževanje,skupaj,skupaj,1772
-2015,izobraževanje,skupaj,skupaj,1767
-2016,izobraževanje,skupaj,skupaj,1795
-2017,izobraževanje,skupaj,skupaj,1841
-2018,izobraževanje,skupaj,skupaj,1854
-2019,izobraževanje,skupaj,skupaj,1956
-2008,izobraževanje,skupaj,m,1996
-2009,izobraževanje,skupaj,m,2088
-2010,izobraževanje,skupaj,m,2118
-2011,izobraževanje,skupaj,m,2125
-2012,izobraževanje,skupaj,m,2063
-2013,izobraževanje,skupaj,m,1990
-2014,izobraževanje,skupaj,m,2024
-2015,izobraževanje,skupaj,m,2021
-2016,izobraževanje,skupaj,m,2043
-2017,izobraževanje,skupaj,m,2111
-2018,izobraževanje,skupaj,m,2117
-2019,izobraževanje,skupaj,m,2233
-2008,izobraževanje,skupaj,ž,1675
-2009,izobraževanje,skupaj,ž,1754
-2010,izobraževanje,skupaj,ž,1766
-2011,izobraževanje,skupaj,ž,1778
-2012,izobraževanje,skupaj,ž,1737
-2013,izobraževanje,skupaj,ž,1679
-2014,izobraževanje,skupaj,ž,1710
-2015,izobraževanje,skupaj,ž,1705
-2016,izobraževanje,skupaj,ž,1734
-2017,izobraževanje,skupaj,ž,1775
-2018,izobraževanje,skupaj,ž,1790
-2019,izobraževanje,skupaj,ž,1888
-2008,izobraževanje,osnovna,skupaj,771
-2009,izobraževanje,osnovna,skupaj,823
-2010,izobraževanje,osnovna,skupaj,836
-2011,izobraževanje,osnovna,skupaj,844
-2012,izobraževanje,osnovna,skupaj,837
-2013,izobraževanje,osnovna,skupaj,832
-2014,izobraževanje,osnovna,skupaj,846
-2015,izobraževanje,osnovna,skupaj,842
-2016,izobraževanje,osnovna,skupaj,858
-2017,izobraževanje,osnovna,skupaj,895
-2018,izobraževanje,osnovna,skupaj,949
-2019,izobraževanje,osnovna,skupaj,1012
 2008,izobraževanje,osnovna,m,951
 2009,izobraževanje,osnovna,m,1013
 2010,izobraževanje,osnovna,m,1047
@@ -2375,18 +1103,6 @@ leto,dejavnost,izobrazba,spol,placa
 2017,izobraževanje,osnovna,ž,887
 2018,izobraževanje,osnovna,ž,941
 2019,izobraževanje,osnovna,ž,1003
-2008,izobraževanje,srednja,skupaj,1257
-2009,izobraževanje,srednja,skupaj,1303
-2010,izobraževanje,srednja,skupaj,1292
-2011,izobraževanje,srednja,skupaj,1259
-2012,izobraževanje,srednja,skupaj,1214
-2013,izobraževanje,srednja,skupaj,1174
-2014,izobraževanje,srednja,skupaj,1178
-2015,izobraževanje,srednja,skupaj,1153
-2016,izobraževanje,srednja,skupaj,1164
-2017,izobraževanje,srednja,skupaj,1188
-2018,izobraževanje,srednja,skupaj,1208
-2019,izobraževanje,srednja,skupaj,1258
 2008,izobraževanje,srednja,m,1191
 2009,izobraževanje,srednja,m,1220
 2010,izobraževanje,srednja,m,1212
@@ -2411,18 +1127,6 @@ leto,dejavnost,izobrazba,spol,placa
 2017,izobraževanje,srednja,ž,1196
 2018,izobraževanje,srednja,ž,1214
 2019,izobraževanje,srednja,ž,1257
-2008,izobraževanje,visoka,skupaj,2059
-2009,izobraževanje,visoka,skupaj,2145
-2010,izobraževanje,visoka,skupaj,2162
-2011,izobraževanje,visoka,skupaj,2165
-2012,izobraževanje,visoka,skupaj,2104
-2013,izobraževanje,visoka,skupaj,2024
-2014,izobraževanje,visoka,skupaj,2056
-2015,izobraževanje,visoka,skupaj,2049
-2016,izobraževanje,visoka,skupaj,2072
-2017,izobraževanje,visoka,skupaj,2111
-2018,izobraževanje,visoka,skupaj,2111
-2019,izobraževanje,visoka,skupaj,2218
 2008,izobraževanje,visoka,m,2334
 2009,izobraževanje,visoka,m,2440
 2010,izobraževanje,visoka,m,2478
@@ -2447,54 +1151,6 @@ leto,dejavnost,izobrazba,spol,placa
 2017,izobraževanje,visoka,ž,2031
 2018,izobraževanje,visoka,ž,2031
 2019,izobraževanje,visoka,ž,2136
-2008,zdravstvo in socialno varstvo,skupaj,skupaj,1603
-2009,zdravstvo in socialno varstvo,skupaj,skupaj,1810
-2010,zdravstvo in socialno varstvo,skupaj,skupaj,1799
-2011,zdravstvo in socialno varstvo,skupaj,skupaj,1803
-2012,zdravstvo in socialno varstvo,skupaj,skupaj,1790
-2013,zdravstvo in socialno varstvo,skupaj,skupaj,1766
-2014,zdravstvo in socialno varstvo,skupaj,skupaj,1819
-2015,zdravstvo in socialno varstvo,skupaj,skupaj,1783
-2016,zdravstvo in socialno varstvo,skupaj,skupaj,1835
-2017,zdravstvo in socialno varstvo,skupaj,skupaj,1881
-2018,zdravstvo in socialno varstvo,skupaj,skupaj,1960
-2019,zdravstvo in socialno varstvo,skupaj,skupaj,2049
-2008,zdravstvo in socialno varstvo,skupaj,m,2123
-2009,zdravstvo in socialno varstvo,skupaj,m,2398
-2010,zdravstvo in socialno varstvo,skupaj,m,2358
-2011,zdravstvo in socialno varstvo,skupaj,m,2320
-2012,zdravstvo in socialno varstvo,skupaj,m,2280
-2013,zdravstvo in socialno varstvo,skupaj,m,2217
-2014,zdravstvo in socialno varstvo,skupaj,m,2283
-2015,zdravstvo in socialno varstvo,skupaj,m,2218
-2016,zdravstvo in socialno varstvo,skupaj,m,2268
-2017,zdravstvo in socialno varstvo,skupaj,m,2314
-2018,zdravstvo in socialno varstvo,skupaj,m,2409
-2019,zdravstvo in socialno varstvo,skupaj,m,2506
-2008,zdravstvo in socialno varstvo,skupaj,ž,1487
-2009,zdravstvo in socialno varstvo,skupaj,ž,1679
-2010,zdravstvo in socialno varstvo,skupaj,ž,1673
-2011,zdravstvo in socialno varstvo,skupaj,ž,1685
-2012,zdravstvo in socialno varstvo,skupaj,ž,1677
-2013,zdravstvo in socialno varstvo,skupaj,ž,1661
-2014,zdravstvo in socialno varstvo,skupaj,ž,1712
-2015,zdravstvo in socialno varstvo,skupaj,ž,1681
-2016,zdravstvo in socialno varstvo,skupaj,ž,1732
-2017,zdravstvo in socialno varstvo,skupaj,ž,1778
-2018,zdravstvo in socialno varstvo,skupaj,ž,1849
-2019,zdravstvo in socialno varstvo,skupaj,ž,1937
-2008,zdravstvo in socialno varstvo,osnovna,skupaj,833
-2009,zdravstvo in socialno varstvo,osnovna,skupaj,940
-2010,zdravstvo in socialno varstvo,osnovna,skupaj,946
-2011,zdravstvo in socialno varstvo,osnovna,skupaj,955
-2012,zdravstvo in socialno varstvo,osnovna,skupaj,949
-2013,zdravstvo in socialno varstvo,osnovna,skupaj,950
-2014,zdravstvo in socialno varstvo,osnovna,skupaj,984
-2015,zdravstvo in socialno varstvo,osnovna,skupaj,953
-2016,zdravstvo in socialno varstvo,osnovna,skupaj,994
-2017,zdravstvo in socialno varstvo,osnovna,skupaj,1031
-2018,zdravstvo in socialno varstvo,osnovna,skupaj,1090
-2019,zdravstvo in socialno varstvo,osnovna,skupaj,1158
 2008,zdravstvo in socialno varstvo,osnovna,m,871
 2009,zdravstvo in socialno varstvo,osnovna,m,956
 2010,zdravstvo in socialno varstvo,osnovna,m,962
@@ -2519,18 +1175,6 @@ leto,dejavnost,izobrazba,spol,placa
 2017,zdravstvo in socialno varstvo,osnovna,ž,1031
 2018,zdravstvo in socialno varstvo,osnovna,ž,1089
 2019,zdravstvo in socialno varstvo,osnovna,ž,1158
-2008,zdravstvo in socialno varstvo,srednja,skupaj,1205
-2009,zdravstvo in socialno varstvo,srednja,skupaj,1332
-2010,zdravstvo in socialno varstvo,srednja,skupaj,1323
-2011,zdravstvo in socialno varstvo,srednja,skupaj,1323
-2012,zdravstvo in socialno varstvo,srednja,skupaj,1305
-2013,zdravstvo in socialno varstvo,srednja,skupaj,1293
-2014,zdravstvo in socialno varstvo,srednja,skupaj,1331
-2015,zdravstvo in socialno varstvo,srednja,skupaj,1296
-2016,zdravstvo in socialno varstvo,srednja,skupaj,1328
-2017,zdravstvo in socialno varstvo,srednja,skupaj,1362
-2018,zdravstvo in socialno varstvo,srednja,skupaj,1420
-2019,zdravstvo in socialno varstvo,srednja,skupaj,1497
 2008,zdravstvo in socialno varstvo,srednja,m,1232
 2009,zdravstvo in socialno varstvo,srednja,m,1349
 2010,zdravstvo in socialno varstvo,srednja,m,1342
@@ -2555,18 +1199,6 @@ leto,dejavnost,izobrazba,spol,placa
 2017,zdravstvo in socialno varstvo,srednja,ž,1356
 2018,zdravstvo in socialno varstvo,srednja,ž,1412
 2019,zdravstvo in socialno varstvo,srednja,ž,1485
-2008,zdravstvo in socialno varstvo,visoka,skupaj,2455
-2009,zdravstvo in socialno varstvo,visoka,skupaj,2776
-2010,zdravstvo in socialno varstvo,visoka,skupaj,2705
-2011,zdravstvo in socialno varstvo,visoka,skupaj,2641
-2012,zdravstvo in socialno varstvo,visoka,skupaj,2580
-2013,zdravstvo in socialno varstvo,visoka,skupaj,2483
-2014,zdravstvo in socialno varstvo,visoka,skupaj,2545
-2015,zdravstvo in socialno varstvo,visoka,skupaj,2461
-2016,zdravstvo in socialno varstvo,visoka,skupaj,2509
-2017,zdravstvo in socialno varstvo,visoka,skupaj,2537
-2018,zdravstvo in socialno varstvo,visoka,skupaj,2618
-2019,zdravstvo in socialno varstvo,visoka,skupaj,2676
 2008,zdravstvo in socialno varstvo,visoka,m,3345
 2009,zdravstvo in socialno varstvo,visoka,m,3798
 2010,zdravstvo in socialno varstvo,visoka,m,3674
@@ -2591,54 +1223,6 @@ leto,dejavnost,izobrazba,spol,placa
 2017,zdravstvo in socialno varstvo,visoka,ž,2349
 2018,zdravstvo in socialno varstvo,visoka,ž,2422
 2019,zdravstvo in socialno varstvo,visoka,ž,2482
-2008,"kulturne, razvedrilne in rekreacijske dejavnosti",skupaj,skupaj,1739
-2009,"kulturne, razvedrilne in rekreacijske dejavnosti",skupaj,skupaj,1816
-2010,"kulturne, razvedrilne in rekreacijske dejavnosti",skupaj,skupaj,1804
-2011,"kulturne, razvedrilne in rekreacijske dejavnosti",skupaj,skupaj,1810
-2012,"kulturne, razvedrilne in rekreacijske dejavnosti",skupaj,skupaj,1764
-2013,"kulturne, razvedrilne in rekreacijske dejavnosti",skupaj,skupaj,1721
-2014,"kulturne, razvedrilne in rekreacijske dejavnosti",skupaj,skupaj,1751
-2015,"kulturne, razvedrilne in rekreacijske dejavnosti",skupaj,skupaj,1725
-2016,"kulturne, razvedrilne in rekreacijske dejavnosti",skupaj,skupaj,1783
-2017,"kulturne, razvedrilne in rekreacijske dejavnosti",skupaj,skupaj,1800
-2018,"kulturne, razvedrilne in rekreacijske dejavnosti",skupaj,skupaj,1833
-2019,"kulturne, razvedrilne in rekreacijske dejavnosti",skupaj,skupaj,1912
-2008,"kulturne, razvedrilne in rekreacijske dejavnosti",skupaj,m,1860
-2009,"kulturne, razvedrilne in rekreacijske dejavnosti",skupaj,m,1929
-2010,"kulturne, razvedrilne in rekreacijske dejavnosti",skupaj,m,1886
-2011,"kulturne, razvedrilne in rekreacijske dejavnosti",skupaj,m,1892
-2012,"kulturne, razvedrilne in rekreacijske dejavnosti",skupaj,m,1825
-2013,"kulturne, razvedrilne in rekreacijske dejavnosti",skupaj,m,1774
-2014,"kulturne, razvedrilne in rekreacijske dejavnosti",skupaj,m,1809
-2015,"kulturne, razvedrilne in rekreacijske dejavnosti",skupaj,m,1775
-2016,"kulturne, razvedrilne in rekreacijske dejavnosti",skupaj,m,1839
-2017,"kulturne, razvedrilne in rekreacijske dejavnosti",skupaj,m,1837
-2018,"kulturne, razvedrilne in rekreacijske dejavnosti",skupaj,m,1880
-2019,"kulturne, razvedrilne in rekreacijske dejavnosti",skupaj,m,1943
-2008,"kulturne, razvedrilne in rekreacijske dejavnosti",skupaj,ž,1607
-2009,"kulturne, razvedrilne in rekreacijske dejavnosti",skupaj,ž,1693
-2010,"kulturne, razvedrilne in rekreacijske dejavnosti",skupaj,ž,1717
-2011,"kulturne, razvedrilne in rekreacijske dejavnosti",skupaj,ž,1726
-2012,"kulturne, razvedrilne in rekreacijske dejavnosti",skupaj,ž,1704
-2013,"kulturne, razvedrilne in rekreacijske dejavnosti",skupaj,ž,1668
-2014,"kulturne, razvedrilne in rekreacijske dejavnosti",skupaj,ž,1694
-2015,"kulturne, razvedrilne in rekreacijske dejavnosti",skupaj,ž,1678
-2016,"kulturne, razvedrilne in rekreacijske dejavnosti",skupaj,ž,1730
-2017,"kulturne, razvedrilne in rekreacijske dejavnosti",skupaj,ž,1765
-2018,"kulturne, razvedrilne in rekreacijske dejavnosti",skupaj,ž,1789
-2019,"kulturne, razvedrilne in rekreacijske dejavnosti",skupaj,ž,1883
-2008,"kulturne, razvedrilne in rekreacijske dejavnosti",osnovna,skupaj,1035
-2009,"kulturne, razvedrilne in rekreacijske dejavnosti",osnovna,skupaj,1093
-2010,"kulturne, razvedrilne in rekreacijske dejavnosti",osnovna,skupaj,1095
-2011,"kulturne, razvedrilne in rekreacijske dejavnosti",osnovna,skupaj,1090
-2012,"kulturne, razvedrilne in rekreacijske dejavnosti",osnovna,skupaj,1057
-2013,"kulturne, razvedrilne in rekreacijske dejavnosti",osnovna,skupaj,1037
-2014,"kulturne, razvedrilne in rekreacijske dejavnosti",osnovna,skupaj,1063
-2015,"kulturne, razvedrilne in rekreacijske dejavnosti",osnovna,skupaj,1069
-2016,"kulturne, razvedrilne in rekreacijske dejavnosti",osnovna,skupaj,1088
-2017,"kulturne, razvedrilne in rekreacijske dejavnosti",osnovna,skupaj,1138
-2018,"kulturne, razvedrilne in rekreacijske dejavnosti",osnovna,skupaj,1157
-2019,"kulturne, razvedrilne in rekreacijske dejavnosti",osnovna,skupaj,1220
 2008,"kulturne, razvedrilne in rekreacijske dejavnosti",osnovna,m,1160
 2009,"kulturne, razvedrilne in rekreacijske dejavnosti",osnovna,m,1198
 2010,"kulturne, razvedrilne in rekreacijske dejavnosti",osnovna,m,1197
@@ -2663,18 +1247,6 @@ leto,dejavnost,izobrazba,spol,placa
 2017,"kulturne, razvedrilne in rekreacijske dejavnosti",osnovna,ž,1053
 2018,"kulturne, razvedrilne in rekreacijske dejavnosti",osnovna,ž,1088
 2019,"kulturne, razvedrilne in rekreacijske dejavnosti",osnovna,ž,1146
-2008,"kulturne, razvedrilne in rekreacijske dejavnosti",srednja,skupaj,1568
-2009,"kulturne, razvedrilne in rekreacijske dejavnosti",srednja,skupaj,1593
-2010,"kulturne, razvedrilne in rekreacijske dejavnosti",srednja,skupaj,1570
-2011,"kulturne, razvedrilne in rekreacijske dejavnosti",srednja,skupaj,1552
-2012,"kulturne, razvedrilne in rekreacijske dejavnosti",srednja,skupaj,1491
-2013,"kulturne, razvedrilne in rekreacijske dejavnosti",srednja,skupaj,1447
-2014,"kulturne, razvedrilne in rekreacijske dejavnosti",srednja,skupaj,1483
-2015,"kulturne, razvedrilne in rekreacijske dejavnosti",srednja,skupaj,1447
-2016,"kulturne, razvedrilne in rekreacijske dejavnosti",srednja,skupaj,1493
-2017,"kulturne, razvedrilne in rekreacijske dejavnosti",srednja,skupaj,1493
-2018,"kulturne, razvedrilne in rekreacijske dejavnosti",srednja,skupaj,1530
-2019,"kulturne, razvedrilne in rekreacijske dejavnosti",srednja,skupaj,1591
 2008,"kulturne, razvedrilne in rekreacijske dejavnosti",srednja,m,1689
 2009,"kulturne, razvedrilne in rekreacijske dejavnosti",srednja,m,1707
 2010,"kulturne, razvedrilne in rekreacijske dejavnosti",srednja,m,1663
@@ -2699,18 +1271,6 @@ leto,dejavnost,izobrazba,spol,placa
 2017,"kulturne, razvedrilne in rekreacijske dejavnosti",srednja,ž,1408
 2018,"kulturne, razvedrilne in rekreacijske dejavnosti",srednja,ž,1446
 2019,"kulturne, razvedrilne in rekreacijske dejavnosti",srednja,ž,1506
-2008,"kulturne, razvedrilne in rekreacijske dejavnosti",visoka,skupaj,2091
-2009,"kulturne, razvedrilne in rekreacijske dejavnosti",visoka,skupaj,2208
-2010,"kulturne, razvedrilne in rekreacijske dejavnosti",visoka,skupaj,2176
-2011,"kulturne, razvedrilne in rekreacijske dejavnosti",visoka,skupaj,2162
-2012,"kulturne, razvedrilne in rekreacijske dejavnosti",visoka,skupaj,2101
-2013,"kulturne, razvedrilne in rekreacijske dejavnosti",visoka,skupaj,2043
-2014,"kulturne, razvedrilne in rekreacijske dejavnosti",visoka,skupaj,2055
-2015,"kulturne, razvedrilne in rekreacijske dejavnosti",visoka,skupaj,2018
-2016,"kulturne, razvedrilne in rekreacijske dejavnosti",visoka,skupaj,2077
-2017,"kulturne, razvedrilne in rekreacijske dejavnosti",visoka,skupaj,2080
-2018,"kulturne, razvedrilne in rekreacijske dejavnosti",visoka,skupaj,2096
-2019,"kulturne, razvedrilne in rekreacijske dejavnosti",visoka,skupaj,2183
 2008,"kulturne, razvedrilne in rekreacijske dejavnosti",visoka,m,2335
 2009,"kulturne, razvedrilne in rekreacijske dejavnosti",visoka,m,2455
 2010,"kulturne, razvedrilne in rekreacijske dejavnosti",visoka,m,2383
@@ -2735,54 +1295,6 @@ leto,dejavnost,izobrazba,spol,placa
 2017,"kulturne, razvedrilne in rekreacijske dejavnosti",visoka,ž,1998
 2018,"kulturne, razvedrilne in rekreacijske dejavnosti",visoka,ž,2003
 2019,"kulturne, razvedrilne in rekreacijske dejavnosti",visoka,ž,2106
-2008,druge dejavnosti,skupaj,skupaj,1212
-2009,druge dejavnosti,skupaj,skupaj,1267
-2010,druge dejavnosti,skupaj,skupaj,1321
-2011,druge dejavnosti,skupaj,skupaj,1385
-2012,druge dejavnosti,skupaj,skupaj,1401
-2013,druge dejavnosti,skupaj,skupaj,1399
-2014,druge dejavnosti,skupaj,skupaj,1407
-2015,druge dejavnosti,skupaj,skupaj,1412
-2016,druge dejavnosti,skupaj,skupaj,1414
-2017,druge dejavnosti,skupaj,skupaj,1416
-2018,druge dejavnosti,skupaj,skupaj,1442
-2019,druge dejavnosti,skupaj,skupaj,1519
-2008,druge dejavnosti,skupaj,m,1461
-2009,druge dejavnosti,skupaj,m,1524
-2010,druge dejavnosti,skupaj,m,1586
-2011,druge dejavnosti,skupaj,m,1619
-2012,druge dejavnosti,skupaj,m,1625
-2013,druge dejavnosti,skupaj,m,1622
-2014,druge dejavnosti,skupaj,m,1610
-2015,druge dejavnosti,skupaj,m,1607
-2016,druge dejavnosti,skupaj,m,1609
-2017,druge dejavnosti,skupaj,m,1596
-2018,druge dejavnosti,skupaj,m,1622
-2019,druge dejavnosti,skupaj,m,1677
-2008,druge dejavnosti,skupaj,ž,1099
-2009,druge dejavnosti,skupaj,ž,1149
-2010,druge dejavnosti,skupaj,ž,1201
-2011,druge dejavnosti,skupaj,ž,1274
-2012,druge dejavnosti,skupaj,ž,1294
-2013,druge dejavnosti,skupaj,ž,1297
-2014,druge dejavnosti,skupaj,ž,1309
-2015,druge dejavnosti,skupaj,ž,1317
-2016,druge dejavnosti,skupaj,ž,1319
-2017,druge dejavnosti,skupaj,ž,1328
-2018,druge dejavnosti,skupaj,ž,1359
-2019,druge dejavnosti,skupaj,ž,1445
-2008,druge dejavnosti,osnovna,skupaj,852
-2009,druge dejavnosti,osnovna,skupaj,867
-2010,druge dejavnosti,osnovna,skupaj,913
-2011,druge dejavnosti,osnovna,skupaj,970
-2012,druge dejavnosti,osnovna,skupaj,987
-2013,druge dejavnosti,osnovna,skupaj,1013
-2014,druge dejavnosti,osnovna,skupaj,1019
-2015,druge dejavnosti,osnovna,skupaj,1041
-2016,druge dejavnosti,osnovna,skupaj,1056
-2017,druge dejavnosti,osnovna,skupaj,1066
-2018,druge dejavnosti,osnovna,skupaj,1102
-2019,druge dejavnosti,osnovna,skupaj,1158
 2008,druge dejavnosti,osnovna,m,968
 2009,druge dejavnosti,osnovna,m,999
 2010,druge dejavnosti,osnovna,m,1070
@@ -2807,18 +1319,6 @@ leto,dejavnost,izobrazba,spol,placa
 2017,druge dejavnosti,osnovna,ž,953
 2018,druge dejavnosti,osnovna,ž,990
 2019,druge dejavnosti,osnovna,ž,1050
-2008,druge dejavnosti,srednja,skupaj,982
-2009,druge dejavnosti,srednja,skupaj,1006
-2010,druge dejavnosti,srednja,skupaj,1059
-2011,druge dejavnosti,srednja,skupaj,1101
-2012,druge dejavnosti,srednja,skupaj,1107
-2013,druge dejavnosti,srednja,skupaj,1096
-2014,druge dejavnosti,srednja,skupaj,1117
-2015,druge dejavnosti,srednja,skupaj,1118
-2016,druge dejavnosti,srednja,skupaj,1124
-2017,druge dejavnosti,srednja,skupaj,1129
-2018,druge dejavnosti,srednja,skupaj,1152
-2019,druge dejavnosti,srednja,skupaj,1219
 2008,druge dejavnosti,srednja,m,1183
 2009,druge dejavnosti,srednja,m,1199
 2010,druge dejavnosti,srednja,m,1266
@@ -2843,18 +1343,6 @@ leto,dejavnost,izobrazba,spol,placa
 2017,druge dejavnosti,srednja,ž,1059
 2018,druge dejavnosti,srednja,ž,1084
 2019,druge dejavnosti,srednja,ž,1148
-2008,druge dejavnosti,visoka,skupaj,2242
-2009,druge dejavnosti,visoka,skupaj,2305
-2010,druge dejavnosti,visoka,skupaj,2301
-2011,druge dejavnosti,visoka,skupaj,2287
-2012,druge dejavnosti,visoka,skupaj,2259
-2013,druge dejavnosti,visoka,skupaj,2199
-2014,druge dejavnosti,visoka,skupaj,2144
-2015,druge dejavnosti,visoka,skupaj,2137
-2016,druge dejavnosti,visoka,skupaj,2106
-2017,druge dejavnosti,visoka,skupaj,2064
-2018,druge dejavnosti,visoka,skupaj,2078
-2019,druge dejavnosti,visoka,skupaj,2114
 2008,druge dejavnosti,visoka,m,2550
 2009,druge dejavnosti,visoka,m,2640
 2010,druge dejavnosti,visoka,m,2649

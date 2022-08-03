@@ -1,20 +1,4 @@
 leto,regija,spol,starost,placa
-2008,Pomurska,m,15-64 let,1227
-2009,Pomurska,m,15-64 let,1288
-2010,Pomurska,m,15-64 let,1328
-2011,Pomurska,m,15-64 let,1382
-2012,Pomurska,m,15-64 let,1404
-2013,Pomurska,m,15-64 let,1399
-2014,Pomurska,m,15-64 let,1457
-2019,Pomurska,m,15-64 let,1685
-2008,Pomurska,ž,15-64 let,1135
-2009,Pomurska,ž,15-64 let,1337
-2010,Pomurska,ž,15-64 let,1331
-2011,Pomurska,ž,15-64 let,1385
-2012,Pomurska,ž,15-64 let,1373
-2013,Pomurska,ž,15-64 let,1357
-2014,Pomurska,ž,15-64 let,1427
-2019,Pomurska,ž,15-64 let,1594
 2008,Pomurska,m,15-24 let,855
 2009,Pomurska,m,15-24 let,881
 2010,Pomurska,m,15-24 let,907
@@ -134,30 +118,6 @@ leto,regija,spol,starost,placa
 2014,Pomurska,m,65 let ali več,4106
 2019,Pomurska,m,65 let ali več,3582
 2019,Pomurska,ž,65 let ali več,3681
-2008,Podravska,m,15-64 let,1362
-2009,Podravska,m,15-64 let,1377
-2010,Podravska,m,15-64 let,1439
-2011,Podravska,m,15-64 let,1499
-2012,Podravska,m,15-64 let,1519
-2013,Podravska,m,15-64 let,1522
-2014,Podravska,m,15-64 let,1554
-2015,Podravska,m,15-64 let,1562
-2016,Podravska,m,15-64 let,1586
-2017,Podravska,m,15-64 let,1643
-2018,Podravska,m,15-64 let,1710
-2019,Podravska,m,15-64 let,1779
-2008,Podravska,ž,15-64 let,1268
-2009,Podravska,ž,15-64 let,1349
-2010,Podravska,ž,15-64 let,1406
-2011,Podravska,ž,15-64 let,1432
-2012,Podravska,ž,15-64 let,1450
-2013,Podravska,ž,15-64 let,1444
-2014,Podravska,ž,15-64 let,1471
-2015,Podravska,ž,15-64 let,1483
-2016,Podravska,ž,15-64 let,1497
-2017,Podravska,ž,15-64 let,1545
-2018,Podravska,ž,15-64 let,1587
-2019,Podravska,ž,15-64 let,1668
 2008,Podravska,m,15-24 let,889
 2009,Podravska,m,15-24 let,886
 2010,Podravska,m,15-24 let,944
@@ -302,27 +262,6 @@ leto,regija,spol,starost,placa
 2017,Podravska,ž,65 let ali več,3120
 2018,Podravska,ž,65 let ali več,3097
 2019,Podravska,ž,65 let ali več,3078
-2008,Koroška,m,15-64 let,1313
-2009,Koroška,m,15-64 let,1310
-2010,Koroška,m,15-64 let,1379
-2011,Koroška,m,15-64 let,1451
-2012,Koroška,m,15-64 let,1466
-2013,Koroška,m,15-64 let,1477
-2014,Koroška,m,15-64 let,1514
-2015,Koroška,m,15-64 let,1561
-2017,Koroška,m,15-64 let,1655
-2018,Koroška,m,15-64 let,1719
-2019,Koroška,m,15-64 let,1763
-2008,Koroška,ž,15-64 let,1219
-2009,Koroška,ž,15-64 let,1294
-2010,Koroška,ž,15-64 let,1404
-2011,Koroška,ž,15-64 let,1445
-2012,Koroška,ž,15-64 let,1458
-2013,Koroška,ž,15-64 let,1449
-2014,Koroška,ž,15-64 let,1480
-2017,Koroška,ž,15-64 let,1558
-2018,Koroška,ž,15-64 let,1590
-2019,Koroška,ž,15-64 let,1650
 2008,Koroška,m,15-24 let,936
 2009,Koroška,m,15-24 let,898
 2010,Koroška,m,15-24 let,976
@@ -451,28 +390,6 @@ leto,regija,spol,starost,placa
 2017,Koroška,ž,65 let ali več,3429
 2018,Koroška,ž,65 let ali več,3540
 2019,Koroška,ž,65 let ali več,3612
-2008,Savinjska,m,15-64 let,1328
-2009,Savinjska,m,15-64 let,1334
-2010,Savinjska,m,15-64 let,1432
-2011,Savinjska,m,15-64 let,1480
-2012,Savinjska,m,15-64 let,1510
-2013,Savinjska,m,15-64 let,1519
-2014,Savinjska,m,15-64 let,1558
-2015,Savinjska,m,15-64 let,1570
-2016,Savinjska,m,15-64 let,1587
-2018,Savinjska,m,15-64 let,1694
-2019,Savinjska,m,15-64 let,1735
-2008,Savinjska,ž,15-64 let,1228
-2009,Savinjska,ž,15-64 let,1293
-2010,Savinjska,ž,15-64 let,1353
-2011,Savinjska,ž,15-64 let,1386
-2012,Savinjska,ž,15-64 let,1403
-2013,Savinjska,ž,15-64 let,1407
-2014,Savinjska,ž,15-64 let,1440
-2015,Savinjska,ž,15-64 let,1447
-2016,Savinjska,ž,15-64 let,1479
-2018,Savinjska,ž,15-64 let,1541
-2019,Savinjska,ž,15-64 let,1606
 2008,Savinjska,m,15-24 let,877
 2009,Savinjska,m,15-24 let,869
 2010,Savinjska,m,15-24 let,961
@@ -608,20 +525,6 @@ leto,regija,spol,starost,placa
 2016,Savinjska,ž,65 let ali več,3110
 2018,Savinjska,ž,65 let ali več,2485
 2019,Savinjska,ž,65 let ali več,3220
-2008,Zasavska,m,15-64 let,1405
-2009,Zasavska,m,15-64 let,1444
-2010,Zasavska,m,15-64 let,1518
-2011,Zasavska,m,15-64 let,1574
-2012,Zasavska,m,15-64 let,1554
-2013,Zasavska,m,15-64 let,1554
-2014,Zasavska,m,15-64 let,1541
-2008,Zasavska,ž,15-64 let,1235
-2009,Zasavska,ž,15-64 let,1347
-2010,Zasavska,ž,15-64 let,1406
-2011,Zasavska,ž,15-64 let,1455
-2012,Zasavska,ž,15-64 let,1448
-2013,Zasavska,ž,15-64 let,1455
-2014,Zasavska,ž,15-64 let,1465
 2008,Zasavska,m,15-24 let,894
 2009,Zasavska,m,15-24 let,886
 2010,Zasavska,m,15-24 let,945
@@ -732,24 +635,6 @@ leto,regija,spol,starost,placa
 2016,Zasavska,ž,55-64 let,1777
 2018,Zasavska,ž,55-64 let,1788
 2019,Zasavska,ž,55-64 let,1836
-2008,Posavska,m,15-64 let,1340
-2009,Posavska,m,15-64 let,1363
-2010,Posavska,m,15-64 let,1414
-2011,Posavska,m,15-64 let,1504
-2012,Posavska,m,15-64 let,1549
-2013,Posavska,m,15-64 let,1536
-2014,Posavska,m,15-64 let,1585
-2018,Posavska,m,15-64 let,1737
-2019,Posavska,m,15-64 let,1782
-2008,Posavska,ž,15-64 let,1207
-2009,Posavska,ž,15-64 let,1282
-2010,Posavska,ž,15-64 let,1350
-2011,Posavska,ž,15-64 let,1392
-2012,Posavska,ž,15-64 let,1401
-2013,Posavska,ž,15-64 let,1399
-2014,Posavska,ž,15-64 let,1429
-2018,Posavska,ž,15-64 let,1545
-2019,Posavska,ž,15-64 let,1621
 2008,Posavska,m,15-24 let,907
 2009,Posavska,m,15-24 let,917
 2010,Posavska,m,15-24 let,963
@@ -873,22 +758,6 @@ leto,regija,spol,starost,placa
 2019,Posavska,m,65 let ali več,3684
 2018,Posavska,ž,65 let ali več,3944
 2019,Posavska,ž,65 let ali več,3760
-2008,Jugovzhodna Slovenija,m,15-64 let,1365
-2009,Jugovzhodna Slovenija,m,15-64 let,1368
-2010,Jugovzhodna Slovenija,m,15-64 let,1470
-2011,Jugovzhodna Slovenija,m,15-64 let,1519
-2012,Jugovzhodna Slovenija,m,15-64 let,1550
-2013,Jugovzhodna Slovenija,m,15-64 let,1551
-2014,Jugovzhodna Slovenija,m,15-64 let,1613
-2019,Jugovzhodna Slovenija,m,15-64 let,1832
-2008,Jugovzhodna Slovenija,ž,15-64 let,1333
-2009,Jugovzhodna Slovenija,ž,15-64 let,1397
-2010,Jugovzhodna Slovenija,ž,15-64 let,1492
-2011,Jugovzhodna Slovenija,ž,15-64 let,1562
-2012,Jugovzhodna Slovenija,ž,15-64 let,1580
-2013,Jugovzhodna Slovenija,ž,15-64 let,1570
-2014,Jugovzhodna Slovenija,ž,15-64 let,1626
-2019,Jugovzhodna Slovenija,ž,15-64 let,1821
 2008,Jugovzhodna Slovenija,m,15-24 let,935
 2009,Jugovzhodna Slovenija,m,15-24 let,941
 2010,Jugovzhodna Slovenija,m,15-24 let,1008
@@ -1010,30 +879,6 @@ leto,regija,spol,starost,placa
 2014,Jugovzhodna Slovenija,m,65 let ali več,4245
 2019,Jugovzhodna Slovenija,m,65 let ali več,3187
 2019,Jugovzhodna Slovenija,ž,65 let ali več,4051
-2008,Osrednjeslovenska,m,15-64 let,1681
-2009,Osrednjeslovenska,m,15-64 let,1717
-2010,Osrednjeslovenska,m,15-64 let,1772
-2011,Osrednjeslovenska,m,15-64 let,1818
-2012,Osrednjeslovenska,m,15-64 let,1833
-2013,Osrednjeslovenska,m,15-64 let,1816
-2014,Osrednjeslovenska,m,15-64 let,1848
-2015,Osrednjeslovenska,m,15-64 let,1876
-2016,Osrednjeslovenska,m,15-64 let,1918
-2017,Osrednjeslovenska,m,15-64 let,1945
-2018,Osrednjeslovenska,m,15-64 let,2011
-2019,Osrednjeslovenska,m,15-64 let,2094
-2008,Osrednjeslovenska,ž,15-64 let,1573
-2009,Osrednjeslovenska,ž,15-64 let,1653
-2010,Osrednjeslovenska,ž,15-64 let,1697
-2011,Osrednjeslovenska,ž,15-64 let,1733
-2012,Osrednjeslovenska,ž,15-64 let,1741
-2013,Osrednjeslovenska,ž,15-64 let,1730
-2014,Osrednjeslovenska,ž,15-64 let,1770
-2015,Osrednjeslovenska,ž,15-64 let,1784
-2016,Osrednjeslovenska,ž,15-64 let,1823
-2017,Osrednjeslovenska,ž,15-64 let,1855
-2018,Osrednjeslovenska,ž,15-64 let,1900
-2019,Osrednjeslovenska,ž,15-64 let,1993
 2008,Osrednjeslovenska,m,15-24 let,942
 2009,Osrednjeslovenska,m,15-24 let,952
 2010,Osrednjeslovenska,m,15-24 let,1011
@@ -1178,30 +1023,6 @@ leto,regija,spol,starost,placa
 2017,Osrednjeslovenska,ž,65 let ali več,3417
 2018,Osrednjeslovenska,ž,65 let ali več,3289
 2019,Osrednjeslovenska,ž,65 let ali več,3281
-2008,Gorenjska,m,15-64 let,1438
-2009,Gorenjska,m,15-64 let,1426
-2010,Gorenjska,m,15-64 let,1507
-2011,Gorenjska,m,15-64 let,1556
-2012,Gorenjska,m,15-64 let,1599
-2013,Gorenjska,m,15-64 let,1637
-2014,Gorenjska,m,15-64 let,1684
-2015,Gorenjska,m,15-64 let,1717
-2016,Gorenjska,m,15-64 let,1751
-2017,Gorenjska,m,15-64 let,1784
-2018,Gorenjska,m,15-64 let,1851
-2019,Gorenjska,m,15-64 let,1869
-2008,Gorenjska,ž,15-64 let,1293
-2009,Gorenjska,ž,15-64 let,1355
-2010,Gorenjska,ž,15-64 let,1413
-2011,Gorenjska,ž,15-64 let,1439
-2012,Gorenjska,ž,15-64 let,1470
-2013,Gorenjska,ž,15-64 let,1465
-2014,Gorenjska,ž,15-64 let,1499
-2015,Gorenjska,ž,15-64 let,1510
-2016,Gorenjska,ž,15-64 let,1549
-2017,Gorenjska,ž,15-64 let,1591
-2018,Gorenjska,ž,15-64 let,1637
-2019,Gorenjska,ž,15-64 let,1695
 2008,Gorenjska,m,15-24 let,947
 2009,Gorenjska,m,15-24 let,931
 2010,Gorenjska,m,15-24 let,993
@@ -1342,20 +1163,6 @@ leto,regija,spol,starost,placa
 2017,Gorenjska,ž,65 let ali več,2772
 2018,Gorenjska,ž,65 let ali več,2368
 2019,Gorenjska,ž,65 let ali več,2283
-2008,Primorsko-notranjska,m,15-64 let,1275
-2009,Primorsko-notranjska,m,15-64 let,1271
-2010,Primorsko-notranjska,m,15-64 let,1327
-2011,Primorsko-notranjska,m,15-64 let,1376
-2012,Primorsko-notranjska,m,15-64 let,1401
-2013,Primorsko-notranjska,m,15-64 let,1391
-2014,Primorsko-notranjska,m,15-64 let,1434
-2008,Primorsko-notranjska,ž,15-64 let,1178
-2009,Primorsko-notranjska,ž,15-64 let,1247
-2010,Primorsko-notranjska,ž,15-64 let,1272
-2011,Primorsko-notranjska,ž,15-64 let,1322
-2012,Primorsko-notranjska,ž,15-64 let,1339
-2013,Primorsko-notranjska,ž,15-64 let,1348
-2014,Primorsko-notranjska,ž,15-64 let,1356
 2008,Primorsko-notranjska,m,15-24 let,862
 2009,Primorsko-notranjska,m,15-24 let,861
 2010,Primorsko-notranjska,m,15-24 let,951
@@ -1471,26 +1278,6 @@ leto,regija,spol,starost,placa
 2011,Primorsko-notranjska,m,65 let ali več,2520
 2013,Primorsko-notranjska,m,65 let ali več,2978
 2014,Primorsko-notranjska,m,65 let ali več,2713
-2008,Goriška,m,15-64 let,1454
-2009,Goriška,m,15-64 let,1452
-2010,Goriška,m,15-64 let,1521
-2011,Goriška,m,15-64 let,1566
-2012,Goriška,m,15-64 let,1573
-2013,Goriška,m,15-64 let,1557
-2014,Goriška,m,15-64 let,1594
-2017,Goriška,m,15-64 let,1673
-2018,Goriška,m,15-64 let,1729
-2019,Goriška,m,15-64 let,1785
-2008,Goriška,ž,15-64 let,1310
-2009,Goriška,ž,15-64 let,1378
-2010,Goriška,ž,15-64 let,1432
-2011,Goriška,ž,15-64 let,1459
-2012,Goriška,ž,15-64 let,1465
-2013,Goriška,ž,15-64 let,1452
-2014,Goriška,ž,15-64 let,1483
-2017,Goriška,ž,15-64 let,1547
-2018,Goriška,ž,15-64 let,1593
-2019,Goriška,ž,15-64 let,1667
 2008,Goriška,m,15-24 let,907
 2009,Goriška,m,15-24 let,877
 2010,Goriška,m,15-24 let,950
@@ -1619,30 +1406,6 @@ leto,regija,spol,starost,placa
 2017,Goriška,ž,65 let ali več,2162
 2018,Goriška,ž,65 let ali več,3577
 2019,Goriška,ž,65 let ali več,3102
-2008,Obalno-kraška,m,15-64 let,1474
-2009,Obalno-kraška,m,15-64 let,1508
-2010,Obalno-kraška,m,15-64 let,1541
-2011,Obalno-kraška,m,15-64 let,1587
-2012,Obalno-kraška,m,15-64 let,1608
-2013,Obalno-kraška,m,15-64 let,1601
-2014,Obalno-kraška,m,15-64 let,1656
-2015,Obalno-kraška,m,15-64 let,1673
-2016,Obalno-kraška,m,15-64 let,1720
-2017,Obalno-kraška,m,15-64 let,1736
-2018,Obalno-kraška,m,15-64 let,1791
-2019,Obalno-kraška,m,15-64 let,1875
-2008,Obalno-kraška,ž,15-64 let,1374
-2009,Obalno-kraška,ž,15-64 let,1457
-2010,Obalno-kraška,ž,15-64 let,1496
-2011,Obalno-kraška,ž,15-64 let,1524
-2012,Obalno-kraška,ž,15-64 let,1539
-2013,Obalno-kraška,ž,15-64 let,1547
-2014,Obalno-kraška,ž,15-64 let,1583
-2015,Obalno-kraška,ž,15-64 let,1593
-2016,Obalno-kraška,ž,15-64 let,1625
-2017,Obalno-kraška,ž,15-64 let,1640
-2018,Obalno-kraška,ž,15-64 let,1678
-2019,Obalno-kraška,ž,15-64 let,1753
 2008,Obalno-kraška,m,15-24 let,904
 2009,Obalno-kraška,m,15-24 let,909
 2010,Obalno-kraška,m,15-24 let,961
