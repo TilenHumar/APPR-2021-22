@@ -59,6 +59,7 @@ starost_spol_po_regijah %>% write_csv("starost_spol_po_regijah.csv")
 
 #POVPREČNA PLAČA PO LETIH
 placa_slo = starost_spol_po_regijah %>% group_by(leto) %>% summarise(povrprecna_placa = mean(placa))
+spremembe_placa_slo = placa_slo %>% mutate(abs_sprememba = povrprecna_placa - lag(povrprecna_placa)) %>% mutate(rel_sprememba = (povrprecna_placa - lag(povrprecna_placa))/lag(povrprecna_placa) )
 
 #PLAČE PO SPOLU
 placa_m = starost_spol_po_regijah %>% filter(spol != "ž") %>% group_by(leto) %>% summarise(placa_m = mean(placa))
@@ -115,52 +116,6 @@ placa_starost = placa_slo %>%
 
 ### Druga tabela
 
-#Pomožna tabela za preimenovanje dejavnosti
-preimenovanje_dejavnosti = tibble(dejavnost_uradno = c(
-  "SKD DEJAVNOST - SKUPAJ",
-  "A KMETIJSTVO IN LOV, GOZDARSTVO, RIBIŠTVO",
-  "B RUDARSTVO",
-  "C PREDELOVALNE DEJAVNOSTI",
-  "D OSKRBA Z ELEKTRIČNO ENERGIJO, PLINOM IN PARO",
-  "E OSKRBA Z VODO, RAVNANJE Z ODPLAKAMI IN ODPADKI, SANIRANJE OKOLJA",
-  "F GRADBENIŠTVO",
-  "G TRGOVINA, VZDRŽEVANJE IN POPRAVILA MOTORNIH VOZIL",
-  "H PROMET IN SKLADIŠČENJE",
-  "I GOSTINSTVO",
-  "J INFORMACIJSKE IN KOMUNIKACIJSKE DEJAVNOSTI",
-  "K FINANČNE IN ZAVAROVALNIŠKE DEJAVNOSTI",
-  "L POSLOVANJE Z NEPREMIČNINAMI",
-  "M STROKOVNE, ZNANSTVENE IN TEHNIČNE DEJAVNOSTI",
-  "N DRUGE RAZNOVRSTNE POSLOVNE DEJAVNOSTI",
-  "O DEJAVNOST JAVNE UPRAVE IN OBRAMBE, DEJAVNOST OBVEZNE SOCIALNE VARNOSTI",
-  "P IZOBRAŽEVANJE",
-  "Q ZDRAVSTVO IN SOCIALNO VARSTVO",
-  "R KULTURNE, RAZVEDRILNE IN REKREACIJSKE DEJAVNOSTI",
-  "S DRUGE DEJAVNOSTI"),
-  
-  dejavnost = c(
-    "skupaj",
-    "kmetijstvo, lov, gozdarstvo in ribištvo",
-    "rudarstvo",
-    "predelovalne dejavnosti",
-    "oskrba z električno energijo, plinom in paro",
-    "oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja",
-    "gradbeništvo",
-    "trgovina, vzdrževanje in popravila motornih vozil",
-    "promet in skladiščenje",
-    "gostinstvo",
-    "informacijske in komunikacijske dejavnosti",
-    "finančne in zavarovalniške dejavnosti",
-    "poslovanje z nepremičninami",
-    "strokovne, znanstvene in tehnične dejavnosti",
-    "druge poslovne dejavnosti",
-    "dejavnost javne uprave in obrambe ter dejavnost obvezne socialne varnosti",
-    "izobraževanje",
-    "zdravstvo in socialno varstvo",
-    "kulturne, razvedrilne in rekreacijske dejavnosti",
-    "druge dejavnosti")
-  )
-
 #Pomožna tabela za preimenovanje stopnje izobrazbe
 preimenovanje_izobrazba = tibble(izobrazba_uradno = c(
   "Izobrazba - SKUPAJ",
@@ -186,21 +141,22 @@ izobrazba_spol_po_dejavnostih = read_csv("podatki/povprecne_place_glede_na_dejav
                                                           )
                                         )
 
-
 izobrazba_spol_po_dejavnostih = izobrazba_spol_po_dejavnostih %>%
                                 pivot_longer(cols = colnames(
                                   izobrazba_spol_po_dejavnostih)[c(4:15)],
                                   names_to = "leto",
                                   values_to = "placa") %>%
-                                left_join(preimenovanje_dejavnosti, by = "dejavnost_uradno") %>%
+                                filter(dejavnost_uradno  != "SKD DEJAVNOST - SKUPAJ") %>%
                                 left_join(preimenovanje_spol, by = "spol_uradno") %>% 
                                 left_join(preimenovanje_izobrazba, by = "izobrazba_uradno") %>%
-                                relocate(dejavnost_uradno, spol_uradno, izobrazba_uradno, leto, dejavnost, izobrazba, spol, placa) %>% 
-                                select(-c(dejavnost_uradno, spol_uradno, izobrazba_uradno)) %>%
-                                filter(dejavnost != "skupaj") %>%
+                                relocate(leto, dejavnost_uradno, spol_uradno, izobrazba_uradno, izobrazba, spol, placa) %>% 
+                                select(-c(spol_uradno, izobrazba_uradno)) %>%
                                 filter(izobrazba != "skupaj") %>%
-                                filter(spol != "skupaj")
+                                filter(spol != "skupaj") %>%
+                                rename(dejavnost = dejavnost_uradno)
 
+crka = "^([:alpha:]{1}\\s*)"
+izobrazba_spol_po_dejavnostih$dejavnost = izobrazba_spol_po_dejavnostih$dejavnost %>% str_replace(crka, "") %>% str_to_lower()
                                                                                 
 #preverimo, da so tipi stolpcev ustrezni
 sapply(izobrazba_spol_po_dejavnostih, class)
@@ -226,6 +182,53 @@ placa_izobrazba = placa_slo %>%
   left_join(placa_osnovna) %>%
   left_join(placa_srednja) %>%
   left_join(placa_visoka)
+
+#PLAČE PO DEJAVNOSTIH
+
+placa_kmetijstvo = izobrazba_spol_po_dejavnostih %>% filter(dejavnost == "kmetijstvo in lov, gozdarstvo, ribištvo") %>% group_by(leto) %>% summarise(placa_kmetijstvo = mean(placa))
+placa_rudarstvo = izobrazba_spol_po_dejavnostih %>% filter(dejavnost == "rudarstvo") %>% group_by(leto) %>% summarise(placa_rudarstvo = mean(placa))
+placa_predelovalne = izobrazba_spol_po_dejavnostih %>% filter(dejavnost == "predelovalne dejavnosti") %>% group_by(leto) %>% summarise(placa_predelovalne = mean(placa))
+placa_oskrba_el = izobrazba_spol_po_dejavnostih %>% filter(dejavnost == "oskrba z električno energijo, plinom in paro") %>% group_by(leto) %>% summarise(placa_oskrba_el = mean(placa))
+placa_oskrba_voda = izobrazba_spol_po_dejavnostih %>% filter(dejavnost == "oskrba z vodo, ravnanje z odplakami in odpadki, saniranje okolja") %>% group_by(leto) %>% summarise(placa_oskrba_voda = mean(placa))
+placa_gradbenistvo = izobrazba_spol_po_dejavnostih %>% filter(dejavnost == "gradbeništvo") %>% group_by(leto) %>% summarise(placa_gradbenistvo = mean(placa))
+placa_trgovina = izobrazba_spol_po_dejavnostih %>% filter(dejavnost == "trgovina, vzdrževanje in popravila motornih vozil") %>% group_by(leto) %>% summarise(placa_trgovina = mean(placa))
+placa_promet = izobrazba_spol_po_dejavnostih %>% filter(dejavnost == "promet in skladiščenje") %>% group_by(leto) %>% summarise(placa_promet = mean(placa))
+placa_gostinstvo = izobrazba_spol_po_dejavnostih %>% filter(dejavnost == "gostinstvo") %>% group_by(leto) %>% summarise(placa_gostinstvo = mean(placa))
+placa_ikt = izobrazba_spol_po_dejavnostih %>% filter(dejavnost == "informacijske in komunikacijske dejavnosti") %>% group_by(leto) %>% summarise(placa_ikt = mean(placa))
+placa_finance = izobrazba_spol_po_dejavnostih %>% filter(dejavnost == "finančne in zavarovalniške dejavnosti") %>% group_by(leto) %>% summarise(placa_finance = mean(placa))
+placa_nepremicnine = izobrazba_spol_po_dejavnostih %>% filter(dejavnost == "poslovanje z nepremičninami") %>% group_by(leto) %>% summarise(placa_nepremicnine = mean(placa))
+placa_znanost = izobrazba_spol_po_dejavnostih %>% filter(dejavnost == "strokovne, znanstvene in tehnične dejavnosti") %>% group_by(leto) %>% summarise(placa_znanost = mean(placa))
+placa_druge_poslovne = izobrazba_spol_po_dejavnostih %>% filter(dejavnost == "druge raznovrstne poslovne dejavnosti") %>% group_by(leto) %>% summarise(placa_druge_poslovne = mean(placa))
+placa_javna_uprava = izobrazba_spol_po_dejavnostih %>% filter(dejavnost == "dejavnost javne uprave in obrambe, dejavnost obvezne socialne varnosti") %>% group_by(leto) %>% summarise(placa_javna_uprava = mean(placa))
+placa_izobrazevanje = izobrazba_spol_po_dejavnostih %>% filter(dejavnost == "izobraževanje") %>% group_by(leto) %>% summarise(placa_izobrazevanje = mean(placa))
+placa_zdravstvo = izobrazba_spol_po_dejavnostih %>% filter(dejavnost == "zdravstvo in socialno varstvo") %>% group_by(leto) %>% summarise(placa_zdravstvo = mean(placa))
+placa_kultura = izobrazba_spol_po_dejavnostih %>% filter(dejavnost == "kulturne, razvedrilne in rekreacijske dejavnosti") %>% group_by(leto) %>% summarise(placa_kultura = mean(placa))
+placa_drugo = izobrazba_spol_po_dejavnostih %>% filter(dejavnost == "druge dejavnosti") %>% group_by(leto) %>% summarise(placa_drugo = mean(placa))
+
+placa_dejavnosti = placa_slo %>%
+  left_join(placa_kmetijstvo) %>%
+  left_join(placa_rudarstvo) %>%
+  left_join(placa_predelovalne) %>%
+  left_join(placa_oskrba_el) %>%
+  left_join(placa_oskrba_voda) %>%
+  left_join(placa_gradbenistvo) %>%
+  left_join(placa_trgovina) %>%
+  left_join(placa_promet) %>%
+  left_join(placa_gostinstvo) %>%
+  left_join(placa_ikt) %>%
+  left_join(placa_finance) %>%
+  left_join(placa_nepremicnine) %>%
+  left_join(placa_znanost) %>%
+  left_join(placa_druge_poslovne) %>%
+  left_join(placa_javna_uprava) %>%
+  left_join(placa_izobrazevanje) %>%
+  left_join(placa_zdravstvo) %>%
+  left_join(placa_kultura) %>%
+  left_join(placa_drugo)
+
+
+
+
 
 ### Tretja tabela
 
@@ -267,6 +270,8 @@ prihodek_podjetij_po_regijah %>% write_csv("prihodek_podjetij_po_regijah.csv")
 #POVPREČEN PRIHODEK PO LETIH
 
 prihodek_slo = prihodek_podjetij_po_regijah %>% group_by(leto) %>% summarise(povrprecen_prihodek = mean(prihodek))
+
+spremembe_prihodek_slo = prihodek_slo %>% mutate(abs_sprememba = povrprecen_prihodek - lag(povrprecen_prihodek)) %>% mutate(rel_sprememba = (povrprecen_prihodek - lag(povrprecen_prihodek))/lag(povrprecen_prihodek) )
 
 #PRIHODEK PO REGIJAH
 
@@ -361,14 +366,28 @@ placa_sektor = placa_slo %>% left_join(placa_javni) %>% left_join(placa_zasebni)
 #PLAČE PO SEKTORJU, SPOLU
 
 placa_javni_sektor = izobrazba_spol_po_sektorjih %>% filter(sektor == "javni") %>% group_by(leto) %>% summarise(povrprecna_placa = mean(placa))
-placa_javni_zenske = izobrazba_spol_po_sektorjih %>% filter(sektor == "javni") %>% filter(spol == "z") %>% group_by(leto) %>% summarise(placa_javni_z = mean(placa))
+placa_javni_zenske = izobrazba_spol_po_sektorjih %>% filter(sektor == "javni") %>% filter(spol == "ž") %>% group_by(leto) %>% summarise(placa_javni_z = mean(placa))
 placa_javni_moski = izobrazba_spol_po_sektorjih %>% filter(sektor == "javni") %>% filter(spol == "m") %>% group_by(leto) %>% summarise(placa_javni_m = mean(placa))
 
-placa_javni_spol = placa_javni_sekto %>% left_join(placa_javni_moski) %>% left_join(placa_javni_zenske)
+placa_javni_spol = placa_javni_sektor %>% left_join(placa_javni_moski) %>% left_join(placa_javni_zenske)
 
 
 placa_zasebni_sektor = izobrazba_spol_po_sektorjih %>% filter(sektor == "zasebni") %>% group_by(leto) %>% summarise(povrprecna_placa = mean(placa))
-placa_zasebni_zenske = izobrazba_spol_po_sektorjih %>% filter(sektor == "zasebni") %>% filter(spol == "z") %>% group_by(leto) %>% summarise(placa_zasebni_z = mean(placa))
+placa_zasebni_zenske = izobrazba_spol_po_sektorjih %>% filter(sektor == "zasebni") %>% filter(spol == "ž") %>% group_by(leto) %>% summarise(placa_zasebni_z = mean(placa))
 placa_zasebni_moski = izobrazba_spol_po_sektorjih %>% filter(sektor == "zasebni") %>% filter(spol == "m") %>% group_by(leto) %>% summarise(placa_zasebni_m = mean(placa))
 
-placa_zasebni_spol = placa_zasebni_sekto %>% left_join(placa_zasebni_moski) %>% left_join(placa_zasebni_zenske)
+placa_zasebni_spol = placa_zasebni_sektor %>% left_join(placa_zasebni_moski) %>% left_join(placa_zasebni_zenske)
+
+spremembe_placa_zasebni_sektor = placa_zasebni_sektor %>% mutate(abs_sprememba = povrprecna_placa - lag(povrprecna_placa)) %>% mutate(rel_sprememba = (povrprecna_placa - lag(povrprecna_placa))/lag(povrprecna_placa) )
+
+
+
+primerjava_prihodki_place = spremembe_prihodek_slo %>% left_join(spremembe_placa_zasebni_sektor, by = "leto") %>%
+                            rename(abs_sprememba_prihodka = abs_sprememba.x,
+                                   abs_sprememba_place = abs_sprememba.y,
+                                   rel_sprememba_prihodka = rel_sprememba.x,
+                                   rel_sprememba_place = rel_sprememba.y
+                                   ) %>%
+                            select(leto, rel_sprememba_prihodka, rel_sprememba_place) %>%
+                            na.omit(primerjava_prihodki_place) %>%
+                            mutate(rel_sprememba_prihodka = rel_sprememba_prihodka * 100, rel_sprememba_place = rel_sprememba_place * 100)
