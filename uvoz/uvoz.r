@@ -391,3 +391,4 @@ primerjava_prihodki_place = spremembe_prihodek_slo %>% left_join(spremembe_placa
                             select(leto, rel_sprememba_prihodka, rel_sprememba_place) %>%
                             na.omit(primerjava_prihodki_place) %>%
                             mutate(rel_sprememba_prihodka = rel_sprememba_prihodka * 100, rel_sprememba_place = rel_sprememba_place * 100)
+
