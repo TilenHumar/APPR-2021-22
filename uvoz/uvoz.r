@@ -57,6 +57,17 @@ starost_spol_po_regijah$spol = as.factor(starost_spol_po_regijah$spol)
 
 starost_spol_po_regijah %>% write_csv("starost_spol_po_regijah.csv")
 
+st_studentov_na_1000 = read_csv("podatki/st_studentov_na_1000_po_regijah.csv", na=c("z","-"),locale=locale(encoding="Windows-1250"), skip = 1,
+                                col_names = c("regija", "2008","2009","2010","2011","2012","2013","2014","2015","2016","2017","2018","2019"),
+                                col_types = cols(
+                                  .default = col_guess(),
+                                  regija = col_factor()
+                                ))
+st_studentov_na_1000 = st_studentov_na_1000 %>% pivot_longer(cols = colnames(st_studentov_na_1000)[c(2:13)], names_to = "leto", values_to = "število študentov na 1000 prebivalcev")
+st_studentov_na_1000$leto = as.numeric(as.character(st_studentov_na_1000$leto))
+
+starost_spol_po_regijah = starost_spol_po_regijah %>% left_join(st_studentov_na_1000, by = c("regija", "leto"))
+
 #POVPREČNA PLAČA PO LETIH
 placa_slo = starost_spol_po_regijah %>% group_by(leto) %>% summarise(povrprecna_placa = mean(placa))
 spremembe_placa_slo = placa_slo %>% mutate(abs_sprememba = povrprecna_placa - lag(povrprecna_placa)) %>% mutate(rel_sprememba = (povrprecna_placa - lag(povrprecna_placa))/lag(povrprecna_placa) )
@@ -168,7 +179,35 @@ izobrazba_spol_po_dejavnostih$izobrazba = as.factor(izobrazba_spol_po_dejavnosti
 izobrazba_spol_po_dejavnostih$spol = as.factor(izobrazba_spol_po_dejavnostih$spol)
 
 
-izobrazba_spol_po_dejavnostih %>% write_csv("izobrazba_spol_po_dejavnostih.csv")
+st_delovno_aktivnih_po_dejavnostih = read_excel("podatki/st_delovno_aktivnih_po_dejavnostih.xlsx",
+                                          skip = 3,
+                                          na = "-",
+                                          col_names = c("dejavnost", "število delovno aktivnega prebivalstva", "2008","2009","2010","2011","2012","2013","2014","2015","2016","2017","2018","2019")
+                                          )
+#Izpustimo nepomembne vrstice
+st_delovno_aktivnih_po_dejavnostih = head(st_delovno_aktivnih_po_dejavnostih, -32)
+
+st_delovno_aktivnih_po_dejavnostih = st_delovno_aktivnih_po_dejavnostih %>% select(-2) %>% pivot_longer(cols = colnames(st_delovno_aktivnih_po_dejavnostih)[c(3:14)], names_to = "leto", values_to = "delovno_aktivno_prebivalstvo")
+
+st_delovno_aktivnih_po_dejavnostih$dejavnost = st_delovno_aktivnih_po_dejavnostih$dejavnost %>% str_replace(crka, "") %>% str_to_lower()
+st_delovno_aktivnih_po_dejavnostih$leto = as.numeric(as.character(st_delovno_aktivnih_po_dejavnostih$leto))
+
+
+prebivalstvo_slo = read_csv("podatki/prebivalstvo_slo.csv", na="...", locale=locale(encoding="Windows-1250"),
+                            col_names = c("slovenija", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019"),
+                            col_types= cols(.default = col_guess())
+                            )
+prebivalstvo_slo = prebivalstvo_slo %>% filter(!row_number() %in% c(1)) %>% pivot_longer(cols = colnames(
+                                                                              prebivalstvo_slo)[c(2:13)],
+                                                                              names_to = "leto",
+                                                                              values_to = "prebivalstvo_Slovenije"
+                                                                              )
+prebivalstvo_slo$leto = as.numeric(as.character(prebivalstvo_slo$leto))
+prebivalstvo_slo$prebivalstvo_Slovenije = as.numeric(as.character(prebivalstvo_slo$prebivalstvo_Slovenije))
+
+izobrazba_spol_po_dejavnostih = izobrazba_spol_po_dejavnostih %>% left_join(st_delovno_aktivnih_po_dejavnostih, by = c("leto", "dejavnost")) %>% left_join(prebivalstvo_slo, by = "leto") %>% select(-slovenija) %>%
+                                mutate(delovno_aktivni_kot_delez_populacije = delovno_aktivno_prebivalstvo/prebivalstvo_Slovenije) %>% select(-c(delovno_aktivno_prebivalstvo, prebivalstvo_Slovenije))
+
 
 #PLAČE PO IZOBRAZBI
 
@@ -228,7 +267,7 @@ placa_dejavnosti = placa_slo %>%
 
 
 
-
+izobrazba_spol_po_dejavnostih %>% write_csv("izobrazba_spol_po_dejavnostih.csv")
 
 ### Tretja tabela
 
