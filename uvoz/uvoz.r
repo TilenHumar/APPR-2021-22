@@ -79,8 +79,10 @@ placa_z = starost_spol_po_regijah %>% filter(spol != "m") %>% group_by(leto) %>%
 placa_spol = placa_slo %>% left_join(placa_m) %>% left_join(placa_z) %>%
                       mutate(odstopanje_m = placa_m - povrprecna_placa, odstopanje_z = placa_z - povrprecna_placa)
 
-#PLAČE PO REGIJAH
+#pobrišimo nepotrebne tabele
+rm(placa_m, placa_z, spremembe_placa_slo, st_studentov_na_1000)
 
+#PLAČE PO REGIJAH
 placa_pomurska = starost_spol_po_regijah %>% filter(regija == "Pomurska") %>% group_by(leto) %>% summarise(placa_pomurska = mean(placa))
 placa_podravska = starost_spol_po_regijah %>% filter(regija == "Podravska") %>% group_by(leto) %>% summarise(placa_podravska = mean(placa))
 placa_koroska = starost_spol_po_regijah %>% filter(regija == "Koroška") %>% group_by(leto) %>% summarise(placa_koroska = mean(placa))
@@ -108,6 +110,9 @@ placa_regije = placa_slo %>%
                left_join(placa_goriška) %>%
                left_join(placa_obala)
 
+#pobrišimo nepotrebne tabele
+rm(placa_pomurska, placa_podravska, placa_koroska, placa_savinjska, placa_zasavska, placa_posavska, placa_JV_slovenija, placa_osrednjeslovenska, placa_gorenjska, placa_primorska, placa_goriška, placa_obala)
+
 #PLAČE PO STAROSTI
 
 placa_15_24 = starost_spol_po_regijah %>% filter(starost == "15-24 let") %>% group_by(leto) %>% summarise(placa_15_24 = mean(placa))
@@ -124,6 +129,10 @@ placa_starost = placa_slo %>%
   left_join(placa_45_54) %>%
   left_join(placa_55_64) %>%
   left_join(placa_65plus)
+
+#pobrišimo nepotrebne tabele
+rm(placa_15_24, placa_25_34, placa_35_44, placa_45_54, placa_55_64, placa_65plus)
+
 
 ### Druga tabela
 
@@ -208,6 +217,8 @@ prebivalstvo_slo$prebivalstvo_Slovenije = as.numeric(as.character(prebivalstvo_s
 izobrazba_spol_po_dejavnostih = izobrazba_spol_po_dejavnostih %>% left_join(st_delovno_aktivnih_po_dejavnostih, by = c("leto", "dejavnost")) %>% left_join(prebivalstvo_slo, by = "leto") %>% select(-slovenija) %>%
                                 mutate(delovno_aktivni_kot_delez_populacije = delovno_aktivno_prebivalstvo/prebivalstvo_Slovenije) %>% select(-c(delovno_aktivno_prebivalstvo, prebivalstvo_Slovenije))
 
+#pobrišimo nepotrebne tabele
+rm(st_delovno_aktivnih_po_dejavnostih, prebivalstvo_slo)
 
 #PLAČE PO IZOBRAZBI
 
@@ -221,6 +232,9 @@ placa_izobrazba = placa_slo %>%
   left_join(placa_osnovna) %>%
   left_join(placa_srednja) %>%
   left_join(placa_visoka)
+
+#pobrišimo nepotrebne tabele
+rm(placa_osnovna, placa_srednja, placa_visoka)
 
 #PLAČE PO DEJAVNOSTIH
 
@@ -265,7 +279,10 @@ placa_dejavnosti = placa_slo %>%
   left_join(placa_kultura) %>%
   left_join(placa_drugo)
 
-
+#pobrišimo nepotrebne tabele
+rm(placa_kmetijstvo, placa_rudarstvo, placa_predelovalne, placa_oskrba_el, placa_oskrba_voda, placa_gradbenistvo, placa_trgovina,
+   placa_promet, placa_gostinstvo, placa_ikt, placa_finance, placa_nepremicnine, placa_znanost, placa_druge_poslovne, placa_javna_uprava,
+   placa_izobrazevanje, placa_zdravstvo, placa_kultura, placa_drugo)
 
 izobrazba_spol_po_dejavnostih %>% write_csv("izobrazba_spol_po_dejavnostih.csv")
 
@@ -341,6 +358,9 @@ prihodek_regije = prihodek_slo %>%
   left_join(prihodek_goriška) %>%
   left_join(prihodek_obala)
 
+#Izpustimo nepomembne vrstice
+rm(prihodek_pomurska, prihodek_podravska, prihodek_koroska, prihodek_savinjska, prihodek_zasavska, prihodek_posavska, prihodek_JV_slovenija,
+   prihodek_osrednjeslovenska, prihodek_gorenjska, prihodek_primorska, prihodek_goriška, prihodek_obala)
 
 
 
@@ -430,4 +450,8 @@ primerjava_prihodki_place = spremembe_prihodek_slo %>% left_join(spremembe_placa
                             select(leto, rel_sprememba_prihodka, rel_sprememba_place) %>%
                             na.omit(primerjava_prihodki_place) %>%
                             mutate(rel_sprememba_prihodka = rel_sprememba_prihodka * 100, rel_sprememba_place = rel_sprememba_place * 100)
+
+#Izpustimo nepomembne vrstice
+rm(placa_slo, placa_javni, placa_zasebni, placa_sektor, placa_javni_sektor, placa_javni_zenske, placa_javni_moski, obcine_v_regije, preimenovanje_izobrazba, preimenovanje_sektorjev, preimenovanje_spol, prihodek_podjetij_po_obcinah,
+   placa_javni_spol, placa_zasebni_sektor, placa_zasebni_zenske, placa_zasebni_moski, placa_zasebni_spol, spremembe_placa_zasebni_sektor, prihodek_slo, spremembe_prihodek_slo)
 
