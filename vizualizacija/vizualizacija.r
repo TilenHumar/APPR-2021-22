@@ -139,5 +139,32 @@ graf3 = g3 %>% ggplot(
   )
 
 #-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-###GRAF 4:
+###GRAF 4: Vpliv velikosti deleža aktivnega prebivalstva od celotne populacije na višino plače
+
+g4 = read_csv("izobrazba_spol_po_dejavnostih.csv")
+#g4 = dplyr::select(g4, c(leto, dejavnost, placa,  delovno_aktivni_kot_delez_populacije))
+g4 = g4 %>% mutate(delovno_aktivni_kot_delez_populacije_v_odstotkih = round(100 * delovno_aktivni_kot_delez_populacije, 2)) %>% group_by(dejavnost, delovno_aktivni_kot_delez_populacije_v_odstotkih) %>% 
+    summarise(placa = mean(placa)) %>% group_by(dejavnost) %>% summarise(placa = mean(placa), delovno_aktivni_kot_delez_populacije_v_odstotkih = mean(delovno_aktivni_kot_delez_populacije_v_odstotkih))
+
+graf4 = g4 %>%
+  ggplot(
+    mapping = aes(x = delovno_aktivni_kot_delez_populacije_v_odstotkih, y = placa, color = dejavnost)
+  ) +
+  geom_point(
+    position = position_jitter(width = 0.05),
+    size = 3
+  ) +
+  theme_classic() +
+  labs(
+    x = "delovno aktivno prebivalstvo v odstotkih celotne populacije Slovenije",
+    y = "višina plače v evrih",
+    title = "Vpliv velikosti deleža aktivnega prebivalstva od celotne populacije na višino plače"
+  ) +
+  theme(axis.text.x = element_text(size = 14), axis.title.x = element_text(size = 16),
+        axis.text.y = element_text(size = 14), axis.title.y = element_text(size = 16),
+        plot.title = element_text(size = 20, face = "bold")) +
+  theme(legend.background = element_rect(fill="gray90", size=.5, linetype="dotted")
+  ) +
+  labs(caption = " Opomba: za vsako dejavnost sta izračunana povprečen odstotek delovno aktivnega prebivalstva od celotne populacije in višina plače, med letoma 2008 in 2019.") +
+  theme(plot.caption=element_text(size=12, hjust=0, margin=margin(15,0,0,0)))
 
