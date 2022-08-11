@@ -184,7 +184,8 @@ prebivalstvo_slo$leto = as.numeric(as.character(prebivalstvo_slo$leto))
 prebivalstvo_slo$prebivalstvo_Slovenije = as.numeric(as.character(prebivalstvo_slo$prebivalstvo_Slovenije))
 
 izobrazba_spol_po_dejavnostih = izobrazba_spol_po_dejavnostih %>% left_join(st_delovno_aktivnih_po_dejavnostih, by = c("leto", "dejavnost")) %>% left_join(prebivalstvo_slo, by = "leto") %>% select(-slovenija) %>%
-  mutate(delovno_aktivni_kot_delez_populacije = delovno_aktivno_prebivalstvo/prebivalstvo_Slovenije) %>% select(-c(delovno_aktivno_prebivalstvo, prebivalstvo_Slovenije))
+  mutate(delovno_aktivni_kot_delez_populacije = delovno_aktivno_prebivalstvo/prebivalstvo_Slovenije)
+#%>% select(-c(delovno_aktivno_prebivalstvo, prebivalstvo_Slovenije))
 
 #pobrišimo nepotrebne tabele
 rm(st_delovno_aktivnih_po_dejavnostih, prebivalstvo_slo)

@@ -10,6 +10,10 @@ library(raster)
 library(tmap)
 library("scales")
 
+library(readr)
+library(XML)
+library(tidyr)
+c
 source("uvoz/uvoz.r", encoding="UTF-8")
 
 ###GRAF 1: povprečne plače v statističnih regijah med leti 2008 in 2019
@@ -81,7 +85,7 @@ graf1 = graf1 +
   theme(plot.caption=element_text(size=12, hjust=0, margin=margin(15,0,0,0)))
 
 #-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-###GRAF 2: vpliv spola in stopnje izobrazbe na višino plače v javnem in zasebnem sektorju med letoma 2008 in 2019
+###GRAF 2: Vpliv spola in stopnje izobrazbe na višino plače v javnem in zasebnem sektorju med letoma 2008 in 2019
 
 g2 = read_csv("izobrazba_spol_po_sektorjih.csv")
 
@@ -97,7 +101,7 @@ graf2 = g2 %>%
   labs(
     x = "stopnja izobrazbe",
     y = "povprečna višina plače v evrih za pripadajočo skupino",
-    title = "vpliv spola in stopnje izobrazbe na višino plače v javnem in zasebnem sektorju med letoma 2008 in 2019"
+    title = "Vpliv spola in stopnje izobrazbe na višino plače v javnem in zasebnem sektorju med letoma 2008 in 2019"
   ) +
   theme(axis.text.x = element_text(size = 14), axis.title.x = element_text(size = 16),
         axis.text.y = element_text(size = 14), axis.title.y = element_text(size = 16),
@@ -107,5 +111,33 @@ graf2 = g2 %>%
   labs(caption = " Opomba: osnovna stopnja izobrazbe pomeni osnovnošolsko izobrazbo ali manj, srednja pomeni srednjošolsko in visoka višje ali visokošolsko izobrazbo. \n Vsaka točka prikazuje skupino oseb, združenih po spolu, sektorju zaposlitve in izobrazbi v določenem letu.") +
   theme(plot.caption=element_text(size=12, hjust=0, margin=margin(15,0,0,0)))
 
-graf2
-  
+#-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+###GRAF 3: Delovno aktivno prebivalstvo po dejavnostih med letoma 2008 in 2019
+
+g3 = read_csv("izobrazba_spol_po_dejavnostih.csv")
+g3 = dplyr::select(g3, c(leto, dejavnost, delovno_aktivno_prebivalstvo))
+g3 = distinct(g3)
+
+graf3 = g3 %>% ggplot(
+  mapping = aes(fill = dejavnost, x = leto, y = delovno_aktivno_prebivalstvo, )
+  ) +
+  geom_bar(stat="identity",
+           width = 0.5
+  ) +
+  scale_y_continuous(labels = comma) +
+  scale_x_continuous("leto", labels = as.character(stevila), breaks = stevila) +
+  theme_classic() +
+  labs(
+    x = "leto",
+    y = "delovno aktivno prebivalstvo",
+    title = "Delovno aktivno prebivalstvo po dejavnostih med letoma 2008 in 2019"
+  ) +
+  theme(axis.text.x = element_text(size = 14, angle = 45, vjust = 0.5), axis.title.x = element_text(size = 16),
+        axis.text.y = element_text(size = 14), axis.title.y = element_text(size = 16),
+        plot.title = element_text(size = 20, face = "bold")) +
+  theme(legend.background = element_rect(fill="gray90", size=.5, linetype="dotted")
+  )
+
+#-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+###GRAF 4:
+
