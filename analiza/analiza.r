@@ -44,7 +44,7 @@ spremembe_prihodkov_Zasavska = add.lags(c(spremembe_prihodkov_Zasavska$prihodek,
 
 
 # tu bom vse vrstice, kjer se pojavi Na izpustil, zato analiza ne bo povsem resnična (nekaterih plačnih skupin ne bom vključil, zato bodo vsote plač manjše)
-spremembe_plac = starost_spol_po_regijah %>% group_by(regija, leto)
+spremembe_plac =  %>% group_by(regija, leto)
 spremembe_plac = na.omit(spremembe_plac)
 spremembe_plac = spremembe_plac %>% summarise(placa = sum(placa))
 

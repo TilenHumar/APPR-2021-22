@@ -1,9 +1,5 @@
 # 2. faza: Uvoz podatkov
 
-#za vizualizacijo
-library("scales")
-
-
 library(readr)
 library(dplyr)
 library(XML)
@@ -25,32 +21,32 @@ preimenovanje_spol = tibble(spol_uradno = c(
     "skupaj",
     "m",
     "ž")
-  )
+)
 
 # Tabela ima v nekaterih poljih vrednost "z". To pomeni, da je podatek statistično zaščiten oziroma ga zaradi varovanja zaupnosti poročevalskih enot ne objavijo.
 # Ta polja bom izpustil iz nadaljne analize, za zdaj pa sem jih nastavil na vrednost NA. Na NA sem nastavil tudi polja, kjer ni podatkov.
 
 
 starost_spol_po_regijah = read_csv("podatki/povprecne_place_glede_na_spol_starost_po_regijah.csv", na=c("z","-"),locale=locale(encoding="Windows-1250"), skip = 1,
-                                  col_names = c("bruto","regija","starost","spol_uradno","2008","2009","2010","2011","2012","2013","2014","2015","2016","2017","2018","2019"),
-                                  col_types = cols(
-                                    .default = col_guess(),
-                                    bruto = col_skip(),
-                                    spol_uradno = col_factor(),
-                                    starost = col_factor(),
-                                    regija = col_factor()
+                                   col_names = c("bruto","regija","starost","spol_uradno","2008","2009","2010","2011","2012","2013","2014","2015","2016","2017","2018","2019"),
+                                   col_types = cols(
+                                     .default = col_guess(),
+                                     bruto = col_skip(),
+                                     spol_uradno = col_factor(),
+                                     starost = col_factor(),
+                                     regija = col_factor()
                                    ))
 
 starost_spol_po_regijah = starost_spol_po_regijah %>%
-                          pivot_longer(cols = colnames(starost_spol_po_regijah)[c(4:15)],
-                            names_to = "leto",
-                            values_to = "placa") %>%
-                          left_join(preimenovanje_spol, by = "spol_uradno") %>%
-                          relocate(spol_uradno, leto, regija, spol, starost, placa) %>% 
-                          select(-spol_uradno) %>% 
-                          filter(regija != "SLOVENIJA") %>%
-                          filter(starost != "15-64 let") %>%
-                          na.omit()
+  pivot_longer(cols = colnames(starost_spol_po_regijah)[c(4:15)],
+               names_to = "leto",
+               values_to = "placa") %>%
+  left_join(preimenovanje_spol, by = "spol_uradno") %>%
+  relocate(spol_uradno, leto, regija, spol, starost, placa) %>% 
+  select(-spol_uradno) %>% 
+  filter(regija != "SLOVENIJA") %>%
+  filter(starost != "15-64 let") %>%
+  na.omit()
 
 #preverimo, da so tipi stolpcev ustrezni
 sapply(starost_spol_po_regijah, class)
@@ -81,41 +77,10 @@ placa_m = starost_spol_po_regijah %>% filter(spol != "ž") %>% group_by(leto) %>
 placa_z = starost_spol_po_regijah %>% filter(spol != "m") %>% group_by(leto) %>% summarise(placa_z = mean(placa))
 
 placa_spol = placa_slo %>% left_join(placa_m) %>% left_join(placa_z) %>%
-                      mutate(odstopanje_m = placa_m - povrprecna_placa, odstopanje_z = placa_z - povrprecna_placa)
+  mutate(odstopanje_m = placa_m - povrprecna_placa, odstopanje_z = placa_z - povrprecna_placa)
 
 #pobrišimo nepotrebne tabele
 rm(placa_m, placa_z, spremembe_placa_slo, st_studentov_na_1000)
-
-#PLAČE PO REGIJAH
-placa_pomurska = starost_spol_po_regijah %>% filter(regija == "Pomurska") %>% group_by(leto) %>% summarise(placa_pomurska = mean(placa))
-placa_podravska = starost_spol_po_regijah %>% filter(regija == "Podravska") %>% group_by(leto) %>% summarise(placa_podravska = mean(placa))
-placa_koroska = starost_spol_po_regijah %>% filter(regija == "Koroška") %>% group_by(leto) %>% summarise(placa_koroska = mean(placa))
-placa_savinjska = starost_spol_po_regijah %>% filter(regija == "Savinjska") %>% group_by(leto) %>% summarise(placa_savinjska = mean(placa))
-placa_zasavska = starost_spol_po_regijah %>% filter(regija == "Zasavska") %>% group_by(leto) %>% summarise(placa_zasavska = mean(placa))
-placa_posavska = starost_spol_po_regijah %>% filter(regija == "Posavska") %>% group_by(leto) %>% summarise(placa_posavska = mean(placa))
-placa_JV_slovenija = starost_spol_po_regijah %>% filter(regija == "Jugovzhodna Slovenija") %>% group_by(leto) %>% summarise(placa_JV_slovenija = mean(placa))
-placa_osrednjeslovenska = starost_spol_po_regijah %>% filter(regija == "Osrednjeslovenska") %>% group_by(leto) %>% summarise(placa_osrednjeslovenska = mean(placa))
-placa_gorenjska = starost_spol_po_regijah %>% filter(regija == "Gorenjska") %>% group_by(leto) %>% summarise(placa_gorenjska = mean(placa))
-placa_primorska = starost_spol_po_regijah %>% filter(regija == "Primorsko-notranjska") %>% group_by(leto) %>% summarise(placa_primorska = mean(placa))
-placa_goriška = starost_spol_po_regijah %>% filter(regija == "Goriška") %>% group_by(leto) %>% summarise(placa_goriška = mean(placa))
-placa_obala = starost_spol_po_regijah %>% filter(regija == "Obalno-kraška") %>% group_by(leto) %>% summarise(placa_obala = mean(placa))
-
-placa_regije = placa_slo %>%
-               left_join(placa_pomurska) %>%
-               left_join(placa_podravska) %>%
-               left_join(placa_koroska) %>%
-               left_join(placa_savinjska) %>%
-               left_join(placa_zasavska) %>%
-               left_join(placa_posavska) %>%
-               left_join(placa_JV_slovenija) %>%
-               left_join(placa_osrednjeslovenska) %>%
-               left_join(placa_gorenjska) %>%
-               left_join(placa_primorska) %>%
-               left_join(placa_goriška) %>%
-               left_join(placa_obala)
-
-#pobrišimo nepotrebne tabele
-rm(placa_pomurska, placa_podravska, placa_koroska, placa_savinjska, placa_zasavska, placa_posavska, placa_JV_slovenija, placa_osrednjeslovenska, placa_gorenjska, placa_primorska, placa_goriška, placa_obala)
 
 #PLAČE PO STAROSTI
 
@@ -155,33 +120,33 @@ preimenovanje_izobrazba = tibble(izobrazba_uradno = c(
 
 
 izobrazba_spol_po_dejavnostih = read_csv("podatki/povprecne_place_glede_na_dejavnost_izobrazbo_spol.csv",
-                                        na="...", locale=locale(encoding="Windows-1250"),
-                                        skip = 1,
-                                        col_names = c("dejavnost_uradno", "izobrazba_uradno", "spol_uradno","2008","2009","2010","2011","2012","2013","2014","2015","2016","2017","2018","2019"),
-                                        col_types= cols(.default = col_guess(),
-                                                          spol_uradno = col_factor(),
-                                                          dejavnost_uradno = col_factor(),
-                                                          izobrazba_uradno = col_factor()
-                                                          )
-                                        )
+                                         na="...", locale=locale(encoding="Windows-1250"),
+                                         skip = 1,
+                                         col_names = c("dejavnost_uradno", "izobrazba_uradno", "spol_uradno","2008","2009","2010","2011","2012","2013","2014","2015","2016","2017","2018","2019"),
+                                         col_types= cols(.default = col_guess(),
+                                                         spol_uradno = col_factor(),
+                                                         dejavnost_uradno = col_factor(),
+                                                         izobrazba_uradno = col_factor()
+                                         )
+)
 
 izobrazba_spol_po_dejavnostih = izobrazba_spol_po_dejavnostih %>%
-                                pivot_longer(cols = colnames(
-                                  izobrazba_spol_po_dejavnostih)[c(4:15)],
-                                  names_to = "leto",
-                                  values_to = "placa") %>%
-                                filter(dejavnost_uradno  != "SKD DEJAVNOST - SKUPAJ") %>%
-                                left_join(preimenovanje_spol, by = "spol_uradno") %>% 
-                                left_join(preimenovanje_izobrazba, by = "izobrazba_uradno") %>%
-                                relocate(leto, dejavnost_uradno, spol_uradno, izobrazba_uradno, izobrazba, spol, placa) %>% 
-                                select(-c(spol_uradno, izobrazba_uradno)) %>%
-                                filter(izobrazba != "skupaj") %>%
-                                filter(spol != "skupaj") %>%
-                                rename(dejavnost = dejavnost_uradno)
+  pivot_longer(cols = colnames(
+    izobrazba_spol_po_dejavnostih)[c(4:15)],
+    names_to = "leto",
+    values_to = "placa") %>%
+  filter(dejavnost_uradno  != "SKD DEJAVNOST - SKUPAJ") %>%
+  left_join(preimenovanje_spol, by = "spol_uradno") %>% 
+  left_join(preimenovanje_izobrazba, by = "izobrazba_uradno") %>%
+  relocate(leto, dejavnost_uradno, spol_uradno, izobrazba_uradno, izobrazba, spol, placa) %>% 
+  select(-c(spol_uradno, izobrazba_uradno)) %>%
+  filter(izobrazba != "skupaj") %>%
+  filter(spol != "skupaj") %>%
+  rename(dejavnost = dejavnost_uradno)
 
 crka = "^([:alpha:]{1}\\s*)"
 izobrazba_spol_po_dejavnostih$dejavnost = izobrazba_spol_po_dejavnostih$dejavnost %>% str_replace(crka, "") %>% str_to_lower()
-                                                                                
+
 #preverimo, da so tipi stolpcev ustrezni
 sapply(izobrazba_spol_po_dejavnostih, class)
 
@@ -193,10 +158,10 @@ izobrazba_spol_po_dejavnostih$spol = as.factor(izobrazba_spol_po_dejavnostih$spo
 
 
 st_delovno_aktivnih_po_dejavnostih = read_excel("podatki/st_delovno_aktivnih_po_dejavnostih.xlsx",
-                                          skip = 3,
-                                          na = "-",
-                                          col_names = c("dejavnost", "število delovno aktivnega prebivalstva", "2008","2009","2010","2011","2012","2013","2014","2015","2016","2017","2018","2019")
-                                          )
+                                                skip = 3,
+                                                na = "-",
+                                                col_names = c("dejavnost", "število delovno aktivnega prebivalstva", "2008","2009","2010","2011","2012","2013","2014","2015","2016","2017","2018","2019")
+)
 #Izpustimo nepomembne vrstice
 st_delovno_aktivnih_po_dejavnostih = head(st_delovno_aktivnih_po_dejavnostih, -32)
 
@@ -209,17 +174,17 @@ st_delovno_aktivnih_po_dejavnostih$leto = as.numeric(as.character(st_delovno_akt
 prebivalstvo_slo = read_csv("podatki/prebivalstvo_slo.csv", na="...", locale=locale(encoding="Windows-1250"),
                             col_names = c("slovenija", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019"),
                             col_types= cols(.default = col_guess())
-                            )
+)
 prebivalstvo_slo = prebivalstvo_slo %>% filter(!row_number() %in% c(1)) %>% pivot_longer(cols = colnames(
-                                                                              prebivalstvo_slo)[c(2:13)],
-                                                                              names_to = "leto",
-                                                                              values_to = "prebivalstvo_Slovenije"
-                                                                              )
+  prebivalstvo_slo)[c(2:13)],
+  names_to = "leto",
+  values_to = "prebivalstvo_Slovenije"
+)
 prebivalstvo_slo$leto = as.numeric(as.character(prebivalstvo_slo$leto))
 prebivalstvo_slo$prebivalstvo_Slovenije = as.numeric(as.character(prebivalstvo_slo$prebivalstvo_Slovenije))
 
 izobrazba_spol_po_dejavnostih = izobrazba_spol_po_dejavnostih %>% left_join(st_delovno_aktivnih_po_dejavnostih, by = c("leto", "dejavnost")) %>% left_join(prebivalstvo_slo, by = "leto") %>% select(-slovenija) %>%
-                                mutate(delovno_aktivni_kot_delez_populacije = delovno_aktivno_prebivalstvo/prebivalstvo_Slovenije) %>% select(-c(delovno_aktivno_prebivalstvo, prebivalstvo_Slovenije))
+  mutate(delovno_aktivni_kot_delez_populacije = delovno_aktivno_prebivalstvo/prebivalstvo_Slovenije) %>% select(-c(delovno_aktivno_prebivalstvo, prebivalstvo_Slovenije))
 
 #pobrišimo nepotrebne tabele
 rm(st_delovno_aktivnih_po_dejavnostih, prebivalstvo_slo)
@@ -300,7 +265,7 @@ prihodek_podjetij_po_obcinah = read_excel("podatki/prihodek_podjetij_po_obcinah.
                                           skip = 5,
                                           na = "-",
                                           col_names = c("obcina","2008","2009","2010","2011","2012","2013","2014","2015","2016","2017","2018","2019")
-                                          )
+)
 
 #Izpustimo nepomembne vrstice
 prihodek_podjetij_po_obcinah = head(prihodek_podjetij_po_obcinah, -43)
@@ -308,15 +273,15 @@ prihodek_podjetij_po_obcinah = head(prihodek_podjetij_po_obcinah, -43)
 
 
 prihodek_podjetij_po_regijah = prihodek_podjetij_po_obcinah %>%
-                               replace(is.na(.),0) %>%
-                               right_join(obcine_v_regije, by = "obcina") %>%
-                               pivot_longer(cols = colnames(prihodek_podjetij_po_obcinah)[c(2:13)],
-                                            names_to = "leto",
-                                            values_to = "prihodek") %>%
-                               select(-obcina) %>%
-                               group_by(regija, leto) %>%
-                               summarise(prihodek = sum(prihodek)) %>%
-                               relocate(leto, regija, prihodek)
+  replace(is.na(.),0) %>%
+  right_join(obcine_v_regije, by = "obcina") %>%
+  pivot_longer(cols = colnames(prihodek_podjetij_po_obcinah)[c(2:13)],
+               names_to = "leto",
+               values_to = "prihodek") %>%
+  select(-obcina) %>%
+  group_by(regija, leto) %>%
+  summarise(prihodek = sum(prihodek)) %>%
+  relocate(leto, regija, prihodek)
 
 #preverimo, da so tipi stolpcev ustrezni
 sapply(prihodek_podjetij_po_regijah, class)
@@ -377,8 +342,8 @@ izobrazba_spol_po_sektorjih = read_csv("podatki/povprecne_place_glede_na_izobraz
                                        col_types= cols(.default = col_guess(),
                                                        spol_uradno = col_factor(),
                                                        izobrazba_uradno = col_factor()
-                                                       )
                                        )
+)
 
 #Pomožna tabela za preimenovanje sektorjev
 preimenovanje_sektorjev = tibble(sektor_uradno = c( 
@@ -388,24 +353,24 @@ preimenovanje_sektorjev = tibble(sektor_uradno = c(
   sektor = c("skupaj",
              "javni",
              "zasebni")
-  )
+)
 
 #Popravek v pomožni tabeli za preimenovanje izobrazbe
 preimenovanje_izobrazba[1,1] = "Izobrazba - Skupaj"
 
 izobrazba_spol_po_sektorjih =  izobrazba_spol_po_sektorjih %>%
-                               pivot_longer(cols = colnames(izobrazba_spol_po_sektorjih)[c(4:15)],
-                                            names_to = "leto",
-                                            values_to = "placa"
-                                            ) %>%
-                               left_join(preimenovanje_sektorjev, by = "sektor_uradno") %>%
-                               left_join(preimenovanje_izobrazba, by = "izobrazba_uradno") %>%
-                               left_join(preimenovanje_spol, by = "spol_uradno") %>%
-                               relocate(sektor_uradno, spol_uradno, leto, sektor, izobrazba, spol, placa) %>%
-                               select(-c(sektor_uradno, spol_uradno, izobrazba_uradno)) %>%
-                               filter(sektor != "skupaj") %>%
-                               filter(izobrazba != "skupaj") %>%
-                               filter(spol != "skupaj")
+  pivot_longer(cols = colnames(izobrazba_spol_po_sektorjih)[c(4:15)],
+               names_to = "leto",
+               values_to = "placa"
+  ) %>%
+  left_join(preimenovanje_sektorjev, by = "sektor_uradno") %>%
+  left_join(preimenovanje_izobrazba, by = "izobrazba_uradno") %>%
+  left_join(preimenovanje_spol, by = "spol_uradno") %>%
+  relocate(sektor_uradno, spol_uradno, leto, sektor, izobrazba, spol, placa) %>%
+  select(-c(sektor_uradno, spol_uradno, izobrazba_uradno)) %>%
+  filter(sektor != "skupaj") %>%
+  filter(izobrazba != "skupaj") %>%
+  filter(spol != "skupaj")
 
 #preverimo, da so tipi stolpcev ustrezni
 sapply(izobrazba_spol_po_sektorjih, class)
@@ -446,39 +411,15 @@ spremembe_placa_zasebni_sektor = placa_zasebni_sektor %>% mutate(abs_sprememba =
 
 
 primerjava_prihodki_place = spremembe_prihodek_slo %>% left_join(spremembe_placa_zasebni_sektor, by = "leto") %>%
-                            rename(abs_sprememba_prihodka = abs_sprememba.x,
-                                   abs_sprememba_place = abs_sprememba.y,
-                                   rel_sprememba_prihodka = rel_sprememba.x,
-                                   rel_sprememba_place_zasebni_sektor = rel_sprememba.y
-                                   ) %>%
-                            select(leto, rel_sprememba_prihodka, rel_sprememba_place_zasebni_sektor) %>%
-                            na.omit(primerjava_prihodki_place) %>%
-                            mutate(rel_sprememba_prihodka = rel_sprememba_prihodka * 100, rel_sprememba_place_zasebni_sektor = rel_sprememba_place_zasebni_sektor * 100)
+  rename(abs_sprememba_prihodka = abs_sprememba.x,
+         abs_sprememba_place = abs_sprememba.y,
+         rel_sprememba_prihodka = rel_sprememba.x,
+         rel_sprememba_place_zasebni_sektor = rel_sprememba.y
+  ) %>%
+  select(leto, rel_sprememba_prihodka, rel_sprememba_place_zasebni_sektor) %>%
+  na.omit(primerjava_prihodki_place) %>%
+  mutate(rel_sprememba_prihodka = rel_sprememba_prihodka * 100, rel_sprememba_place_zasebni_sektor = rel_sprememba_place_zasebni_sektor * 100)
 
 #Izpustimo nepomembne vrstice
 rm(placa_slo, placa_javni, placa_zasebni, placa_sektor, placa_javni_sektor, placa_javni_zenske, placa_javni_moski, obcine_v_regije, preimenovanje_izobrazba, preimenovanje_sektorjev, preimenovanje_spol, prihodek_podjetij_po_obcinah,
    placa_javni_spol, placa_zasebni_sektor, placa_zasebni_zenske, placa_zasebni_moski, spremembe_placa_zasebni_sektor, prihodek_slo, spremembe_prihodek_slo)
-
-
-
-#izobrazba_spol_po_dejavnostih = izobrazba_spol_po_dejavnostih %>% group_by(leto, dejavnost) %>% summarise(povprecna_placa_dejavnost = mean(placa))
-#  
-#izobrazba_spol_po_dejavnostih %>%
-#  ggplot(
-#    mapping = aes(x = leto, y = povprecna_placa_dejavnost, color = dejavnost)
-#  ) +
-#  geom_line() +
-#  theme_classic() +
-#  theme(
-#    axis.text.x = element_text(angle = 45),
-#    axis.title.x = element_text(vjust = 0)
-#  ) + 
-#  labs(
-#    x = "leto",
-#    y = "višina plače",
-#    title = "kr neeki"
-#  ) +
-#  scale_x_continuous(breaks = pretty_breaks())
-#    +
-#  facet_wrap(~ dejavnost, ncol = 8)
-#
