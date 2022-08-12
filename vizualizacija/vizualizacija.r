@@ -225,5 +225,36 @@ graf6 = g6 %>% ggplot(
   theme(axis.text.x = element_text(size = 14), axis.title.x = element_text(size = 16),
            axis.text.y = element_text(size = 14), axis.title.y = element_text(size = 16),
            plot.title = element_text(size = 20, face = "bold")) +
-  theme(legend.background = element_rect(fill="gray90", size=.5, linetype="dotted")
-  ) 
+  theme(legend.background = element_rect(fill="gray90", size=.5, linetype="dotted"))
+
+#-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#ZEMLJEVIDI
+source("lib/uvozi.zemljevid.r")
+
+slovenija_regije <- uvozi.zemljevid("http://biogeo.ucdavis.edu/data/gadm2.8/shp/SVN_adm_shp.zip",
+                             "SVN_adm1", encoding="UTF-8") %>% fortify()
+colnames(slovenija_regije)[12]<-'regija'
+slovenija_regije$regija = gsub('Notranjsko-kraška', 'Primorsko-notranjska', slovenija_regije$regija)
+slovenija_regije$regija = gsub('Spodnjeposavska', 'Posavska', slovenija_regije$regija)
+
+#-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+###ZEMLJEVID 1: Povprečne plače po statističnih regijah v letu 2019
+
+z1 = read_csv("starost_spol_po_regijah.csv")
+z1 = z1 %>% filter(leto == 2019) %>% group_by(regija) %>% summarise(placa = mean(placa))
+
+
+zemljevid1 <- ggplot() +
+  geom_polygon(data = right_join(z1, slovenija_regije, by = "regija"),
+               aes(x = long, y = lat, group = group, fill = placa))+
+  ggtitle("Povprečne plače po statističnih regijah v letu 2019") + 
+  theme(axis.text.x = element_blank(), axis.title.x = element_blank(),
+        axis.text.y = element_blank(), axis.title.y = element_blank(),
+        plot.title = element_text(size = 20, face = "bold")) +
+  theme(legend.background = element_rect(fill="gray90", size=.5, linetype="dotted")) +
+  scale_fill_gradient(low = 'white', high = 'dark green') +
+  labs(fill="Višina plače v evrih") +
+  geom_path(data = right_join(tabela.za.zemljevid, Slovenija,
+                              by = "regija"), aes(x = long, y = lat, 
+                                                  group = group), 
+            color = "black", size = 0.1)
