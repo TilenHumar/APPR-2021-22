@@ -13,7 +13,7 @@ library("scales")
 library(readr)
 library(XML)
 library(tidyr)
-c
+
 source("uvoz/uvoz.r", encoding="UTF-8")
 
 ###GRAF 1: povprečne plače v statističnih regijah med leti 2008 in 2019
@@ -30,12 +30,12 @@ placa_koroska = g1 %>% filter(regija == "Koroška") %>% group_by(leto) %>% summa
 placa_savinjska = g1 %>% filter(regija == "Savinjska") %>% group_by(leto) %>% summarise(Savinjska = mean(placa))
 placa_zasavska = g1 %>% filter(regija == "Zasavska") %>% group_by(leto) %>% summarise(Zasavska = mean(placa))
 placa_posavska = g1 %>% filter(regija == "Posavska") %>% group_by(leto) %>% summarise(Posavska = mean(placa))
-placa_JV_slovenija = g1 %>% filter(regija == "Jugovzhodna Slovenija") %>% group_by(leto) %>% summarise(Jugovzhodna_Slovenija = mean(placa))
+placa_JV_slovenija = g1 %>% filter(regija == "Jugovzhodna Slovenija") %>% group_by(leto) %>% summarise('Jugovzhodna Slovenija' = mean(placa))
 placa_osrednjeslovenska = g1 %>% filter(regija == "Osrednjeslovenska") %>% group_by(leto) %>% summarise(Osrednjeslovenska = mean(placa))
 placa_gorenjska = g1 %>% filter(regija == "Gorenjska") %>% group_by(leto) %>% summarise(Gorenjska = mean(placa))
-placa_primorska = g1 %>% filter(regija == "Primorsko-notranjska") %>% group_by(leto) %>% summarise(Primorsko_notranjska = mean(placa))
+placa_primorska = g1 %>% filter(regija == "Primorsko-notranjska") %>% group_by(leto) %>% summarise('Primorsko notranjska' = mean(placa))
 placa_goriška = g1 %>% filter(regija == "Goriška") %>% group_by(leto) %>% summarise(Goriška = mean(placa))
-placa_obala = g1 %>% filter(regija == "Obalno-kraška") %>% group_by(leto) %>% summarise(Obalno_kraška = mean(placa))
+placa_obala = g1 %>% filter(regija == "Obalno-kraška") %>% group_by(leto) %>% summarise('Obalno kraška' = mean(placa))
 
 
 placa_regije = povprecna_plača %>%
@@ -51,7 +51,7 @@ placa_regije = povprecna_plača %>%
   left_join(placa_primorska) %>%
   left_join(placa_goriška) %>%
   left_join(placa_obala) %>%
-  pivot_longer(., cols = c(Slovenija, Pomurska, Podravska, Koroška, Savinjska, Zasavska, Posavska, Jugovzhodna_Slovenija, Osrednjeslovenska, Gorenjska, Primorsko_notranjska, Goriška, Obalno_kraška), names_to = "Regija", values_to = "placa")
+  pivot_longer(., cols = c(Slovenija, Pomurska, Podravska, Koroška, Savinjska, Zasavska, Posavska, 'Jugovzhodna Slovenija', Osrednjeslovenska, Gorenjska, 'Primorsko notranjska', Goriška, 'Obalno kraška'), names_to = "Regija", values_to = "placa")
 
 stevila = 2008:2019
 
@@ -152,7 +152,7 @@ graf4 = g4 %>%
   ) +
   geom_point(
     position = position_jitter(width = 0.05),
-    size = 3
+    size = 7
   ) +
   theme_classic() +
   labs(
@@ -168,3 +168,62 @@ graf4 = g4 %>%
   labs(caption = " Opomba: za vsako dejavnost sta izračunana povprečen odstotek delovno aktivnega prebivalstva od celotne populacije in višina plače, med letoma 2008 in 2019.") +
   theme(plot.caption=element_text(size=12, hjust=0, margin=margin(15,0,0,0)))
 
+#-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+###GRAF 5: Vpliv števila študentov na 1000 prebivalcev v regijah na višino plače
+
+g5 = read_csv("starost_spol_po_regijah.csv")
+g5 = g5 %>% group_by(regija) %>% summarise(placa = mean(placa), `število študentov na 1000 prebivalcev` = mean(`število študentov na 1000 prebivalcev`))
+
+graf5 = g5 %>%
+  ggplot(
+    mapping = aes(x = `število študentov na 1000 prebivalcev`, y = placa, color = regija)
+  ) +
+  geom_point(
+    position = position_jitter(width = 0.05),
+    size = 7
+  ) +
+  theme_classic() +
+  labs(
+    x = "število študentov na 1000 prebivalcev v regiji",
+    y = "višina plače v evrih",
+    title = "Vpliv števila študentov na 1000 prebivalcev v regijah na višino plače"
+  ) +
+  theme(axis.text.x = element_text(size = 14), axis.title.x = element_text(size = 16),
+        axis.text.y = element_text(size = 14), axis.title.y = element_text(size = 16),
+        plot.title = element_text(size = 20, face = "bold")) +
+  theme(legend.background = element_rect(fill="gray90", size=.5, linetype="dotted")
+  ) +
+  labs(caption = " Opomba: za vsako regijo sta izračunana povprečno število študentov na 1000 prebivalcev in višina plače, med letoma 2008 in 2019.") +
+  theme(plot.caption=element_text(size=12, hjust=0, margin=margin(15,0,0,0)))
+
+#-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+###GRAF 6: Primerjava gibanja prihodkov podjetij in plač v zasebnem sektorju med letoma 2009 in 2019
+
+g6 =  read_csv("primerjava_prihodki_place.csv")
+g6 = g6 %>% pivot_longer(cols = c(rel_sprememba_prihodka, rel_sprememba_place_zasebni_sektor),
+                         values_to = "sprememba",
+                         names_to = "kategorija"
+                         ) %>% 
+            mutate_all(funs(str_replace(., "rel_sprememba_prihodka", "relativna sprememba prihodka"))) %>%
+            mutate_all(funs(str_replace(., "rel_sprememba_place_zasebni_sektor", "relativna sprememba plače")))
+g6$sprememba = as.numeric(as.character(g6$sprememba))
+
+graf6 = g6 %>% ggplot(
+  mapping = aes(fill = kategorija, x = leto, y = sprememba)
+) +
+  geom_bar(stat="identity",
+           width = 0.5,
+           position = "dodge"
+  ) +
+  scale_y_continuous() +
+  theme_classic() +
+  labs(
+    x = "leto",
+    y = "sprememba v odstotkih",
+    title = "Primerjava gibanja prihodkov podjetij in plač v zasebnem sektorju med letoma 2009 in 2019"
+  ) +
+  theme(axis.text.x = element_text(size = 14), axis.title.x = element_text(size = 16),
+           axis.text.y = element_text(size = 14), axis.title.y = element_text(size = 16),
+           plot.title = element_text(size = 20, face = "bold")) +
+  theme(legend.background = element_rect(fill="gray90", size=.5, linetype="dotted")
+  ) 

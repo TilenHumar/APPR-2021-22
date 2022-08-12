@@ -55,7 +55,6 @@ sapply(starost_spol_po_regijah, class)
 starost_spol_po_regijah$leto = as.numeric(as.character(starost_spol_po_regijah$leto))
 starost_spol_po_regijah$spol = as.factor(starost_spol_po_regijah$spol)
 
-starost_spol_po_regijah %>% write_csv("starost_spol_po_regijah.csv")
 
 st_studentov_na_1000 = read_csv("podatki/st_studentov_na_1000_po_regijah.csv", na=c("z","-"),locale=locale(encoding="Windows-1250"), skip = 1,
                                 col_names = c("regija", "2008","2009","2010","2011","2012","2013","2014","2015","2016","2017","2018","2019"),
@@ -67,6 +66,8 @@ st_studentov_na_1000 = st_studentov_na_1000 %>% pivot_longer(cols = colnames(st_
 st_studentov_na_1000$leto = as.numeric(as.character(st_studentov_na_1000$leto))
 
 starost_spol_po_regijah = starost_spol_po_regijah %>% left_join(st_studentov_na_1000, by = c("regija", "leto"))
+
+starost_spol_po_regijah %>% write_csv("starost_spol_po_regijah.csv")
 
 #POVPREČNA PLAČA PO LETIH
 placa_slo = starost_spol_po_regijah %>% group_by(leto) %>% summarise(povrprecna_placa = mean(placa))
@@ -394,20 +395,18 @@ placa_sektor = placa_slo %>% left_join(placa_javni) %>% left_join(placa_zasebni)
 
 #PLAČE PO SEKTORJU, SPOLU
 
-placa_javni_sektor = izobrazba_spol_po_sektorjih %>% filter(sektor == "javni") %>% group_by(leto) %>% summarise(placa_javni = mean(placa))
 placa_javni_zenske = izobrazba_spol_po_sektorjih %>% filter(sektor == "javni") %>% filter(spol == "ž") %>% group_by(leto) %>% summarise(placa_javni_z = mean(placa))
 placa_javni_moski = izobrazba_spol_po_sektorjih %>% filter(sektor == "javni") %>% filter(spol == "m") %>% group_by(leto) %>% summarise(placa_javni_m = mean(placa))
 
-placa_javni_spol = placa_javni_sektor %>% left_join(placa_javni_moski) %>% left_join(placa_javni_zenske)
+placa_javni_spol = placa_javni %>% left_join(placa_javni_moski) %>% left_join(placa_javni_zenske)
 
 
-placa_zasebni_sektor = izobrazba_spol_po_sektorjih %>% filter(sektor == "zasebni") %>% group_by(leto) %>% summarise(placa_zasebni = mean(placa))
 placa_zasebni_zenske = izobrazba_spol_po_sektorjih %>% filter(sektor == "zasebni") %>% filter(spol == "ž") %>% group_by(leto) %>% summarise(placa_zasebni_z = mean(placa))
 placa_zasebni_moski = izobrazba_spol_po_sektorjih %>% filter(sektor == "zasebni") %>% filter(spol == "m") %>% group_by(leto) %>% summarise(placa_zasebni_m = mean(placa))
 
-placa_zasebni_spol = placa_zasebni_sektor %>% left_join(placa_zasebni_moski) %>% left_join(placa_zasebni_zenske)
+placa_zasebni_spol = placa_zasebni %>% left_join(placa_zasebni_moski) %>% left_join(placa_zasebni_zenske)
 
-spremembe_placa_zasebni_sektor = placa_zasebni_sektor %>% mutate(abs_sprememba = placa_zasebni - lag(placa_zasebni)) %>% mutate(rel_sprememba = (placa_zasebni - lag(placa_zasebni))/lag(placa_zasebni) )
+spremembe_placa_zasebni_sektor = placa_zasebni %>% mutate(abs_sprememba = placa_zasebni - lag(placa_zasebni)) %>% mutate(rel_sprememba = (placa_zasebni - lag(placa_zasebni))/lag(placa_zasebni) )
 
 
 
@@ -421,6 +420,8 @@ primerjava_prihodki_place = spremembe_prihodek_slo %>% left_join(spremembe_placa
   na.omit(primerjava_prihodki_place) %>%
   mutate(rel_sprememba_prihodka = rel_sprememba_prihodka * 100, rel_sprememba_place_zasebni_sektor = rel_sprememba_place_zasebni_sektor * 100)
 
+primerjava_prihodki_place %>% write_csv("primerjava_prihodki_place.csv")
+
 #Izpustimo nepomembne vrstice
 rm(placa_slo, placa_javni, placa_zasebni, placa_sektor, placa_javni_sektor, placa_javni_zenske, placa_javni_moski, obcine_v_regije, preimenovanje_izobrazba, preimenovanje_sektorjev, preimenovanje_spol, prihodek_podjetij_po_obcinah,
-   placa_javni_spol, placa_zasebni_sektor, placa_zasebni_zenske, placa_zasebni_moski, spremembe_placa_zasebni_sektor, prihodek_slo, spremembe_prihodek_slo)
+   placa_javni_spol, placa_zasebni_zenske, placa_zasebni_moski, spremembe_placa_zasebni_sektor, prihodek_slo, spremembe_prihodek_slo)
