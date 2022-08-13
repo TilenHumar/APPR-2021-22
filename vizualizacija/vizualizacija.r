@@ -285,4 +285,32 @@ zemljevid2 = ggplot() +
                                                   group = group), 
             color = "black", size = 0.1)
 
-zemljevid2
+#-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+###ZEMLJEVID 3: Povprečne ženske plače kot deleži moških po statističnih regijah v letu 2019
+
+z3 = read_csv("starost_spol_po_regijah.csv")
+z3 = z3 %>% filter(leto == 2019) %>% group_by(regija, spol) %>% summarise(placa = mean( placa))
+
+moski = filter(z3, spol == "m")
+moski = rename(moski, placa_moski = placa)
+
+zenske = filter(z3, spol == "ž")
+zenske = rename(zenske, placa_zenske = placa)
+
+z3 = moski %>% left_join(zenske, by = "regija") %>% mutate(zenska_placa_kot_delez_moske = round(100 * (placa_zenske / placa_moski), 3))
+
+zemljevid3 = ggplot() +
+  geom_polygon(data = right_join(z3, slovenija_regije, by = "regija"),
+               aes(x = long, y = lat, group = group, fill = zenska_placa_kot_delez_moske))+
+  ggtitle("RPovprečne ženske plače kot deleži moških po statističnih regijah v letu 2019") + 
+  theme(axis.text.x = element_blank(), axis.title.x = element_blank(),
+        axis.text.y = element_blank(), axis.title.y = element_blank(),
+        plot.title = element_text(size = 20, face = "bold")) +
+  theme(legend.background = element_rect(fill="gray90", size=.5, linetype="dotted")) +
+  scale_fill_gradient(low = 'white', high = 'orange') +
+  labs(fill="Povprečna ženska plača kot odstotek\n povprečne moške plače") +
+  geom_path(data = right_join(z2, slovenija_regije,
+                              by = "regija"), aes(x = long, y = lat, 
+                                                  group = group), 
+            color = "black", size = 0.1)
+
