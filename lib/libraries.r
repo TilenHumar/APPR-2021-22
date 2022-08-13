@@ -10,6 +10,7 @@ library(dplyr)
 library(readxl)
 library(tidyverse)
 
+
 options(gsubfn.engine="R")
 
 # Uvozimo funkcije za pobiranje in uvoz zemljevida.

@@ -339,3 +339,5 @@ zemljevid4 = ggplot() +
   theme(plot.caption=element_text(size=12, hjust=0, margin=margin(15,0,0,0)))
 
 
+#ideja za še en zemljevid - za vsako regijo pokaže najbolje plačano starostno skupino. Poskusil narediti, a se izkaže, da ni zanimiv, saj so najstarejši vedno najbolje plačani
+
