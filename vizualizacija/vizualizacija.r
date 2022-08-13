@@ -244,7 +244,7 @@ z1 = read_csv("starost_spol_po_regijah.csv")
 z1 = z1 %>% filter(leto == 2019) %>% group_by(regija) %>% summarise(placa = mean(placa))
 
 
-zemljevid1 <- ggplot() +
+zemljevid1 = ggplot() +
   geom_polygon(data = right_join(z1, slovenija_regije, by = "regija"),
                aes(x = long, y = lat, group = group, fill = placa))+
   ggtitle("Povprečne plače po statističnih regijah v letu 2019") + 
@@ -254,7 +254,35 @@ zemljevid1 <- ggplot() +
   theme(legend.background = element_rect(fill="gray90", size=.5, linetype="dotted")) +
   scale_fill_gradient(low = 'white', high = 'dark green') +
   labs(fill="Višina plače v evrih") +
-  geom_path(data = right_join(tabela.za.zemljevid, Slovenija,
+  geom_path(data = right_join(z1, slovenija_regije,
                               by = "regija"), aes(x = long, y = lat, 
                                                   group = group), 
             color = "black", size = 0.1)
+
+#-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+###ZEMLJEVID 2: Relativne spremembe povprečnih plač po statističnih regijah med letoma 2008 in 2019
+
+placa_regije$Regija = gsub('Primorsko notranjska', 'Primorsko-notranjska', placa_regije$Regija)
+placa_regije$Regija = gsub('Obalno kraška', 'Obalno-kraška', placa_regije$Regija)
+
+
+z2 = placa_regije
+z2 = z2 %>% group_by(Regija) %>% filter(leto == c(2008, 2019)) %>% filter(Regija != "Slovenija") %>% arrange(Regija) %>%
+     mutate(rel_sprememba_povp_place = 100 * (placa - lag(placa))/lag(placa)) %>% filter(leto == 2019) %>% rename(regija = Regija)
+
+zemljevid2 = ggplot() +
+  geom_polygon(data = right_join(z2, slovenija_regije, by = "regija"),
+               aes(x = long, y = lat, group = group, fill = rel_sprememba_povp_place))+
+  ggtitle("Relativne spremembe povprečnih plač po statističnih regijah med letoma 2008 in 2019") + 
+  theme(axis.text.x = element_blank(), axis.title.x = element_blank(),
+        axis.text.y = element_blank(), axis.title.y = element_blank(),
+        plot.title = element_text(size = 20, face = "bold")) +
+  theme(legend.background = element_rect(fill="gray90", size=.5, linetype="dotted")) +
+  scale_fill_gradient(low = 'white', high = 'violet') +
+  labs(fill="Sprememba povprečne plače v odstotkih") +
+  geom_path(data = right_join(z2, slovenija_regije,
+                              by = "regija"), aes(x = long, y = lat, 
+                                                  group = group), 
+            color = "black", size = 0.1)
+
+zemljevid2

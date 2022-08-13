@@ -423,5 +423,5 @@ primerjava_prihodki_place = spremembe_prihodek_slo %>% left_join(spremembe_placa
 primerjava_prihodki_place %>% write_csv("primerjava_prihodki_place.csv")
 
 #Izpustimo nepomembne vrstice
-rm(placa_slo, placa_javni, placa_zasebni, placa_sektor, placa_javni_sektor, placa_javni_zenske, placa_javni_moski, obcine_v_regije, preimenovanje_izobrazba, preimenovanje_sektorjev, preimenovanje_spol, prihodek_podjetij_po_obcinah,
+rm(placa_slo, placa_javni, placa_zasebni, placa_sektor, placa_javni_zenske, placa_javni_moski, obcine_v_regije, preimenovanje_izobrazba, preimenovanje_sektorjev, preimenovanje_spol, prihodek_podjetij_po_obcinah,
    placa_javni_spol, placa_zasebni_zenske, placa_zasebni_moski, spremembe_placa_zasebni_sektor, prihodek_slo, spremembe_prihodek_slo)
