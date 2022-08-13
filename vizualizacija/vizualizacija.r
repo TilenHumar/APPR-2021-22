@@ -302,7 +302,7 @@ z3 = moski %>% left_join(zenske, by = "regija") %>% mutate(zenska_placa_kot_dele
 zemljevid3 = ggplot() +
   geom_polygon(data = right_join(z3, slovenija_regije, by = "regija"),
                aes(x = long, y = lat, group = group, fill = zenska_placa_kot_delez_moske))+
-  ggtitle("RPovprečne ženske plače kot deleži moških po statističnih regijah v letu 2019") + 
+  ggtitle("Povprečne ženske plače kot deleži moških po statističnih regijah v letu 2019") + 
   theme(axis.text.x = element_blank(), axis.title.x = element_blank(),
         axis.text.y = element_blank(), axis.title.y = element_blank(),
         plot.title = element_text(size = 20, face = "bold")) +
@@ -313,4 +313,29 @@ zemljevid3 = ggplot() +
                               by = "regija"), aes(x = long, y = lat, 
                                                   group = group), 
             color = "black", size = 0.1)
+
+#-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+###ZEMLJEVID 4: Povprečne plače mladih po statističnih regijah v letu 2019
+
+z4 = read_csv("starost_spol_po_regijah.csv")
+z4 = z4 %>% filter(leto == 2019) %>% filter(starost == "15-24 let") %>% group_by(regija) %>% summarise(placa = mean(placa))
+
+
+zemljevid4 = ggplot() +
+  geom_polygon(data = right_join(z4, slovenija_regije, by = "regija"),
+               aes(x = long, y = lat, group = group, fill = placa))+
+  ggtitle("Povprečne plače mladih po statističnih regijah v letu 2019") + 
+  theme(axis.text.x = element_blank(), axis.title.x = element_blank(),
+        axis.text.y = element_blank(), axis.title.y = element_blank(),
+        plot.title = element_text(size = 20, face = "bold")) +
+  theme(legend.background = element_rect(fill="gray90", size=.5, linetype="dotted")) +
+  scale_fill_gradient(low = 'white', high = 'dark red') +
+  labs(fill="Višina plače v evrih") +
+  geom_path(data = right_join(z1, slovenija_regije,
+                              by = "regija"), aes(x = long, y = lat, 
+                                                  group = group), 
+            color = "black", size = 0.1) +
+  labs(caption = " Opomba: \"mladi\" so tukaj mišljeni kot pripadniki starostne skupine 15-24 let.") +
+  theme(plot.caption=element_text(size=12, hjust=0, margin=margin(15,0,0,0)))
+
 
