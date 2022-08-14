@@ -187,3 +187,4 @@ print(skupine)
 
 #vidimo, da se razvrstitev ujema tisti na dendrogramu
 
+#test z branchi
