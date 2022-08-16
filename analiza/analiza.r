@@ -283,3 +283,180 @@ zemljevid_gručenje = ggplot() +
 
 zemljevid_gručenje
 
+#---------------------------------------------------------------------------------------------------------------------------------------------
+
+###NAPOVEDNI MODEL
+
+library(ggplot2)
+library(GGally)
+library(dplyr)
+
+#Zanima nas kakšno plačo pričakujemo, če poznamo svojo regijo, spol, starostno skupino in število študentov na 1000 prebivalcev v naši regiji
+tabela_napoved = read_csv("starost_spol_po_regijah.csv")
+
+tabela_napoved$regija = gsub('Jugovzhodna Slovenija', 'JugovzhodnaSlovenija', tabela_napoved$regija)
+tabela_napoved$regija = gsub('Primorsko-notranjska', 'Primorskonotranjska', tabela_napoved$regija)
+tabela_napoved$regija = gsub('Obalno-kraška', 'Obalnokraška', tabela_napoved$regija)
+tabela_napoved$starost = gsub('15-24 let', '15do24', tabela_napoved$starost)
+tabela_napoved$starost = gsub('25-34 let', '25do34', tabela_napoved$starost)
+tabela_napoved$starost = gsub('35-44 let', '35do44', tabela_napoved$starost)
+tabela_napoved$starost = gsub('45-54 let', '45do54', tabela_napoved$starost)
+tabela_napoved$starost = gsub('55-64 let', '55do64', tabela_napoved$starost)
+tabela_napoved$starost = gsub('65 let ali več', '65plus', tabela_napoved$starost)
+
+#funkcija one_hot diskretno spremenljivko nadomesti z numerično, vzeta s predavanj
+
+one_hot = function(podatki, spr) {
+  domena = podatki %>%
+    dplyr::select({{spr}}) %>%
+    unlist() %>%
+    unique()
+  for (v in domena) {
+    podatki = podatki %>%
+      mutate(
+        "{{spr}}.{v}" := ifelse({{spr}} == v, 1, 0)
+      )
+  }
+  podatki %>% dplyr::select(-{{spr}})
+}
+
+tabela_napoved = tabela_napoved %>% one_hot(spol) %>% one_hot(regija) %>% one_hot(starost) %>% rename(studenti =`število študentov na 1000 prebivalcev`)
+
+set.seed(321)
+#linearna regresija za napoved plače glede na regijo
+linearna_reg_regije = lm(placa ~ regija.Pomurska + regija.Podravska + regija.Koroška + regija.Savinjska + regija.Zasavska + 
+                         regija.Posavska + regija.JugovzhodnaSlovenija + regija.Osrednjeslovenska + regija.Gorenjska +
+                         regija.Primorskonotranjska + regija.Goriška + regija.Obalnokraška, data = tabela_napoved)
+print(linearna_reg_regije)
+
+#linearna regresija za napoved plače glede na spol
+linearna_reg_spol = lm(placa ~ spol.m + spol.ž, data = tabela_napoved)
+print(linearna_reg_spol)
+
+#linearna regresija za napoved plače glede na starost
+linearna_reg_starost = lm(placa ~ starost.15do24 + starost.25do34 + starost.35do44 + starost.45do54 + starost.55do64 + starost.65plus, data = tabela_napoved)
+print(linearna_reg_starost)
+
+#linearna regresija za napoved plače glede na število študentov na 1000 prebivalcev v regiji
+linearna_reg_st_studentov = lm(placa ~ studenti, data = tabela_napoved)
+print(linearna_reg_st_studentov)
+
+#linearna regresija za napoved plače glede na regijo, spol, starostno skupino in število študentov na 1000 prebivalcev v regiji
+linearna_reg_vse = lm(placa ~ regija.Pomurska + regija.Podravska + regija.Koroška + regija.Savinjska + regija.Zasavska + 
+                           regija.Posavska + regija.JugovzhodnaSlovenija + regija.Osrednjeslovenska + regija.Gorenjska +
+                           regija.Primorskonotranjska + regija.Goriška + regija.Obalnokraška + spol.m + spol.ž + 
+                           starost.15do24 + starost.25do34 + starost.35do44 + starost.45do54 + starost.55do64 + starost.65plus + studenti,
+                           data = tabela_napoved)
+print(linearna_reg_vse)
+
+#formule za napovedi
+
+formula_regije =
+  placa ~ regija.Pomurska + regija.Podravska + regija.Koroška + regija.Savinjska + regija.Zasavska + 
+  regija.Posavska + regija.JugovzhodnaSlovenija + regija.Osrednjeslovenska + regija.Gorenjska +
+  regija.Primorskonotranjska + regija.Goriška + regija.Obalnokraška
+
+formula_spol =
+  placa ~ spol.m + spol.ž
+  
+formula_starost = 
+  placa ~ starost.15do24 + starost.25do34 + starost.35do44 + starost.45do54 + starost.55do64 + starost.65plus
+
+formula_studenti =
+  placa ~ studenti
+
+formula_vse = 
+  placa ~ regija.Pomurska + regija.Podravska + regija.Koroška + regija.Savinjska + regija.Zasavska + 
+  regija.Posavska + regija.JugovzhodnaSlovenija + regija.Osrednjeslovenska + regija.Gorenjska +
+  regija.Primorskonotranjska + regija.Goriška + regija.Obalnokraška + spol.m + spol.ž + 
+  starost.15do24 + starost.25do34 + starost.35do44 + starost.45do54 + starost.55do64 + starost.65plus + studenti
+
+napaka_lm = function(k, formula, podatki){
+  set.seed(321)
+  n = nrow(podatki)
+  # v je vektor premešanih števim od 1 do n:
+  v = sample(1:n)
+  #razrez vzame vektor 1:n in ga razreže v k delov (1:n elementom da cifre od 1 do k)
+  razrez = cut(1:n, k, labels=FALSE)
+  # vektor v razbije glede na razrez
+  razbitje = split(v, razrez)
+  #naredi n dolg vektor elementov 0
+  pp.napovedi = rep(0, n)
+  for (i in (1:k)){
+    #ucni podatki:
+    ucenje = podatki[-razbitje[[i]],]
+    #testni podatki:
+    test = podatki[razbitje[[i]],]
+    model = lm(data=ucenje, formula=formula)
+    #napovemo za testne podatke
+    napovedi = predict(model, newdata=test)
+    pp.napovedi[razbitje[[i]]] = napovedi
+  }
+  napaka = mean((pp.napovedi - podatki$placa)^2)
+  return (napaka)
+}
+
+#poglejmo napake
+napaka_regije = napaka_lm(10, formula_regije, tabela_napoved)
+napaka_spol = napaka_lm(10, formula_spol, tabela_napoved)
+napaka_starost = napaka_lm(10, formula_starost, tabela_napoved)
+napaka_studenti = napaka_lm(10, formula_studenti, tabela_napoved)
+napaka_vse = napaka_lm(10, formula_vse, tabela_napoved)
+
+print(c(napaka_regije, napaka_spol, napaka_starost, napaka_studenti, napaka_vse))
+
+#prikaz linearnega modela s formula_studenti
+graf_podatki = read_csv("starost_spol_po_regijah.csv")
+graf_podatki = graf_podatki %>% group_by(regija) %>% summarise(placa = mean(placa), `število študentov na 1000 prebivalcev` = mean(`število študentov na 1000 prebivalcev`))
+graf = ggplot(graf_podatki, aes(x = `število študentov na 1000 prebivalcev`, y = placa)) + geom_point() + geom_smooth(method = "lm", formula = y ~ x)
+graf 
+
+#naključni gozd
+library(ranger)
+
+napaka_ng = function(k, formula, podatki){
+  set.seed(321)
+  n = nrow(podatki)
+  v = sample(1:n)
+  razrez = cut(1:n, k, labels=FALSE)
+  razbitje = split(v, razrez)
+  pp.napovedi = rep(0, n)
+  for (i in (1:k)){
+    ucenje = podatki[-razbitje[[i]],]
+    test = podatki[razbitje[[i]],]
+    model = ranger(formula, data=ucenje)
+    napovedi = predict(model, test)$predictions
+    pp.napovedi[razbitje[[i]]] = napovedi
+  }
+  napaka = mean((pp.napovedi - podatki$placa)^2)
+  return (napaka)
+}
+
+#poglejmo napake
+napaka_regije_ng = napaka_ng(10, formula_regije, tabela_napoved)
+napaka_spol_ng = napaka_ng(10, formula_spol, tabela_napoved)
+napaka_starost_ng = napaka_ng(10, formula_starost, tabela_napoved)
+napaka_studenti_ng = napaka_ng(10, formula_studenti, tabela_napoved)
+napaka_vse_ng = napaka_ng(10, formula_vse, tabela_napoved)
+
+print(c(napaka_regije_ng, napaka_spol_ng, napaka_starost_ng, napaka_studenti_ng, napaka_vse_ng))
+
+#vidimo, da najmanjšo napako dobimo s formulo_vse in algoritmom naključni gozdovi
+
+
+###MOČ POSAMEZNE SPREMENLJIVKE
+library(iml)
+model <- lm(formula = formula_vse, data = tabela_napoved)
+X = tabela_napoved %>% dplyr:: select(!placa)
+
+pfun = function(model, newdata) {
+  predict(model,newdata = newdata)
+}
+
+lm.pred = Predictor$new(model= model, data = X, y = tabela_napoved$placa, predict.function = pfun)
+
+lm.moci = FeatureImp$new(lm.pred, loss = "mse")
+
+moc <- plot(lm.moci)
+moc
+#vidimo, da na napoved najbolj vplivajo spremeljivke, ki določajo starost
