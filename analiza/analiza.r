@@ -291,6 +291,59 @@ library(ggplot2)
 library(GGally)
 library(dplyr)
 
+#poskusimo napovedati nekaj prihodnjih povprečnih plač za mlade v osrednjeslovenski regiji
+#novo plačo bomo napovedali glede na povprečni plači v prejšnjih dveh letih
+
+naredi = function(x){
+  data.frame(placa  = x,
+             "placa_eno_prej"  = lag(x, 1),
+             "placa_dve_prej" = lag(x, 2))
+}
+
+tabela_napoved_mladi = read_csv("starost_spol_po_regijah.csv")
+tabela_napoved_mladi = tabela_napoved_mladi %>% filter(starost == "15-24 let") %>% group_by(regija,leto) %>% dplyr::summarise(placa = mean(placa)) %>%
+                       filter(regija == "Osrednjeslovenska")
+
+tabela_napoved_mladi = naredi(tabela_napoved_mladi$placa)
+tabela_napoved_mladi$leto = c(2008:2019)
+
+model = lm(placa ~ placa_eno_prej + placa_dve_prej, data=tabela_napoved_mladi %>% drop_na() )
+tabela_napoved_mladi[nrow(tabela_napoved_mladi) + 1,] <- c(NA, tabela_napoved_mladi$placa[12], tabela_napoved_mladi$placa[11], 2020)
+
+st_vrstic = nrow(tabela_napoved_mladi)
+
+prva_napoved = predict(model, newdata = tabela_napoved_mladi[st_vrstic, ])
+tabela_napoved_mladi$placa[st_vrstic] = prva_napoved
+
+tabela_napoved_mladi[nrow(tabela_napoved_mladi) + 1,] <- c(NA, prva_napoved, tabela_napoved_mladi$placa[12], 2021)
+
+druga_napoved = predict(model, newdata = tabela_napoved_mladi[st_vrstic + 1, ])
+tabela_napoved_mladi$placa[st_vrstic + 1] = druga_napoved
+
+stevila = 2008:2021
+
+graf_napovedi = tabela_napoved_mladi %>% ggplot(
+  mapping = aes(fill = leto > 2019, x = leto, y = placa)
+  ) +
+  geom_bar(stat="identity",
+           width = 0.5,
+           position = "dodge"
+  ) +
+  scale_y_continuous() +
+  scale_x_continuous("leto", labels = as.character(stevila), breaks = stevila) +
+  theme_classic() +
+  labs(
+    x = "leto",
+    y = "višina plače v evrih",
+    title = "Višina povprečne plače mladih Osrednjeslovenske regije v evrih \n(z napovedjo) "
+  ) +
+  theme(axis.text.x = element_text(size = 14), axis.title.x = element_text(size = 16),
+        axis.text.y = element_text(size = 14), axis.title.y = element_text(size = 16),
+        plot.title = element_text(size = 20, face = "bold")) +
+  theme(legend.position="none")
+
+graf_napovedi
+
 #Zanima nas kakšno plačo pričakujemo, če poznamo svojo regijo, spol, starostno skupino in število študentov na 1000 prebivalcev v naši regiji
 tabela_napoved = read_csv("starost_spol_po_regijah.csv")
 
@@ -460,3 +513,5 @@ lm.moci = FeatureImp$new(lm.pred, loss = "mse")
 moc <- plot(lm.moci)
 moc
 #vidimo, da na napoved najbolj vplivajo spremeljivke, ki določajo starost
+
+
