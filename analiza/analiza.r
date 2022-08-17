@@ -1,17 +1,6 @@
 # 4. faza: Napredna analiza podatkov
-#to je test - lokalno
-#in main - git
-#ja vem :(
 
-library(sp)
-library(rgdal)
-library(raster)
-library(rgeos)
-library(tidyverse)
-library(cluster)
-library(ggalt)
-library(dplyr)
-
+source("lib/libraries.r")
 
 ###RAZVRŠČANJE V SKUPINE
 
@@ -287,10 +276,6 @@ zemljevid_gručenje
 
 ###NAPOVEDNI MODEL
 
-library(ggplot2)
-library(GGally)
-library(dplyr)
-
 #poskusimo napovedati nekaj prihodnjih povprečnih plač za mlade v osrednjeslovenski regiji
 #novo plačo bomo napovedali glede na povprečni plači v prejšnjih dveh letih
 
@@ -467,8 +452,6 @@ graf = ggplot(graf_podatki, aes(x = `število študentov na 1000 prebivalcev`, y
 graf 
 
 #naključni gozd
-library(ranger)
-
 napaka_ng = function(k, formula, podatki){
   set.seed(321)
   n = nrow(podatki)
@@ -500,7 +483,6 @@ print(c(napaka_regije_ng, napaka_spol_ng, napaka_starost_ng, napaka_studenti_ng,
 
 
 ###MOČ POSAMEZNE SPREMENLJIVKE
-library(iml)
 model <- lm(formula = formula_vse, data = tabela_napoved)
 X = tabela_napoved %>% dplyr:: select(!placa)
 

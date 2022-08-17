@@ -1,19 +1,6 @@
 # 3. faza: Vizualizacija podatkov
 
-library(tidyverse)
-library(ggplot2)
-library(dplyr)
-library(sp)
-library(rgdal)
-library(rgeos)
-library(raster)
-library(tmap)
-library("scales")
-
-library(readr)
-library(XML)
-library(tidyr)
-
+source("lib/libraries.r")
 source("uvoz/uvoz.r", encoding="UTF-8")
 
 ###GRAF 1: povprečne plače v statističnih regijah med leti 2008 in 2019
