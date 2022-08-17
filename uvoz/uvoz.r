@@ -1,4 +1,5 @@
 # 2. faza: Uvoz podatkov
+
 source("lib/libraries.r")
 sl <- locale("sl", decimal_mark=",", grouping_mark=".")
 
@@ -36,7 +37,7 @@ starost_spol_po_regijah = starost_spol_po_regijah %>%
                values_to = "placa") %>%
   left_join(preimenovanje_spol, by = "spol_uradno") %>%
   relocate(spol_uradno, leto, regija, spol, starost, placa) %>% 
-  select(-spol_uradno) %>% 
+  dplyr::select(-spol_uradno) %>% 
   filter(regija != "SLOVENIJA") %>%
   filter(starost != "15-64 let") %>%
   na.omit()
@@ -133,7 +134,7 @@ izobrazba_spol_po_dejavnostih = izobrazba_spol_po_dejavnostih %>%
   left_join(preimenovanje_spol, by = "spol_uradno") %>% 
   left_join(preimenovanje_izobrazba, by = "izobrazba_uradno") %>%
   relocate(leto, dejavnost_uradno, spol_uradno, izobrazba_uradno, izobrazba, spol, placa) %>% 
-  select(-c(spol_uradno, izobrazba_uradno)) %>%
+  dplyr::select(-c(spol_uradno, izobrazba_uradno)) %>%
   filter(izobrazba != "skupaj") %>%
   filter(spol != "skupaj") %>%
   rename(dejavnost = dejavnost_uradno)
@@ -159,7 +160,7 @@ st_delovno_aktivnih_po_dejavnostih = read_excel("podatki/st_delovno_aktivnih_po_
 #Izpustimo nepomembne vrstice
 st_delovno_aktivnih_po_dejavnostih = head(st_delovno_aktivnih_po_dejavnostih, -32)
 
-st_delovno_aktivnih_po_dejavnostih = st_delovno_aktivnih_po_dejavnostih %>% select(-2) %>% pivot_longer(cols = colnames(st_delovno_aktivnih_po_dejavnostih)[c(3:14)], names_to = "leto", values_to = "delovno_aktivno_prebivalstvo")
+st_delovno_aktivnih_po_dejavnostih = st_delovno_aktivnih_po_dejavnostih %>% dplyr::select(-2) %>% pivot_longer(cols = colnames(st_delovno_aktivnih_po_dejavnostih)[c(3:14)], names_to = "leto", values_to = "delovno_aktivno_prebivalstvo")
 
 st_delovno_aktivnih_po_dejavnostih$dejavnost = st_delovno_aktivnih_po_dejavnostih$dejavnost %>% str_replace(crka, "") %>% str_to_lower()
 st_delovno_aktivnih_po_dejavnostih$leto = as.numeric(as.character(st_delovno_aktivnih_po_dejavnostih$leto))
@@ -177,9 +178,8 @@ prebivalstvo_slo = prebivalstvo_slo %>% filter(!row_number() %in% c(1)) %>% pivo
 prebivalstvo_slo$leto = as.numeric(as.character(prebivalstvo_slo$leto))
 prebivalstvo_slo$prebivalstvo_Slovenije = as.numeric(as.character(prebivalstvo_slo$prebivalstvo_Slovenije))
 
-izobrazba_spol_po_dejavnostih = izobrazba_spol_po_dejavnostih %>% left_join(st_delovno_aktivnih_po_dejavnostih, by = c("leto", "dejavnost")) %>% left_join(prebivalstvo_slo, by = "leto") %>% select(-slovenija) %>%
-  mutate(delovno_aktivni_kot_delez_populacije = delovno_aktivno_prebivalstvo/prebivalstvo_Slovenije)
-#%>% select(-c(delovno_aktivno_prebivalstvo, prebivalstvo_Slovenije))
+izobrazba_spol_po_dejavnostih = izobrazba_spol_po_dejavnostih %>% left_join(st_delovno_aktivnih_po_dejavnostih, by = c("leto", "dejavnost")) %>% left_join(prebivalstvo_slo, by = "leto") %>%
+  dplyr::select(-slovenija) %>% mutate(delovno_aktivni_kot_delez_populacije = delovno_aktivno_prebivalstvo/prebivalstvo_Slovenije) %>% dplyr::select(-prebivalstvo_Slovenije)
 
 #pobrišimo nepotrebne tabele
 rm(st_delovno_aktivnih_po_dejavnostih, prebivalstvo_slo)
@@ -273,7 +273,7 @@ prihodek_podjetij_po_regijah = prihodek_podjetij_po_obcinah %>%
   pivot_longer(cols = colnames(prihodek_podjetij_po_obcinah)[c(2:13)],
                names_to = "leto",
                values_to = "prihodek") %>%
-  select(-obcina) %>%
+  dplyr::select(-obcina) %>%
   group_by(regija, leto) %>%
   summarise(prihodek = sum(prihodek)) %>%
   relocate(leto, regija, prihodek)
@@ -362,7 +362,7 @@ izobrazba_spol_po_sektorjih =  izobrazba_spol_po_sektorjih %>%
   left_join(preimenovanje_izobrazba, by = "izobrazba_uradno") %>%
   left_join(preimenovanje_spol, by = "spol_uradno") %>%
   relocate(sektor_uradno, spol_uradno, leto, sektor, izobrazba, spol, placa) %>%
-  select(-c(sektor_uradno, spol_uradno, izobrazba_uradno)) %>%
+  dplyr::select(-c(sektor_uradno, spol_uradno, izobrazba_uradno)) %>%
   filter(sektor != "skupaj") %>%
   filter(izobrazba != "skupaj") %>%
   filter(spol != "skupaj")
@@ -409,7 +409,7 @@ primerjava_prihodki_place = spremembe_prihodek_slo %>% left_join(spremembe_placa
          rel_sprememba_prihodka = rel_sprememba.x,
          rel_sprememba_place_zasebni_sektor = rel_sprememba.y
   ) %>%
-  select(leto, rel_sprememba_prihodka, rel_sprememba_place_zasebni_sektor) %>%
+  dplyr::select(leto, rel_sprememba_prihodka, rel_sprememba_place_zasebni_sektor) %>%
   na.omit(primerjava_prihodki_place) %>%
   mutate(rel_sprememba_prihodka = rel_sprememba_prihodka * 100, rel_sprememba_place_zasebni_sektor = rel_sprememba_place_zasebni_sektor * 100)
 
@@ -418,3 +418,4 @@ primerjava_prihodki_place %>% write_csv("primerjava_prihodki_place.csv")
 #Izpustimo nepomembne vrstice
 rm(placa_slo, placa_javni, placa_zasebni, placa_sektor, placa_javni_zenske, placa_javni_moski, obcine_v_regije, preimenovanje_izobrazba, preimenovanje_sektorjev, preimenovanje_spol, prihodek_podjetij_po_obcinah,
    placa_javni_spol, placa_zasebni_zenske, placa_zasebni_moski, spremembe_placa_zasebni_sektor, prihodek_slo, spremembe_prihodek_slo)
+

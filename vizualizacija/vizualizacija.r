@@ -48,7 +48,7 @@ graf1 = placa_regije %>% filter(Regija != "Slovenija") %>%
     mapping = aes(x = leto, y = placa, color = Regija)
   ) +
   geom_line(size = 2) +
-  scale_y_continuous(breaks = pretty_breaks()) +
+  scale_y_continuous() +
   scale_x_continuous("leto", labels = as.character(stevila), breaks = stevila) +
   theme_classic() +
   labs(
@@ -70,6 +70,8 @@ graf1 = graf1 +
   ) +
   labs(caption = "Črna, črtkana črta predstavlja višino povprečne plače v danem letu") +
   theme(plot.caption=element_text(size=12, hjust=0, margin=margin(15,0,0,0)))
+
+graf1
 
 #-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ###GRAF 2: Vpliv spola in stopnje izobrazbe na višino plače v javnem in zasebnem sektorju med letoma 2008 in 2019
@@ -98,6 +100,7 @@ graf2 = g2 %>%
   labs(caption = " Opomba: osnovna stopnja izobrazbe pomeni osnovnošolsko izobrazbo ali manj, srednja pomeni srednjošolsko in visoka višje ali visokošolsko izobrazbo. \n Vsaka točka prikazuje skupino oseb, združenih po spolu, sektorju zaposlitve in izobrazbi v določenem letu.") +
   theme(plot.caption=element_text(size=12, hjust=0, margin=margin(15,0,0,0)))
 
+graf2
 #-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ###GRAF 3: Delovno aktivno prebivalstvo po dejavnostih med letoma 2008 in 2019
 
@@ -111,7 +114,7 @@ graf3 = g3 %>% ggplot(
   geom_bar(stat="identity",
            width = 0.5
   ) +
-  scale_y_continuous(labels = comma) +
+  scale_y_continuous() +
   scale_x_continuous("leto", labels = as.character(stevila), breaks = stevila) +
   theme_classic() +
   labs(
@@ -125,11 +128,11 @@ graf3 = g3 %>% ggplot(
   theme(legend.background = element_rect(fill="gray90", size=.5, linetype="dotted")
   )
 
+graf3
 #-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ###GRAF 4: Vpliv velikosti deleža aktivnega prebivalstva od celotne populacije na višino plače
 
 g4 = read_csv("izobrazba_spol_po_dejavnostih.csv")
-#g4 = dplyr::select(g4, c(leto, dejavnost, placa,  delovno_aktivni_kot_delez_populacije))
 g4 = g4 %>% mutate(delovno_aktivni_kot_delez_populacije_v_odstotkih = round(100 * delovno_aktivni_kot_delez_populacije, 2)) %>% group_by(dejavnost, delovno_aktivni_kot_delez_populacije_v_odstotkih) %>% 
     summarise(placa = mean(placa)) %>% group_by(dejavnost) %>% summarise(placa = mean(placa), delovno_aktivni_kot_delez_populacije_v_odstotkih = mean(delovno_aktivni_kot_delez_populacije_v_odstotkih))
 
@@ -155,6 +158,7 @@ graf4 = g4 %>%
   labs(caption = " Opomba: za vsako dejavnost sta izračunana povprečen odstotek delovno aktivnega prebivalstva od celotne populacije in višina plače, med letoma 2008 in 2019.") +
   theme(plot.caption=element_text(size=12, hjust=0, margin=margin(15,0,0,0)))
 
+graf4
 #-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ###GRAF 5: Vpliv števila študentov na 1000 prebivalcev v regijah na višino plače
 
@@ -183,6 +187,7 @@ graf5 = g5 %>%
   labs(caption = " Opomba: za vsako regijo sta izračunana povprečno število študentov na 1000 prebivalcev in višina plače, med letoma 2008 in 2019.") +
   theme(plot.caption=element_text(size=12, hjust=0, margin=margin(15,0,0,0)))
 
+graf5
 #-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ###GRAF 6: Primerjava gibanja prihodkov podjetij in plač v zasebnem sektorju med letoma 2009 in 2019
 
@@ -214,6 +219,7 @@ graf6 = g6 %>% ggplot(
            plot.title = element_text(size = 20, face = "bold")) +
   theme(legend.background = element_rect(fill="gray90", size=.5, linetype="dotted"))
 
+graf6
 #-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #ZEMLJEVIDI
 source("lib/uvozi.zemljevid.r")
@@ -246,6 +252,7 @@ zemljevid1 = ggplot() +
                                                   group = group), 
             color = "black", size = 0.1)
 
+zemljevid1
 #-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ###ZEMLJEVID 2: Relativne spremembe povprečnih plač po statističnih regijah med letoma 2008 in 2019
 
@@ -272,6 +279,7 @@ zemljevid2 = ggplot() +
                                                   group = group), 
             color = "black", size = 0.1)
 
+zemljevid2
 #-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ###ZEMLJEVID 3: Povprečne ženske plače kot deleži moških po statističnih regijah v letu 2019
 
@@ -301,6 +309,7 @@ zemljevid3 = ggplot() +
                                                   group = group), 
             color = "black", size = 0.1)
 
+zemljevid3
 #-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ###ZEMLJEVID 4: Povprečne plače mladih po statističnih regijah v letu 2019
 
@@ -325,6 +334,7 @@ zemljevid4 = ggplot() +
   labs(caption = " Opomba: \"mladi\" so tukaj mišljeni kot pripadniki starostne skupine 15-24 let.") +
   theme(plot.caption=element_text(size=12, hjust=0, margin=margin(15,0,0,0)))
 
+zemljevid4
 
 #ideja za še en zemljevid - za vsako regijo pokaže najbolje plačano starostno skupino. Poskusil narediti, a se izkaže, da ni zanimiv, saj so najstarejši vedno najbolje plačani
 
