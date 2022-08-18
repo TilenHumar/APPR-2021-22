@@ -1,6 +1,7 @@
 ---
 title: "Poročilo pri predmetu Analiza podatkov s programom R"
 author: "Tilen Humar"
+date: "18. avgust 2022"
 output:
   html_document: default
   pdf_document:
@@ -24,7 +25,7 @@ Izbral sem si temo __analiza plač v Sloveniji__ . V projetku sem torej proučev
 
 <center>
 ![](slike/placa.png)
-***
+
 
 ## Obdelava, uvoz in čiščenje podatkov
 
@@ -43,7 +44,7 @@ Vse podatke sem našel na podatkovni bazi [SiStat](https://pxweb.stat.si/SiStat/
 source("uvoz/uvoz.r", encoding="UTF-8")
 ```
 
-***
+
 
 ## Analiza in vizualizacija podatkov
 
@@ -52,7 +53,7 @@ source("vizualizacija/vizualizacija.r", encoding="UTF-8")
 ```
 
 
-###Grafi
+### Grafi
 
 ```{r, fig.align='center'}
 print(graf1)
@@ -85,13 +86,12 @@ print(graf6)
 ```
 Zgornji grafikon prikazuje gibanje prihodkov podjetij in plač v zasebnem sektorju v opazovanem časovnem obdobju. Zanimivo se mi zdi, da so se v kriznem letu 2009 plače le malo zmanjšale, čeprav so prihodki strmoglavili. To leto je verjetno tudi razlog, da je kasneje rast prihodkov skoraj vedno(razen v enem letu) presegla rast plač.
 
-###Zemljevidi
+### Zemljevidi
 ```{r, fig.align='center'}
 print(zemljevid1)
 ```
 Zgornji zemljevid prikazuje stanje povprečnih plač v letu 2019. Kot že omenjeno, sta temni izjemi Primorsko-notranjska in Zasavska regija.
 
-#TUKAJ DODAJA SHINY - GRUČENJE, IZBIRA ŠTEVILA SKUPIN
 
 ```{r, fig.align='center'}
 print(zemljevid2)
@@ -108,7 +108,7 @@ print(zemljevid4)
 ```
 Zadnji zemljevid pa je namenjen mladim, saj prikazuje povprečne plače oseb do 24. leta starosti za leto 2019. Najvišjo plačo lahko pričakujejo v Jugovzhodni Sloveniji, najnižjo pa v zasavski regiji.
 
-***
+
 
 ## Napredna analiza podatkov
 
@@ -116,8 +116,68 @@ Zadnji zemljevid pa je namenjen mladim, saj prikazuje povprečne plače oseb do 
 source("analiza/analiza.r", encoding="UTF-8")
 ```
 
-***
+### Razvrščanje v skupine
+Najprej sem za vsako dejavnost izračunal relativno spremembo plače v opazovanem obdobju, saj me je zanimalo, katere dejavnosti so bile v tem času najperspektivnejše za zaposlene.
+Sprva sem dejavnosti razvrstil v skupine z dendogramom, število skupin pa sem dobil s koleni.
+
+```{r, fig.align='center'}
+plot(dendrogram_dejavnosti, hang=-0.1, cex=1,
+     labels = dejavnosti,
+     ylab = "višina",
+     xlab = "dejavnosti",
+     main = "Dendrogram razvrščanja dejavnosti v skupine, glede na \ngibanje povprečne plače med letoma 2008 in 2019 \n(z prikazom skupin)")
+rect.hclust(dendrogram_dejavnosti,k=3,border="red")
+p_dejavnosti = cutree(dendrogram_dejavnosti, k=3)
+```
+
+```{r, fig.align='center'}
+print(diagram.kolena(kolena_dejavnosti))
+```
+Tu je graf, ki prikazuje smiselne izobre števila skupin pri gručenju (smiselne so modre izbire).
+
+Ker sem gručenje želel prikazati še na zemljevidu, sem ga izvedel na tabeli povprečnih plač po regijah v letu 2019.
+
+Na spodnjem zemljevidu lahko v koliko skupin razdelimo regije po povprečni plači v letu 2019.
 
 ```{r shiny}
-#shinyAppDir("shiny", options=list(width="100%", height=600))
+shinyAppDir("shiny", options=list(width="100%", height=600))
 ```
+
+###  Napovedni model
+
+Najprej sem se osredotočil na mlado prebivalstvo osrednjeslovenske regije, kjer sem z linearnim napovednim modelom (plačo napove iz znanih plač preteklih dveh let) dobil ocene povprečnih plač v prihodnjih dveh letih.
+
+```{r, fig.align='center'}
+print(graf_napovedi)
+```
+
+Nato sem naredil 10 različnih modelov (5 formul za napoved, pri vsaki sem uporabil linearno regresijo in še metodo naključnih gozdov):
+
+1. model, ki za napoved plače upošteva le regije
+2. model, ki za napoved plače upošteva le spol
+3. model, ki za napoved plače upošteva le starostno skupino
+4. model, ki za napoved plače upošteva le število študentov na 1000 prebivalcev v regiji
+5. model, ki za napoved plače upoošteva vse zgornje spremenljivke
+
+Prečno preverjanje je pokazalo, da ima najmanjšo napako model, ki upošteva vse, narejen z metodo naključnih gozdov.
+
+Za ta model sem izračunal še moč posameznih spremenljik oziroma koliko izbrane spremenljivke vplivajo na napoved.
+
+```{r, fig.align='center'}
+print(moc)
+```
+
+Vidimo, da na napoved plače daleč najbolj vplivajo spremenljivke, ki določajo starost, vse ostale pa so precej za njimi po vplivu. 
+
+## Zaključek
+Nekaj ugotovitev, ki so se mi zdele zanimive:
+
+* Plače v javnem sektorju povprečno presegajo tiste v zasebnem.
+
+* V zadnjih nekaj letih rast prihodkov podjetij presega rast plač v zasebnem sektorju.
+
+* V zadnjem opazovanem letu sta po povprečni plači močno odstopali zasavska regija in Jugovzhodna Slovenija - to dejstvo smo potrdili tudi z gručenjem, kjer ti dve regiji tvorita svojo skupino.
+
+* Na višino plače starost vpliva veliko bolj kot regija domovanja ali spol.
+
+
