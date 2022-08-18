@@ -8,8 +8,8 @@ source("lib/libraries.r")
 #Tabela relativne spremembe povprečne plače po dejavnostih med letoma 2008 in 2019 -> katere dejavnosti imajo podobno gibanje povprečne plače?
 tabela_dejavnosti = read_csv("izobrazba_spol_po_dejavnostih.csv")
 tabela_dejavnosti = tabela_dejavnosti %>% filter(leto == c(2008, 2019)) %>% group_by(dejavnost, leto) %>% summarise(placa = mean(placa)) %>%
-         mutate(relativna_sprememba_place = round((placa - lag(placa)) / lag(placa), 6)) %>% filter(leto == 2019) %>%
-         dplyr::select(dejavnost, relativna_sprememba_place)
+  mutate(relativna_sprememba_place = round((placa - lag(placa)) / lag(placa), 6)) %>% filter(leto == 2019) %>%
+  dplyr::select(dejavnost, relativna_sprememba_place)
 
 #Tabela povprečnih plač po statističnih regijah v letu 2019 -> katere regije imajo podobno povprečno plač?
 #Zato, da na zemljevidu prikažen gručenje.
@@ -152,13 +152,13 @@ dejavnosti = tabela_dejavnosti[, 1] %>% unlist()
 razdalje_dejavnosti = tabela_dejavnosti[, -1] %>% dist()
 dendrogram_dejavnosti = razdalje_dejavnosti %>% hclust(method = "ward.D")
 
-plot(
-  dendrogram_dejavnosti,
-  labels = dejavnosti,
-  ylab = "višina",
-  xlab = "dejavnosti",
-  main = "Dendrogram razvrščanja dejavnosti v skupine, glede na \ngibanje povprečne plače med letoma 2008 in 2019"
-)
+#plot(
+#  dendrogram_dejavnosti,
+#  labels = dejavnosti,
+#  ylab = "višina",
+#  xlab = "dejavnosti",
+#  main = NULL
+#)
 
 # tabela s koleni za dendrogram
 kolena_dejavnosti = hc.kolena(dendrogram_dejavnosti)
@@ -166,13 +166,13 @@ diagram.kolena(kolena_dejavnosti)
 #kolena = 2, 3, 4
 
 #ker sta primera za 2 in 4 skupine precej očitna, poglejmo kako grupira dejavnosti v 3 skupine
-plot(dendrogram_dejavnosti, hang=-0.1, cex=1,
-     labels = dejavnosti,
-     ylab = "višina",
-     xlab = "dejavnosti",
-     main = "Dendrogram razvrščanja dejavnosti v skupine, glede na \ngibanje povprečne plače med letoma 2008 in 2019 \n(z prikazom skupin)")
-rect.hclust(dendrogram_dejavnosti,k=3,border="red")
-p_dejavnosti = cutree(dendrogram_dejavnosti, k=3)
+#plot(dendrogram_dejavnosti,
+#     labels = dejavnosti,
+#     ylab = "višina",
+#     xlab = "dejavnosti",
+#     main = NULL)
+#oznacen_dendrogram_dejavnosti = rect.hclust(dendrogram_dejavnosti,k=3,border="red")
+#p_dejavnosti = cutree(dendrogram_dejavnosti, k=3)
 
 #---------------------REGIJE---------------------
 
@@ -180,27 +180,27 @@ regije = tabela_regije[, 1] %>% unlist()
 razdalje_regije = tabela_regije[, -1] %>% dist()
 dendrogram_regije = razdalje_regije %>% hclust(method = "ward.D")
 
-plot(
-  dendrogram_regije,
-  labels = regije,
-  ylab = "višina",
-  xlab = "regije",
-  main = "Dendrogram razvrščanja regij v skupine, glede na \nvišino povprečne plače v letu 2019"
-)
+#plot(
+#  dendrogram_regije,
+#  labels = regije,
+#  ylab = "višina",
+#  xlab = "regije",
+#  main = "Dendrogram razvrščanja regij v skupine, glede na \nvišino povprečne plače v letu 2019"
+#)
 
 # tabela s koleni za dendrogram
 kolena_regije = hc.kolena(dendrogram_regije)
-diagram.kolena(kolena_regije)
+#diagram.kolena(kolena_regije)
 #kolena = 2, 3, 4, 6, 7, 8, 10
 
 #recimo 2 skupini
-plot(dendrogram_regije, hang=-0.1, cex=1,
-     labels = regije,
-     ylab = "višina",
-     xlab = "regije",
-     main = "Dendrogram razvrščanja regij v skupine, glede na \nvišino povprečne plače v letu 2019 \n(z prikazom skupin)")
-rect.hclust(dendrogram_regije,k=2,border="red")
-p_regije = cutree(dendrogram_regije, k=2)
+#plot(dendrogram_regije, hang=-0.1, cex=1,
+#     labels = regije,
+#     ylab = "višina",
+#     xlab = "regije",
+#     main = "Dendrogram razvrščanja regij v skupine, glede na \nvišino povprečne plače v letu 2019 \n(z prikazom skupin)")
+#rect.hclust(dendrogram_regije,k=2,border="red")
+#p_regije = cutree(dendrogram_regije, k=2)
 
 #---------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -219,7 +219,7 @@ skupine_dejavnosti = tabela_dejavnosti[, -1] %>%
   kmeans(centers = 3) %>%
   getElement("cluster") %>%
   as.ordered()
-print(skupine_dejavnosti)
+#print(skupine_dejavnosti)
 #vidimo, da se razvrstitev ujema tisti na dendrogramu
 
 #---------------------REGIJE---------------------
@@ -235,49 +235,11 @@ skupine_regije = tabela_regije[, -1] %>%
   kmeans(centers = 2) %>%
   getElement("cluster") %>%
   as.ordered()
-print(skupine_regije)
+#print(skupine_regije)
 #vidimo, da se razvrstitev ujema tisti na dendrogramu
 
 #prikaz na zemljevidu -> narejeno kot Shiny aplikacija
-##---------------------------------------------------------------------------------------------------------------------------------------------
-##osnova za zemljevid
-#source("lib/uvozi.zemljevid.r")
-#
-#slovenija_regije <- uvozi.zemljevid("http://biogeo.ucdavis.edu/data/gadm2.8/shp/SVN_adm_shp.zip",
-#                                    "SVN_adm1", encoding="UTF-8") %>% fortify()
-#colnames(slovenija_regije)[12]<-'regija'
-#slovenija_regije$regija = gsub('Notranjsko-kraška', 'Primorsko-notranjska', slovenija_regije$regija)
-#slovenija_regije$regija = gsub('Spodnjeposavska', 'Posavska', slovenija_regije$regija)
-##---------------------------------------------------------------------------------------------------------------------------------------------
-##SHINY funkcija
-#
-#narisi_zemljevid = function(stevilo){
-#  skupine_regije = tabela_regije[, -1] %>%
-#  kmeans(centers = stevilo)
-#  
-#  skupine_zemljevid = data.frame(regija = tabela_regije$regija, skupina = factor(skupine_regije$cluster))
-#  
-#  zemljevid_gručenje = ggplot() +
-#    geom_polygon(data = right_join(skupine_zemljevid, slovenija_regije, by = "regija"),
-#                 aes(x = long, y = lat, group = group, fill = skupina))+
-#    ggtitle("Zemljevid gručenja regij glede na povprečno plačo v letu 2019") + 
-#    theme(axis.text.x = element_blank(), axis.title.x = element_blank(),
-#          axis.text.y = element_blank(), axis.title.y = element_blank(),
-#          plot.title = element_text(size = 20, face = "bold")) +
-#    theme(legend.background = element_rect(fill="gray90", size=.5, linetype="dotted")) +
-#    scale_fill_discrete() +
-#    labs(fill="Skupina") +
-#    geom_path(data = right_join(skupine_zemljevid, slovenija_regije,
-#                                by = "regija"), aes(x = long, y = lat, 
-#                                                    group = group), 
-#              color = "black", size = 0.1)
-#  
-#    print(zemljevid_gručenje)
-#}
-#  
-#  
-#narisi_zemljevid(2)  
-#
+
 ##---------------------------------------------------------------------------------------------------------------------------------------------
 
 ###NAPOVEDNI MODEL
@@ -293,7 +255,7 @@ naredi = function(x){
 
 tabela_napoved_mladi = read_csv("starost_spol_po_regijah.csv")
 tabela_napoved_mladi = tabela_napoved_mladi %>% filter(starost == "15-24 let") %>% group_by(regija,leto) %>% dplyr::summarise(placa = mean(placa)) %>%
-                       filter(regija == "Osrednjeslovenska")
+  filter(regija == "Osrednjeslovenska")
 
 tabela_napoved_mladi = naredi(tabela_napoved_mladi$placa)
 tabela_napoved_mladi$leto = c(2008:2019)
@@ -315,7 +277,7 @@ stevila = 2008:2021
 
 graf_napovedi = tabela_napoved_mladi %>% ggplot(
   mapping = aes(fill = leto > 2019, x = leto, y = placa)
-  ) +
+) +
   geom_bar(stat="identity",
            width = 0.5,
            position = "dodge"
@@ -326,13 +288,13 @@ graf_napovedi = tabela_napoved_mladi %>% ggplot(
   labs(
     x = "leto",
     y = "višina plače v evrih",
-    title = "Višina povprečne plače mladih Osrednjeslovenske regije \nv evrih med letoma 2008 in 2021 "
+    title = "Višina povprečne plače mladih Osrednjeslovenske \nregije v evrih med letoma 2008 in 2021 "
   ) +
-  theme(axis.text.x = element_text(size = 14), axis.title.x = element_text(size = 16),
+  theme(axis.text.x = element_text(size = 14, angle = 90), axis.title.x = element_text(size = 16),
         axis.text.y = element_text(size = 14), axis.title.y = element_text(size = 16),
-        plot.title = element_text(size = 20, face = "bold")) +
+        plot.title = element_text(size = 18, face = "bold")) +
   theme(legend.position="none") +
-  labs(caption = "Opomba: rdeče obarvani stolpi predstavljajo izmerjene podatke, modra stolpca pa sta projekciji višine plače v pripadajočih letih.") +
+  labs(caption = "Opomba: rdeče obarvani stolpi predstavljajo izmerjene podatke, modra stolpca pa \nsta projekciji višine plače v pripadajočih letih.") +
   theme(plot.caption=element_text(size=12, hjust=0, margin=margin(15,0,0,0)))
 
 graf_napovedi
@@ -371,29 +333,30 @@ tabela_napoved = tabela_napoved %>% one_hot(spol) %>% one_hot(regija) %>% one_ho
 set.seed(321)
 #linearna regresija za napoved plače glede na regijo
 linearna_reg_regije = lm(placa ~ regija.Pomurska + regija.Podravska + regija.Koroška + regija.Savinjska + regija.Zasavska + 
-                         regija.Posavska + regija.JugovzhodnaSlovenija + regija.Osrednjeslovenska + regija.Gorenjska +
-                         regija.Primorskonotranjska + regija.Goriška + regija.Obalnokraška, data = tabela_napoved)
-print(linearna_reg_regije)
+                           regija.Posavska + regija.JugovzhodnaSlovenija + regija.Osrednjeslovenska + regija.Gorenjska +
+                           regija.Primorskonotranjska + regija.Goriška + regija.Obalnokraška, data = tabela_napoved)
+
+#print(linearna_reg_regije)
 
 #linearna regresija za napoved plače glede na spol
 linearna_reg_spol = lm(placa ~ spol.m + spol.ž, data = tabela_napoved)
-print(linearna_reg_spol)
+#print(linearna_reg_spol)
 
 #linearna regresija za napoved plače glede na starost
 linearna_reg_starost = lm(placa ~ starost.15do24 + starost.25do34 + starost.35do44 + starost.45do54 + starost.55do64 + starost.65plus, data = tabela_napoved)
-print(linearna_reg_starost)
+#print(linearna_reg_starost)
 
 #linearna regresija za napoved plače glede na število študentov na 1000 prebivalcev v regiji
 linearna_reg_st_studentov = lm(placa ~ studenti, data = tabela_napoved)
-print(linearna_reg_st_studentov)
+#print(linearna_reg_st_studentov)
 
 #linearna regresija za napoved plače glede na regijo, spol, starostno skupino in število študentov na 1000 prebivalcev v regiji
 linearna_reg_vse = lm(placa ~ regija.Pomurska + regija.Podravska + regija.Koroška + regija.Savinjska + regija.Zasavska + 
-                           regija.Posavska + regija.JugovzhodnaSlovenija + regija.Osrednjeslovenska + regija.Gorenjska +
-                           regija.Primorskonotranjska + regija.Goriška + regija.Obalnokraška + spol.m + spol.ž + 
-                           starost.15do24 + starost.25do34 + starost.35do44 + starost.45do54 + starost.55do64 + starost.65plus + studenti,
-                           data = tabela_napoved)
-print(linearna_reg_vse)
+                        regija.Posavska + regija.JugovzhodnaSlovenija + regija.Osrednjeslovenska + regija.Gorenjska +
+                        regija.Primorskonotranjska + regija.Goriška + regija.Obalnokraška + spol.m + spol.ž + 
+                        starost.15do24 + starost.25do34 + starost.35do44 + starost.45do54 + starost.55do64 + starost.65plus + studenti,
+                      data = tabela_napoved)
+#print(linearna_reg_vse)
 
 #formule za napovedi
 
@@ -404,7 +367,7 @@ formula_regije =
 
 formula_spol =
   placa ~ spol.m + spol.ž
-  
+
 formula_starost = 
   placa ~ starost.15do24 + starost.25do34 + starost.35do44 + starost.45do54 + starost.55do64 + starost.65plus
 
@@ -449,7 +412,7 @@ napaka_starost = napaka_lm(10, formula_starost, tabela_napoved)
 napaka_studenti = napaka_lm(10, formula_studenti, tabela_napoved)
 napaka_vse = napaka_lm(10, formula_vse, tabela_napoved)
 
-print(c(napaka_regije, napaka_spol, napaka_starost, napaka_studenti, napaka_vse))
+#print(c(napaka_regije, napaka_spol, napaka_starost, napaka_studenti, napaka_vse))
 
 #prikaz linearnega modela s formula_studenti
 graf_podatki = read_csv("starost_spol_po_regijah.csv")
@@ -483,7 +446,7 @@ napaka_starost_ng = napaka_ng(10, formula_starost, tabela_napoved)
 napaka_studenti_ng = napaka_ng(10, formula_studenti, tabela_napoved)
 napaka_vse_ng = napaka_ng(10, formula_vse, tabela_napoved)
 
-print(c(napaka_regije_ng, napaka_spol_ng, napaka_starost_ng, napaka_studenti_ng, napaka_vse_ng))
+#print(c(napaka_regije_ng, napaka_spol_ng, napaka_starost_ng, napaka_studenti_ng, napaka_vse_ng))
 
 #vidimo, da najmanjšo napako dobimo s formulo_vse in algoritmom naključni gozdovi
 
@@ -500,8 +463,6 @@ lm.pred = Predictor$new(model= model, data = X, y = tabela_napoved$placa, predic
 
 lm.moci = FeatureImp$new(lm.pred, loss = "mse")
 
-moc <- plot(lm.moci)
+moc =  plot(lm.moci)
 moc
 #vidimo, da na napoved najbolj vplivajo spremeljivke, ki določajo starost
-
-

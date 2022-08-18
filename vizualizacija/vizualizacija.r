@@ -1,7 +1,11 @@
 # 3. faza: Vizualizacija podatkov
 
+#prikaze dendrogramov, napak, ... sem moral zakomentirati, saj so se sicer pojavljali v poročilu
+
 source("lib/libraries.r")
 source("uvoz/uvoz.r", encoding="UTF-8")
+
+
 
 ###GRAF 1: povprečne plače v statističnih regijah med leti 2008 in 2019
 
@@ -54,9 +58,9 @@ graf1 = placa_regije %>% filter(Regija != "Slovenija") %>%
   labs(
     x = "leto",
     y = "višina plače v evrih",
-    title = "Povprečne plače po statističnih regijah med letoma 2008 in 2019"
+    title = "Povprečne plače po statističnih regijah \nmed letoma 2008 in 2019"
   ) +
-  theme(axis.text.x = element_text(size = 14), axis.title.x = element_text(size = 16),
+  theme(axis.text.x = element_text(size = 14, angle = 90), axis.title.x = element_text(size = 16),
         axis.text.y = element_text(size = 14), axis.title.y = element_text(size = 16),
         plot.title = element_text(size = 20, face = "bold")) +
   theme(legend.background = element_rect(fill="gray90", size=.5, linetype="dotted"))
@@ -66,9 +70,9 @@ graf1 = graf1 +
   filter(Regija == "Slovenija") %>%
   geom_line(
     mapping = aes(x = leto, y = placa, color = Regija),
-    size = 3, linetype = "dashed", color = "black"
+    size = 2, linetype = "dashed", color = "black"
   ) +
-  labs(caption = "Črna, črtkana črta predstavlja višino povprečne plače v danem letu") +
+  labs(caption = "Opomba: črna, črtkana črta predstavlja višino povprečne plače v danem letu") +
   theme(plot.caption=element_text(size=12, hjust=0, margin=margin(15,0,0,0)))
 
 graf1
@@ -89,20 +93,22 @@ graf2 = g2 %>%
   theme_classic() +
   labs(
     x = "stopnja izobrazbe",
-    y = "povprečna višina plače v evrih za pripadajočo skupino",
-    title = "Vpliv spola in stopnje izobrazbe na višino plače v javnem in zasebnem sektorju med letoma 2008 in 2019"
+    y = "povprečna višina plače v evrih za \npripadajočo skupino",
+    title = "Vpliv spola in stopnje izobrazbe na višino \nplače v javnem in zasebnem sektorju med \nletoma 2008 in 2019"
   ) +
   theme(axis.text.x = element_text(size = 14), axis.title.x = element_text(size = 16),
         axis.text.y = element_text(size = 14), axis.title.y = element_text(size = 16),
         plot.title = element_text(size = 20, face = "bold")) +
   theme(legend.background = element_rect(fill="gray90", size=.5, linetype="dotted")
   ) +
-  labs(caption = " Opomba: osnovna stopnja izobrazbe pomeni osnovnošolsko izobrazbo ali manj, srednja pomeni srednjošolsko in visoka višje ali visokošolsko izobrazbo. \n Vsaka točka prikazuje skupino oseb, združenih po spolu, sektorju zaposlitve in izobrazbi v določenem letu.") +
+  labs(caption = " Opomba: osnovna stopnja izobrazbe pomeni osnovnošolsko izobrazbo ali manj, \nsrednja pomeni srednjošolsko in visoka višje ali visokošolsko izobrazbo. \n Vsaka točka prikazuje skupino oseb, združenih po spolu, sektorju zaposlitve \nin izobrazbi v določenem letu.") +
   theme(plot.caption=element_text(size=12, hjust=0, margin=margin(15,0,0,0)))
 
 graf2
 #-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ###GRAF 3: Delovno aktivno prebivalstvo po dejavnostih med letoma 2008 in 2019
+# Ker ta graf ni niti zanimiv, niti pregleden, ga ne bom vključil
+
 
 g3 = read_csv("izobrazba_spol_po_dejavnostih.csv")
 g3 = dplyr::select(g3, c(leto, dejavnost, delovno_aktivno_prebivalstvo))
@@ -112,7 +118,7 @@ graf3 = g3 %>% ggplot(
   mapping = aes(fill = dejavnost, x = leto, y = delovno_aktivno_prebivalstvo, )
   ) +
   geom_bar(stat="identity",
-           width = 0.5
+           width = 0.3
   ) +
   scale_y_continuous() +
   scale_x_continuous("leto", labels = as.character(stevila), breaks = stevila) +
@@ -120,13 +126,14 @@ graf3 = g3 %>% ggplot(
   labs(
     x = "leto",
     y = "delovno aktivno prebivalstvo",
-    title = "Delovno aktivno prebivalstvo po dejavnostih med letoma 2008 in 2019"
+    title = "Delovno aktivno prebivalstvo po dejavnostih \nmed letoma 2008 in 2019"
   ) +
-  theme(axis.text.x = element_text(size = 14, angle = 45, vjust = 0.5), axis.title.x = element_text(size = 16),
+  theme(axis.text.x = element_text(size = 14, angle = 90, vjust = 0.5), axis.title.x = element_text(size = 16),
         axis.text.y = element_text(size = 14), axis.title.y = element_text(size = 16),
         plot.title = element_text(size = 20, face = "bold")) +
-  theme(legend.background = element_rect(fill="gray90", size=.5, linetype="dotted")
-  )
+  theme(legend.background = element_rect(fill="gray90", size=.1, linetype="dotted"), legend.position="bottom"
+  ) +
+  guides(fill = guide_legend(nrow  = 7, title.position = "top"))
 
 graf3
 #-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -141,22 +148,24 @@ graf4 = g4 %>%
     mapping = aes(x = delovno_aktivni_kot_delez_populacije_v_odstotkih, y = placa, color = dejavnost)
   ) +
   geom_point(
-    position = position_jitter(width = 0.05),
-    size = 7
+    position = position_jitter(width = 0.01),
+    size = 5
   ) +
   theme_classic() +
   labs(
-    x = "delovno aktivno prebivalstvo v odstotkih celotne populacije Slovenije",
+    x = "delovno aktivno prebivalstvo v \nodstotkih celotne populacije Slovenije",
     y = "višina plače v evrih",
-    title = "Vpliv velikosti deleža aktivnega prebivalstva od celotne populacije na višino plače"
+    title = "Vpliv velikosti deleža aktivnega prebivalstva od \ncelotne populacije na višino plače"
   ) +
-  theme(axis.text.x = element_text(size = 14), axis.title.x = element_text(size = 16),
-        axis.text.y = element_text(size = 14), axis.title.y = element_text(size = 16),
-        plot.title = element_text(size = 20, face = "bold")) +
-  theme(legend.background = element_rect(fill="gray90", size=.5, linetype="dotted")
-  ) +
-  labs(caption = " Opomba: za vsako dejavnost sta izračunana povprečen odstotek delovno aktivnega prebivalstva od celotne populacije in višina plače, med letoma 2008 in 2019.") +
-  theme(plot.caption=element_text(size=12, hjust=0, margin=margin(15,0,0,0)))
+  theme(axis.text.x = element_text(size = 10), axis.title.x = element_text(size = 12),
+        axis.text.y = element_text(size = 10), axis.title.y = element_text(size = 12),
+        plot.title = element_text(size = 20, face = "bold"),
+        legend.title=element_text(size=8), 
+        legend.text=element_text(size=8)) +
+  theme(legend.background = element_rect(fill="gray90", size=.5, linetype="dotted"), legend.position = "right", legend.key.size = unit(0, 'lines')) +
+  guides(color = guide_legend(nrow  = 19, title.position = "top", override.aes = list(size = 3))) +
+  labs(caption = "Opomba: za vsako dejavnost sta izračunana povprečen odstotek delovno \naktivnega prebivalstva od celotne populacije in višina plače, \nmed letoma 2008 in 2019.") +
+  theme(plot.caption=element_text(size=9, hjust=0, margin=margin(15,0,0,0)))
 
 graf4
 #-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -177,14 +186,14 @@ graf5 = g5 %>%
   labs(
     x = "število študentov na 1000 prebivalcev v regiji",
     y = "višina plače v evrih",
-    title = "Vpliv števila študentov na 1000 prebivalcev v regijah na višino plače"
+    title = "Vpliv števila študentov na 1000 prebivalcev \nv regiji na višino plače"
   ) +
   theme(axis.text.x = element_text(size = 14), axis.title.x = element_text(size = 16),
         axis.text.y = element_text(size = 14), axis.title.y = element_text(size = 16),
         plot.title = element_text(size = 20, face = "bold")) +
-  theme(legend.background = element_rect(fill="gray90", size=.5, linetype="dotted")
+  theme(legend.background = element_rect(fill="gray90", size=.5, linetype="dotted"), legend.position = "bottom"
   ) +
-  labs(caption = " Opomba: za vsako regijo sta izračunana povprečno število študentov na 1000 prebivalcev in višina plače, med letoma 2008 in 2019.") +
+  labs(caption = " Opomba: za vsako regijo sta izračunana povprečno število študentov na 1000 \nprebivalcev in višina plače, med letoma 2008 in 2019.") +
   theme(plot.caption=element_text(size=12, hjust=0, margin=margin(15,0,0,0)))
 
 graf5
@@ -212,12 +221,12 @@ graf6 = g6 %>% ggplot(
   labs(
     x = "leto",
     y = "sprememba v odstotkih",
-    title = "Primerjava gibanja prihodkov podjetij in plač v zasebnem sektorju med letoma 2009 in 2019"
+    title = "Primerjava gibanja prihodkov podjetij in plač v \nzasebnem sektorju med letoma 2009 in 2019"
   ) +
-  theme(axis.text.x = element_text(size = 14), axis.title.x = element_text(size = 16),
+  theme(axis.text.x = element_text(size = 14, angle = 90), axis.title.x = element_text(size = 16),
            axis.text.y = element_text(size = 14), axis.title.y = element_text(size = 16),
            plot.title = element_text(size = 20, face = "bold")) +
-  theme(legend.background = element_rect(fill="gray90", size=.5, linetype="dotted"))
+  theme(legend.background = element_rect(fill="gray90", size=.5, linetype="dotted"), legend.position = "bottom")
 
 graf6
 #-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -267,7 +276,7 @@ z2 = z2 %>% group_by(Regija) %>% filter(leto == c(2008, 2019)) %>% filter(Regija
 zemljevid2 = ggplot() +
   geom_polygon(data = right_join(z2, slovenija_regije, by = "regija"),
                aes(x = long, y = lat, group = group, fill = rel_sprememba_povp_place))+
-  ggtitle("Relativne spremembe povprečnih plač po statističnih regijah med letoma 2008 in 2019") + 
+  ggtitle("Relativne spremembe povprečnih plač po \nstatističnih regijah med letoma 2008 in 2019") + 
   theme(axis.text.x = element_blank(), axis.title.x = element_blank(),
         axis.text.y = element_blank(), axis.title.y = element_blank(),
         plot.title = element_text(size = 20, face = "bold")) +
@@ -297,7 +306,7 @@ z3 = moski %>% left_join(zenske, by = "regija") %>% mutate(zenska_placa_kot_dele
 zemljevid3 = ggplot() +
   geom_polygon(data = right_join(z3, slovenija_regije, by = "regija"),
                aes(x = long, y = lat, group = group, fill = zenska_placa_kot_delez_moske))+
-  ggtitle("Povprečne ženske plače kot deleži moških po statističnih regijah v letu 2019") + 
+  ggtitle("Povprečne ženske plače kot deleži moških po \nstatističnih regijah v letu 2019") + 
   theme(axis.text.x = element_blank(), axis.title.x = element_blank(),
         axis.text.y = element_blank(), axis.title.y = element_blank(),
         plot.title = element_text(size = 20, face = "bold")) +
@@ -320,7 +329,7 @@ z4 = z4 %>% filter(leto == 2019) %>% filter(starost == "15-24 let") %>% group_by
 zemljevid4 = ggplot() +
   geom_polygon(data = right_join(z4, slovenija_regije, by = "regija"),
                aes(x = long, y = lat, group = group, fill = placa))+
-  ggtitle("Povprečne plače mladih po statističnih regijah v letu 2019") + 
+  ggtitle("Povprečne plače mladih po statističnih regijah \nv letu 2019") + 
   theme(axis.text.x = element_blank(), axis.title.x = element_blank(),
         axis.text.y = element_blank(), axis.title.y = element_blank(),
         plot.title = element_text(size = 20, face = "bold")) +

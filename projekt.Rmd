@@ -31,13 +31,13 @@ Izbral sem si temo __analiza plač v Sloveniji__ . V projetku sem torej proučev
 
 Vse podatke sem našel na podatkovni bazi [SiStat](https://pxweb.stat.si/SiStat/sl/Podrocja/Index/98/place-in-stroski-dela). V tej fazi projekta sem oblikoval 4 tabele, s katerimi sem kasneje nadaljeval z analizo.
 
-1. tabela: predstavlja plačo glede na dejavnost, izobrazbo in spol po letih, hkrati pa vsebuje še število delovno aktivnih v pripadajoči dejavnosti in delež prebivalstva slovenije, ki je v pripadajoči dejavnosti aktivno zaposlen.
+__1. tabela__: predstavlja plačo glede na dejavnost, izobrazbo in spol po letih, hkrati pa vsebuje še število delovno aktivnih v pripadajoči dejavnosti in delež prebivalstva slovenije, ki je v pripadajoči dejavnosti aktivno zaposlen.
 
-2. tabela: predstavlja plačo glede na sektor, izobrazvo in spol po letih.
+__2. tabela__: predstavlja plačo glede na sektor, izobrazbo in spol po letih.
  
-3. tabela: predstavlja plačo glede na regijo, starostno skupino, spol po regijah, hkrati pa vsebuje še število študentov na 1000 prebivalcev za pripadajočo leto in regijo.
+__3. tabela__: predstavlja plačo glede na regijo, starostno skupino, spol po regijah, hkrati pa vsebuje še število študentov na 1000 prebivalcev za pripadajočo leto in regijo.
 
-4. tabela: predstavlja relativne spremembe plač v zasebnem sektorju in prihodkov podjetij po letih.
+__4. tabela__: predstavlja relativne spremembe plač v zasebnem sektorju in prihodkov podjetij po letih.
 
 
 ```{r uvoz}
@@ -55,89 +55,77 @@ source("vizualizacija/vizualizacija.r", encoding="UTF-8")
 
 ### Grafi
 
-```{r, fig.align='center'}
+```{r, fig.align='center', out.width="100%", out.height="75%"}
 print(graf1)
 ```
 
-Graf prikazuje gibanje povprečnih plač v statističnih regijah med letoma 2008 in 2019. Hkrati je prikazana tudi državna povprečna plača (črtkana črta). Pričakovano je bila v tem času najbolje plačana Osrednjeslovenska regija s prestolnico. Po drugi strani pa je bil vrstni red, v katerem so sledile ostale regije, vse prej kot nespremenljiv. Na koncu, v letu 2019, lahko opazimo, da še od povprečja še posebaj izstopata Primorsko-notranjska in Zasavska regija, obe v negativni smeri.
+Graf prikazuje gibanje povprečnih plač v statističnih regijah med letoma 2008 in 2019. Hkrati je prikazana tudi državna povprečna plača (črtkana črta). Pričakovano je bila v tem času najbolje plačana Osrednjeslovenska regija s prestolnico. Po drugi strani pa je bil vrstni red, v katerem so sledile ostale regije, vse prej kot nespremenljiv. Na koncu, v letu 2019, lahko opazimo, da od povprečja še posebej izstopata primorsko-notranjska in zasavska regija, obe v negativni smeri.
 
-```{r, fig.align='center'}
+```{r, fig.align='center', out.width="100%", out.height="75%"}
 print(graf2)
 ```
 Ta graf prikazuje vpliv gospodarskega sektorja, spola in stopnje izobrazbe na višino plače v proučevanem časovnem obdobju. Razvidno je, da je javni sektor v povprečju plačan bolje kot zasebni in, da so moški bolje plačani kot ženske. Zanimive so tudi razlike med stopnjami izobrazbe, saj je razlika med visoko in srednjo veliko večja od razlike med osnovno in srednjo stopnjo izobrazbe.
 
-```{r, fig.align='center'}
-print(graf3)
-```
-Graf predstavlja razporejenost delovno aktivnega gospodarstva Slovenije po dejavnostih po letih.
-
-```{r, fig.align='center'}
+```{r, fig.align='center', out.width="100%", out.height="75%"}
 print(graf4)
 ```
-Ta graf prikazuje vpliv velikosti deleža aktivnega prebivalstva v dejavnosti od celotne populacije na višino plače v proučevanem obdobju. Iz tega grafa je videti, kot da ta spremenljivka na plačo sploh ne vpliva, ali pa je vpliv minimalen, saj je npr. v kategoriji finančnih in zavarovalniških dejavnosti ter gostinstvu zaposlen približno enak odstotek populacije, razlika v povprečnih plačah pa je več kot 600€.
+Ta graf prikazuje vpliv velikosti deleža aktivnega prebivalstva v dejavnosti od celotne populacije na višino plače v proučevanem obdobju. Iz tega grafa je videti, da ta spremenljivka na plačo sploh ne vpliva, ali pa je vpliv minimalen, saj je npr. v kategoriji finančnih in zavarovalniških dejavnosti ter gostinstvu zaposlen približno enak odstotek populacije, razlika v povprečnih plačah pa je več kot 600€.
 
-```{r, fig.align='center'}
+```{r, fig.align='center', out.width="100%", out.height="75%"}
 print(graf5)
 ```
 Graf predstavlja vpliv števila študentov na 1000 prebivalcev v regiji na višino povprečne plače v našem časovnem okviru. Tudi tu ni vidne očitne povezave med spremenljivkama, saj sta npr. Osrednjeslovenska in Primorsko-notranjska statistična regija skoraj ena nad drugo, čeprav je razlika v povprečni plači precejšna.
 
-```{r, fig.align='center'}
+```{r, fig.align='center', out.width="100%", out.height="75%"}
 print(graf6)
 ```
-Zgornji grafikon prikazuje gibanje prihodkov podjetij in plač v zasebnem sektorju v opazovanem časovnem obdobju. Zanimivo se mi zdi, da so se v kriznem letu 2009 plače le malo zmanjšale, čeprav so prihodki strmoglavili. To leto je verjetno tudi razlog, da je kasneje rast prihodkov skoraj vedno(razen v enem letu) presegla rast plač.
+Zgornji grafikon prikazuje gibanje prihodkov podjetij in plač v zasebnem sektorju v opazovanem časovnem obdobju. Zanimivo se mi zdi, da so se v kriznem letu 2009 plače le malo zmanjšale, čeprav so prihodki strmoglavili. To leto je verjetno tudi razlog, da je kasneje rast prihodkov skoraj vedno (razen v enem letu) presegla rast plač.
 
 ### Zemljevidi
-```{r, fig.align='center'}
+```{r, fig.align='center', out.width="100%", out.height="75%"}
 print(zemljevid1)
 ```
-Zgornji zemljevid prikazuje stanje povprečnih plač v letu 2019. Kot že omenjeno, sta temni izjemi Primorsko-notranjska in Zasavska regija.
+Zgornji zemljevid prikazuje stanje povprečnih plač v letu 2019. Kot že omenjeno, sta slabi izjemi primorsko-notranjska in zasavska regija.
 
 
-```{r, fig.align='center'}
+```{r, fig.align='center', out.width="100%", out.height="75%"}
 print(zemljevid2)
 ```
-Na tem zemljevidu lahko vidimo odstotno rast plač v proučevanem obdobju. Tu daleč najbolj izstopa Koroška regija, kjer se je povprečna plača v 11 letih povečala več kot za polovico.
+Na tem zemljevidu lahko vidimo odstotno rast plač v proučevanem obdobju. Tu daleč najbolj izstopa koroška regija, kjer se je povprečna plača v 11 letih povečala več kot za polovico.
 
-```{r, fig.align='center'}
+```{r, fig.align='center', out.width="100%", out.height="100%"}
 print(zemljevid3)
 ```
-Zgornji zemljevid prikazuje razmerja med povprečnimi ženskimi in moškimi plačami v letu 2019. Vidimo lahko, da so plače najbolj izenačene v Jugovzhodni Sloveniji (tu povprečna ženska zasluži celo več kot povprečni moški), najmanj pa na gorenjskem.
+Zgornji zemljevid prikazuje razmerja med povprečnimi ženskimi in moškimi plačami v letu 2019. Vidimo lahko, da so plače najbolj izenačene v jugovzhodni Sloveniji (tu povprečna ženska zasluži celo več kot povprečni moški), najmanj pa na gorenjskem.
 
-```{r, fig.align='center'}
+```{r, fig.align='center', out.width="100%", out.height="75%"}
 print(zemljevid4)
 ```
-Zadnji zemljevid pa je namenjen mladim, saj prikazuje povprečne plače oseb do 24. leta starosti za leto 2019. Najvišjo plačo lahko pričakujejo v Jugovzhodni Sloveniji, najnižjo pa v zasavski regiji.
+Zadnji zemljevid pa je namenjen mladim, saj prikazuje povprečne plače oseb do 24. leta starosti za leto 2019. Najvišjo plačo lahko pričakujejo v jugovzhodni Sloveniji, najnižjo pa v zasavski regiji.
 
 
 
 ## Napredna analiza podatkov
 
-```{r analiza}
+```{r analiza, echo=FALSE}
 source("analiza/analiza.r", encoding="UTF-8")
 ```
 
 ### Razvrščanje v skupine
-Najprej sem za vsako dejavnost izračunal relativno spremembo plače v opazovanem obdobju, saj me je zanimalo, katere dejavnosti so bile v tem času najperspektivnejše za zaposlene.
+Najprej sem za vsako dejavnost izračunal relativno spremembo plače v opazovanem obdobju, saj me je zanimalo katere dejavnosti so bile v tem času najperspektivnejše za zaposlene.
 Sprva sem dejavnosti razvrstil v skupine z dendogramom, število skupin pa sem dobil s koleni.
 
-```{r, fig.align='center'}
-plot(dendrogram_dejavnosti, hang=-0.1, cex=1,
-     labels = dejavnosti,
-     ylab = "višina",
-     xlab = "dejavnosti",
-     main = "Dendrogram razvrščanja dejavnosti v skupine, glede na \ngibanje povprečne plače med letoma 2008 in 2019 \n(z prikazom skupin)")
-rect.hclust(dendrogram_dejavnosti,k=3,border="red")
-p_dejavnosti = cutree(dendrogram_dejavnosti, k=3)
-```
+[comment]: <> (dendrogram je uvožen kot slika, ker ga r ukaz ni lepo izrisal)
+
+<center>
+![](slike/dendrogram_dejavnosti.jpeg)
 
 ```{r, fig.align='center'}
 print(diagram.kolena(kolena_dejavnosti))
 ```
 Tu je graf, ki prikazuje smiselne izobre števila skupin pri gručenju (smiselne so modre izbire).
-
 Ker sem gručenje želel prikazati še na zemljevidu, sem ga izvedel na tabeli povprečnih plač po regijah v letu 2019.
-
-Na spodnjem zemljevidu lahko v koliko skupin razdelimo regije po povprečni plači v letu 2019.
+Na spodnjem zemljevidu lahko izberete, v koliko skupin razdelimo regije po povprečni plači v letu 2019.
 
 ```{r shiny}
 shinyAppDir("shiny", options=list(width="100%", height=600))
@@ -153,11 +141,15 @@ print(graf_napovedi)
 
 Nato sem naredil 10 različnih modelov (5 formul za napoved, pri vsaki sem uporabil linearno regresijo in še metodo naključnih gozdov):
 
-1. model, ki za napoved plače upošteva le regije
-2. model, ki za napoved plače upošteva le spol
-3. model, ki za napoved plače upošteva le starostno skupino
-4. model, ki za napoved plače upošteva le število študentov na 1000 prebivalcev v regiji
-5. model, ki za napoved plače upoošteva vse zgornje spremenljivke
+__1. model__, ki za napoved plače upošteva le regije 
+
+__2. model__, ki za napoved plače upošteva le spol
+
+__3. model__, ki za napoved plače upošteva le starostno skupino
+
+__4. model__, ki za napoved plače upošteva le število študentov na 1000 prebivalcev v regiji
+
+__5. model__, ki za napoved plače upoošteva vse zgornje spremenljivke
 
 Prečno preverjanje je pokazalo, da ima najmanjšo napako model, ki upošteva vse, narejen z metodo naključnih gozdov.
 

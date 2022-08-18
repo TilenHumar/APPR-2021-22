@@ -27,7 +27,7 @@ narisi_zemljevid = function(stevilo){
   zemljevid_gručenje = ggplot() +
     geom_polygon(data = right_join(skupine_zemljevid, slovenija_regije, by = "regija"),
                  aes(x = long, y = lat, group = group, fill = skupina))+
-    ggtitle("Zemljevid gručenja regij glede na povprečno plačo v letu 2019") + 
+    ggtitle("Zemljevid gručenja regij glede na povprečno plačo \nv letu 2019") + 
     theme(axis.text.x = element_blank(), axis.title.x = element_blank(),
           axis.text.y = element_blank(), axis.title.y = element_blank(),
           plot.title = element_text(size = 20, face = "bold")) +
