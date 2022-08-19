@@ -10,38 +10,46 @@ Kot geografsko komponento bom uporabil statistične regije Slovenije in njihove 
 
 ## Tabele
 
-  __1. tabela__: Povprečne mesečne bruto plače glede na starost in spol po statističnih regijah.
-    + Stolpci: 
-      + leto 
-      + statisticna_regija 
-      + spol 
-      + starost 
-      + povprecna_mesecna_bruto_placa
-      + število študentov na 1000 prebivalcev
+__1. tabela__: Povprečne mesečne bruto plače glede na starost in spol po statističnih regijah.
+  
+Stolpci:
+
+* leto
+* regija
+* spol
+* starost
+* plača
+* število študentov na 1000 prebivalcev
       
-  __2. tabela__: Povprečne mesečne bruto plače glede na izobrazbo in spol po gospodarskih dejavnostih.
-    + Stolpci:
-      + leto 
-      + gospodarska_dejavnost 
-      + izobrazba
-      + spol 
-      + povprecna_mesecna_bruto_placa
-      + število delovno aktivnih v dejavnosti
-      + delovno aktivni kot odstotek celotne populacije
+__2. tabela__: Povprečne mesečne bruto plače glede na izobrazbo in spol po gospodarskih dejavnostih.
+  
+Stolpci:
+
+* leto
+* dejavnost
+* izobrazba
+* spol
+* plača
+* število delovno aktivnih v dejavnosti
+* delovno aktivni kot odstotek celotne populacije
     
-  __3. tabela__: Primerjava gibanja prihodkov podjetij in plač v zasebnem sektorju
-    + Stolpci:
-      + leto 
-      + relativna sprememba plače v zasebnem sektorju 
-      + relativna sprememba prihodkov podjetij
+__3. tabela__: Primerjava gibanja prihodkov podjetij in plač v zasebnem sektorju
+  
+Stolpci:
+
+* leto
+* relativna sprememba plače v zasebnem sektorju
+* relativna sprememba prihodkov podjetij
     
-  __4. tabela__: Povprečne mesečne bruto plače glede na izobrazbo in spol po sektorjih.
-    + Stolpci:
-      + leto 
-      + sektor 
-      + izobrazba 
-      + spol
-      + povprecna_mesecna_bruto_placa 
+__4. tabela__: Povprečne mesečne bruto plače glede na izobrazbo in spol po sektorjih.
+  
+Stolpci:
+
+* leto
+* sektor
+* izobrazba
+* spol
+* plača 
 
 
 ## Program
