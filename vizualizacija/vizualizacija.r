@@ -1,7 +1,5 @@
 # 3. faza: Vizualizacija podatkov
 
-#prikaze dendrogramov, napak, ... sem moral zakomentirati, saj so se sicer pojavljali v poročilu
-
 source("lib/libraries.r")
 source("uvoz/uvoz.r", encoding="UTF-8")
 
@@ -60,9 +58,9 @@ graf1 = placa_regije %>% filter(Regija != "Slovenija") %>%
     y = "višina plače v evrih",
     title = "Povprečne plače po statističnih regijah \nmed letoma 2008 in 2019"
   ) +
-  theme(axis.text.x = element_text(size = 14, angle = 90), axis.title.x = element_text(size = 16),
-        axis.text.y = element_text(size = 14), axis.title.y = element_text(size = 16),
-        plot.title = element_text(size = 20, face = "bold")) +
+  theme(axis.text.x = element_text(size = 14, angle = 90), axis.title.x = element_text(size = 10),
+        axis.text.y = element_text(size = 14), axis.title.y = element_text(size = 10),
+        plot.title = element_text(size = 10, face = "bold")) +
   theme(legend.background = element_rect(fill="gray90", size=.5, linetype="dotted"))
 
 graf1 = graf1 +
@@ -96,12 +94,12 @@ graf2 = g2 %>%
     y = "povprečna višina plače v evrih za \npripadajočo skupino",
     title = "Vpliv spola in stopnje izobrazbe na višino \nplače v javnem in zasebnem sektorju med \nletoma 2008 in 2019"
   ) +
-  theme(axis.text.x = element_text(size = 14), axis.title.x = element_text(size = 16),
-        axis.text.y = element_text(size = 14), axis.title.y = element_text(size = 16),
-        plot.title = element_text(size = 20, face = "bold")) +
+  theme(axis.text.x = element_text(size = 14), axis.title.x = element_text(size = 10),
+        axis.text.y = element_text(size = 14), axis.title.y = element_text(size = 10),
+        plot.title = element_text(size = 10, face = "bold")) +
   theme(legend.background = element_rect(fill="gray90", size=.5, linetype="dotted")
   ) +
-  labs(caption = " Opomba: osnovna stopnja izobrazbe pomeni osnovnošolsko izobrazbo ali manj, \nsrednja pomeni srednjošolsko in visoka višje ali visokošolsko izobrazbo. \n Vsaka točka prikazuje skupino oseb, združenih po spolu, sektorju zaposlitve \nin izobrazbi v določenem letu.") +
+  labs(caption = " Opomba: osnovna stopnja izobrazbe pomeni osnovnošolsko izobrazbo ali manj, \nsrednja pomeni srednjošolsko in visoka višje ali visokošolsko izobrazbo. \nVsaka točka prikazuje skupino oseb, združenih po spolu, sektorju zaposlitve \nin izobrazbi v določenem letu.") +
   theme(plot.caption=element_text(size=12, hjust=0, margin=margin(15,0,0,0)))
 
 graf2
@@ -128,8 +126,8 @@ graf3 = g3 %>% ggplot(
     y = "delovno aktivno prebivalstvo",
     title = "Delovno aktivno prebivalstvo po dejavnostih \nmed letoma 2008 in 2019"
   ) +
-  theme(axis.text.x = element_text(size = 14, angle = 90, vjust = 0.5), axis.title.x = element_text(size = 16),
-        axis.text.y = element_text(size = 14), axis.title.y = element_text(size = 16),
+  theme(axis.text.x = element_text(size = 14, angle = 90, vjust = 0.5), axis.title.x = element_text(size = 10),
+        axis.text.y = element_text(size = 14), axis.title.y = element_text(size = 10),
         plot.title = element_text(size = 20, face = "bold")) +
   theme(legend.background = element_rect(fill="gray90", size=.1, linetype="dotted"), legend.position="bottom"
   ) +
@@ -157,9 +155,9 @@ graf4 = g4 %>%
     y = "višina plače v evrih",
     title = "Vpliv velikosti deleža aktivnega prebivalstva od \ncelotne populacije na višino plače"
   ) +
-  theme(axis.text.x = element_text(size = 10), axis.title.x = element_text(size = 12),
-        axis.text.y = element_text(size = 10), axis.title.y = element_text(size = 12),
-        plot.title = element_text(size = 20, face = "bold"),
+  theme(axis.text.x = element_text(size = 10), axis.title.x = element_text(size = 10),
+        axis.text.y = element_text(size = 10), axis.title.y = element_text(size = 10),
+        plot.title = element_text(size = 10, face = "bold"),
         legend.title=element_text(size=8), 
         legend.text=element_text(size=8)) +
   theme(legend.background = element_rect(fill="gray90", size=.5, linetype="dotted"), legend.position = "right", legend.key.size = unit(0, 'lines')) +
@@ -188,9 +186,9 @@ graf5 = g5 %>%
     y = "višina plače v evrih",
     title = "Vpliv števila študentov na 1000 prebivalcev \nv regiji na višino plače"
   ) +
-  theme(axis.text.x = element_text(size = 14), axis.title.x = element_text(size = 16),
-        axis.text.y = element_text(size = 14), axis.title.y = element_text(size = 16),
-        plot.title = element_text(size = 20, face = "bold")) +
+  theme(axis.text.x = element_text(size = 14), axis.title.x = element_text(size = 10),
+        axis.text.y = element_text(size = 14), axis.title.y = element_text(size = 10),
+        plot.title = element_text(size = 10, face = "bold")) +
   theme(legend.background = element_rect(fill="gray90", size=.5, linetype="dotted"), legend.position = "bottom"
   ) +
   labs(caption = " Opomba: za vsako regijo sta izračunana povprečno število študentov na 1000 \nprebivalcev in višina plače, med letoma 2008 in 2019.") +
@@ -223,9 +221,9 @@ graf6 = g6 %>% ggplot(
     y = "sprememba v odstotkih",
     title = "Primerjava gibanja prihodkov podjetij in plač v \nzasebnem sektorju med letoma 2009 in 2019"
   ) +
-  theme(axis.text.x = element_text(size = 14, angle = 90), axis.title.x = element_text(size = 16),
-           axis.text.y = element_text(size = 14), axis.title.y = element_text(size = 16),
-           plot.title = element_text(size = 20, face = "bold")) +
+  theme(axis.text.x = element_text(size = 14, angle = 90), axis.title.x = element_text(size = 10),
+           axis.text.y = element_text(size = 14), axis.title.y = element_text(size = 10),
+           plot.title = element_text(size = 10, face = "bold")) +
   theme(legend.background = element_rect(fill="gray90", size=.5, linetype="dotted"), legend.position = "bottom")
 
 graf6
@@ -248,11 +246,11 @@ z1 = z1 %>% filter(leto == 2019) %>% group_by(regija) %>% summarise(placa = mean
 
 zemljevid1 = ggplot() +
   geom_polygon(data = right_join(z1, slovenija_regije, by = "regija"),
-               aes(x = long, y = lat, group = group, fill = placa))+
+               aes(x = long, y = lat, group = group, fill = placa)) +
   ggtitle("Povprečne plače po statističnih regijah v letu 2019") + 
   theme(axis.text.x = element_blank(), axis.title.x = element_blank(),
         axis.text.y = element_blank(), axis.title.y = element_blank(),
-        plot.title = element_text(size = 20, face = "bold")) +
+        plot.title = element_text(size = 10, face = "bold")) +
   theme(legend.background = element_rect(fill="gray90", size=.5, linetype="dotted")) +
   scale_fill_gradient(low = 'white', high = 'dark green') +
   labs(fill="Višina plače v evrih") +
@@ -279,7 +277,7 @@ zemljevid2 = ggplot() +
   ggtitle("Relativne spremembe povprečnih plač po \nstatističnih regijah med letoma 2008 in 2019") + 
   theme(axis.text.x = element_blank(), axis.title.x = element_blank(),
         axis.text.y = element_blank(), axis.title.y = element_blank(),
-        plot.title = element_text(size = 20, face = "bold")) +
+        plot.title = element_text(size = 10, face = "bold")) +
   theme(legend.background = element_rect(fill="gray90", size=.5, linetype="dotted")) +
   scale_fill_gradient(low = 'white', high = 'violet') +
   labs(fill="Sprememba povprečne plače v odstotkih") +
@@ -309,7 +307,7 @@ zemljevid3 = ggplot() +
   ggtitle("Povprečne ženske plače kot deleži moških po \nstatističnih regijah v letu 2019") + 
   theme(axis.text.x = element_blank(), axis.title.x = element_blank(),
         axis.text.y = element_blank(), axis.title.y = element_blank(),
-        plot.title = element_text(size = 20, face = "bold")) +
+        plot.title = element_text(size = 10, face = "bold")) +
   theme(legend.background = element_rect(fill="gray90", size=.5, linetype="dotted")) +
   scale_fill_gradient(low = 'white', high = 'orange') +
   labs(fill="Povprečna ženska plača kot odstotek\n povprečne moške plače") +
@@ -332,7 +330,7 @@ zemljevid4 = ggplot() +
   ggtitle("Povprečne plače mladih po statističnih regijah \nv letu 2019") + 
   theme(axis.text.x = element_blank(), axis.title.x = element_blank(),
         axis.text.y = element_blank(), axis.title.y = element_blank(),
-        plot.title = element_text(size = 20, face = "bold")) +
+        plot.title = element_text(size = 10, face = "bold")) +
   theme(legend.background = element_rect(fill="gray90", size=.5, linetype="dotted")) +
   scale_fill_gradient(low = 'white', high = 'dark red') +
   labs(fill="Višina plače v evrih") +

@@ -10,59 +10,38 @@ Kot geografsko komponento bom uporabil statistične regije Slovenije in njihove 
 
 ## Tabele
 
-  * 1. tabela: Povprečne mesečne bruto plače glede na starost in spol po statističnih regijah.
+  __1. tabela__: Povprečne mesečne bruto plače glede na starost in spol po statističnih regijah.
     + Stolpci: 
-      + leto (integer)
-      + statisticna_regija (factor)
-      + spol (factor)
-      + starost (factor)
-      + povprecna_mesecna_bruto_placa (double)
+      + leto 
+      + statisticna_regija 
+      + spol 
+      + starost 
+      + povprecna_mesecna_bruto_placa
+      + število študentov na 1000 prebivalcev
       
-    + [Vir](https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/0711321S.px) 
-   
-  * 2. tabela: Povprečne mesečne bruto plače glede na izobrazbo in spol po gospodarskih dejavnostih.
+  __2. tabela__: Povprečne mesečne bruto plače glede na izobrazbo in spol po gospodarskih dejavnostih.
     + Stolpci:
-      + leto (integer)
-      + gospodarska_dejavnost (factor)
-      + izobrazba (factor)
-      + spol (factor)
-      + povprecna_mesecna_bruto_placa (double)
-      
-    + [Vir](https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/0711310S.px)
+      + leto 
+      + gospodarska_dejavnost 
+      + izobrazba
+      + spol 
+      + povprecna_mesecna_bruto_placa
+      + število delovno aktivnih v dejavnosti
+      + delovno aktivni kot odstotek celotne populacije
     
-  * 3. tabela: Prihodek podjetij po statističnih regijah.
+  __3. tabela__: Primerjava gibanja prihodkov podjetij in plač v zasebnem sektorju
     + Stolpci:
-      + leto (integer)
-      + statisticna_regija (factor)
-      + prihodek_podjetij (double)
-      
-    + [Vir](https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/1418807S.px)
+      + leto 
+      + relativna sprememba plače v zasebnem sektorju 
+      + relativna sprememba prihodkov podjetij
     
-  * 4. tabela: Povprečne mesečne bruto plače glede na izobrazbo in spol po sektorjih.
+  __4. tabela__: Povprečne mesečne bruto plače glede na izobrazbo in spol po sektorjih.
     + Stolpci:
-      + leto (integer)
-      + sektor (factor)
-      + izobrazba (factor)
-      + spol (factor)
-      + povprecna_mesecna_bruto_placa (double)
-      
-    + [Vir](https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/0711340S.px)
-
-## Načrt dela
-
-Najprej bom uvozil podatke in naložil tabele, potem pa iz tabel izračunal nove podatke, s katerimi bom nadaljeval analizo, npr.:
-  
-  * absolutna_sprememba_bruto_plače (double)
-  
-  * relativna_sprememba_bruto_plače (double)
-  
-  To bom izračunal za vsako starostno skupino, spol, gospodarsko dejavnost, izobrazbeno skupino, ... 
-  
-  * absolutna_sprememba_prihodka_podjetij (double)
-  
-  * relativna_sprememba_prihodka_podjetij (double)
-  
-  * ...
+      + leto 
+      + sektor 
+      + izobrazba 
+      + spol
+      + povprecna_mesecna_bruto_placa 
 
 
 ## Program

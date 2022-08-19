@@ -30,7 +30,7 @@ narisi_zemljevid = function(stevilo){
     ggtitle("Zemljevid gručenja regij glede na povprečno plačo \nv letu 2019") + 
     theme(axis.text.x = element_blank(), axis.title.x = element_blank(),
           axis.text.y = element_blank(), axis.title.y = element_blank(),
-          plot.title = element_text(size = 20, face = "bold")) +
+          plot.title = element_text(size = 15, face = "bold")) +
     theme(legend.background = element_rect(fill="gray90", size=.5, linetype="dotted")) +
     scale_fill_discrete() +
     labs(fill="Skupina") +

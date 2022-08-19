@@ -1,5 +1,8 @@
 # 4. faza: Napredna analiza podatkov
 
+#prikaze dendrogramov, napak, ... sem moral zakomentirati, saj so se sicer pojavljali v poročilu
+
+
 source("lib/libraries.r")
 
 ###RAZVRŠČANJE V SKUPINE
@@ -290,9 +293,9 @@ graf_napovedi = tabela_napoved_mladi %>% ggplot(
     y = "višina plače v evrih",
     title = "Višina povprečne plače mladih Osrednjeslovenske \nregije v evrih med letoma 2008 in 2021 "
   ) +
-  theme(axis.text.x = element_text(size = 14, angle = 90), axis.title.x = element_text(size = 16),
-        axis.text.y = element_text(size = 14), axis.title.y = element_text(size = 16),
-        plot.title = element_text(size = 18, face = "bold")) +
+  theme(axis.text.x = element_text(size = 14, angle = 90), axis.title.x = element_text(size = 10),
+        axis.text.y = element_text(size = 14), axis.title.y = element_text(size = 10),
+        plot.title = element_text(size = 10, face = "bold")) +
   theme(legend.position="none") +
   labs(caption = "Opomba: rdeče obarvani stolpi predstavljajo izmerjene podatke, modra stolpca pa \nsta projekciji višine plače v pripadajočih letih.") +
   theme(plot.caption=element_text(size=12, hjust=0, margin=margin(15,0,0,0)))
